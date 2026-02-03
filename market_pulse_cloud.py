@@ -45,15 +45,13 @@ def send_telegram_message(message):
         chunks = []
         current_chunk = ""
 
-        for line in message.split("
-"):
+        for line in message.split("\n"):
             if len(current_chunk) + len(line) + 1 > max_len:
                 if current_chunk:
                     chunks.append(current_chunk)
                 current_chunk = line
             else:
-                current_chunk = current_chunk + "
-" + line if current_chunk else line
+                current_chunk = current_chunk + "\n" + line if current_chunk else line
 
         if current_chunk:
             chunks.append(current_chunk)
@@ -88,9 +86,7 @@ def main():
 
     today = datetime.now().strftime("%B %d, %Y %H:%M UTC")
 
-    message = f"Daily Market Pulse - {today}
-
-"
+    message = f"Daily Market Pulse - {today}\n\n"
     message += analysis
 
     print("Sending to Telegram...")

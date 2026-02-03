@@ -1,23 +1,23 @@
 #!/usr/bin/env python3
 """
 Daily Market Pulse Bot - Cloud Version
-Uses Claude Opus 4.5 to generate daily market analysis.
+Uses GPT-5.2 Pro to generate daily market analysis.
 """
 
 import os
 import requests
-import anthropic
+from openai import OpenAI
 from datetime import datetime
 
 # Get secrets from environment variables
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
-def get_claude_analysis():
-    """Get market analysis from Claude Opus 4.5."""
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-    
+def get_market_analysis():
+    """Get market analysis from GPT-5.2 Pro."""
+    client = OpenAI(api_key=OPENAI_API_KEY)
+
     prompt = """Tell me 10 things I shouldn't miss in this market today relevant for investment decisions.
 
 Cover:
@@ -34,20 +34,20 @@ Cover:
 
 Be specific with numbers, percentages, and company names where relevant. Keep each point concise but informative."""
 
-    message = client.messages.create(
-        model="claude-opus-4-5-20251101",
-        max_tokens=2000,
+    response = client.chat.completions.create(
+        model="gpt-5.2-pro",
         messages=[
             {"role": "user", "content": prompt}
-        ]
+        ],
+        max_tokens=2000
     )
-    
-    return message.content[0].text
+
+    return response.choices[0].message.content
 
 def send_telegram_message(message):
     """Send message to Telegram group."""
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    
+
     # Telegram has a 4096 character limit, so we may need to split
     if len(message) > 4000:
         chunks = [message[i:i+4000] for i in range(0, len(message), 4000)]
@@ -72,25 +72,20 @@ def main():
     if not BOT_TOKEN or not CHAT_ID:
         print("Error: Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID")
         return False
-    
-    if not ANTHROPIC_API_KEY:
-        print("Error: Missing ANTHROPIC_API_KEY")
+
+    if not OPENAI_API_KEY:
+        print("Error: Missing OPENAI_API_KEY")
         return False
 
-    print("Getting market analysis from Claude Opus 4.5...")
-    analysis = get_claude_analysis()
-    
+    print("Getting market analysis from GPT-5.2 Pro...")
+    analysis = get_market_analysis()
+
     today = datetime.now().strftime("%B %d, %Y")
-    
-    message = f"📊 *Daily Market Pulse*
-"
-    message += f"📅 {today}
 
-"
+    message = f"ð *Daily Market Pulse*\n"
+    message += f"ð {today}\n\n"
     message += analysis
-    message += "
-
-_Powered by Claude Opus 4.5 via GitHub Actions_"
+    message += "\n\n_Powered by GPT-5.2 Pro via GitHub Actions_"
 
     print("Sending to Telegram...")
     result = send_telegram_message(message)

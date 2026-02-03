@@ -1,90 +1,99 @@
 #!/usr/bin/env python3
 """
 Daily Market Pulse Bot - Cloud Version
-Runs on GitHub Actions for automated market analysis.
+Uses Claude Opus 4.5 to generate daily market analysis.
 """
 
 import os
 import requests
+import anthropic
 from datetime import datetime
 
 # Get secrets from environment variables
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 
-def get_market_data():
-    """Fetch current market data from Yahoo Finance API."""
-    indices = {
-        "S&P 500": "^GSPC",
-        "Dow Jones": "^DJI",
-        "Nasdaq": "^IXIC",
-        "10Y Treasury": "^TNX",
-        "VIX": "^VIX",
-        "Gold": "GC=F",
-        "Oil (WTI)": "CL=F"
-    }
+def get_claude_analysis():
+    """Get market analysis from Claude Opus 4.5."""
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    
+    prompt = """Tell me 10 things I shouldn't miss in this market today relevant for investment decisions.
 
-    market_info = []
+Cover:
+- US and global stocks
+- Bonds and interest rates
+- Geopolitical developments
+- Key economic data releases
+- Earnings reports
+- Sector movements
+- Commodities (oil, gold, etc.)
+- Currency movements
+- Market sentiment indicators
+- Any breaking news that could impact markets
 
-    for name, symbol in indices.items():
-        try:
-            url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
-            headers = {"User-Agent": "Mozilla/5.0"}
-            response = requests.get(url, headers=headers, timeout=10)
-            data = response.json()
+Be specific with numbers, percentages, and company names where relevant. Keep each point concise but informative."""
 
-            result = data.get("chart", {}).get("result", [{}])[0]
-            meta = result.get("meta", {})
-            price = meta.get("regularMarketPrice", 0)
-            prev_close = meta.get("previousClose", price)
-
-            if prev_close and prev_close != 0:
-                change_pct = ((price - prev_close) / prev_close) * 100
-                direction = "up" if change_pct >= 0 else "down"
-                emoji = "\U0001F7E2" if change_pct >= 0 else "\U0001F534"
-                market_info.append(f"{emoji} {name}: {price:.2f} ({change_pct:+.2f}%)")
-        except Exception as e:
-            market_info.append(f"\u26A0\uFE0F {name}: Data unavailable")
-
-    return market_info
-
-def generate_analysis(market_data):
-    """Generate market analysis summary."""
-    today = datetime.now().strftime("%B %d, %Y")
-
-    analysis = f"\U0001F4CA *Daily Market Pulse*\n"
-    analysis += f"\U0001F4C5 {today}\n\n"
-    analysis += "*Market Overview:*\n"
-    analysis += "\n".join(market_data)
-    analysis += "\n\n_Automated daily update via GitHub Actions_"
-
-    return analysis
+    message = client.messages.create(
+        model="claude-opus-4-5-20251101",
+        max_tokens=2000,
+        messages=[
+            {"role": "user", "content": prompt}
+        ]
+    )
+    
+    return message.content[0].text
 
 def send_telegram_message(message):
     """Send message to Telegram group."""
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    payload = {
-        "chat_id": CHAT_ID,
-        "text": message,
-        "parse_mode": "Markdown"
-    }
-
-    response = requests.post(url, json=payload, timeout=30)
-    return response.json()
+    
+    # Telegram has a 4096 character limit, so we may need to split
+    if len(message) > 4000:
+        chunks = [message[i:i+4000] for i in range(0, len(message), 4000)]
+        for chunk in chunks:
+            payload = {
+                "chat_id": CHAT_ID,
+                "text": chunk,
+                "parse_mode": "Markdown"
+            }
+            response = requests.post(url, json=payload, timeout=30)
+        return response.json()
+    else:
+        payload = {
+            "chat_id": CHAT_ID,
+            "text": message,
+            "parse_mode": "Markdown"
+        }
+        response = requests.post(url, json=payload, timeout=30)
+        return response.json()
 
 def main():
     if not BOT_TOKEN or not CHAT_ID:
         print("Error: Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID")
         return False
+    
+    if not ANTHROPIC_API_KEY:
+        print("Error: Missing ANTHROPIC_API_KEY")
+        return False
 
-    print("Fetching market data...")
-    market_data = get_market_data()
+    print("Getting market analysis from Claude Opus 4.5...")
+    analysis = get_claude_analysis()
+    
+    today = datetime.now().strftime("%B %d, %Y")
+    
+    message = f"📊 *Daily Market Pulse*
+"
+    message += f"📅 {today}
 
-    print("Generating analysis...")
-    analysis = generate_analysis(market_data)
+"
+    message += analysis
+    message += "
+
+_Powered by Claude Opus 4.5 via GitHub Actions_"
 
     print("Sending to Telegram...")
-    result = send_telegram_message(analysis)
+    result = send_telegram_message(message)
 
     if result.get("ok"):
         print("Message sent successfully!")

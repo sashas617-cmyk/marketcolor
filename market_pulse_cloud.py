@@ -24,7 +24,13 @@ FIRST: Start with a 2-3 sentence executive summary capturing the overall market 
 
 THEN: Tell me 10 things/stories I shouldn't miss right now that may affect financial markets - including but not limited to Macro events, US and global equities, global bonds, commodities, geopolitics, earnings, social media sentiment, political events.
 
-Make it impactful yet engaging. Keep each point concise with specific numbers and names where relevant."""
+FORMATTING RULES:
+- Use <b>text</b> for bold (HTML format for Telegram)
+- Number each point (1. 2. 3. etc.)
+- Keep each point to 1-2 sentences with specific numbers and names
+- Use line breaks between points for readability
+
+IMPORTANT: This is a one-way broadcast. Do NOT ask any questions, seek feedback, or offer to customize. Do NOT end with phrases like "Would you like..." or "Let me know..." - just deliver the briefing and stop."""
 
     # Use Responses API with GPT-5.2 Pro and web search tool
     response = client.responses.create(
@@ -36,12 +42,11 @@ Make it impactful yet engaging. Keep each point concise with specific numbers an
     return response.output_text
 
 def send_telegram_message(message):
-    """Send message to Telegram group, splitting at newlines if needed."""
+    """Send message to Telegram group with HTML formatting."""
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     max_len = 4000
 
     if len(message) > max_len:
-        # Split at newlines to avoid breaking mid-sentence
         chunks = []
         current_chunk = ""
 
@@ -60,14 +65,16 @@ def send_telegram_message(message):
         for chunk in chunks:
             payload = {
                 "chat_id": CHAT_ID,
-                "text": chunk
+                "text": chunk,
+                "parse_mode": "HTML"
             }
             result = requests.post(url, json=payload, timeout=30)
         return result.json() if result else {"ok": False}
     else:
         payload = {
             "chat_id": CHAT_ID,
-            "text": message
+            "text": message,
+            "parse_mode": "HTML"
         }
         response = requests.post(url, json=payload, timeout=30)
         return response.json()
@@ -86,7 +93,7 @@ def main():
 
     today = datetime.now().strftime("%B %d, %Y %H:%M UTC")
 
-    message = f"Daily Market Pulse - {today}\n\n"
+    message = f"<b>Daily Market Pulse</b> - {today}\n\n"
     message += analysis
 
     print("Sending to Telegram...")

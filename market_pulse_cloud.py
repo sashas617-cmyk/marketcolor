@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Daily Market Pulse Bot - Cloud Version
-Uses GPT-5.2 Pro to generate daily market analysis.
+Uses GPT-5 Search API for real-time market analysis with web search.
 """
 
 import os
@@ -15,7 +15,7 @@ CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 def get_market_analysis():
-    """Get market analysis from GPT-5.2 Pro."""
+    """Get market analysis from GPT-5 Search API with real-time web search."""
     client = OpenAI(api_key=OPENAI_API_KEY)
 
     prompt = """Tell me 10 things I shouldn't miss in this market today relevant for investment decisions.
@@ -34,15 +34,14 @@ Cover:
 
 Be specific with numbers, percentages, and company names where relevant. Keep each point concise but informative."""
 
-    response = client.chat.completions.create(
-        model="gpt-5.2-pro",
-        messages=[
-            {"role": "user", "content": prompt}
-        ],
-        max_tokens=2000
+    # Use Responses API with web search tool for real-time data
+    response = client.responses.create(
+        model="gpt-5-search-api",
+        tools=[{"type": "web_search"}],
+        input=prompt
     )
 
-    return response.choices[0].message.content
+    return response.output_text
 
 def send_telegram_message(message):
     """Send message to Telegram group."""
@@ -77,7 +76,7 @@ def main():
         print("Error: Missing OPENAI_API_KEY")
         return False
 
-    print("Getting market analysis from GPT-5.2 Pro...")
+    print("Getting market analysis from GPT-5 Search API with web search...")
     analysis = get_market_analysis()
 
     today = datetime.now().strftime("%B %d, %Y")
@@ -85,7 +84,7 @@ def main():
     message = f"ð *Daily Market Pulse*\n"
     message += f"ð {today}\n\n"
     message += analysis
-    message += "\n\n_Powered by GPT-5.2 Pro via GitHub Actions_"
+    message += "\n\n_Powered by GPT-5 Search API via GitHub Actions_"
 
     print("Sending to Telegram...")
     result = send_telegram_message(message)

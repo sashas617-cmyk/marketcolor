@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Daily Market Pulse Bot - Cloud Version
-Uses GPT-5 Search API for real-time market analysis with web search.
+Uses GPT-5.2 Pro with web search for real-time market analysis.
 """
 
 import os
@@ -15,52 +15,61 @@ CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 def get_market_analysis():
-    """Get market analysis from GPT-5 Search API with real-time web search."""
+    """Get market analysis from GPT-5.2 Pro with real-time web search."""
     client = OpenAI(api_key=OPENAI_API_KEY)
 
-    prompt = """Tell me 10 things I shouldn't miss in this market today relevant for investment decisions.
+    prompt = """Provide a market briefing with this structure:
 
-Cover:
-- US and global stocks
-- Bonds and interest rates
-- Geopolitical developments
-- Key economic data releases
-- Earnings reports
-- Sector movements
-- Commodities (oil, gold, etc.)
-- Currency movements
-- Market sentiment indicators
-- Any breaking news that could impact markets
+FIRST: Start with a 2-3 sentence executive summary capturing the overall market mood and the most important themes driving markets right now.
 
-Be specific with numbers, percentages, and company names where relevant. Keep each point concise but informative."""
+THEN: Tell me 10 things/stories I shouldn't miss right now that may affect financial markets - including but not limited to Macro events, US and global equities, global bonds, commodities, geopolitics, earnings, social media sentiment, political events.
 
-    # Use Responses API with web search tool for real-time data
+Make it impactful yet engaging. Keep each point concise with specific numbers and names where relevant."""
+
+    # Use Responses API with GPT-5.2 Pro and web search tool
     response = client.responses.create(
         model="gpt-5.2-pro",
-                tools=[{"type": "web_search"}],
-                input=prompt
+        tools=[{"type": "web_search"}],
+        input=prompt
     )
 
     return response.output_text
 
 def send_telegram_message(message):
-    """Send message to Telegram group."""
+    """Send message to Telegram group, splitting at newlines if needed."""
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+    max_len = 4000
 
-    # Telegram has a 4096 character limit, so we may need to split
-    if len(message) > 4000:
-        chunks = [message[i:i+4000] for i in range(0, len(message), 4000)]
+    if len(message) > max_len:
+        # Split at newlines to avoid breaking mid-sentence
+        chunks = []
+        current_chunk = ""
+
+        for line in message.split("
+"):
+            if len(current_chunk) + len(line) + 1 > max_len:
+                if current_chunk:
+                    chunks.append(current_chunk)
+                current_chunk = line
+            else:
+                current_chunk = current_chunk + "
+" + line if current_chunk else line
+
+        if current_chunk:
+            chunks.append(current_chunk)
+
+        result = None
         for chunk in chunks:
             payload = {
                 "chat_id": CHAT_ID,
-                "text": chunk,
+                "text": chunk
             }
-            response = requests.post(url, json=payload, timeout=30)
-        return response.json()
+            result = requests.post(url, json=payload, timeout=30)
+        return result.json() if result else {"ok": False}
     else:
         payload = {
             "chat_id": CHAT_ID,
-            "text": message,
+            "text": message
         }
         response = requests.post(url, json=payload, timeout=30)
         return response.json()
@@ -74,15 +83,15 @@ def main():
         print("Error: Missing OPENAI_API_KEY")
         return False
 
-    print("Getting market analysis from GPT-5 Search API with web search...")
+    print("Getting market analysis from GPT-5.2 Pro with web search...")
     analysis = get_market_analysis()
 
-    today = datetime.now().strftime("%B %d, %Y")
+    today = datetime.now().strftime("%B %d, %Y %H:%M UTC")
 
-    message = f"ð *Daily Market Pulse*\n"
-    message += f"ð {today}\n\n"
+    message = f"Daily Market Pulse - {today}
+
+"
     message += analysis
-    message += "\n\n_Powered by GPT-5 Search API via GitHub Actions_"
 
     print("Sending to Telegram...")
     result = send_telegram_message(message)

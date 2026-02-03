@@ -54,7 +54,6 @@ def send_telegram_message(message):
             payload = {
                 "chat_id": CHAT_ID,
                 "text": chunk,
-                "parse_mode": "Markdown"
             }
             response = requests.post(url, json=payload, timeout=30)
         return response.json()
@@ -62,7 +61,6 @@ def send_telegram_message(message):
         payload = {
             "chat_id": CHAT_ID,
             "text": message,
-            "parse_mode": "Markdown"
         }
         response = requests.post(url, json=payload, timeout=30)
         return response.json()

@@ -36,8 +36,9 @@ Be specific with numbers, percentages, and company names where relevant. Keep ea
 
     # Use Responses API with web search tool for real-time data
     response = client.responses.create(
-        model="gpt-5-search-api",
-        input=prompt
+        model="gpt-5.2-pro",
+                tools=[{"type": "web_search"}],
+                input=prompt
     )
 
     return response.output_text

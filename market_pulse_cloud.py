@@ -51,8 +51,10 @@ Think about:
 - Which markets are currently open based on the UTC hour
 - Seasonal factors (end of quarter rebalancing, options expiry, etc.)
 
+IMPORTANT: Include "today" or "latest" in your queries to bias results toward the freshest possible news. We run 3x daily so readers expect real-time stories, not yesterday's news.
+
 Return ONLY a JSON array of 3 query strings. No explanation. Example:
-["Fed FOMC meeting decision interest rate impact", "NVIDIA earnings Q4 results guidance", "China trade tariffs semiconductor restriction"]"""
+["Fed FOMC meeting decision interest rate impact today", "NVIDIA earnings Q4 results guidance latest", "China trade tariffs semiconductor restriction today"]"""
     )
 
     try:
@@ -62,6 +64,7 @@ Return ONLY a JSON array of 3 query strings. No explanation. Example:
     except Exception:
         pass
 
+    # Fallback queries
     return [
         "most important financial market news today",
         "major earnings reports economic data releases today",
@@ -76,6 +79,7 @@ def stage1_tavily_searches(tavily_client, bonus_queries):
     """Run targeted Tavily searches across multiple angles."""
     all_results = {}
 
+    # Fixed search configurations - always run these
     fixed_searches = [
         {
             "name": "market_news",
@@ -132,10 +136,12 @@ def stage1_tavily_searches(tavily_client, bonus_queries):
             print(f"  {name}: ERROR - {e}")
             return name, []
 
+    # Run fixed searches
     for search_config in fixed_searches:
-        name, results = run_search(dict(search_config))
+        name, results = run_search(dict(search_config))  # copy to avoid mutation
         all_results[name] = results
 
+    # Run GPT-generated bonus queries
     for i, query in enumerate(bonus_queries):
         config = {
             "name": f"gpt_query_{i}",
@@ -157,6 +163,7 @@ def stage1_tavily_searches(tavily_client, bonus_queries):
 def stage2_first_pass(openai_client, search_results):
     """GPT-5.2 Pro analyzes all Tavily results and produces structured analysis."""
 
+    # Format all results into context
     context_parts = []
     for category, items in search_results.items():
         is_social = "social" in category or "twitter" in category or "reddit" in category
@@ -179,8 +186,10 @@ def stage2_first_pass(openai_client, search_results):
 
 You are a senior financial analyst. Analyze these search results and produce a structured assessment.
 
+CRITICAL FRESHNESS RULE: This briefing runs 3x daily. Stories must be FRESH - published within the last 8 hours ideally, 12 hours max. REJECT any story where the core news event happened more than 24 hours ago. Do NOT include yesterday's stories, stale index prices, or recycled news. If a story references specific market levels (e.g. "S&P at 5,200"), verify the data feels current - old prices mislead readers. When in doubt about freshness, deprioritize.
+
 TASKS:
-1. RANK: Identify the 12-15 most market-relevant stories. Score by potential impact on equities, bonds, FX, commodities. Deduplicate similar stories.
+1. RANK: Identify the 12-15 most market-relevant stories. Score by potential impact on equities, bonds, FX, commodities. Deduplicate similar stories. STRONGLY PREFER stories from the last few hours over older ones.
 2. DIG DEEPER: Pick 3-4 stories that deserve deeper investigation - could be bigger than they appear, or where more context would significantly improve the briefing.
 3. FACT CHECK: Flag ANY stories sourced from social media (x.com, reddit.com) that make specific factual claims about earnings, data releases, deals, or market events. These MUST be verified before inclusion.
 
@@ -201,6 +210,7 @@ Return ONLY valid JSON:
     try:
         return json.loads(response.output_text)
     except Exception:
+        # Try extracting JSON from mixed response
         text = response.output_text
         start = text.find("{")
         end = text.rfind("}") + 1
@@ -233,6 +243,7 @@ def stage3_verify_and_deepen(tavily_client, analysis):
     """Run verification for social media claims and deep dives on key stories."""
     additional = {}
 
+    # Deep dive searches (top 3-4 stories)
     for i, item in enumerate(analysis.get("dig_deeper", [])[:4]):
         query = item.get("search_query", "")
         if not query:
@@ -255,6 +266,7 @@ def stage3_verify_and_deepen(tavily_client, analysis):
         except Exception as e:
             print(f"  Deep dive {i} error: {e}")
 
+    # Fact-check social media claims against credible sources
     for i, item in enumerate(analysis.get("fact_check", [])[:3]):
         query = item.get("verify_query", "")
         if not query:
@@ -291,6 +303,7 @@ def stage4_final_synthesis(openai_client, analysis, additional):
     """GPT-5.2 Pro writes the final market briefing from all gathered intelligence."""
     now = datetime.utcnow().strftime("%A, %B %d, %Y %H:%M UTC")
 
+    # Compile all intelligence
     parts = [f"Date: {now}\n"]
 
     parts.append("=== RANKED STORIES ===")
@@ -316,7 +329,7 @@ def stage4_final_synthesis(openai_client, analysis, additional):
             continue
         has_verifications = True
         status = "CONFIRMED by credible sources" if data.get("verified") else "NOT CONFIRMED by major outlets"
-        parts.append(f"- Claim: \"{data.get('claim', '')}\" -> {status}")
+        parts.append(f"- Claim: \"{data.get('claim', '')}\" \u2192 {status}")
         for s in data.get("credible_sources", []):
             parts.append(f"  Confirming source: {s.get('title', '')} ({s.get('url', '')})")
     if not has_verifications:
@@ -330,14 +343,16 @@ def stage4_final_synthesis(openai_client, analysis, additional):
 
 Write the Daily Market Pulse briefing based on ALL the intelligence above.
 
+CRITICAL: This briefing is generated {now} and readers expect REAL-TIME freshness. Every story must reflect what is happening RIGHT NOW or within the last few hours. Do NOT include any story where the underlying event is more than 12 hours old. Do NOT cite specific index levels, prices, or percentages unless they are from today's session. If you're unsure whether data is current, omit the specific numbers rather than risk showing stale prices.
+
 FORMAT:
-1. Executive summary: 2-3 sentences capturing overall market mood and the single biggest theme.
-2. 10 numbered stories using emoji numbers (1\u{fe0f}\u{20e3} through \u{1f51f}).
-3. Each story: 2-3 punchy sentences with specific names, numbers, percentages.
+1. Executive summary: 2-3 sentences capturing overall market mood and the single biggest theme RIGHT NOW.
+2. 10 numbered stories using emoji numbers (1️⃣ through 🔟).
+3. Each story: 2-3 punchy sentences with specific names, numbers, percentages (ONLY if current).
 4. For verified social media stories, note "confirmed by [source name]".
 5. For unverified social buzz that's still interesting, label it "Social Buzz (unverified)" so readers know the credibility level.
 6. Include at least 1 social/sentiment story if anything noteworthy was found.
-7. End with one "Key Watch:" line for what to monitor next.
+7. End with one "🔑 Key Watch:" line for what to monitor next.
 
 TONE: Like a sharp morning briefing from a senior analyst who also checks Twitter.
 Professional but engaging. No filler. Every sentence earns its place."""
@@ -361,6 +376,7 @@ def send_telegram_message(message):
         resp = requests.post(url, json={"chat_id": CHAT_ID, "text": full_message}, timeout=30)
         return resp.json()
 
+    # Split on newlines
     chunks, current = [], ""
     for line in full_message.split("\n"):
         if len(current) + len(line) + 1 > max_len:
@@ -387,6 +403,7 @@ def main():
     print(f"{datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}")
     print("=" * 60)
 
+    # Validate environment
     missing = []
     for var in ["TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID", "OPENAI_API_KEY", "TAVILY_API_KEY"]:
         if not os.environ.get(var):
@@ -397,28 +414,34 @@ def main():
 
     openai_client, tavily_client = init_clients()
 
+    # Stage 0 - GPT generates smart search queries
     print("\nStage 0: Generating targeted search queries...")
     bonus_queries = stage0_generate_queries(openai_client)
     for q in bonus_queries:
         print(f"   -> {q}")
 
+    # Stage 1 - Multi-angle Tavily searches
     print("\nStage 1: Running Tavily searches...")
     search_results = stage1_tavily_searches(tavily_client, bonus_queries)
     total = sum(len(v) for v in search_results.values())
     print(f"   Total results gathered: {total}")
 
+    # Stage 2 - GPT first-pass analysis
     print("\nStage 2: GPT analyzing and ranking stories...")
     analysis = stage2_first_pass(openai_client, search_results)
     print(f"   Top stories: {len(analysis.get('top_stories', []))}")
     print(f"   Dig deeper targets: {len(analysis.get('dig_deeper', []))}")
     print(f"   Fact checks needed: {len(analysis.get('fact_check', []))}")
 
+    # Stage 3 - Verification + deep dives
     print("\nStage 3: Deep dives and fact-checking...")
     additional = stage3_verify_and_deepen(tavily_client, analysis)
 
+    # Stage 4 - Final synthesis
     print("\nStage 4: Generating final briefing...")
     briefing = stage4_final_synthesis(openai_client, analysis, additional)
 
+    # Deliver
     print("\nSending to Telegram...")
     result = send_telegram_message(briefing)
 

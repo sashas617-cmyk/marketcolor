@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Daily Market Pulse Bot - Enhanced Version v4
-Uses Tavily for deep multi-angle search + GPT-5.2 Pro for reasoning/synthesis.
-No GPT web search - all searching outsourced to Tavily for better control.
+Uses Tavily for deep multi-angle search + Benzinga for professional financial news
++ GPT-5.2 Pro for reasoning/synthesis.
 
 v4 changes:
 - Added StockTwits/fintwit aggregator searches for Twitter trending
@@ -13,6 +13,7 @@ v4 changes:
 
 import os
 import json
+import re
 import requests
 from datetime import datetime
 from openai import OpenAI
@@ -23,6 +24,7 @@ BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
+BENZINGA_API_KEY = os.environ.get("BENZINGA_API_KEY", "")
 
 
 def init_clients():
@@ -86,6 +88,79 @@ Return ONLY a JSON object with two arrays. No explanation. Example:
             "insider buying selling SEC filings notable today",
         ],
     )
+
+
+
+
+# ---------------------------------------------------------------------------
+# BENZINGA: Fetch professional financial news
+# ---------------------------------------------------------------------------
+def _clean_html(text):
+    """Remove HTML tags from text."""
+    if not text:
+        return ""
+    return re.sub(r'<[^>]+>', '', text).strip()
+
+
+def fetch_benzinga_news(limit=30):
+    """Fetch latest news from Benzinga API and normalize to Tavily result format."""
+    if not BENZINGA_API_KEY:
+        print("  benzinga: SKIPPED (no API key)")
+        return []
+
+    url = "https://api.benzinga.com/api/v2/news"
+    params = {
+        "token": BENZINGA_API_KEY,
+        "pageSize": limit,
+        "displayOutput": "full",
+    }
+
+    try:
+        resp = requests.get(url, params=params, headers={"Accept": "application/json"}, timeout=15)
+        if resp.status_code != 200:
+            print(f"  benzinga: API error {resp.status_code}")
+            return []
+
+        articles = resp.json()
+        if not isinstance(articles, list):
+            articles = articles.get("results", articles.get("data", []))
+
+        normalized = []
+        for a in articles:
+            title = _clean_html(a.get("title", ""))
+            teaser = _clean_html(a.get("teaser", ""))
+            body_snippet = _clean_html(a.get("body", ""))[:400] if a.get("body") else ""
+            article_url = a.get("url", "")
+            author = a.get("author", "Benzinga")
+            created = a.get("created", a.get("updated", ""))
+
+            stocks = a.get("stocks", [])
+            ticker_names = [s.get("name", "") for s in stocks if isinstance(s, dict)]
+            ticker_str = ", ".join(ticker_names[:5])
+
+            content_parts = []
+            if ticker_str:
+                content_parts.append(f"Tickers: {ticker_str}")
+            if teaser:
+                content_parts.append(teaser)
+            elif body_snippet:
+                content_parts.append(body_snippet)
+            if author:
+                content_parts.append(f"Source: {author}")
+
+            normalized.append({
+                "title": title,
+                "url": article_url,
+                "content": " | ".join(content_parts),
+                "published_date": created,
+            })
+
+        print(f"  benzinga: {len(normalized)} articles")
+        return normalized
+
+    except Exception as e:
+        print(f"  benzinga: ERROR - {e}")
+        return []
 
 
 # ---------------------------------------------------------------------------
@@ -294,6 +369,12 @@ def stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries):
         name, results = run_search(config)
         all_results[name] = results
 
+    # Benzinga professional financial news feed
+    print("  [Benzinga Pro]")
+    benzinga_results = fetch_benzinga_news(limit=30)
+    if benzinga_results:
+        all_results["benzinga_pro"] = benzinga_results
+
     return all_results
 
 
@@ -308,8 +389,11 @@ def stage2_first_pass(openai_client, search_results):
     for category, items in search_results.items():
         is_social = any(tag in category for tag in ["social", "twitter", "fintwit", "reddit", "wsb"])
         is_alpha = any(tag in category for tag in ["alpha", "options", "insider", "short"])
+        is_benzinga = "benzinga" in category
         if is_social:
             source_tag = " [SOCIAL/FINTWIT]"
+        elif is_benzinga:
+            source_tag = " [BENZINGA PRO]"
         elif is_alpha:
             source_tag = " [ALPHA/EDGE]"
         else:
@@ -330,8 +414,9 @@ def stage2_first_pass(openai_client, search_results):
         input=f"""=== TAVILY SEARCH RESULTS ===
 {context}
 
-You are a senior financial analyst who also monitors fintwit, WSB, and unusual flow data.
+You are a senior financial analyst who also monitors fintwit, WSB, unusual flow data, and Benzinga pro news.
 Analyze these search results and produce a structured assessment.
+Sources include Tavily web search, Benzinga professional financial news [BENZINGA PRO], social media [SOCIAL/FINTWIT], and alpha/edge [ALPHA/EDGE]. Benzinga articles are professional-grade — treat as high-credibility, no fact-checking needed.
 
 CRITICAL FRESHNESS RULE: This briefing runs 3x daily. Stories must be FRESH - published within the last 8 hours ideally, 12 hours max. REJECT stale news.
 
@@ -587,6 +672,9 @@ def main():
     if missing:
         print(f"Missing environment variables: {', '.join(missing)}")
         return False
+
+    if not os.environ.get("BENZINGA_API_KEY"):
+        print("Note: BENZINGA_API_KEY not set - Benzinga source will be skipped")
 
     openai_client, tavily_client = init_clients()
 

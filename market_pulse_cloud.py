@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 """
-Daily Market Pulse Bot - Enhanced Version v2
+Daily Market Pulse Bot - Enhanced Version v4
 Uses Tavily for deep multi-angle search + GPT-5.2 Pro for reasoning/synthesis.
 No GPT web search - all searching outsourced to Tavily for better control.
 
-v2 changes:
-- Source links included in every story
-- Dedicated fintwit/Twitter scraping for market-moving sentiment
-- Reddit WSB/options/unusual activity searches
-- Insider trading & dark pool searches
-- Restructured output: 7 mainstream + 3 alpha/sentiment stories
+v4 changes:
+- Added StockTwits/fintwit aggregator searches for Twitter trending
+- Dedicated trade policy/tariffs search for better geopolitics coverage
+- Alpha stories must be EVENTS not how-to guides
+- Tightened dedup + diversity rules
 """
 
 import os
@@ -123,6 +122,14 @@ def stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries):
             "days": 1,
         },
         {
+            "name": "trade_policy",
+            "query": "tariffs trade war sanctions export controls trade policy announcement latest today",
+            "topic": "news",
+            "search_depth": "advanced",
+            "max_results": 5,
+            "days": 1,
+        },
+        {
             "name": "commodities_crypto",
             "query": "oil gold commodities bitcoin crypto major price moves today",
             "topic": "finance",
@@ -149,6 +156,26 @@ def stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries):
             "topic": "news",
             "search_depth": "advanced",
             "include_domains": ["x.com", "twitter.com"],
+            "max_results": 5,
+            "days": 1,
+        },
+        {
+            "name": "stocktwits_trending",
+            "query": "trending stocks most mentioned tickers today volume movers",
+            "topic": "finance",
+            "search_depth": "advanced",
+            "include_domains": [
+                "stocktwits.com", "swaggystock.com", "quiverquant.com",
+                "topstockstoday.com",
+            ],
+            "max_results": 5,
+            "days": 1,
+        },
+        {
+            "name": "fintwit_recap",
+            "query": "fintwit twitter trending stocks market recap viral trade today",
+            "topic": "news",
+            "search_depth": "basic",
             "max_results": 5,
             "days": 1,
         },
@@ -308,24 +335,25 @@ Analyze these search results and produce a structured assessment.
 
 CRITICAL FRESHNESS RULE: This briefing runs 3x daily. Stories must be FRESH - published within the last 8 hours ideally, 12 hours max. REJECT stale news.
 
-CRITICAL SOURCE DIVERSITY RULE: You MUST include stories from [SOCIAL/FINTWIT] and [ALPHA/EDGE] categories, not just mainstream news. The whole point of this tool is to surface things readers WON'T see on CNBC.
+CRITICAL SOURCE DIVERSITY RULE: You MUST include stories from [SOCIAL/FINTWIT] and [ALPHA/EDGE] categories, not just mainstream news. The whole point of this tool is to surface things readers WON'T see on CNBC. Also prioritize any Twitter/fintwit trending tickers or StockTwits buzz - this is high-value social signal.
 
 CRITICAL DEDUPLICATION RULE: NO TWO STORIES can cover the same underlying data point or event. If retail sales data was released, that is ONE story - not "retail sales flat" + "bonds rally on retail data" + "consumer demand fragile." The bond reaction and demand narrative are PART OF the retail sales story, not separate stories. Aggressively merge related angles into a single richer story. The 10 final stories must cover 10 DIFFERENT topics.
 
-CRITICAL TOPIC DIVERSITY: The 10 stories MUST span at least 5 of these categories:
+CRITICAL TOPIC DIVERSITY: The 10 stories MUST span at least 6 of these categories:
 - Macro data / economic releases
 - Central banks / Fed / monetary policy
-- Geopolitics / politics / trade policy / sanctions / wars
+- Geopolitics / wars / military / sanctions
+- Trade policy / tariffs / export controls (PRIORITY — always include if tariff or trade news exists)
 - Earnings / individual company news
 - Commodities / energy / crypto
 - Unusual options / insider activity / flow data
-- Social media buzz / fintwit / WSB
-If you find yourself with 3+ stories on the same macro release, you are doing it wrong.
+- Social media buzz / fintwit / Twitter trending / WSB
+If you find yourself with 3+ stories on the same macro release, you are doing it wrong. Geopolitics and trade policy are SEPARATE categories — a tariff story is not the same as a war story.
 
 TASKS:
 1. RANK: Identify 15-18 most relevant stories. For each, you MUST include the source_url from the search results. AGGRESSIVELY deduplicate - merge all angles of the same event into ONE story. Categories:
    - MAINSTREAM (8-10): Major market news from credible outlets
-   - ALPHA (3-5): Unusual options, insider trades, short squeezes, flow data. MUST cite specific tickers, dollar amounts, or strike prices - not generic advice.
+   - ALPHA (3-5): Unusual options, insider trades, short squeezes, flow data. MUST cite specific tickers, dollar amounts, or strike prices. MUST describe an EVENT that happened (a trade, a filing, a spike, a move) - NEVER a "how to" guide, tutorial, or advice on how to scan/use a tool. If it reads like instruction rather than news, it is NOT alpha.
    - SOCIAL BUZZ (2-4): Interesting fintwit takes, WSB sentiment, viral trading ideas
 2. DIG DEEPER: Pick 3-4 stories (prefer ALPHA/SOCIAL) that deserve deeper investigation.
 3. FACT CHECK: Flag social media claims that make specific factual assertions. These MUST be verified.
@@ -485,10 +513,10 @@ CRITICAL: This briefing is generated {now} and readers expect REAL-TIME freshnes
 
 STORY MIX REQUIREMENTS:
 - Stories 1-7: Major market-moving mainstream news. MUST cover DIVERSE topics: macro data, earnings, geopolitics/politics, central banks, commodities, etc. If a macro data release happened, it gets ONE story that includes the market reaction - not 3 separate stories about the data, the bond move, and the demand narrative.
-- Stories 8-9: Alpha/edge stories with SPECIFIC actionable intelligence. These MUST name specific tickers, dollar amounts, strike prices, dates, or insider names. BAD example: "scan for unusual options activity." GOOD example: "$TSLA saw $45M in call sweeps at $280 strike, Feb 14 expiry - 3x normal volume." If the data doesn't have specific alpha, pick the most specific story available rather than giving generic scanning advice.
-- Story 10: Social sentiment/fintwit buzz (specific Twitter takes, WSB plays, viral trading ideas with ticker names). Label clearly as social/unverified if appropriate.
+- Stories 8-9: Alpha/edge stories with SPECIFIC actionable intelligence. These MUST name specific tickers, dollar amounts, strike prices, dates, or insider names. They MUST describe something that IS HAPPENING or HAS HAPPENED — an event, a trade, a filing, a spike. NEVER write "how to use" a tool, "how to scan for" X, "monitor this dashboard," or any instructional content. BAD: "Use Fintel to monitor borrow fees." BAD: "Scan for unusual options activity." GOOD: "$TSLA saw $45M in call sweeps at $280 strike, Feb 14 expiry - 3x normal volume." GOOD: "CEO of XYZ bought $2.1M in shares on the open market, largest insider buy in 3 years." If the data doesn't have specific alpha events, pick the most newsworthy non-mainstream story available.
+- Story 10: Social sentiment — fintwit/Twitter trending tickers, WSB plays, StockTwits buzz, or viral trading ideas. MUST include specific ticker names and ideally dollar amounts or position sizes. Source from Twitter/fintwit, StockTwits trending, or Reddit/WSB. Label clearly as social/unverified if appropriate.
 
-ABSOLUTE RULE: Each of the 10 stories must cover a DIFFERENT topic. No two stories should be about the same data release, the same company, or the same market theme. If you catch yourself writing two stories about the same thing, MERGE them into one and find a new topic for the freed-up slot. Look for geopolitics, politics, sector-specific moves, individual earnings, crypto, commodities, trade policy - the world is big.
+ABSOLUTE RULE: Each of the 10 stories must cover a DIFFERENT topic. No two stories should be about the same data release, the same company, or the same market theme. If you catch yourself writing two stories about the same thing, MERGE them into one and find a new topic for the freed-up slot. Look for geopolitics, trade policy/tariffs (these are SEPARATE topics), sector-specific moves, individual earnings, crypto, commodities, politics - the world is big. ALWAYS include a trade policy/tariff story if any tariff or trade news exists in the data.
 
 FORMAT:
 1. Executive summary: 2-3 sentences capturing overall market mood and the single biggest theme RIGHT NOW.
@@ -547,7 +575,7 @@ def send_telegram_message(message):
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 60)
-    print("Daily Market Pulse Bot v2 (Enhanced + Alpha)")
+    print("Daily Market Pulse Bot v4 (Twitter + Geopolitics + Alpha Fix)")
     print(f"{datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}")
     print("=" * 60)
 

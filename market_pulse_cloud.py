@@ -108,11 +108,11 @@ def fetch_benzinga_news(limit=30):
         print("  benzinga: SKIPPED (no API key)")
         return []
 
-    url = "https://api.benzinga.com/api/v2/news"
+    url = "https://api.massive.com/benzinga/v2/news"
     params = {
-        "token": BENZINGA_API_KEY,
-        "pageSize": limit,
-        "displayOutput": "full",
+        "apiKey": BENZINGA_API_KEY,
+        "limit": limit,
+        "sort": "published.desc",
     }
 
     try:
@@ -121,9 +121,8 @@ def fetch_benzinga_news(limit=30):
             print(f"  benzinga: API error {resp.status_code}")
             return []
 
-        articles = resp.json()
-        if not isinstance(articles, list):
-            articles = articles.get("results", articles.get("data", []))
+        data = resp.json()
+        articles = data.get("results", []) if isinstance(data, dict) else data
 
         normalized = []
         for a in articles:

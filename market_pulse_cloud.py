@@ -329,7 +329,7 @@ def stage4_final_synthesis(openai_client, analysis, additional):
             continue
         has_verifications = True
         status = "CONFIRMED by credible sources" if data.get("verified") else "NOT CONFIRMED by major outlets"
-        parts.append(f"- Claim: \"{data.get('claim', '')}\" \u2192 {status}")
+        parts.append(f"- Claim: \"{data.get('claim', '')}\" -> {status}")
         for s in data.get("credible_sources", []):
             parts.append(f"  Confirming source: {s.get('title', '')} ({s.get('url', '')})")
     if not has_verifications:
@@ -370,7 +370,7 @@ def send_telegram_message(message):
     max_len = 4000
 
     now = datetime.utcnow().strftime("%B %d, %Y %H:%M UTC")
-    full_message = f"Daily Market Pulse \u2014 {now}\n\n{message}"
+    full_message = f"Daily Market Pulse - {now}\n\n{message}"
 
     if len(full_message) <= max_len:
         resp = requests.post(url, json={"chat_id": CHAT_ID, "text": full_message}, timeout=30)

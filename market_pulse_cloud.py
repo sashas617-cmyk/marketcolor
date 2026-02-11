@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 """
-Daily Market Pulse Bot - Enhanced Version
+Daily Market Pulse Bot - Enhanced Version v2
 Uses Tavily for deep multi-angle search + GPT-5.2 Pro for reasoning/synthesis.
 No GPT web search - all searching outsourced to Tavily for better control.
+
+v2 changes:
+- Source links included in every story
+- Dedicated fintwit/Twitter scraping for market-moving sentiment
+- Reddit WSB/options/unusual activity searches
+- Insider trading & dark pool searches
+- Restructured output: 7 mainstream + 3 alpha/sentiment stories
 """
 
 import os
@@ -39,51 +46,61 @@ def stage0_generate_queries(openai_client):
         model="gpt-5.2-pro",
         input=f"""Today is {today}. Current UTC hour: {hour}.
 
-You are a financial markets research director planning the morning search sweep.
-Generate exactly 3 highly specific, timely search queries that would surface the most
-market-moving stories RIGHT NOW that a generic search would miss.
+You are a financial markets research director planning the search sweep.
+Generate exactly 5 search queries in two categories:
 
-Think about:
-- Day of week context (Monday = weekend catch-up, Friday = positioning/flows)
-- Earnings season timing - any major companies reporting this week?
-- Central bank meeting schedule (Fed, ECB, BOJ, BOE)
-- Known geopolitical hotspots and trade negotiations
-- Which markets are currently open based on the UTC hour
-- Seasonal factors (end of quarter rebalancing, options expiry, etc.)
+CATEGORY A - MAINSTREAM (3 queries): Highly specific, timely queries for the most
+market-moving news RIGHT NOW. Think earnings, Fed, macro data, geopolitics.
 
-IMPORTANT: Include "today" or "latest" in your queries to bias results toward the freshest possible news. We run 3x daily so readers expect real-time stories, not yesterday's news.
+CATEGORY B - ALPHA (2 queries): Queries designed to surface NON-OBVIOUS stories
+that mainstream outlets haven't fully picked up yet. Think:
+- Unusual options activity or volume spikes
+- Insider buying/selling patterns
+- Short squeeze candidates or heavily shorted stocks
+- Sector rotation signals
+- Dark pool or institutional flow indicators
+- Emerging market dislocations
+- Specific company catalysts the market is sleeping on
 
-Return ONLY a JSON array of 3 query strings. No explanation. Example:
-["Fed FOMC meeting decision interest rate impact today", "NVIDIA earnings Q4 results guidance latest", "China trade tariffs semiconductor restriction today"]"""
+IMPORTANT: Include "today" or "latest" in your queries to bias results toward fresh news.
+
+Return ONLY a JSON object with two arrays. No explanation. Example:
+{{"mainstream": ["Fed FOMC meeting decision impact today", "NVIDIA earnings Q4 results latest", "China tariffs semiconductor today"], "alpha": ["unusual options activity volume spike today", "insider buying selling SEC filings latest"]}}"""
     )
 
     try:
-        queries = json.loads(response.output_text)
-        if isinstance(queries, list):
-            return queries[:3]
+        data = json.loads(response.output_text)
+        if isinstance(data, dict):
+            return data.get("mainstream", [])[:3], data.get("alpha", [])[:2]
     except Exception:
         pass
 
     # Fallback queries
-    return [
-        "most important financial market news today",
-        "major earnings reports economic data releases today",
-        "geopolitical events affecting global markets today",
-    ]
+    return (
+        [
+            "most important financial market news today",
+            "major earnings reports economic data releases today",
+            "geopolitical events affecting global markets today",
+        ],
+        [
+            "unusual options activity volume spike stocks today",
+            "insider buying selling SEC filings notable today",
+        ],
+    )
 
 
 # ---------------------------------------------------------------------------
 # STAGE 1: Parallel Tavily searches across multiple angles
 # ---------------------------------------------------------------------------
-def stage1_tavily_searches(tavily_client, bonus_queries):
-    """Run targeted Tavily searches across multiple angles."""
+def stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries):
+    """Run targeted Tavily searches across multiple angles including social/alpha."""
     all_results = {}
 
-    # Fixed search configurations - always run these
-    fixed_searches = [
+    # --- MAINSTREAM SEARCHES ---
+    mainstream_searches = [
         {
             "name": "market_news",
-            "query": "most important market moving financial news today stocks bonds",
+            "query": "most important market moving financial news today stocks bonds currencies",
             "topic": "finance",
             "search_depth": "advanced",
             "max_results": 8,
@@ -91,7 +108,7 @@ def stage1_tavily_searches(tavily_client, bonus_queries):
         },
         {
             "name": "macro_geopolitics",
-            "query": "Federal Reserve central bank economic data inflation trade policy tariffs",
+            "query": "Federal Reserve central bank economic data inflation trade policy tariffs latest",
             "topic": "news",
             "search_depth": "advanced",
             "max_results": 6,
@@ -99,27 +116,89 @@ def stage1_tavily_searches(tavily_client, bonus_queries):
         },
         {
             "name": "commodities_crypto",
-            "query": "oil gold commodities bitcoin crypto major price moves",
+            "query": "oil gold commodities bitcoin crypto major price moves today",
             "topic": "finance",
             "search_depth": "basic",
             "max_results": 5,
             "time_range": "day",
         },
+    ]
+
+    # --- SOCIAL MEDIA / FINTWIT SEARCHES ---
+    social_searches = [
         {
-            "name": "social_twitter",
-            "query": "stock market financial markets trending takes analysis",
+            "name": "fintwit_movers",
+            "query": "stock market alert unusual move breaking catalyst squeeze short",
             "topic": "news",
             "search_depth": "advanced",
-            "include_domains": ["x.com"],
+            "include_domains": ["x.com", "twitter.com"],
+            "max_results": 8,
+            "days": 1,
+        },
+        {
+            "name": "fintwit_sentiment",
+            "query": "market sentiment bearish bullish positioning risk warning institutional flow",
+            "topic": "news",
+            "search_depth": "advanced",
+            "include_domains": ["x.com", "twitter.com"],
             "max_results": 5,
             "days": 1,
         },
         {
-            "name": "social_reddit",
-            "query": "stock market investing trading sentiment today",
+            "name": "reddit_wsb",
+            "query": "wallstreetbets YOLO DD squeeze options play trending stock",
+            "search_depth": "advanced",
+            "include_domains": ["reddit.com"],
+            "max_results": 5,
+            "days": 1,
+        },
+        {
+            "name": "reddit_stocks",
+            "query": "unusual options activity insider buying dark pool institutional today",
             "search_depth": "basic",
             "include_domains": ["reddit.com"],
             "max_results": 5,
+            "days": 1,
+        },
+    ]
+
+    # --- ALPHA / EDGE SEARCHES ---
+    alpha_searches = [
+        {
+            "name": "unusual_options",
+            "query": "unusual options activity large block trade sweep volume spike today",
+            "topic": "finance",
+            "search_depth": "advanced",
+            "include_domains": [
+                "unusualwhales.com", "barchart.com", "marketchameleon.com",
+                "finance.yahoo.com", "benzinga.com", "thefly.com",
+            ],
+            "max_results": 5,
+            "days": 1,
+        },
+        {
+            "name": "insider_trades",
+            "query": "SEC insider buying selling notable cluster Form 4 filing today",
+            "topic": "finance",
+            "search_depth": "advanced",
+            "include_domains": [
+                "openinsider.com", "secform4.com", "finviz.com",
+                "benzinga.com", "marketbeat.com",
+            ],
+            "max_results": 5,
+            "days": 2,
+        },
+        {
+            "name": "short_interest",
+            "query": "short squeeze high short interest cost to borrow stocks today",
+            "topic": "finance",
+            "search_depth": "basic",
+            "include_domains": [
+                "fintel.io", "shortvolume.com", "highshortinterest.com",
+                "benzinga.com", "marketwatch.com",
+            ],
+            "max_results": 5,
+            "days": 2,
         },
     ]
 
@@ -136,17 +215,43 @@ def stage1_tavily_searches(tavily_client, bonus_queries):
             print(f"  {name}: ERROR - {e}")
             return name, []
 
-    # Run fixed searches
-    for search_config in fixed_searches:
-        name, results = run_search(dict(search_config))  # copy to avoid mutation
+    # Run all search categories
+    print("  [Mainstream]")
+    for search_config in mainstream_searches:
+        name, results = run_search(dict(search_config))
         all_results[name] = results
 
-    # Run GPT-generated bonus queries
-    for i, query in enumerate(bonus_queries):
+    print("  [Social/Fintwit]")
+    for search_config in social_searches:
+        name, results = run_search(dict(search_config))
+        all_results[name] = results
+
+    print("  [Alpha/Edge]")
+    for search_config in alpha_searches:
+        name, results = run_search(dict(search_config))
+        all_results[name] = results
+
+    # Run GPT-generated mainstream queries
+    print("  [GPT Mainstream Queries]")
+    for i, query in enumerate(mainstream_queries):
         config = {
-            "name": f"gpt_query_{i}",
+            "name": f"gpt_mainstream_{i}",
             "query": query,
             "topic": "news",
+            "search_depth": "advanced",
+            "max_results": 5,
+            "days": 1,
+        }
+        name, results = run_search(config)
+        all_results[name] = results
+
+    # Run GPT-generated alpha queries
+    print("  [GPT Alpha Queries]")
+    for i, query in enumerate(alpha_queries):
+        config = {
+            "name": f"gpt_alpha_{i}",
+            "query": query,
+            "topic": "finance",
             "search_depth": "advanced",
             "max_results": 5,
             "days": 1,
@@ -163,16 +268,22 @@ def stage1_tavily_searches(tavily_client, bonus_queries):
 def stage2_first_pass(openai_client, search_results):
     """GPT-5.2 Pro analyzes all Tavily results and produces structured analysis."""
 
-    # Format all results into context
+    # Format all results into context with source categorization
     context_parts = []
     for category, items in search_results.items():
-        is_social = "social" in category or "twitter" in category or "reddit" in category
-        source_tag = " [SOCIAL MEDIA]" if is_social else ""
+        is_social = any(tag in category for tag in ["social", "twitter", "fintwit", "reddit", "wsb"])
+        is_alpha = any(tag in category for tag in ["alpha", "options", "insider", "short"])
+        if is_social:
+            source_tag = " [SOCIAL/FINTWIT]"
+        elif is_alpha:
+            source_tag = " [ALPHA/EDGE]"
+        else:
+            source_tag = " [MAINSTREAM]"
         context_parts.append(f"\n--- {category.upper()}{source_tag} ---")
         for item in items:
             entry = f"Title: {item.get('title', 'N/A')}"
             entry += f"\nURL: {item.get('url', '')}"
-            entry += f"\nSnippet: {item.get('content', '')[:400]}"
+            entry += f"\nSnippet: {item.get('content', '')[:500]}"
             if item.get("published_date"):
                 entry += f"\nPublished: {item['published_date']}"
             context_parts.append(entry)
@@ -184,19 +295,25 @@ def stage2_first_pass(openai_client, search_results):
         input=f"""=== TAVILY SEARCH RESULTS ===
 {context}
 
-You are a senior financial analyst. Analyze these search results and produce a structured assessment.
+You are a senior financial analyst who also monitors fintwit, WSB, and unusual flow data.
+Analyze these search results and produce a structured assessment.
 
-CRITICAL FRESHNESS RULE: This briefing runs 3x daily. Stories must be FRESH - published within the last 8 hours ideally, 12 hours max. REJECT any story where the core news event happened more than 24 hours ago. Do NOT include yesterday's stories, stale index prices, or recycled news. If a story references specific market levels (e.g. "S&P at 5,200"), verify the data feels current - old prices mislead readers. When in doubt about freshness, deprioritize.
+CRITICAL FRESHNESS RULE: This briefing runs 3x daily. Stories must be FRESH - published within the last 8 hours ideally, 12 hours max. REJECT stale news.
+
+CRITICAL SOURCE DIVERSITY RULE: You MUST include stories from [SOCIAL/FINTWIT] and [ALPHA/EDGE] categories, not just mainstream news. The whole point of this tool is to surface things readers WON'T see on CNBC. If Twitter/Reddit/unusual options data has interesting signals, PRIORITIZE them.
 
 TASKS:
-1. RANK: Identify the 12-15 most market-relevant stories. Score by potential impact on equities, bonds, FX, commodities. Deduplicate similar stories. STRONGLY PREFER stories from the last few hours over older ones.
-2. DIG DEEPER: Pick 3-4 stories that deserve deeper investigation - could be bigger than they appear, or where more context would significantly improve the briefing.
-3. FACT CHECK: Flag ANY stories sourced from social media (x.com, reddit.com) that make specific factual claims about earnings, data releases, deals, or market events. These MUST be verified before inclusion.
+1. RANK: Identify 15-18 most relevant stories. For each, you MUST include the source_url from the search results. Deduplicate similar stories. Categories:
+   - MAINSTREAM (8-10): Major market news from credible outlets
+   - ALPHA (3-5): Unusual options, insider trades, short squeezes, flow data
+   - SOCIAL BUZZ (2-4): Interesting fintwit takes, WSB sentiment, viral trading ideas
+2. DIG DEEPER: Pick 3-4 stories (prefer ALPHA/SOCIAL) that deserve deeper investigation.
+3. FACT CHECK: Flag social media claims that make specific factual assertions. These MUST be verified.
 
 Return ONLY valid JSON:
 {{
   "top_stories": [
-    {{"title": "...", "summary": "one sentence", "source_url": "...", "impact": "high/medium/low", "is_social": false}}
+    {{"title": "...", "summary": "one sentence", "source_url": "the actual URL from search results", "impact": "high/medium/low", "category": "mainstream/alpha/social"}}
   ],
   "dig_deeper": [
     {{"topic": "...", "search_query": "specific Tavily search query", "why": "..."}}
@@ -210,7 +327,6 @@ Return ONLY valid JSON:
     try:
         return json.loads(response.output_text)
     except Exception:
-        # Try extracting JSON from mixed response
         text = response.output_text
         start = text.find("{")
         end = text.rfind("}") + 1
@@ -243,7 +359,7 @@ def stage3_verify_and_deepen(tavily_client, analysis):
     """Run verification for social media claims and deep dives on key stories."""
     additional = {}
 
-    # Deep dive searches (top 3-4 stories)
+    # Deep dive searches
     for i, item in enumerate(analysis.get("dig_deeper", [])[:4]):
         query = item.get("search_query", "")
         if not query:
@@ -303,15 +419,16 @@ def stage4_final_synthesis(openai_client, analysis, additional):
     """GPT-5.2 Pro writes the final market briefing from all gathered intelligence."""
     now = datetime.utcnow().strftime("%A, %B %d, %Y %H:%M UTC")
 
-    # Compile all intelligence
+    # Compile all intelligence WITH source URLs
     parts = [f"Date: {now}\n"]
 
-    parts.append("=== RANKED STORIES ===")
+    parts.append("=== RANKED STORIES WITH SOURCES ===")
     for story in analysis.get("top_stories", []):
-        social_tag = " [FROM SOCIAL MEDIA]" if story.get("is_social") else ""
+        cat_tag = f"[{story.get('category', 'mainstream').upper()}]"
         parts.append(
-            f"- [{story.get('impact', 'medium').upper()}]{social_tag} "
+            f"- [{story.get('impact', 'medium').upper()}] {cat_tag} "
             f"{story.get('title', '')}: {story.get('summary', '')}"
+            f"\n  Source: {story.get('source_url', 'N/A')}"
         )
 
     parts.append("\n=== DEEP DIVE FINDINGS ===")
@@ -320,7 +437,8 @@ def stage4_final_synthesis(openai_client, analysis, additional):
             continue
         parts.append(f"\nTopic: {data.get('topic', '')} (Why: {data.get('why', '')})")
         for r in data.get("results", []):
-            parts.append(f"  - {r.get('title', '')}: {r.get('content', '')[:250]}")
+            parts.append(f"  - {r.get('title', '')}: {r.get('content', '')[:300]}")
+            parts.append(f"    URL: {r.get('url', '')}")
 
     parts.append("\n=== SOCIAL MEDIA VERIFICATION RESULTS ===")
     has_verifications = False
@@ -329,7 +447,7 @@ def stage4_final_synthesis(openai_client, analysis, additional):
             continue
         has_verifications = True
         status = "CONFIRMED by credible sources" if data.get("verified") else "NOT CONFIRMED by major outlets"
-        parts.append(f"- Claim: \"{data.get('claim', '')}\" -> {status}")
+        parts.append(f"- Claim: '{data.get('claim', '')}' -> {status}")
         for s in data.get("credible_sources", []):
             parts.append(f"  Confirming source: {s.get('title', '')} ({s.get('url', '')})")
     if not has_verifications:
@@ -343,19 +461,27 @@ def stage4_final_synthesis(openai_client, analysis, additional):
 
 Write the Daily Market Pulse briefing based on ALL the intelligence above.
 
-CRITICAL: This briefing is generated {now} and readers expect REAL-TIME freshness. Every story must reflect what is happening RIGHT NOW or within the last few hours. Do NOT include any story where the underlying event is more than 12 hours old. Do NOT cite specific index levels, prices, or percentages unless they are from today's session. If you're unsure whether data is current, omit the specific numbers rather than risk showing stale prices.
+CRITICAL: This briefing is generated {now} and readers expect REAL-TIME freshness. Every story must reflect what is happening RIGHT NOW or within the last few hours.
+
+STORY MIX REQUIREMENTS:
+- Stories 1-7: Major market-moving mainstream news (macro, earnings, central banks, geopolitics)
+- Stories 8-9: Alpha/edge stories (unusual options flow, insider buying, short squeeze setups, dark pool signals). These should feel like proprietary intelligence, not just news.
+- Story 10: Social sentiment/fintwit buzz (interesting Twitter takes, WSB plays, viral trading ideas). Label clearly as social/unverified if appropriate.
 
 FORMAT:
 1. Executive summary: 2-3 sentences capturing overall market mood and the single biggest theme RIGHT NOW.
-2. 10 numbered stories using emoji numbers (1️⃣ through 🔟).
-3. Each story: 2-3 punchy sentences with specific names, numbers, percentages (ONLY if current).
-4. For verified social media stories, note "confirmed by [source name]".
-5. For unverified social buzz that's still interesting, label it "Social Buzz (unverified)" so readers know the credibility level.
-6. Include at least 1 social/sentiment story if anything noteworthy was found.
-7. End with one "🔑 Key Watch:" line for what to monitor next.
+2. 10 numbered stories using emoji numbers (1 through 10).
+3. Each story: 2-3 punchy sentences with specific names, numbers, percentages.
+4. MANDATORY: After each story, include the source link on a new line formatted as: Link: [url]
+   This is CRITICAL - every story MUST have its source link. Use the Source URLs provided in the data above.
+5. For stories 8-9, prefix with a lightning bolt emoji to signal alpha content.
+6. For story 10, prefix with a speech bubble emoji to signal social sentiment.
+7. For verified social claims, note "confirmed by [source]". For unverified, label "(unverified social buzz)".
+8. End with one "Key Watch:" line for what to monitor next.
 
-TONE: Like a sharp morning briefing from a senior analyst who also checks Twitter.
-Professional but engaging. No filler. Every sentence earns its place."""
+TONE: Like a sharp morning briefing from a senior analyst who also monitors fintwit and unusual flow.
+Professional but engaging. Stories 8-10 should feel like insider intel you can't get from mainstream news.
+Every sentence earns its place. No filler, no padding, no repeating the same theme across multiple stories."""
     )
 
     return response.output_text
@@ -399,7 +525,7 @@ def send_telegram_message(message):
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 60)
-    print("Daily Market Pulse Bot (Enhanced)")
+    print("Daily Market Pulse Bot v2 (Enhanced + Alpha)")
     print(f"{datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}")
     print("=" * 60)
 
@@ -414,22 +540,31 @@ def main():
 
     openai_client, tavily_client = init_clients()
 
-    # Stage 0 - GPT generates smart search queries
+    # Stage 0 - GPT generates smart search queries (mainstream + alpha)
     print("\nStage 0: Generating targeted search queries...")
-    bonus_queries = stage0_generate_queries(openai_client)
-    for q in bonus_queries:
-        print(f"   -> {q}")
+    mainstream_queries, alpha_queries = stage0_generate_queries(openai_client)
+    print("  Mainstream queries:")
+    for q in mainstream_queries:
+        print(f"    -> {q}")
+    print("  Alpha queries:")
+    for q in alpha_queries:
+        print(f"    -> {q}")
 
-    # Stage 1 - Multi-angle Tavily searches
+    # Stage 1 - Multi-angle Tavily searches (mainstream + social + alpha)
     print("\nStage 1: Running Tavily searches...")
-    search_results = stage1_tavily_searches(tavily_client, bonus_queries)
+    search_results = stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries)
     total = sum(len(v) for v in search_results.values())
     print(f"   Total results gathered: {total}")
 
     # Stage 2 - GPT first-pass analysis
     print("\nStage 2: GPT analyzing and ranking stories...")
     analysis = stage2_first_pass(openai_client, search_results)
-    print(f"   Top stories: {len(analysis.get('top_stories', []))}")
+    top = analysis.get("top_stories", [])
+    cats = {}
+    for s in top:
+        c = s.get("category", "mainstream")
+        cats[c] = cats.get(c, 0) + 1
+    print(f"   Top stories: {len(top)} ({', '.join(f'{k}={v}' for k,v in cats.items())})")
     print(f"   Dig deeper targets: {len(analysis.get('dig_deeper', []))}")
     print(f"   Fact checks needed: {len(analysis.get('fact_check', []))}")
 

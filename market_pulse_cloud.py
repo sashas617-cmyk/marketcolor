@@ -124,6 +124,23 @@ def fetch_benzinga_news(limit=200):
         data = resp.json()
         articles = data.get("results", []) if isinstance(data, dict) else data
 
+        # Filter out routine SEC filings, prospectus supplements, and minor offerings
+        SKIP_KEYWORDS = [
+            "prospectus supplement", "filed with sec", "shelf registration",
+            "intends to offer", "prices offering", "announces offering",
+            "announces pricing", "closes offering", "files prospectus",
+            "supplemental listing", "form 8-k", "form 10-k", "form 10-q",
+        ]
+        filtered = []
+        for a in articles:
+            title_lower = (a.get("title", "") or "").lower()
+            teaser_lower = (a.get("teaser", "") or "").lower()
+            if any(kw in title_lower + " " + teaser_lower for kw in SKIP_KEYWORDS):
+                continue
+            filtered.append(a)
+        print(f"  benzinga: filtered {len(articles) - len(filtered)} routine filings")
+        articles = filtered
+
         normalized = []
         for a in articles:
             title = _clean_html(a.get("title", ""))
@@ -415,7 +432,7 @@ def stage2_first_pass(openai_client, search_results):
 
 You are a senior financial analyst who also monitors fintwit, WSB, unusual flow data, and Benzinga pro news.
 Analyze these search results and produce a structured assessment.
-Sources include Tavily web search, Benzinga professional financial news [BENZINGA PRO], social media [SOCIAL/FINTWIT], and alpha/edge [ALPHA/EDGE]. Benzinga articles are professional-grade â treat as high-credibility, no fact-checking needed.
+Sources include Tavily web search, Benzinga professional financial news [BENZINGA PRO], social media [SOCIAL/FINTWIT], and alpha/edge [ALPHA/EDGE]. Benzinga articles are professional-grade Ã¢ÂÂ treat as high-credibility, no fact-checking needed.
 
 CRITICAL FRESHNESS RULE: This briefing runs 3x daily. Stories must be FRESH - published within the last 8 hours ideally, 12 hours max. REJECT stale news.
 
@@ -427,12 +444,12 @@ CRITICAL TOPIC DIVERSITY: The 10 stories MUST span at least 6 of these categorie
 - Macro data / economic releases
 - Central banks / Fed / monetary policy
 - Geopolitics / wars / military / sanctions
-- Trade policy / tariffs / export controls (PRIORITY â always include if tariff or trade news exists)
+- Trade policy / tariffs / export controls (PRIORITY Ã¢ÂÂ always include if tariff or trade news exists)
 - Earnings / individual company news
 - Commodities / energy / crypto
 - Unusual options / insider activity / flow data
 - Social media buzz / fintwit / Twitter trending / WSB
-If you find yourself with 3+ stories on the same macro release, you are doing it wrong. Geopolitics and trade policy are SEPARATE categories â a tariff story is not the same as a war story.
+If you find yourself with 3+ stories on the same macro release, you are doing it wrong. Geopolitics and trade policy are SEPARATE categories Ã¢ÂÂ a tariff story is not the same as a war story.
 
 TASKS:
 1. RANK: Identify 15-18 most relevant stories. For each, you MUST include the source_url from the search results. AGGRESSIVELY deduplicate - merge all angles of the same event into ONE story. Categories:
@@ -597,8 +614,9 @@ CRITICAL: This briefing is generated {now} and readers expect REAL-TIME freshnes
 
 STORY MIX REQUIREMENTS:
 - Stories 1-7: Major market-moving mainstream news. MUST cover DIVERSE topics: macro data, earnings, geopolitics/politics, central banks, commodities, etc. If a macro data release happened, it gets ONE story that includes the market reaction - not 3 separate stories about the data, the bond move, and the demand narrative.
-- Stories 8-9: Alpha/edge stories with SPECIFIC actionable intelligence. These MUST name specific tickers, dollar amounts, strike prices, dates, or insider names. They MUST describe something that IS HAPPENING or HAS HAPPENED â an event, a trade, a filing, a spike. NEVER write "how to use" a tool, "how to scan for" X, "monitor this dashboard," or any instructional content. BAD: "Use Fintel to monitor borrow fees." BAD: "Scan for unusual options activity." GOOD: "$TSLA saw $45M in call sweeps at $280 strike, Feb 14 expiry - 3x normal volume." GOOD: "CEO of XYZ bought $2.1M in shares on the open market, largest insider buy in 3 years." If the data doesn't have specific alpha events, pick the most newsworthy non-mainstream story available.
-- Story 10: Social sentiment â fintwit/Twitter trending tickers, WSB plays, StockTwits buzz, or viral trading ideas. MUST include specific ticker names and ideally dollar amounts or position sizes. Source from Twitter/fintwit, StockTwits trending, or Reddit/WSB. Label clearly as social/unverified if appropriate.
+- Stories 8-9: Alpha/edge stories with SPECIFIC actionable intelligence that is MARKET-MOVING and of BROAD interest. These MUST name specific tickers, dollar amounts, strike prices, dates, or insider names. They MUST describe something that IS HAPPENING or HAS HAPPENED Ã¢ÂÂ an event, a trade, a filing, a spike. NEVER write "how to use" a tool, "how to scan for" X, "monitor this dashboard," or any instructional content. NEVER use routine corporate filings as alpha stories. BAD examples: prospectus supplements, shelf registrations, convertible note offerings, equity offering program updates, SEC form filings. These are corporate housekeeping, NOT alpha intelligence. The reader wants unusual TRADES, FLOW, INSIDER MOVES, or MARKET-MOVING events - not paperwork.
+BAD: "Use Fintel to monitor borrow fees." BAD: "Scan for unusual options activity." GOOD: "$TSLA saw $45M in call sweeps at $280 strike, Feb 14 expiry - 3x normal volume." GOOD: "CEO of XYZ bought $2.1M in shares on the open market, largest insider buy in 3 years." If the data doesn't have specific alpha events, pick the most newsworthy non-mainstream story available.
+- Story 10: Social sentiment Ã¢ÂÂ fintwit/Twitter trending tickers, WSB plays, StockTwits buzz, or viral trading ideas. MUST include specific ticker names and ideally dollar amounts or position sizes. Source from Twitter/fintwit, StockTwits trending, or Reddit/WSB. Label clearly as social/unverified if appropriate.
 
 ABSOLUTE RULE: Each of the 10 stories must cover a DIFFERENT topic. No two stories should be about the same data release, the same company, or the same market theme. If you catch yourself writing two stories about the same thing, MERGE them into one and find a new topic for the freed-up slot. Look for geopolitics, trade policy/tariffs (these are SEPARATE topics), sector-specific moves, individual earnings, crypto, commodities, politics - the world is big. ALWAYS include a trade policy/tariff story if any tariff or trade news exists in the data.
 
@@ -633,7 +651,7 @@ def send_telegram_message(message):
     full_message = f"Daily Market Pulse - {now}\n\n{message}"
 
     if len(full_message) <= max_len:
-        resp = requests.post(url, json={"chat_id": CHAT_ID, "text": full_message}, timeout=30)
+        resp = requests.post(url, json={"chat_id": CHAT_ID, "text": full_message, "disable_web_page_preview": True}, timeout=30)
         return resp.json()
 
     # Split on newlines
@@ -650,7 +668,7 @@ def send_telegram_message(message):
 
     result = None
     for chunk in chunks:
-        result = requests.post(url, json={"chat_id": CHAT_ID, "text": chunk}, timeout=30)
+        result = requests.post(url, json={"chat_id": CHAT_ID, "text": chunk, "disable_web_page_preview": True}, timeout=30)
     return result.json() if result else {"ok": False}
 
 

@@ -91,31 +91,31 @@ def stage0_generate_queries(openai_client):
         model="gpt-5.2-pro",
         input=f"""Today is {today}. Current UTC hour: {hour}.
 
-You are a financial markets research director planning the search sweep.
-Generate exactly 5 search queries in two categories:
+You are a global financial markets research director. Your job: figure out the 12 most
+important things happening RIGHT NOW that could affect financial markets, politics, and geopolitics.
 
-CATEGORY A - MAINSTREAM (3 queries): Highly specific, timely queries for the most
-market-moving news RIGHT NOW. Think earnings, Fed, macro data, geopolitics.
+Think globally. What happened overnight in Asia? What is Europe doing? Any US pre-market movers?
+Earnings surprises? Central bank signals? Geopolitical developments? Commodity moves?
+Unusual flows or positioning? Emerging market events? Trade policy shifts?
 
-CATEGORY B - ALPHA (2 queries): Queries designed to surface NON-OBVIOUS stories
-that mainstream outlets haven't fully picked up yet. Think:
-- Unusual options activity or volume spikes
-- Insider buying/selling patterns
-- Short squeeze candidates or heavily shorted stocks
-- Sector rotation signals
-- Dark pool or institutional flow indicators
-- Emerging market dislocations
-- Specific company catalysts the market is sleeping on
+DO NOT default to generic US-centric queries like "Federal Reserve" or "CPI" unless those are
+genuinely the biggest story right now. Think about what a sophisticated global macro trader
+sitting in Dubai at this hour would need to know.
 
-IMPORTANT: Include "today" or "latest" in your queries to bias results toward fresh news.
+Generate exactly 12 search queries designed to surface the freshest, most market-relevant
+news across ALL regions and asset classes. Each query should be specific and timely.
+Include "today" or "latest" or "February 2026" in queries to bias toward fresh results.
 
-Return ONLY a JSON object with two arrays. No explanation. Example:
-{{"mainstream": ["Fed FOMC meeting decision impact today", "NVIDIA earnings Q4 results latest", "China tariffs semiconductor today"], "alpha": ["unusual options activity volume spike today", "insider buying selling SEC filings latest"]}}"""
+Return ONLY a JSON object. No explanation. Example:
+{{"queries": ["Japan yen surge Nikkei record today", "China CPI PPI inflation data latest", "Ukraine Russia overnight attack energy infrastructure", "US pre-market movers earnings surprises today", "oil price IEA demand forecast latest", "Middle East Iran negotiations latest", "European markets DAX economic data today", "semiconductor earnings AI infrastructure today", "central bank rate decision emerging markets latest", "unusual options activity large block trades today", "insider buying SEC Form 4 filings notable today", "trade tariffs policy announcement latest today"]}}"""
     )
 
     try:
         data = json.loads(response.output_text)
         if isinstance(data, dict):
+            queries = data.get("queries", [])[:12]
+            if queries:
+                return queries[:8], queries[8:]
             return data.get("mainstream", [])[:3], data.get("alpha", [])[:2]
     except Exception:
         pass
@@ -123,13 +123,20 @@ Return ONLY a JSON object with two arrays. No explanation. Example:
     # Fallback queries
     return (
         [
-            "most important financial market news today",
-            "major earnings reports economic data releases today",
-            "geopolitical events affecting global markets today",
+            "most important financial market news today global",
+            "Asia markets overnight Nikkei Hang Seng moves today",
+            "Europe markets DAX economic data today",
+            "US pre-market movers earnings surprises today",
+            "geopolitical developments affecting markets today",
+            "oil gold commodities major price moves today",
+            "central bank rate decisions inflation data latest",
+            "trade policy tariffs sanctions latest today",
         ],
         [
-            "unusual options activity volume spike stocks today",
-            "insider buying selling SEC filings notable today",
+            "unusual options activity large block trades today",
+            "insider buying selling SEC Form 4 filings notable today",
+            "emerging markets currency moves developments today",
+            "AI semiconductor infrastructure earnings latest today",
         ],
     )
 
@@ -230,121 +237,52 @@ def stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries):
     """Run targeted Tavily searches across multiple angles including social/alpha."""
     all_results = {}
 
-    # --- MAINSTREAM SEARCHES ---
+    # --- SAFETY-NET SEARCHES (broad; GPT queries do the real work) ---
     mainstream_searches = [
         {
-            "name": "market_news",
-            "query": "most important market moving financial news today stocks bonds currencies earnings",
+            "name": "global_markets",
+            "query": "most important global financial market news today Asia Europe US",
             "topic": "finance",
             "search_depth": "advanced",
             "max_results": 7,
             "time_range": "day",
         },
         {
-            "name": "macro_fed",
-            "query": "Federal Reserve interest rates economic data inflation CPI jobs report latest today",
+            "name": "geopolitics_macro",
+            "query": "geopolitics trade policy central banks commodities major developments today",
             "topic": "news",
             "search_depth": "advanced",
             "max_results": 5,
             "days": 1,
         },
+    ]
+
+    # --- SOCIAL (kept lean) ---
+    social_searches = [
         {
-            "name": "geopolitics_politics",
-            "query": "geopolitics war sanctions trade war tariffs political risk market impact today",
-            "topic": "news",
-            "search_depth": "advanced",
-            "max_results": 6,
-            "days": 1,
-        },
-        {
-            "name": "trade_policy",
-            "query": "tariffs trade war sanctions export controls trade policy announcement latest today",
-            "topic": "news",
-            "search_depth": "advanced",
-            "max_results": 5,
-            "days": 1,
-        },
-        {
-            "name": "commodities_crypto",
-            "query": "oil gold commodities bitcoin crypto major price moves today",
-            "topic": "finance",
+            "name": "fintwit_movers",
+            "query": "stock market unusual move breaking catalyst today",
             "search_depth": "basic",
             "max_results": 5,
             "time_range": "day",
         },
     ]
 
-    # --- SOCIAL MEDIA / FINTWIT SEARCHES ---
-    social_searches = [
-        {
-            "name": "fintwit_movers",
-            "query": "stock market alert unusual move breaking catalyst squeeze short",
-            "topic": "news",
-            "search_depth": "advanced",
-            "include_domains": ["x.com", "twitter.com"],
-            "max_results": 8,
-            "days": 1,
-        },
-        
-        {
-            "name": "stocktwits_trending",
-            "query": "trending stocks most mentioned tickers today volume movers",
-            "topic": "finance",
-            "search_depth": "advanced",
-            "include_domains": [
-                "stocktwits.com", "swaggystock.com", "quiverquant.com",
-                "topstockstoday.com",
-            ],
-            "max_results": 5,
-            "days": 1,
-        },
-        
-        {
-            "name": "reddit_wsb",
-            "query": "wallstreetbets YOLO DD squeeze options play trending stock",
-            "search_depth": "advanced",
-            "include_domains": ["reddit.com"],
-            "max_results": 5,
-            "days": 1,
-        },
-        
-    ]
-
-    # --- ALPHA / EDGE SEARCHES ---
+    # --- ALPHA / EDGE (kept lean) ---
     alpha_searches = [
         {
             "name": "unusual_options",
-            "query": "unusual options activity large block trade sweep volume spike today",
+            "query": "unusual options activity large block trade sweep today",
             "topic": "finance",
             "search_depth": "advanced",
-            "include_domains": [
-                "unusualwhales.com", "barchart.com", "marketchameleon.com",
-                "finance.yahoo.com", "benzinga.com", "thefly.com",
-            ],
             "max_results": 5,
             "days": 1,
         },
         {
             "name": "insider_trades",
-            "query": "SEC insider buying selling notable cluster Form 4 filing today",
+            "query": "SEC insider buying selling notable Form 4 filing today",
             "topic": "finance",
             "search_depth": "advanced",
-            "include_domains": [
-                "openinsider.com", "secform4.com", "finviz.com",
-                "benzinga.com", "marketbeat.com",
-            ],
-            "max_results": 5,
-            "days": 2,
-        },
-        {
-            "name": "short_interest",
-            "query": "short squeeze high short interest cost to borrow stocks today",
-            "topic": "finance",
-            "search_depth": "basic",
-            "include_domains": [
-                "fintel.io", "shortvolume.com", "highshortinterest.com",
-                "benzinga.com", "marketwatch.com",
-            ],
             "max_results": 5,
             "days": 2,
         },
@@ -652,7 +590,7 @@ CRITICAL: This briefing is generated {now} and readers expect REAL-TIME freshnes
 CRITICAL SELECTION PRINCIPLE: You are curating the 10 MOST IMPORTANT stories of the day for professional traders and investors. Every story must pass this test: "Is this something a portfolio manager NEEDS to know before the next session?" If a story is routine corporate housekeeping (offerings, filings, prospectus supplements) or niche noise with no broad market impact, it does NOT belong. Prioritize by MARKET IMPACT and BROAD RELEVANCE over specificity. FRESHNESS MATTERS: if a story has been widely covered for days and has no new development, deprioritize it in favor of something newer.
 
 STORY MIX REQUIREMENTS:
-- Stories 1-7: Major market-moving mainstream news. MUST cover DIVERSE topics: macro data, earnings, geopolitics/politics, central banks, commodities, etc. If a macro data release happened, it gets ONE story that includes the market reaction - not 3 separate stories about the data, the bond move, and the demand narrative.
+- Stories 1-7: Major market-moving mainstream news. MUST cover DIVERSE topics AND REGIONS: macro data, earnings, geopolitics/politics, central banks, commodities, FX, etc. Think globally — if Asia or Europe had significant moves, they MUST be represented. Do NOT fill all 7 slots with US news when important things happened in other regions. If a macro data release happened, it gets ONE story that includes the market reaction — not 3 separate stories about the data, the bond move, and the demand narrative.
 - Stories 8-9: Alpha/edge stories with SPECIFIC actionable intelligence that is MARKET-MOVING and of BROAD interest. These MUST name specific tickers, dollar amounts, strike prices, dates, or insider names. They MUST describe something that IS HAPPENING or HAS HAPPENED Ã¢ÂÂ an event, a trade, a filing, a spike. NEVER write "how to use" a tool, "how to scan for" X, "monitor this dashboard," or any instructional content. NEVER use routine corporate filings as alpha stories. BAD examples: prospectus supplements, shelf registrations, convertible note offerings, equity offering program updates, SEC form filings. These are corporate housekeeping, NOT alpha intelligence. The reader wants unusual TRADES, FLOW, INSIDER MOVES, or MARKET-MOVING events - not paperwork.
 BAD: "Use Fintel to monitor borrow fees." BAD: "Scan for unusual options activity." GOOD: "$TSLA saw $45M in call sweeps at $280 strike, Feb 14 expiry - 3x normal volume." GOOD: "CEO of XYZ bought $2.1M in shares on the open market, largest insider buy in 3 years." If the data doesn't have specific alpha events, pick the most newsworthy non-mainstream story available.
 - Story 10: Wildcard \u2014 the single most important remaining story you haven\u2019t covered yet, regardless of category. Could be social buzz, additional alpha, a developing geopolitical angle, or anything else. Pick purely by importance and freshness. If it\u2019s from social media, label as \u2018(unverified social buzz).\u2019

@@ -1,17 +1,16 @@
 {
-  "last_run": "2026-02-12T12:31:01Z",
+  "last_run": "2026-02-12T15:44:01Z",
   "stories": [
-    "Executive summary (12:27 UTC):",
-    "Global cross-asset: jobs-driven \u201chigher for longer\u201d reprices USD/rates; Asia equities at records into U.S. CPI",
-    "Japan: BOJ hike timing pulled forward\u2014market pricing risk is a re-steepening JGB curve",
-    "Canada trade-policy risk re-enters the macro tape: BoC minutes call a U.S.-led treaty review an \u201cimportant risk\u201d",
-    "Washington export-controls fight turns into a tradable semiconductor overhang: Anthropic vs Nvidia",
-    "AI hardware supply chain: Samsung starts HBM4 shipments, adding fuel to the next upgrade cycle",
-    "Geopolitics \u2192 inflation channel back on watch: Houthi attacks rattle Red Sea shipping",
-    "U.S. earnings (healthcare/defensives): Baxter guides below Street, pressuring \u201csafe\u201d narratives as yields rise",
-    "Buyback mechanics that matter today: Brown & Brown launches a $250M accelerated share repurchase (ASR)",
-    "Crypto microstructure is still liquidation-led: Bitcoin ~ $68,000 with $338M liquidations (24h)",
-    "Wildcard (index flows): Sandisk set to join the S&P 500 (confirmed)"
+    "Executive summary:",
+    "Trade policy shock: US-China detente reportedly mothballs key China tech curbs (export controls in focus)",
+    "Japan: BOJ hike risk pulled forward\u2014March now \u201cin play,\u201d with up to three hikes flagged for 2026",
+    "UK macro: Q4 GDP barely positive (+0.1%), keeping \u201clow-momentum\u201d Britain in focus ahead of policy turns",
+    "China liquidity impulse watch: big trade surplus seen supporting global risk\u2014but a stronger yuan could flip the signal",
+    "Geopolitics \u2192 energy risk premium: Russia strikes Ukrainian cities again, adding strain to power infrastructure",
+    "Red Sea disruption persists: renewed attacks force rerouting, tightening capacity and keeping goods-inflation risk on watch",
+    "COIN insider overhang: Coinbase CEO Brian Armstrong reportedly sold ~$545M; \u201c88 sells, 0 buys\u201d framing",
+    "TSM options tape: 39 unusual trades flagged; call premium ~$3.12M vs puts ~$0.96M",
+    "Wildcard (earnings/sector read-through): Baxter guides 2026 profit below estimates, citing hurricane impact"
   ],
   "tickers": []
 }

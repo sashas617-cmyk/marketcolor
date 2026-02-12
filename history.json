@@ -1,16 +1,17 @@
 {
-  "last_run": "2026-02-12T09:40:48Z",
+  "last_run": "2026-02-12T12:31:01Z",
   "stories": [
-    "Trade policy shock: House votes to disapprove Trump\u2019s Canada tariffs (rare GOP rebuke)",
-    "Macro: strong January jobs keeps \u201chigher for longer\u201d alive into CPI",
-    "Energy/geopolitics: oil edges higher on US\u2013Iran tension despite inventory build",
-    "US power policy: Trump directs Pentagon to buy electricity from coal plants",
-    "Earnings (quality tech): Cisco beats and raises FY26 outlook",
-    "High-beta tech: Fastly rips on Q4 beat + strong FY26 guidance",
-    "Healthcare catalyst: NovoCure jumps on FDA approval in pancreatic cancer",
-    "Hard-to-borrow squeeze risk: MNDR borrow fees spike to ~75%\u201394%",
-    "Positioning/flow: 0DTE leverage is again a live driver in SPX/QQQ",
-    "Wildcard (flows): ARK buys ~$34M of Robinhood into weakness; trims Airbnb pre-earnings"
+    "Executive summary (12:27 UTC):",
+    "Global cross-asset: jobs-driven \u201chigher for longer\u201d reprices USD/rates; Asia equities at records into U.S. CPI",
+    "Japan: BOJ hike timing pulled forward\u2014market pricing risk is a re-steepening JGB curve",
+    "Canada trade-policy risk re-enters the macro tape: BoC minutes call a U.S.-led treaty review an \u201cimportant risk\u201d",
+    "Washington export-controls fight turns into a tradable semiconductor overhang: Anthropic vs Nvidia",
+    "AI hardware supply chain: Samsung starts HBM4 shipments, adding fuel to the next upgrade cycle",
+    "Geopolitics \u2192 inflation channel back on watch: Houthi attacks rattle Red Sea shipping",
+    "U.S. earnings (healthcare/defensives): Baxter guides below Street, pressuring \u201csafe\u201d narratives as yields rise",
+    "Buyback mechanics that matter today: Brown & Brown launches a $250M accelerated share repurchase (ASR)",
+    "Crypto microstructure is still liquidation-led: Bitcoin ~ $68,000 with $338M liquidations (24h)",
+    "Wildcard (index flows): Sandisk set to join the S&P 500 (confirmed)"
   ],
   "tickers": []
 }

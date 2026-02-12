@@ -241,15 +241,7 @@ def stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries):
             "max_results": 8,
             "days": 1,
         },
-        {
-            "name": "fintwit_sentiment",
-            "query": "market sentiment bearish bullish positioning risk warning institutional flow",
-            "topic": "news",
-            "search_depth": "advanced",
-            "include_domains": ["x.com", "twitter.com"],
-            "max_results": 5,
-            "days": 1,
-        },
+        
         {
             "name": "stocktwits_trending",
             "query": "trending stocks most mentioned tickers today volume movers",
@@ -262,14 +254,7 @@ def stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries):
             "max_results": 5,
             "days": 1,
         },
-        {
-            "name": "fintwit_recap",
-            "query": "fintwit twitter trending stocks market recap viral trade today",
-            "topic": "news",
-            "search_depth": "basic",
-            "max_results": 5,
-            "days": 1,
-        },
+        
         {
             "name": "reddit_wsb",
             "query": "wallstreetbets YOLO DD squeeze options play trending stock",
@@ -278,14 +263,7 @@ def stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries):
             "max_results": 5,
             "days": 1,
         },
-        {
-            "name": "reddit_stocks",
-            "query": "unusual options activity insider buying dark pool institutional today",
-            "search_depth": "basic",
-            "include_domains": ["reddit.com"],
-            "max_results": 5,
-            "days": 1,
-        },
+        
     ]
 
     # --- ALPHA / EDGE SEARCHES ---
@@ -455,7 +433,7 @@ TASKS:
 1. RANK: Identify 15-18 most IMPORTANT and MARKET-MOVING stories. Importance = stories a professional trader NEEDS to know today. If Bloomberg would not flash it as breaking news, skip it. For each, you MUST include the source_url from the search results. AGGRESSIVELY deduplicate - merge all angles of the same event into ONE story. Categories:
    - MAINSTREAM (8-10): Major market news from credible outlets
    - ALPHA (3-5): Unusual options, insider trades, short squeezes, flow data. MUST cite specific tickers, dollar amounts, or strike prices. MUST describe an EVENT that happened (a trade, a filing, a spike, a move) - NEVER a "how to" guide, tutorial, or advice on how to scan/use a tool. If it reads like instruction rather than news, it is NOT alpha.
-   - SOCIAL BUZZ (2-4): Interesting fintwit takes, WSB sentiment, viral trading ideas
+   - SOCIAL BUZZ (1-2): Only include if genuinely viral or market-moving. Skip if stale or low-impact
 2. DIG DEEPER: Pick 3-4 stories (prefer ALPHA/SOCIAL) that deserve deeper investigation.
 3. FACT CHECK: Flag social media claims that make specific factual assertions. These MUST be verified.
 
@@ -612,13 +590,13 @@ Write the Daily Market Pulse briefing based on ALL the intelligence above.
 
 CRITICAL: This briefing is generated {now} and readers expect REAL-TIME freshness. Every story must reflect what is happening RIGHT NOW or within the last few hours.
 
-CRITICAL SELECTION PRINCIPLE: You are curating the 10 MOST IMPORTANT stories of the day for professional traders and investors. Every story must pass this test: "Is this something a portfolio manager NEEDS to know before the next session?" If a story is routine corporate housekeeping (offerings, filings, prospectus supplements) or niche noise with no broad market impact, it does NOT belong. Prioritize by MARKET IMPACT and BROAD RELEVANCE over specificity.
+CRITICAL SELECTION PRINCIPLE: You are curating the 10 MOST IMPORTANT stories of the day for professional traders and investors. Every story must pass this test: "Is this something a portfolio manager NEEDS to know before the next session?" If a story is routine corporate housekeeping (offerings, filings, prospectus supplements) or niche noise with no broad market impact, it does NOT belong. Prioritize by MARKET IMPACT and BROAD RELEVANCE over specificity. FRESHNESS MATTERS: if a story has been widely covered for days and has no new development, deprioritize it in favor of something newer.
 
 STORY MIX REQUIREMENTS:
 - Stories 1-7: Major market-moving mainstream news. MUST cover DIVERSE topics: macro data, earnings, geopolitics/politics, central banks, commodities, etc. If a macro data release happened, it gets ONE story that includes the market reaction - not 3 separate stories about the data, the bond move, and the demand narrative.
 - Stories 8-9: Alpha/edge stories with SPECIFIC actionable intelligence that is MARKET-MOVING and of BROAD interest. These MUST name specific tickers, dollar amounts, strike prices, dates, or insider names. They MUST describe something that IS HAPPENING or HAS HAPPENED Ã¢ÂÂ an event, a trade, a filing, a spike. NEVER write "how to use" a tool, "how to scan for" X, "monitor this dashboard," or any instructional content. NEVER use routine corporate filings as alpha stories. BAD examples: prospectus supplements, shelf registrations, convertible note offerings, equity offering program updates, SEC form filings. These are corporate housekeeping, NOT alpha intelligence. The reader wants unusual TRADES, FLOW, INSIDER MOVES, or MARKET-MOVING events - not paperwork.
 BAD: "Use Fintel to monitor borrow fees." BAD: "Scan for unusual options activity." GOOD: "$TSLA saw $45M in call sweeps at $280 strike, Feb 14 expiry - 3x normal volume." GOOD: "CEO of XYZ bought $2.1M in shares on the open market, largest insider buy in 3 years." If the data doesn't have specific alpha events, pick the most newsworthy non-mainstream story available.
-- Story 10: Social sentiment Ã¢ÂÂ fintwit/Twitter trending tickers, WSB plays, StockTwits buzz, or viral trading ideas. MUST include specific ticker names and ideally dollar amounts or position sizes. Source from Twitter/fintwit, StockTwits trending, or Reddit/WSB. Label clearly as social/unverified if appropriate.
+- Story 10: Social sentiment OR additional alpha/edge — pick whichever is MORE IMPORTANT. If there is a genuinely viral, market-moving social trade (WSB YOLO, fintwit squeeze call) with specific tickers and dollar amounts, use it here. But if the best social story is stale, repetitive, or low-impact, use another alpha/edge story instead. Do NOT force a weak social story just to fill the slot. Label social stories as social/unverified.
 
 ABSOLUTE RULE: Each of the 10 stories must cover a DIFFERENT topic. No two stories should be about the same data release, the same company, or the same market theme. If you catch yourself writing two stories about the same thing, MERGE them into one and find a new topic for the freed-up slot. Look for geopolitics, trade policy/tariffs (these are SEPARATE topics), sector-specific moves, individual earnings, crypto, commodities, politics - the world is big. ALWAYS include a trade policy/tariff story if any tariff or trade news exists in the data.
 

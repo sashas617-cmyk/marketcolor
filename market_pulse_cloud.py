@@ -452,7 +452,7 @@ CRITICAL TOPIC DIVERSITY: The 10 stories MUST span at least 6 of these categorie
 If you find yourself with 3+ stories on the same macro release, you are doing it wrong. Geopolitics and trade policy are SEPARATE categories Ã¢ÂÂ a tariff story is not the same as a war story.
 
 TASKS:
-1. RANK: Identify 15-18 most relevant stories. For each, you MUST include the source_url from the search results. AGGRESSIVELY deduplicate - merge all angles of the same event into ONE story. Categories:
+1. RANK: Identify 15-18 most IMPORTANT and MARKET-MOVING stories. Importance = stories a professional trader NEEDS to know today. If Bloomberg would not flash it as breaking news, skip it. For each, you MUST include the source_url from the search results. AGGRESSIVELY deduplicate - merge all angles of the same event into ONE story. Categories:
    - MAINSTREAM (8-10): Major market news from credible outlets
    - ALPHA (3-5): Unusual options, insider trades, short squeezes, flow data. MUST cite specific tickers, dollar amounts, or strike prices. MUST describe an EVENT that happened (a trade, a filing, a spike, a move) - NEVER a "how to" guide, tutorial, or advice on how to scan/use a tool. If it reads like instruction rather than news, it is NOT alpha.
    - SOCIAL BUZZ (2-4): Interesting fintwit takes, WSB sentiment, viral trading ideas
@@ -611,6 +611,8 @@ def stage4_final_synthesis(openai_client, analysis, additional):
 Write the Daily Market Pulse briefing based on ALL the intelligence above.
 
 CRITICAL: This briefing is generated {now} and readers expect REAL-TIME freshness. Every story must reflect what is happening RIGHT NOW or within the last few hours.
+
+CRITICAL SELECTION PRINCIPLE: You are curating the 10 MOST IMPORTANT stories of the day for professional traders and investors. Every story must pass this test: "Is this something a portfolio manager NEEDS to know before the next session?" If a story is routine corporate housekeeping (offerings, filings, prospectus supplements) or niche noise with no broad market impact, it does NOT belong. Prioritize by MARKET IMPACT and BROAD RELEVANCE over specificity.
 
 STORY MIX REQUIREMENTS:
 - Stories 1-7: Major market-moving mainstream news. MUST cover DIVERSE topics: macro data, earnings, geopolitics/politics, central banks, commodities, etc. If a macro data release happened, it gets ONE story that includes the market reaction - not 3 separate stories about the data, the bond move, and the demand narrative.

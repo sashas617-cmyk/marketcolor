@@ -1,5 +1,18 @@
 {
-  "last_run": "2026-02-12T23:06:49Z",
-  "stories": [],
-  "tickers": []
+  "last_run": "2026-02-12T23:49:05Z",
+  "stories": [
+    "U.S. stocks slid hard in a tech/AI-led risk-off move (late session):",
+    "Futures steadied/edged higher heading into CPI (next-session focal point):",
+    "Europe + Asia extended leadership with fresh records (rotation signal):",
+    "Trade policy catalyst: Taiwan\u2013U.S. sign pact aimed at cutting tariffs + boosting investment:",
+    "Energy geopolitics: Russia\u2019s oil sector faces tighter constraints (volatility tail-risk):",
+    "Gold shock move: down ~3% as jobs/real-rate impulse hits metals:",
+    "Semicap check: Applied Materials beats + guides strongly; shares jump (after-hours read-through):",
+    "Alpha (insider): DoorDash board member Alfred Lin buys ~$100M+ of $DASH:",
+    "Alpha (options): $KVUE sees heavy put activity at July $21 strike (5,000+ contracts):",
+    "Wildcard (policy risk): OpenAI alleges DeepSeek continued distillation-like activity; memo sent to lawmakers:"
+  ],
+  "tickers": [
+    "KVUE"
+  ]
 }

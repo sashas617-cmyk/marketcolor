@@ -18,6 +18,7 @@ import requests
 from datetime import datetime
 from openai import OpenAI
 from tavily import TavilyClient
+from pathlib import Path
 
 # Configuration
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
@@ -26,12 +27,55 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
 BENZINGA_API_KEY = os.environ.get("BENZINGA_API_KEY", "")
 
+HISTORY_FILE = Path(__file__).parent / "history.json"
+
 
 def init_clients():
     """Initialize API clients."""
     openai_client = OpenAI(api_key=OPENAI_API_KEY)
     tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
     return openai_client, tavily_client
+
+
+def load_history():
+    """Load previously covered stories to avoid repetition across runs."""
+    try:
+        with open(HISTORY_FILE) as f:
+            data = json.load(f)
+        stories = data.get("stories", [])
+        tickers = data.get("tickers", [])
+        print(f"  Loaded history: {len(stories)} stories, {len(tickers)} tickers from {data.get('last_run', 'unknown')}")
+        return data
+    except (FileNotFoundError, json.JSONDecodeError):
+        print("  No history file found, starting fresh")
+        return {"stories": [], "tickers": [], "last_run": None}
+
+
+def save_history(briefing_text):
+    """Extract story headlines and tickers from briefing, save for next run."""
+    stories = []
+    for line in briefing_text.split("\n"):
+        if "**" in line and line.count("**") >= 2:
+            start = line.index("**") + 2
+            end = line.index("**", start)
+            headline = line[start:end].strip()
+            if len(headline) > 15 and ":" in headline:
+                stories.append(headline)
+    tickers = []
+    for word in briefing_text.split():
+        clean = word.lstrip("$").rstrip(".,;:!()")
+        if word.startswith("$") and clean.isalpha() and 1 <= len(clean) <= 5:
+            if clean.upper() not in tickers:
+                tickers.append(clean.upper())
+    tickers.sort()
+    data = {
+        "last_run": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "stories": stories,
+        "tickers": tickers,
+    }
+    with open(HISTORY_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"  Saved history: {len(stories)} stories, {len(tickers)} tickers")
 
 
 # ---------------------------------------------------------------------------
@@ -542,7 +586,7 @@ def stage3_verify_and_deepen(tavily_client, analysis):
 # ---------------------------------------------------------------------------
 # STAGE 4: GPT final synthesis into polished briefing
 # ---------------------------------------------------------------------------
-def stage4_final_synthesis(openai_client, analysis, additional):
+def stage4_final_synthesis(openai_client, analysis, additional, history=None):
     """GPT-5.2 Pro writes the final market briefing from all gathered intelligence."""
     now = datetime.utcnow().strftime("%A, %B %d, %Y %H:%M UTC")
 
@@ -582,6 +626,21 @@ def stage4_final_synthesis(openai_client, analysis, additional):
 
     context = "\n".join(parts)
 
+    # Build history context for deduplication across runs
+    history_text = ""
+    if history and history.get("stories"):
+        history_text = "\n\nPREVIOUSLY COVERED (headlines from most recent briefing):\n"
+        for s_item in history["stories"]:
+            history_text += f"- {s_item}\n"
+        if history.get("tickers"):
+            history_text += f"Tickers mentioned: {', '.join(history['tickers'])}\n"
+        history_text += "\nDEDUPLICATION GUIDANCE (soft nudge, NOT a hard block):\n"
+        history_text += "- If a story above is STILL among the day\u2019s most important narratives, KEEP IT but write a fresh angle with updated data or new development\n"
+        history_text += "- Only SKIP stories that were marginal filler last time and have no new update\n"
+        history_text += "- Major themes (Fed, tariffs, geopolitical crises) SHOULD recur when genuinely driving markets\n"
+        history_text += "- The goal is fresh WRITING and angles, not exclusion of important topics\n"
+
+
     response = openai_client.responses.create(
         model="gpt-5.2-pro",
         input=f"""{context}
@@ -596,7 +655,7 @@ STORY MIX REQUIREMENTS:
 - Stories 1-7: Major market-moving mainstream news. MUST cover DIVERSE topics: macro data, earnings, geopolitics/politics, central banks, commodities, etc. If a macro data release happened, it gets ONE story that includes the market reaction - not 3 separate stories about the data, the bond move, and the demand narrative.
 - Stories 8-9: Alpha/edge stories with SPECIFIC actionable intelligence that is MARKET-MOVING and of BROAD interest. These MUST name specific tickers, dollar amounts, strike prices, dates, or insider names. They MUST describe something that IS HAPPENING or HAS HAPPENED Ã¢ÂÂ an event, a trade, a filing, a spike. NEVER write "how to use" a tool, "how to scan for" X, "monitor this dashboard," or any instructional content. NEVER use routine corporate filings as alpha stories. BAD examples: prospectus supplements, shelf registrations, convertible note offerings, equity offering program updates, SEC form filings. These are corporate housekeeping, NOT alpha intelligence. The reader wants unusual TRADES, FLOW, INSIDER MOVES, or MARKET-MOVING events - not paperwork.
 BAD: "Use Fintel to monitor borrow fees." BAD: "Scan for unusual options activity." GOOD: "$TSLA saw $45M in call sweeps at $280 strike, Feb 14 expiry - 3x normal volume." GOOD: "CEO of XYZ bought $2.1M in shares on the open market, largest insider buy in 3 years." If the data doesn't have specific alpha events, pick the most newsworthy non-mainstream story available.
-- Story 10: Social sentiment OR additional alpha/edge — pick whichever is MORE IMPORTANT. If there is a genuinely viral, market-moving social trade (WSB YOLO, fintwit squeeze call) with specific tickers and dollar amounts, use it here. But if the best social story is stale, repetitive, or low-impact, use another alpha/edge story instead. Do NOT force a weak social story just to fill the slot. Label social stories as social/unverified.
+- Story 10: Wildcard \u2014 the single most important remaining story you haven\u2019t covered yet, regardless of category. Could be social buzz, additional alpha, a developing geopolitical angle, or anything else. Pick purely by importance and freshness. If it\u2019s from social media, label as \u2018(unverified social buzz).\u2019
 
 ABSOLUTE RULE: Each of the 10 stories must cover a DIFFERENT topic. No two stories should be about the same data release, the same company, or the same market theme. If you catch yourself writing two stories about the same thing, MERGE them into one and find a new topic for the freed-up slot. Look for geopolitics, trade policy/tariffs (these are SEPARATE topics), sector-specific moves, individual earnings, crypto, commodities, politics - the world is big. ALWAYS include a trade policy/tariff story if any tariff or trade news exists in the data.
 
@@ -607,13 +666,13 @@ FORMAT:
 4. MANDATORY: After each story, include the source link on a new line formatted as: Link: [url]
    This is CRITICAL - every story MUST have its source link. Use the Source URLs provided in the data above.
 5. For stories 8-9, prefix with a lightning bolt emoji to signal alpha content.
-6. For story 10, prefix with a speech bubble emoji to signal social sentiment.
+6. For story 10, prefix with a star emoji to signal wildcard/best remaining story.
 7. For verified social claims, note "confirmed by [source]". For unverified, label "(unverified social buzz)".
 8. End with one "Key Watch:" line for what to monitor next.
 
 TONE: Like a sharp morning briefing from a senior analyst who also monitors fintwit and unusual flow.
-Professional but engaging. Stories 8-10 should feel like insider intel you can't get from mainstream news.
-Every sentence earns its place. No filler, no padding. The reader should feel smarter after reading all 10 stories, each one teaching them something new about a DIFFERENT corner of the market."""
+Professional but engaging. Stories 8-9 should feel like insider intel you can't get from mainstream news. Story 10 should surprise the reader with the most important thing they might have missed.
+Every sentence earns its place.\n{history_text} No filler, no padding. The reader should feel smarter after reading all 10 stories, each one teaching them something new about a DIFFERENT corner of the market."""
     )
 
     return response.output_text
@@ -707,9 +766,15 @@ def main():
     print("\nStage 3: Deep dives and fact-checking...")
     additional = stage3_verify_and_deepen(tavily_client, analysis)
 
-    # Stage 4 - Final synthesis
+    # Load history of previously covered stories
+    history = load_history()
+
+    # Stage 4 \u2014 Final synthesis
     print("\nStage 4: Generating final briefing...")
-    briefing = stage4_final_synthesis(openai_client, analysis, additional)
+    briefing = stage4_final_synthesis(openai_client, analysis, additional, history)
+
+    # Save history for next run
+    save_history(briefing)
 
     # Deliver
     print("\nSending to Telegram...")

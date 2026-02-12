@@ -94,6 +94,11 @@ def stage0_generate_queries(openai_client):
 You are a global financial markets research director. Your job: figure out the 12 most
 important things happening RIGHT NOW that could affect financial markets, politics, and geopolitics.
 
+RECENCY IS CRITICAL. At least 4-6 of your 12 queries MUST target events from the LAST 2-4 HOURS.
+Think: what just happened? What broke in the last session? What moved in the last few hours?
+Use phrases like "breaking", "just now", "last hour", "today session" in those queries.
+The remaining queries can cover important ongoing themes from earlier today.
+
 Think globally. What happened overnight in Asia? What is Europe doing? Any US pre-market movers?
 Earnings surprises? Central bank signals? Geopolitical developments? Commodity moves?
 Unusual flows or positioning? Emerging market events? Trade policy shifts?
@@ -104,7 +109,7 @@ sitting in Dubai at this hour would need to know.
 
 Generate exactly 12 search queries designed to surface the freshest, most market-relevant
 news across ALL regions and asset classes. Each query should be specific and timely.
-Include "today" or "latest" or "February 2026" in queries to bias toward fresh results.
+Include "today" or "latest" or "breaking" or "February 2026" in queries to bias toward fresh results.
 
 Return ONLY a JSON object. No explanation. Example:
 {{"queries": ["Japan yen surge Nikkei record today", "China CPI PPI inflation data latest", "Ukraine Russia overnight attack energy infrastructure", "US pre-market movers earnings surprises today", "oil price IEA demand forecast latest", "Middle East Iran negotiations latest", "European markets DAX economic data today", "semiconductor earnings AI infrastructure today", "central bank rate decision emerging markets latest", "unusual options activity large block trades today", "insider buying SEC Form 4 filings notable today", "trade tariffs policy announcement latest today"]}}"""
@@ -240,11 +245,19 @@ def stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries):
     # --- SAFETY-NET SEARCHES (broad; GPT queries do the real work) ---
     mainstream_searches = [
         {
+            "name": "breaking_now",
+            "query": "breaking financial market news stock market moves latest today",
+            "topic": "finance",
+            "search_depth": "advanced",
+            "max_results": 7,
+            "time_range": "day",
+        },
+        {
             "name": "global_markets",
             "query": "most important global financial market news today Asia Europe US",
             "topic": "finance",
             "search_depth": "advanced",
-            "max_results": 7,
+            "max_results": 5,
             "time_range": "day",
         },
         {
@@ -588,6 +601,9 @@ Write the Daily Market Pulse briefing based on ALL the intelligence above.
 CRITICAL: This briefing is generated {now} and readers expect REAL-TIME freshness. Every story must reflect what is happening RIGHT NOW or within the last few hours.
 
 CRITICAL SELECTION PRINCIPLE: You are curating the 10 MOST IMPORTANT stories of the day for professional traders and investors. Every story must pass this test: "Is this something a portfolio manager NEEDS to know before the next session?" If a story is routine corporate housekeeping (offerings, filings, prospectus supplements) or niche noise with no broad market impact, it does NOT belong. Prioritize by MARKET IMPACT and BROAD RELEVANCE over specificity. FRESHNESS MATTERS: if a story has been widely covered for days and has no new development, deprioritize it in favor of something newer.
+
+RECENCY RULE (CRITICAL):
+At least 3-5 of the 10 stories MUST be about events from the LAST 2-4 HOURS. If the S&P just dropped 2%, or earnings just printed, or a central bank just spoke, those stories come FIRST. Do NOT fill the briefing with stories from 12+ hours ago when fresh developments exist. The reader needs to know what JUST happened, not a recap of yesterday. Older stories are fine for context, but recency wins when choosing between two stories of similar importance.
 
 STORY MIX REQUIREMENTS:
 - Stories 1-7: Major market-moving mainstream news. MUST cover DIVERSE topics AND REGIONS: macro data, earnings, geopolitics/politics, central banks, commodities, FX, etc. Think globally — if Asia or Europe had significant moves, they MUST be represented. Do NOT fill all 7 slots with US news when important things happened in other regions. If a macro data release happened, it gets ONE story that includes the market reaction — not 3 separate stories about the data, the bond move, and the demand narrative.

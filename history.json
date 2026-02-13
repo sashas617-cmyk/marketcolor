@@ -1,15 +1,17 @@
 {
-  "last_run": "2026-02-13T09:36:30Z",
+  "last_run": "2026-02-13T10:42:23Z",
   "stories": [
-    "Semicap tape tries to stabilize: Applied Materials beats + guides above Street",
-    "Tariffs/trade shock: U.S.\u2013Taiwan pact cuts tariffs to 15% + report flags metal/aluminum tariff rollback",
-    "Europe rates check: Swiss inflation steady; ECB\u2019s Nagel signals tolerance for brief dips",
-    "FX turns defensive: yen heads for best week in ~15 months into CPI risk",
-    "Geopolitics premium stays bid: U.S. and U.K. strike Houthi targets; Red Sea disruption persists",
-    "Commodity signal: China-driven gold frenzy adds bubble/vol risk at record prices",
-    "Market structure (derivs): Cboe launches nearly 24x5 trading for SPX, VIX, and RUT options",
-    "Options tape (single-name): Kenvue (KVUE) sees concentrated downside positioning in July $21 puts",
-    "Wildcard (energy/sanctions): Reliance gets U.S. license for Venezuelan oil imports"
+    "US equities: tech-led de-risking into CPI keeps vol elevated",
+    "Trade policy shock: appeals court finds Trump global tariffs illegal (plus metal/aluminum rollback chatter)",
+    "US\u2013China tech d\u00e9tente signal: reported pause of key restrictions into Trump\u2013Xi summit",
+    "FX/rates: yen ripping\u2014best week in ~15 months on BOJ normalization expectations",
+    "Oil: sanctions tighten \u201clegit barrels,\u201d but crude still capped by demand anxiety",
+    "Europe: corporate balance-sheet outlook improves, but 2026 earnings still seen falling",
+    "Semis try to re-anchor: Applied Materials jumps ~12% premarket on beat + guidance",
+    "Options alpha: Kenvue (KVUE) sees concentrated downside positioning in July $21 puts (5,000+ contracts)",
+    "Flow alpha: ARK buys ~$12.4M Robinhood (HOOD) while trimming Airbnb (ABNB)",
+    "Wildcard (crypto risk): Coinbase swings to Q4 loss as \u201cstablecoin stress\u201d narrative grows"
   ],
-  "tickers": []
+  "tickers": [],
+  "alpha_tickers": []
 }

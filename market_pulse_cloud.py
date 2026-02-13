@@ -54,6 +54,8 @@ def load_history():
 def save_history(briefing_text):
     """Extract story headlines and tickers from briefing, save for next run."""
     stories = []
+    alpha_tickers = []
+    in_alpha_section = False
     for line in briefing_text.split("\n"):
         if "**" in line and line.count("**") >= 2:
             start = line.index("**") + 2
@@ -61,6 +63,20 @@ def save_history(briefing_text):
             headline = line[start:end].strip()
             if len(headline) > 15 and ":" in headline:
                 stories.append(headline)
+        # Detect alpha stories (8-9) marked with lightning bolt
+        if "\u26a1" in line or "Alpha" in line or "alpha" in line:
+            in_alpha_section = True
+        # Extract tickers from alpha section
+        if in_alpha_section:
+            for word in line.split():
+                clean = word.lstrip("$").rstrip(".,;:!()")
+                if word.startswith("$") and clean.isalpha() and 1 <= len(clean) <= 5:
+                    if clean.upper() not in alpha_tickers:
+                        alpha_tickers.append(clean.upper())
+        # Reset on story divider
+        if in_alpha_section and line.strip() == "---":
+            in_alpha_section = False
+
     tickers = []
     for word in briefing_text.split():
         clean = word.lstrip("$").rstrip(".,;:!()")
@@ -68,15 +84,17 @@ def save_history(briefing_text):
             if clean.upper() not in tickers:
                 tickers.append(clean.upper())
     tickers.sort()
+    alpha_tickers.sort()
+
     data = {
         "last_run": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
         "stories": stories,
         "tickers": tickers,
+        "alpha_tickers": alpha_tickers,
     }
     with open(HISTORY_FILE, "w") as f:
         json.dump(data, f, indent=2)
-    print(f"  Saved history: {len(stories)} stories, {len(tickers)} tickers")
-
+    print(f"  Saved history: {len(stories)} stories, {len(tickers)} tickers, {len(alpha_tickers)} alpha tickers")
 
 # ---------------------------------------------------------------------------
 # STAGE 0: GPT reasons about what to search for right now
@@ -585,11 +603,17 @@ def stage4_final_synthesis(openai_client, analysis, additional, history=None):
             history_text += f"- {s_item}\n"
         if history.get("tickers"):
             history_text += f"Tickers mentioned: {', '.join(history['tickers'])}\n"
-        history_text += "\nDEDUPLICATION GUIDANCE (soft nudge, NOT a hard block):\n"
-        history_text += "- If a story above is STILL among the day\u2019s most important narratives, KEEP IT but write a fresh angle with updated data or new development\n"
-        history_text += "- Only SKIP stories that were marginal filler last time and have no new update\n"
-        history_text += "- Major themes (Fed, tariffs, geopolitical crises) SHOULD recur when genuinely driving markets\n"
-        history_text += "- The goal is fresh WRITING and angles, not exclusion of important topics\n"
+        # Hard block on alpha ticker repeats
+        if history.get("alpha_tickers"):
+            history_text += "\nALPHA TICKER HARD BLOCK (MANDATORY):\n"
+            history_text += f"These tickers were used in alpha stories (8-9) last run: {', '.join(history['alpha_tickers'])}\n"
+            history_text += "You MUST NOT use ANY of these tickers for stories 8-9 in this run. Find COMPLETELY DIFFERENT alpha.\n"
+            history_text += "This is a HARD RULE. If the only unusual options data is on a blocked ticker, pick a different alpha story entirely (insider buy, short squeeze, block trade on a DIFFERENT name).\n"
+
+        history_text += "\nDEDUPLICATION GUIDANCE (mainstream stories 1-7):\n"
+        history_text += "- Major themes (Fed, tariffs, geopolitical crises) SHOULD recur when genuinely driving markets \u2014 write a fresh angle with updated data\n"
+        history_text += "- Skip stories that were marginal filler last time and have no new update\n"
+        history_text += "- The goal is fresh WRITING and angles, not exclusion of important macro topics\n"
 
 
     response = openai_client.responses.create(

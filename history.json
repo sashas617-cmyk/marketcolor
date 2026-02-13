@@ -1,14 +1,15 @@
 {
-  "last_run": "2026-02-13T02:01:23Z",
+  "last_run": "2026-02-13T09:36:30Z",
   "stories": [
-    "Semicap reality check: Applied Materials beats and guides strongly (capex chain support)",
-    "Crypto equity beta in focus: Coinbase EPS beat but revenue missed",
-    "Tariff-path uncertainty: U.S. small business lawsuit challenges Trump tariff authority",
-    "Trade policy (Asia/US supply chains): Taiwan\u2013U.S. pact aims to cut tariffs, boost investment",
-    "FX regime shift watch: markets reassess \u201csafe havens\u201d (USD/JPY/CHF) + long-term USD bear case",
-    "Options alpha: Kenvue (KVUE) sees heavy downside positioning in July $21 puts (5,000+ contracts)",
-    "Tape anomaly (confirmed): NCI plunges ~47% premarket on massive volume (~47.5M shares) with no clear catalyst yet",
-    "M&A process wildcard: U.S. court blocks FTC\u2019s 2024 merger disclosure rule"
+    "Semicap tape tries to stabilize: Applied Materials beats + guides above Street",
+    "Tariffs/trade shock: U.S.\u2013Taiwan pact cuts tariffs to 15% + report flags metal/aluminum tariff rollback",
+    "Europe rates check: Swiss inflation steady; ECB\u2019s Nagel signals tolerance for brief dips",
+    "FX turns defensive: yen heads for best week in ~15 months into CPI risk",
+    "Geopolitics premium stays bid: U.S. and U.K. strike Houthi targets; Red Sea disruption persists",
+    "Commodity signal: China-driven gold frenzy adds bubble/vol risk at record prices",
+    "Market structure (derivs): Cboe launches nearly 24x5 trading for SPX, VIX, and RUT options",
+    "Options tape (single-name): Kenvue (KVUE) sees concentrated downside positioning in July $21 puts",
+    "Wildcard (energy/sanctions): Reliance gets U.S. license for Venezuelan oil imports"
   ],
   "tickers": []
 }

@@ -1,17 +1,14 @@
 {
-  "last_run": "2026-02-14T14:08:13Z",
+  "last_run": "2026-02-14T22:01:23Z",
   "stories": [
-    "Executive summary:",
-    "Macro: Cooler January CPI revives \u201ccuts later this year\u201d positioning, but Fed pushback on services",
-    "Geopolitics: Reuters\u2014Pentagon planning for potentially weeks-long operations against Iran",
-    "U.S.\u2013China policy volatility: Pentagon adds Alibaba & BYD to \u201cChinese military-linked\u201d list, then reportedly pulls filing",
-    "Trade/export controls: Applied Materials pays $25M settlement over alleged illegal exports to China",
-    "Energy/sanctions plumbing: U.S. moves Venezuela oil revenue from Qatar to the U.S. Treasury after sales top $1B",
-    "Single-name beta: Rivian rips ~30% post-earnings in a major EV risk-on tell",
-    "Biotech shock: Disc Medicine hit with FDA Complete Response Letter for EPP NDA",
-    "Options tape (actionable): OKLO sees conspicuously bullish positioning",
-    "Short-interest pressure cooker: Richtech Robotics (RR) short interest jumps to ~25.28% of float",
-    "Wildcard (unverified social buzz): Retail chatter clustering in GME/PLTR/TSLA and other high-vol favorites"
+    "Geopolitical escalation premium: Reuters says U.S. military prepping for potentially weeks-long Iran ops",
+    "U.S.\u2013China policy volatility whipsaws: Pentagon adds Alibaba & BYD to military-linked list, then reportedly pulls filing",
+    "EV dispersion shock: Rivian rips ~30% on Q4 \u2014 biggest single-day gain ever",
+    "Software risk-off flare-up: Unity sinks on weak Q1 outlook (multiple-compression read-through)",
+    "Crypto barometer: Bitcoin probes a $70K reclaim as \u201cextreme fear\u201d collides with volatile ETF flows",
+    "Options tape (actionable): OKLO sees bullish-leaning whale activity \u2014 calls ~$2.93M vs puts ~$1.46M",
+    "Short-interest pressure cooker: Richtech Robotics (RR) short interest jumps 34.4% to ~25.28% of float",
+    "Wildcard legal overhang: J&J hit with talc ovarian cancer liability verdict ($250K award)"
   ],
   "tickers": [],
   "alpha_tickers": []

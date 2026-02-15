@@ -1,14 +1,15 @@
 {
-  "last_run": "2026-02-14T22:01:23Z",
+  "last_run": "2026-02-15T08:06:04Z",
   "stories": [
-    "Geopolitical escalation premium: Reuters says U.S. military prepping for potentially weeks-long Iran ops",
-    "U.S.\u2013China policy volatility whipsaws: Pentagon adds Alibaba & BYD to military-linked list, then reportedly pulls filing",
-    "EV dispersion shock: Rivian rips ~30% on Q4 \u2014 biggest single-day gain ever",
-    "Software risk-off flare-up: Unity sinks on weak Q1 outlook (multiple-compression read-through)",
-    "Crypto barometer: Bitcoin probes a $70K reclaim as \u201cextreme fear\u201d collides with volatile ETF flows",
-    "Options tape (actionable): OKLO sees bullish-leaning whale activity \u2014 calls ~$2.93M vs puts ~$1.46M",
-    "Short-interest pressure cooker: Richtech Robotics (RR) short interest jumps 34.4% to ~25.28% of float",
-    "Wildcard legal overhang: J&J hit with talc ovarian cancer liability verdict ($250K award)"
+    "U.S. funding lapse: TSA working unpaid; travel-disruption risk rises (shutdown mechanics back in play)",
+    "Fed: Goolsbee warns services inflation is still \u201ctoo hot\u201d; disinflation back to 2% not assured",
+    "Iran escalation tail-risk: Reuters says U.S. military preparing for potentially weeks-long operations if ordered",
+    "Trade/China headline volatility: Pentagon adds Alibaba + BYD to \u201cChinese military\u201d list, then reportedly pulls filing",
+    "Commodities / sanctions channel: U.S. shifts Venezuela oil revenue control from Qatar to U.S. Treasury after sales top $1B",
+    "EV beta shock: Rivian rips ~30% on Q4 earnings (largest single-day gain in company history)",
+    "Healthcare/legal overhang: J&J found liable in Pennsylvania ovarian-cancer talc case (Reuters-cited)",
+    "Options tape (actionable): OKLO shows bullish-skew whale activity (~$2.93M calls vs ~$1.46M puts; 26 trades)",
+    "Short-interest build (squeeze sensitivity): Sprouts (SFM) short interest jumps ~20.8% to ~10.79M shares (~14.87% float); 3.49 DTC"
   ],
   "tickers": [],
   "alpha_tickers": []

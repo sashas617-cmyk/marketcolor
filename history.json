@@ -1,17 +1,15 @@
 {
-  "last_run": "2026-02-15T14:10:05Z",
+  "last_run": "2026-02-15T22:02:21Z",
   "stories": [
-    "Executive summary:",
-    "US funding lapse: TSA working unpaid; airport disruption risk rising",
-    "Fed\u2019s Goolsbee: services inflation still \u201cworrisome,\u201d 2% path not clear",
-    "Geopolitics: Reuters says US military preparing potentially weeks-long Iran operations if ordered",
-    "Trade-policy volatility: Pentagon adds Alibaba + BYD to \u201cChinese military\u201d list, then reportedly pulls filing",
-    "EV complex shock: Rivian rips ~30% on Q4 earnings (largest single-day gain ever)",
-    "Software/tools hit: Unity slides on weak outlook, reigniting \u201cAI fears\u201d",
-    "Mega-cap legal overhang: J&J found liable in Pennsylvania talc ovarian-cancer case",
-    "Alpha (options): Oklo (OKLO) sees conspicuously bullish positioning",
-    "Alpha (options): Bank of America (BAC) whale flow skews bearish",
-    "Global tech supply chain signal: Tesla expands AI chip design push into South Korea"
+    "Geopolitics \u2192 oil/defense risk premium: Pentagon prep for potentially weeks-long Iran ops",
+    "Trade / U.S.\u2013China policy volatility: Alibaba + BYD added to \u201cChinese military\u201d list, then filing reportedly pulled",
+    "Washington dysfunction: DHS funding lapse leaves TSA working unpaid; travel-delay risk rises",
+    "Rates narrative: Chicago Fed\u2019s Goolsbee says services inflation is \u201cnot tame,\u201d sticky around ~3%",
+    "U.S. fiscal overhang: watchdog flags potential \u201cdebt spiral\u201d and record debt-to-GDP path by 2030",
+    "Sanctions/flows wrinkle in crude: Venezuela oil proceeds reportedly shifted to the U.S. Treasury after >$1B sales",
+    "Mega-cap legal risk: J&J hit with fresh Pennsylvania talc liability verdict (ovarian-cancer case)",
+    "Alpha (options) \u2014 OKLO: bullish whale skew (~$2.93M calls vs ~$1.46M puts across 26 trades)",
+    "Alpha (options) \u2014 BAC: notable bearish tilt among large traders (41 detected trades)"
   ],
   "tickers": [],
   "alpha_tickers": []

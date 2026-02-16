@@ -1,15 +1,14 @@
 {
-  "last_run": "2026-02-15T22:02:21Z",
+  "last_run": "2026-02-16T09:43:39Z",
   "stories": [
-    "Geopolitics \u2192 oil/defense risk premium: Pentagon prep for potentially weeks-long Iran ops",
-    "Trade / U.S.\u2013China policy volatility: Alibaba + BYD added to \u201cChinese military\u201d list, then filing reportedly pulled",
-    "Washington dysfunction: DHS funding lapse leaves TSA working unpaid; travel-delay risk rises",
-    "Rates narrative: Chicago Fed\u2019s Goolsbee says services inflation is \u201cnot tame,\u201d sticky around ~3%",
-    "U.S. fiscal overhang: watchdog flags potential \u201cdebt spiral\u201d and record debt-to-GDP path by 2030",
-    "Sanctions/flows wrinkle in crude: Venezuela oil proceeds reportedly shifted to the U.S. Treasury after >$1B sales",
-    "Mega-cap legal risk: J&J hit with fresh Pennsylvania talc liability verdict (ovarian-cancer case)",
-    "Alpha (options) \u2014 OKLO: bullish whale skew (~$2.93M calls vs ~$1.46M puts across 26 trades)",
-    "Alpha (options) \u2014 BAC: notable bearish tilt among large traders (41 detected trades)"
+    "Partial DHS shutdown is live: TSA working unpaid, airport throughput risk rising",
+    "Trade/export-controls whiplash: Alibaba + BYD \u201cmilitary list\u201d move, then a reported pullback",
+    "Fed tone check: Goolsbee flags stubborn services inflation\u2014\u201cpath back to 2% not secured\u201d",
+    "Fiscal macro: watchdog warns of a potential U.S. \u201cdebt spiral\u201d with debt/GDP set to break records",
+    "Energy/sanctions mechanics: Venezuela oil revenue reportedly moved from Qatar to U.S. Treasury",
+    "Market structure today: Presidents Day holiday = thinner U.S. cash liquidity, wider spreads risk",
+    "Alpha (options) \u2014 OKLO: bullish \u201csmart money\u201d skew with ~$2.93M calls vs ~$1.46M puts",
+    "Alpha (options) \u2014 BAC: whale flow shows a notably bearish skew across 41 detected trades"
   ],
   "tickers": [],
   "alpha_tickers": []

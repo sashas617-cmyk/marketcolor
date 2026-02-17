@@ -1,22 +1,17 @@
 {
-  "last_run": "2026-02-16T22:06:37Z",
+  "last_run": "2026-02-17T09:40:39Z",
   "stories": [
-    "Executive summary:",
-    "FX positioning alert: BofA says investors are the most bearish on USD in ~14 years",
-    "Rates macro: China\u2019s U.S. Treasury share falls to ~7% (15-year low) \u2192 structural demand debate",
-    "Washington event risk: prediction markets handicap shutdown duration",
-    "Iran headline risk bifurcates: diplomacy carrot vs military tail-risk (energy risk premium in play)",
-    "Crypto tape: BTC ~68k, thin-liquidity weakness despite modest ETF inflows",
-    "ALPHA: $CHPT short interest climbs to ~18.3% of float (\u22486.94 days-to-cover)",
-    "ALPHA: $ARM short interest drops ~9.94% but stays elevated (~11.24% of float)",
-    "Wildcard (commodity/theme): first U.S. nuclear fuel license in 50 years revives \u201curanium race\u201d narrative"
+    "Container shipping M&A jolts the tape: Hapag-Lloyd reportedly bids for ZIM at $35/share cash (~$4.2B), +58% premium",
+    "Activist catalyst: Elliott reportedly builds >10% stake in Norwegian Cruise Line (NCLH)",
+    "Europe macro pulse: U.K. labor cools as Germany inflation holds\u2014rates pricing stays tight",
+    "Trade policy reality check: prediction markets doubt Trump\u2019s proposed $2,000 \u201ctariff dividend\u201d checks",
+    "Defense/AI procurement risk: Pentagon reportedly weighs cutting ties with Anthropic over potential \u201csupply chain risk\u201d tag",
+    "xAI in the crosshairs on two fronts: Pentagon drone-swarm challenge + EU GDPR probe into Grok",
+    "Non-AI semis demand signal: GlobalFoundries and Renesas sign multi-billion-dollar supply-chain collaboration (auto/industrial)",
+    "Alpha (positioning): Intel short interest drops 16.42% to 111.65M shares (2.24% of float)",
+    "Alpha (positioning): Hershey short interest falls 5.21% to 9.20M shares (7.28% of float)",
+    "Wildcard (unverified social buzz): Tesla owner claims FSD tried to drive into a lake and the issue is \u201crepeatable\u201d"
   ],
-  "tickers": [
-    "ARM",
-    "CHPT"
-  ],
-  "alpha_tickers": [
-    "ARM",
-    "CHPT"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

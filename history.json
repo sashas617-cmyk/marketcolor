@@ -1,6 +1,16 @@
 {
-  "last_run": "2026-02-18T09:38:11Z",
-  "stories": [],
+  "last_run": "2026-02-18T15:43:32Z",
+  "stories": [
+    "India crude flows shift: Russia share drops to lowest since late 2022 (Reuters)",
+    "Europe rates watch: early jockeying to succeed Lagarde at the ECB (FT)",
+    "AI complex bid: NVIDIA pops on \u201cmultiyear, multi-generational\u201d Meta partnership",
+    "Autonomy buildout: Uber to invest >$100M in AV charging (Reuters)",
+    "Healthcare/industrial policy: J&J to invest >$1B in next-gen cell therapy manufacturing",
+    "Payments tape: Global Payments guides strong profit outlook + launches $2.5B buyback (despite rev miss)",
+    "13F edge: Lennar takes a new stake in Opendoor \u2014 ~18M shares",
+    "Ownership catalyst: Galloway Capital discloses a 5.02% stake in GSI Technology (GSIT)",
+    "Biotech catalyst: ImmunityBio gets EU conditional authorization for ANKTIVA + BCG in NMIBC CIS"
+  ],
   "tickers": [],
   "alpha_tickers": []
 }

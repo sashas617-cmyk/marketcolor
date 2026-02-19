@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-02-19T15:38:34Z",
+  "last_run": "2026-02-19T23:06:58Z",
   "stories": [
-    "Consumer pulse splits: Walmart says spending resilient, but low-income stress is rising",
-    "Fed check: Kashkari says labor market still \u201cdecent,\u201d policy rate near neutral",
-    "Housing demand stumbles: Pending Home Sales shock-miss hits rate/affordability nerves",
-    "Geopolitics risk premium: Trump issues fresh Iran ultimatum-style rhetoric",
-    "Semis tone improves: Analog Devices beat + strong guide triggers price-target hikes",
-    "Industrials resilience: Deere prints an upbeat quarter, supports \u201creal economy holding up\u201d",
-    "LatAm payments consolidation: Visa expands Argentina infrastructure footprint",
-    "Short catalyst (STRL): Snowcap Research discloses a short in Sterling Infrastructure",
-    "Crowding signal (EXPE): short interest jumps 22.7% to ~7.08% of float",
-    "Regulatory speed bump for AVs: New York reportedly pulls robotaxi plan (Waymo setback)"
+    "Fed: Daly says policy \u201cin a good place\u201d after 75 bps of cuts\u2014but flags tariffs + AI productivity as key uncertainties",
+    "Geopolitics: WSJ says Trump weighing an initial *limited strike* to pressure Iran into a nuclear deal",
+    "Energy supply signal: Trump says 50M barrels of Venezuelan oil are \u201con the way to Houston\u201d",
+    "Sticky food inflation: ground beef hits a record $6.67/lb as cattle herd shrinks to 1951 levels",
+    "Gold equities catalyst: Newmont Q4 crushes estimates (Adj. EPS $2.52 vs $2.00; sales $6.82B vs $6.16B)",
+    "Software quality check: Workiva posts strong Q4 and lifts FY2026 outlook (Adj. EPS seen $2.66\u2013$2.76 vs $2.16 est.)",
+    "Big Tech cost optics: FT says Meta cuts staff stock awards for a second straight year",
+    "Capital return shocker: Select Medical authorizes a $1B stock buyback through Dec. 31, 2027 (SEM)",
+    "Shareholder-return re-rate: RingCentral expands buyback to $500M and initiates a quarterly dividend (RNG)"
   ],
   "tickers": [],
   "alpha_tickers": []

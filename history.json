@@ -1,10 +1,16 @@
 {
-  "last_run": "2026-02-20T15:12:09Z",
+  "last_run": "2026-02-20T22:03:24Z",
   "stories": [
-    "Reuters: US strikes on Iran could target individual leaders \u2014 crude/defense tail-risk back",
-    "Fed\u2019s Bostic: labor still tight; housing supply constrained; AI shifting hiring behavior",
-    "Insider signal: JPM CEO Jamie Dimon sells ~$21M of stock",
-    "Crowded short setup: Serve Robotics (SERV) short interest jumps to ~23.9% of float"
+    "Trade shock: Supreme Court strikes down Trump\u2019s IEEPA tariffs; White House signals a workaround",
+    "Fed (Musalem): policy \u201cin a good place,\u201d but tariff ruling widens the uncertainty cone",
+    "\u2018Neocloud contagion\u2019: CoreWeave financing snag headline hits peers (NBIS, APLD)",
+    "Credit impulse: Bank of America commits $25B to expand private credit",
+    "LatAm payments antitrust: Mexico rejects Visa\u2019s proposed Prosa takeover",
+    "Healthcare M&A arb tightens: Exact Sciences holders approve Abbott deal",
+    "Utility wildfire liability marker: PacifiCorp agrees to pay $575M to settle claims",
+    "Controls red flag: Weis Markets says 2022\u20132025 financials \u201cnot to be relied upon\u201d",
+    "Positioning shift: NRG short interest drops ~9% (covering signal)",
+    "Crypto pulse: contrarian Bitcoin longs show up as positioning skews short (unverified social buzz)"
   ],
   "tickers": [],
   "alpha_tickers": []

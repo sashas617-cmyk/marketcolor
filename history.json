@@ -1,21 +1,15 @@
 {
-  "last_run": "2026-02-26T15:45:02Z",
+  "last_run": "2026-02-26T23:07:48Z",
   "stories": [
-    "Trade/supply chain: China rare-earth curbs tighten U.S. aerospace + chip inputs",
-    "Washington policy: EPA may shift waived biofuel obligations onto big refiners (RFS/RIN shock risk)",
-    "Commodities/macro: U.S. natural gas storage draw beats by a mile (-52B vs -36B est.)",
-    "Geopolitics: House Democrats push Iran War Powers vote next week",
-    "Earnings/tech: Synopsys slides after guidance reset despite $2B buyback",
-    "Regulatory/legal: Walmart agrees to $100M FTC judgment (gig-economy disclosure risk)",
-    "AI + government/institutions: Anthropic is simultaneously in defense-contract tension and big-money adoption",
-    "Options tape (INTC): 22 large trades skew bearish; $1.34M calls vs $326k puts, but sentiment 59% bearish",
-    "Positioning (MDB): short interest rises to 3.74M shares (4.73% float), +6.53%",
-    "(Unverified social buzz) Short-seller callout: Jehoshaphat Research says it\u2019s short $GPGI, alleges \u201caccounting games\u201d tied to acquisition"
+    "Software demand nerves: Zscaler guide-down + Intuit slide hit \u201cquality growth\u201d sentiment",
+    "Media M&A goalposts move: Netflix won\u2019t raise for WBD; doubles down on spend + buybacks",
+    "Defense + AI contracting risk: Anthropic rejects Pentagon \u201cfinal offer\u201d on safeguards",
+    "AI infrastructure repricing: CoreWeave slides on mixed Q4 despite \u201chypergrowth\u201d talk",
+    "Crypto miners\u2019 next act: MARA pops on Starwood data-center development partnership",
+    "Cross-asset signal: gold\u2019s sustained outperformance vs. the S&P is flashing \u201chedge demand\u201d",
+    "Fintech infrastructure mega-deal: Brink\u2019s to buy NCR Atleos in ~$6.6B cash+stock transaction",
+    "Adtech/measurement support bid: DoubleVerify authorizes $300M share repurchase"
   ],
-  "tickers": [
-    "GPGI"
-  ],
-  "alpha_tickers": [
-    "GPGI"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

@@ -1,13 +1,21 @@
 {
-  "last_run": "2026-02-26T09:40:33Z",
+  "last_run": "2026-02-26T15:45:02Z",
   "stories": [
-    "Reuters: Rare-earth shortages are worsening\u2014now hitting U.S. aerospace and chips despite the trade truce.",
-    "Japan flows: Reuters says Toyota cross-shareholding unwind could mean ~$19B of stock supply.",
-    "India fintech angle: Apple reportedly in talks with banks to launch a payment service.",
-    "C3.ai shocker: 26% workforce cut; stock ~-22% after-hours on wider loss + sharply lower FY2026 revenue view.",
-    "ARK flow: Cathie Wood bought ~$11M of Tempus AI on the dip.",
-    "Biotech catalyst: argenx Phase 3 ADAPT OCULUS hits primary endpoint; supports planned sBLA for ocular MG."
+    "Trade/supply chain: China rare-earth curbs tighten U.S. aerospace + chip inputs",
+    "Washington policy: EPA may shift waived biofuel obligations onto big refiners (RFS/RIN shock risk)",
+    "Commodities/macro: U.S. natural gas storage draw beats by a mile (-52B vs -36B est.)",
+    "Geopolitics: House Democrats push Iran War Powers vote next week",
+    "Earnings/tech: Synopsys slides after guidance reset despite $2B buyback",
+    "Regulatory/legal: Walmart agrees to $100M FTC judgment (gig-economy disclosure risk)",
+    "AI + government/institutions: Anthropic is simultaneously in defense-contract tension and big-money adoption",
+    "Options tape (INTC): 22 large trades skew bearish; $1.34M calls vs $326k puts, but sentiment 59% bearish",
+    "Positioning (MDB): short interest rises to 3.74M shares (4.73% float), +6.53%",
+    "(Unverified social buzz) Short-seller callout: Jehoshaphat Research says it\u2019s short $GPGI, alleges \u201caccounting games\u201d tied to acquisition"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "GPGI"
+  ],
+  "alpha_tickers": [
+    "GPGI"
+  ]
 }

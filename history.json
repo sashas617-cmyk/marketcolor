@@ -1,17 +1,15 @@
 {
-  "last_run": "2026-03-01T14:04:14Z",
+  "last_run": "2026-03-01T21:58:52Z",
   "stories": [
-    "Executive summary (14:02 UTC):",
-    "Strait of Hormuz friction jumps from theory to execution: shippers pause transits after tanker hit off Oman",
-    "OPEC+ faces a bad choice: restart/hike output into a war premium\u2014despite limited spare capacity outside Saudi",
-    "Wall Street goes \u201chaven-first\u201d into Monday: positioning for gap risk, not dip-buy reflexes",
-    "Trade-policy shock (separate from the war): US\u2013Taiwan tensions + Supreme Court hits emergency tariff authority",
-    "Japan macro/FX risk: BOJ normalization path gets messier as inflation dips below 2% amid political pressure",
-    "China AI race accelerates: multiple new models beyond DeepSeek; UBS points to a preferred contender",
-    "Single-stock tape mover: Block (XYZ) rips ~20% on major layoffs + \u201cAI shift\u201d narrative",
-    "Crypto positioning tell: leverage flush + rebound\u2014BTC reclaims $68k as derivatives stay tense",
-    "Prediction-market positioning proxy: Polymarket SPX \u201copens up/down\u201d draws ~$728k volume into Monday",
-    "Wildcard (media/vol dispersion): Paramount/Skydance proposal implies huge capital structure + synergy swing for WBD"
+    "Gulf shipping hit: three tankers damaged; marine insurance shock now a first-order \u201coil price\u201d input",
+    "OPEC+ chooses \u201ccaution\u201d anyway: April output hike only +206k bpd despite war premium",
+    "Safe-haven bid strengthens: gold demand rises as Dubai physical flows get operationally constrained",
+    "Trade-policy shock (separate from the war): U.S. hits China graphite with new 160% duties",
+    "Week-ahead macro: geopolitics dominates, but the \u201csecond boss fight\u201d is the U.S. jobs report",
+    "Equity tape: AI-led tech pressure persists, and 0DTE hedging is poised to amplify intraday moves",
+    "Single-stock alpha: Block (XYZ) rips on a margin-reset catalyst\u2014layoffs >4,000; shares up ~20% at peak",
+    "Market-structure/reg-risk: Polymarket scrutinized after ~$515K Iran-strike bet placed ~71 minutes pre-headline; war contracts see massive volume",
+    "China credit wildcard: Country Garden misses bond payment even after extension\u2014contagion risk back on the table"
   ],
   "tickers": [],
   "alpha_tickers": []

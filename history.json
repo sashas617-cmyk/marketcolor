@@ -1,21 +1,17 @@
 {
-  "last_run": "2026-03-02T09:40:10Z",
+  "last_run": "2026-03-02T15:15:59Z",
   "stories": [
-    "Geopolitics flips the tape risk\u2011off: US\u2011Israel strikes on Iran drive broad de\u2011risking",
-    "Oil: OPEC+ \u201ctoken\u201d April hike (+206k bpd) is ignored\u2014Hormuz disruption duration is the price setter",
-    "Europe macro: Eurozone manufacturing PMI back in expansion (Germany also >50)",
-    "Emerging Asia growth pulse improves: Philippines PMI hits 8+ year high; Indonesia at 2\u2011year high",
-    "Japan rates: regional bank shifts into short JGBs, calls BOJ hike in April + ~6\u2011month cadence",
-    "Week\u2011ahead catalyst map: Iran headlines stay the #1 volatility input; US jobs data is the scheduled \u201cmacro gate\u201d",
-    "Trade policy overhang: tariff uncertainty resurfaces as a parallel macro shock (separate from the war)",
-    "Uranium contracting signal: Cameco signs $2.6B long\u2011term supply deal with India (2027\u20132035)",
-    "Market\u2011structure/reg risk: Polymarket scrutiny deepens after ~71\u2011minute pre\u2011headline Iran strike bet (~$515K profit)",
-    "Wildcard (defense equity angle): drones as the signature weapon\u2014AeroVironment ($AVAV) put in focus"
+    "Risk-off shock: Iran escalation + Hormuz disruption fears spike oil and hit equities",
+    "U.S. macro (just hit): ISM beats\u2014but inflation pulse jumps hard",
+    "Trade policy overhang: tariff uncertainty is back as a risk-premium input",
+    "Canada: BoC warns supply shocks can force hikes even if growth is weak",
+    "Europe: ECB urged to stay nimble\u2014ready to move rates quickly either way",
+    "Semis: ASML maps AI-era roadmap beyond EUV (capex and supply-chain signal)",
+    "Consumer/discretionary read-through: Norwegian Cruise Line cuts 2026 outlook",
+    "ALPHA (NOW): Unusual options cluster shows hedging + cautious bullishness",
+    "ALPHA (RJF): Short interest jumps to ~9.19M shares (5.29% of float)",
+    "Wildcard (biotech risk-on pocket): FDA lifts clinical hold on Intellia pivotal trial"
   ],
-  "tickers": [
-    "AVAV"
-  ],
-  "alpha_tickers": [
-    "AVAV"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

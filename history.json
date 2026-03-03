@@ -1,20 +1,6 @@
 {
-  "last_run": "2026-03-02T22:58:41Z",
-  "stories": [
-    "Trade-policy shock returns: Trump administration announces new global tariffs",
-    "Export-controls escalation: U.S. weighs capping Nvidia H200 sales to China at 75,000 per customer",
-    "Earnings tape warning: MongoDB beats, but the stock sells off on \u201cdurability vs. multiple\u201d fears",
-    "Canada: BoC warns it may need to hike even if the economy is weak (supply-shock regime)",
-    "UK data: Manufacturing PMI stays in expansion (51.7) with exports accelerating",
-    "UK policy/fiscal: Spring statement drives repricing of the UK rate-cut path",
-    "Insider signal: SoFi CEO Anthony Noto buys ~$1M of $SOFI in the open market",
-    "Capital return shock: Tidewater ($TDW) authorizes a $500M buyback after sharp earnings upside",
-    "Crypto policy wildcard: JPMorgan flags CLARITY Act catalysts as a potential 2H market-structure unlock (XRP mentioned)"
-  ],
-  "tickers": [
-    "SOFI"
-  ],
-  "alpha_tickers": [
-    "SOFI"
-  ]
+  "last_run": "2026-03-03T08:11:03Z",
+  "stories": [],
+  "tickers": [],
+  "alpha_tickers": []
 }

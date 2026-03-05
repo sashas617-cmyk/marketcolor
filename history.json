@@ -1,23 +1,16 @@
 {
-  "last_run": "2026-03-04T23:05:13Z",
+  "last_run": "2026-03-05T08:10:57Z",
   "stories": [
-    "Trade-policy shock goes live: Treasury\u2019s Bessent says a global 15% tariff starts this week; \u201cnormalization\u201d in ~5 months is the new base-case path",
-    "Geopolitics escalates: WSJ says U.S.-Israel strikes expand the Iran conflict; shipping lanes and Gulf logistics stay the market\u2019s focal point",
-    "Oil desk reprices higher: Goldman lifts Q2 Brent to $76 (WTI $71) on Hormuz disruption assumptions",
-    "Central banks\u2019 \u201clook-through\u201d test: CNBC flags easing-path risk if crude jumps $20\u201330/bbl (headline CPI impact doubles/triples)",
-    "Asia stress test: South Korea\u2019s benchmark plunges double-digits as energy-import shock reverberates across regional equities",
-    "China \u201cTwo Sessions\u201d watch: stimulus details, deficit targets (~4% chatter), and consumer/property support are the global cyclical swing factor",
-    "Earnings tape-driver: Broadcom beats Q1, guides Q2 higher, and authorizes a new $10B buyback",
-    "Hormuz insurance is now a tradable variable: Marsh/Aon in talks with the U.S. on insuring tankers transiting Hormuz; implementation could take weeks",
-    "Microcap \u201crisk-on pocket\u201d despite macro risk-off: $MOBX +600% day; $EDSA ~+300% on the week (confirmed by CNBC)",
-    "Gold snaps back: up >1% as safe-haven demand returns on war + inflation uncertainty"
+    "Trade-policy shock: global 15% tariff \u201cgoes live,\u201d while courts force refund plumbing",
+    "Fed patience message: Hammack favors steady rates amid Iran-war uncertainty",
+    "U.S. services run hot: ISM Services jumps to 56.1",
+    "AI/semis diverge: Broadcom\u2019s AI surge offsets export-control anxiety at Nvidia",
+    "Capital return signal: Wix launches $1.75B modified Dutch auction tender",
+    "Crypto risk gauge: Bitcoin rebounds above $74,000",
+    "INSIDER: Trade Desk CEO discloses purchase of >6M shares; stock jumps after-hours",
+    "FLOW: ARK rotates\u2014adds Amazon & Alibaba, trims TSMC",
+    "Wildcard: American Airlines options/short-interest activity spikes as oil risk stays the macro dagger"
   ],
-  "tickers": [
-    "EDSA",
-    "MOBX"
-  ],
-  "alpha_tickers": [
-    "EDSA",
-    "MOBX"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

@@ -1,15 +1,14 @@
 {
-  "last_run": "2026-03-05T08:10:57Z",
+  "last_run": "2026-03-05T15:43:02Z",
   "stories": [
-    "Trade-policy shock: global 15% tariff \u201cgoes live,\u201d while courts force refund plumbing",
-    "Fed patience message: Hammack favors steady rates amid Iran-war uncertainty",
-    "U.S. services run hot: ISM Services jumps to 56.1",
-    "AI/semis diverge: Broadcom\u2019s AI surge offsets export-control anxiety at Nvidia",
-    "Capital return signal: Wix launches $1.75B modified Dutch auction tender",
-    "Crypto risk gauge: Bitcoin rebounds above $74,000",
-    "INSIDER: Trade Desk CEO discloses purchase of >6M shares; stock jumps after-hours",
-    "FLOW: ARK rotates\u2014adds Amazon & Alibaba, trims TSMC",
-    "Wildcard: American Airlines options/short-interest activity spikes as oil risk stays the macro dagger"
+    "U.S. stock futures slip: energy shock + Middle East headlines cap risk appetite",
+    "Rates reprice higher: oil-driven inflation premium + still-tight labor data",
+    "Trade-policy shock back on the tape: 15% global tariff set to start this week",
+    "Europe: ECB\u2019s De Guindos flags the Iran conflict as a live input to policy",
+    "Semis/geopolitics: Nvidia reportedly halts China-bound H200 output",
+    "TTD momentum catalyst: OpenAI ad-talk chatter + reported ~$148M CEO share buy",
+    "AAPL options tape: concentrated put premium flagged across 26 trades",
+    "Crypto risk curb: SEC blocks 5x leveraged crypto ETFs"
   ],
   "tickers": [],
   "alpha_tickers": []

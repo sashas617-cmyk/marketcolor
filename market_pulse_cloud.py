@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 """
-Daily Market Pulse Bot - Enhanced Version v4
+Daily Market Pulse Bot - Enhanced Version v4.1 (Venice AI)
 Uses Tavily for deep multi-angle search + Benzinga for professional financial news
-+ GPT-5.2 Pro for reasoning/synthesis.
++ Venice AI GPT-5.4 for reasoning/synthesis.
+
+v4.1 changes:
+- Migrated from OpenAI GPT-5.2 Pro to Venice AI GPT-5.4
+- Uses Venice AI OpenAI-compatible API endpoint
+- Cost savings: Venice AI pricing vs OpenAI direct
 
 v4 changes:
 - Added StockTwits/fintwit aggregator searches for Twitter trending
@@ -23,18 +28,41 @@ from pathlib import Path
 # Configuration
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+VENICE_API_KEY = os.environ.get("VENICE_API_KEY")
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
 BENZINGA_API_KEY = os.environ.get("BENZINGA_API_KEY", "")
-
 HISTORY_FILE = Path(__file__).parent / "history.json"
+
+# Venice AI model
+VENICE_MODEL = "openai-gpt-54"
+VENICE_BASE_URL = "https://api.venice.ai/api/v1"
 
 
 def init_clients():
     """Initialize API clients."""
-    openai_client = OpenAI(api_key=OPENAI_API_KEY)
+    openai_client = OpenAI(
+        api_key=VENICE_API_KEY,
+        base_url=VENICE_BASE_URL,
+    )
     tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
     return openai_client, tavily_client
+
+
+def _venice_chat(client, prompt, max_tokens=4096):
+    """Helper: call Venice AI chat completions and return text content."""
+    response = client.chat.completions.create(
+        model=VENICE_MODEL,
+        messages=[
+            {"role": "user", "content": prompt},
+        ],
+        max_tokens=max_tokens,
+        extra_body={
+            "venice_parameters": {
+                "include_venice_system_prompt": False,
+            }
+        },
+    )
+    return response.choices[0].message.content
 
 
 def load_history():
@@ -56,6 +84,7 @@ def save_history(briefing_text):
     stories = []
     alpha_tickers = []
     in_alpha_section = False
+
     for line in briefing_text.split("\n"):
         if "**" in line and line.count("**") >= 2:
             start = line.index("**") + 2
@@ -63,9 +92,11 @@ def save_history(briefing_text):
             headline = line[start:end].strip()
             if len(headline) > 15 and ":" in headline:
                 stories.append(headline)
+
         # Detect alpha stories (8-9) marked with lightning bolt
         if "\u26a1" in line or "Alpha" in line or "alpha" in line:
             in_alpha_section = True
+
         # Extract tickers from alpha section
         if in_alpha_section:
             for word in line.split():
@@ -73,6 +104,7 @@ def save_history(briefing_text):
                 if word.startswith("$") and clean.isalpha() and 1 <= len(clean) <= 5:
                     if clean.upper() not in alpha_tickers:
                         alpha_tickers.append(clean.upper())
+
         # Reset on story divider
         if in_alpha_section and line.strip() == "---":
             in_alpha_section = False
@@ -92,49 +124,44 @@ def save_history(briefing_text):
         "tickers": tickers,
         "alpha_tickers": alpha_tickers,
     }
+
     with open(HISTORY_FILE, "w") as f:
         json.dump(data, f, indent=2)
     print(f"  Saved history: {len(stories)} stories, {len(tickers)} tickers, {len(alpha_tickers)} alpha tickers")
+
 
 # ---------------------------------------------------------------------------
 # STAGE 0: GPT reasons about what to search for right now
 # ---------------------------------------------------------------------------
 def stage0_generate_queries(openai_client):
-    """GPT-5.2 Pro generates targeted search queries based on current context."""
+    """Venice AI GPT-5.4 generates targeted search queries based on current context."""
     now = datetime.utcnow()
     today = now.strftime("%A, %B %d, %Y %H:%M UTC")
     hour = now.hour
 
-    response = openai_client.responses.create(
-        model="gpt-5.2-pro",
-        input=f"""Today is {today}. Current UTC hour: {hour}.
+    prompt = f"""Today is {today}. Current UTC hour: {hour}.
 
-You are a global financial markets research director. Your job: figure out the 12 most
-important things happening RIGHT NOW that could affect financial markets, politics, and geopolitics.
+You are a global financial markets research director. Your job: figure out the 12 most important things happening RIGHT NOW that could affect financial markets, politics, and geopolitics.
 
-RECENCY IS CRITICAL. At least 4-6 of your 12 queries MUST target events from the LAST 2-4 HOURS.
-Think: what just happened? What broke in the last session? What moved in the last few hours?
-Use phrases like "breaking", "just now", "last hour", "today session" in those queries.
+RECENCY IS CRITICAL. At least 4-6 of your 12 queries MUST target events from the LAST 2-4 HOURS. Think: what just happened? What broke in the last session? What moved in the last few hours? Use phrases like "breaking", "just now", "last hour", "today session" in those queries.
+
 The remaining queries can cover important ongoing themes from earlier today.
 
-Think globally. What happened overnight in Asia? What is Europe doing? Any US pre-market movers?
-Earnings surprises? Central bank signals? Geopolitical developments? Commodity moves?
-Unusual flows or positioning? Emerging market events? Trade policy shifts?
+Think globally. What happened overnight in Asia? What is Europe doing? Any US pre-market movers? Earnings surprises? Central bank signals? Geopolitical developments? Commodity moves? Unusual flows or positioning? Emerging market events? Trade policy shifts?
 
-DO NOT default to generic US-centric queries like "Federal Reserve" or "CPI" unless those are
-genuinely the biggest story right now. Think about what a sophisticated global macro trader
-sitting in Dubai at this hour would need to know.
+DO NOT default to generic US-centric queries like "Federal Reserve" or "CPI" unless those are genuinely the biggest story right now. Think about what a sophisticated global macro trader sitting in Dubai at this hour would need to know.
 
-Generate exactly 12 search queries designed to surface the freshest, most market-relevant
-news across ALL regions and asset classes. Each query should be specific and timely.
-Include "today" or "latest" or "breaking" or "February 2026" in queries to bias toward fresh results.
+Generate exactly 12 search queries designed to surface the freshest, most market-relevant news across ALL regions and asset classes. Each query should be specific and timely. Include "today" or "latest" or "breaking" or "March 2026" in queries to bias toward fresh results.
 
-Return ONLY a JSON object. No explanation. Example:
+Return ONLY a JSON object. No explanation.
+
+Example:
 {{"queries": ["Japan yen surge Nikkei record today", "China CPI PPI inflation data latest", "Ukraine Russia overnight attack energy infrastructure", "US pre-market movers earnings surprises today", "oil price IEA demand forecast latest", "Middle East Iran negotiations latest", "European markets DAX economic data today", "semiconductor earnings AI infrastructure today", "central bank rate decision emerging markets latest", "unusual options activity large block trades today", "insider buying SEC Form 4 filings notable today", "trade tariffs policy announcement latest today"]}}"""
-    )
+
+    text = _venice_chat(openai_client, prompt, max_tokens=2048)
 
     try:
-        data = json.loads(response.output_text)
+        data = json.loads(text)
         if isinstance(data, dict):
             queries = data.get("queries", [])[:12]
             if queries:
@@ -162,8 +189,6 @@ Return ONLY a JSON object. No explanation. Example:
             "AI semiconductor infrastructure earnings latest today",
         ],
     )
-
-
 
 
 # ---------------------------------------------------------------------------
@@ -194,7 +219,6 @@ def fetch_benzinga_news(limit=200):
         if resp.status_code != 200:
             print(f"  benzinga: API error {resp.status_code}")
             return []
-
         data = resp.json()
         articles = data.get("results", []) if isinstance(data, dict) else data
 
@@ -223,7 +247,6 @@ def fetch_benzinga_news(limit=200):
             article_url = a.get("url", "")
             author = a.get("author", "Benzinga")
             created = a.get("created", a.get("updated", ""))
-
             stocks = a.get("stocks", [])
             ticker_names = [s.get("name", "") for s in stocks if isinstance(s, dict)]
             ticker_str = ", ".join(ticker_names[:5])
@@ -244,10 +267,8 @@ def fetch_benzinga_news(limit=200):
                 "content": " | ".join(content_parts),
                 "published_date": created,
             })
-
         print(f"  benzinga: {len(normalized)} articles")
         return normalized
-
     except Exception as e:
         print(f"  benzinga: ERROR - {e}")
         return []
@@ -326,10 +347,10 @@ def stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries):
         try:
             response = tavily_client.search(query=query, **config)
             results = response.get("results", [])
-            print(f"  {name}: {len(results)} results")
+            print(f"    {name}: {len(results)} results")
             return name, results
         except Exception as e:
-            print(f"  {name}: ERROR - {e}")
+            print(f"    {name}: ERROR - {e}")
             return name, []
 
     # Run all search categories
@@ -389,7 +410,7 @@ def stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries):
 # STAGE 2: GPT first-pass analysis - rank, flag, identify dig-deeper targets
 # ---------------------------------------------------------------------------
 def stage2_first_pass(openai_client, search_results):
-    """GPT-5.2 Pro analyzes all Tavily results and produces structured analysis."""
+    """Venice AI GPT-5.4 analyzes all Tavily results and produces structured analysis."""
 
     # Format all results into context with source categorization
     context_parts = []
@@ -397,6 +418,7 @@ def stage2_first_pass(openai_client, search_results):
         is_social = any(tag in category for tag in ["social", "twitter", "fintwit", "reddit", "wsb"])
         is_alpha = any(tag in category for tag in ["alpha", "options", "insider", "short"])
         is_benzinga = "benzinga" in category
+
         if is_social:
             source_tag = " [SOCIAL/FINTWIT]"
         elif is_benzinga:
@@ -405,6 +427,7 @@ def stage2_first_pass(openai_client, search_results):
             source_tag = " [ALPHA/EDGE]"
         else:
             source_tag = " [MAINSTREAM]"
+
         context_parts.append(f"\n--- {category.upper()}{source_tag} ---")
         for item in items:
             entry = f"Title: {item.get('title', 'N/A')}"
@@ -413,17 +436,15 @@ def stage2_first_pass(openai_client, search_results):
             if item.get("published_date"):
                 entry += f"\nPublished: {item['published_date']}"
             context_parts.append(entry)
-
     context = "\n".join(context_parts)
 
-    response = openai_client.responses.create(
-        model="gpt-5.2-pro",
-        input=f"""=== TAVILY SEARCH RESULTS ===
+    prompt = f"""=== TAVILY SEARCH RESULTS ===
+
 {context}
 
-You are a senior financial analyst who also monitors fintwit, WSB, unusual flow data, and Benzinga pro news.
-Analyze these search results and produce a structured assessment.
-Sources include Tavily web search, Benzinga professional financial news [BENZINGA PRO], social media [SOCIAL/FINTWIT], and alpha/edge [ALPHA/EDGE]. Benzinga articles are professional-grade Ã¢ÂÂ treat as high-credibility, no fact-checking needed.
+You are a senior financial analyst who also monitors fintwit, WSB, unusual flow data, and Benzinga pro news. Analyze these search results and produce a structured assessment.
+
+Sources include Tavily web search, Benzinga professional financial news [BENZINGA PRO], social media [SOCIAL/FINTWIT], and alpha/edge [ALPHA/EDGE]. Benzinga articles are professional-grade — treat as high-credibility, no fact-checking needed.
 
 CRITICAL FRESHNESS RULE: This briefing runs 3x daily. Stories must be FRESH - published within the last 8 hours ideally, 12 hours max. REJECT stale news.
 
@@ -435,19 +456,27 @@ CRITICAL TOPIC DIVERSITY: The 10 stories MUST span at least 6 of these categorie
 - Macro data / economic releases
 - Central banks / Fed / monetary policy
 - Geopolitics / wars / military / sanctions
-- Trade policy / tariffs / export controls (PRIORITY Ã¢ÂÂ always include if tariff or trade news exists)
+- Trade policy / tariffs / export controls (PRIORITY — always include if tariff or trade news exists)
 - Earnings / individual company news
 - Commodities / energy / crypto
 - Unusual options / insider activity / flow data
 - Social media buzz / fintwit / Twitter trending / WSB
-If you find yourself with 3+ stories on the same macro release, you are doing it wrong. Geopolitics and trade policy are SEPARATE categories Ã¢ÂÂ a tariff story is not the same as a war story.
+
+If you find yourself with 3+ stories on the same macro release, you are doing it wrong. Geopolitics and trade policy are SEPARATE categories — a tariff story is not the same as a war story.
 
 TASKS:
-1. RANK: Identify 15-18 most IMPORTANT and MARKET-MOVING stories. Importance = stories a professional trader NEEDS to know today. If Bloomberg would not flash it as breaking news, skip it. For each, you MUST include the source_url from the search results. AGGRESSIVELY deduplicate - merge all angles of the same event into ONE story. Categories:
+
+1. RANK: Identify 15-18 most IMPORTANT and MARKET-MOVING stories. Importance = stories a professional trader NEEDS to know today. If Bloomberg would not flash it as breaking news, skip it. For each, you MUST include the source_url from the search results.
+
+   AGGRESSIVELY deduplicate - merge all angles of the same event into ONE story.
+
+   Categories:
    - MAINSTREAM (8-10): Major market news from credible outlets
    - ALPHA (3-5): Unusual options, insider trades, short squeezes, flow data. MUST cite specific tickers, dollar amounts, or strike prices. MUST describe an EVENT that happened (a trade, a filing, a spike, a move) - NEVER a "how to" guide, tutorial, or advice on how to scan/use a tool. If it reads like instruction rather than news, it is NOT alpha.
    - SOCIAL BUZZ (1-2): Only include if genuinely viral or market-moving. Skip if stale or low-impact
+
 2. DIG DEEPER: Pick 3-4 stories (prefer ALPHA/SOCIAL) that deserve deeper investigation.
+
 3. FACT CHECK: Flag social media claims that make specific factual assertions. These MUST be verified.
 
 Return ONLY valid JSON:
@@ -462,12 +491,12 @@ Return ONLY valid JSON:
     {{"claim": "the specific claim to verify", "original_source": "x.com or reddit.com", "verify_query": "search query targeting credible sources"}}
   ]
 }}"""
-    )
+
+    text = _venice_chat(openai_client, prompt, max_tokens=4096)
 
     try:
-        return json.loads(response.output_text)
+        return json.loads(text)
     except Exception:
-        text = response.output_text
         start = text.find("{")
         end = text.rfind("}") + 1
         if start >= 0 and end > start:
@@ -483,14 +512,8 @@ Return ONLY valid JSON:
 # STAGE 3: Tavily verification + deep dives
 # ---------------------------------------------------------------------------
 CREDIBLE_DOMAINS = [
-    "reuters.com",
-    "bloomberg.com",
-    "cnbc.com",
-    "ft.com",
-    "wsj.com",
-    "apnews.com",
-    "bbc.com",
-    "marketwatch.com",
+    "reuters.com", "bloomberg.com", "cnbc.com", "ft.com",
+    "wsj.com", "apnews.com", "bbc.com", "marketwatch.com",
     "finance.yahoo.com",
 ]
 
@@ -556,7 +579,7 @@ def stage3_verify_and_deepen(tavily_client, analysis):
 # STAGE 4: GPT final synthesis into polished briefing
 # ---------------------------------------------------------------------------
 def stage4_final_synthesis(openai_client, analysis, additional, history=None):
-    """GPT-5.2 Pro writes the final market briefing from all gathered intelligence."""
+    """Venice AI GPT-5.4 writes the final market briefing from all gathered intelligence."""
     now = datetime.utcnow().strftime("%A, %B %d, %Y %H:%M UTC")
 
     # Compile all intelligence WITH source URLs
@@ -603,6 +626,7 @@ def stage4_final_synthesis(openai_client, analysis, additional, history=None):
             history_text += f"- {s_item}\n"
         if history.get("tickers"):
             history_text += f"Tickers mentioned: {', '.join(history['tickers'])}\n"
+
         # Hard block on alpha ticker repeats
         if history.get("alpha_tickers"):
             history_text += "\nALPHA TICKER HARD BLOCK (MANDATORY):\n"
@@ -615,10 +639,7 @@ def stage4_final_synthesis(openai_client, analysis, additional, history=None):
         history_text += "- Skip stories that were marginal filler last time and have no new update\n"
         history_text += "- The goal is fresh WRITING and angles, not exclusion of important macro topics\n"
 
-
-    response = openai_client.responses.create(
-        model="gpt-5.2-pro",
-        input=f"""{context}
+    prompt = f"""{context}
 
 Write the Daily Market Pulse briefing based on ALL the intelligence above.
 
@@ -626,34 +647,35 @@ CRITICAL: This briefing is generated {now} and readers expect REAL-TIME freshnes
 
 CRITICAL SELECTION PRINCIPLE: You are curating the 10 MOST IMPORTANT stories of the day for professional traders and investors. Every story must pass this test: "Is this something a portfolio manager NEEDS to know before the next session?" If a story is routine corporate housekeeping (offerings, filings, prospectus supplements) or niche noise with no broad market impact, it does NOT belong. Prioritize by MARKET IMPACT and BROAD RELEVANCE over specificity. FRESHNESS MATTERS: if a story has been widely covered for days and has no new development, deprioritize it in favor of something newer.
 
-RECENCY RULE (CRITICAL):
-At least 3-5 of the 10 stories MUST be about events from the LAST 2-4 HOURS. If the S&P just dropped 2%, or earnings just printed, or a central bank just spoke, those stories come FIRST. Do NOT fill the briefing with stories from 12+ hours ago when fresh developments exist. The reader needs to know what JUST happened, not a recap of yesterday. Older stories are fine for context, but recency wins when choosing between two stories of similar importance.
+RECENCY RULE (CRITICAL): At least 3-5 of the 10 stories MUST be about events from the LAST 2-4 HOURS. If the S&P just dropped 2%, or earnings just printed, or a central bank just spoke, those stories come FIRST. Do NOT fill the briefing with stories from 12+ hours ago when fresh developments exist. The reader needs to know what JUST happened, not a recap of yesterday. Older stories are fine for context, but recency wins when choosing between two stories of similar importance.
 
 STORY MIX REQUIREMENTS:
-- Stories 1-7: Major market-moving mainstream news. MUST cover DIVERSE topics AND REGIONS: macro data, earnings, geopolitics/politics, central banks, commodities, FX, etc. Think globally — if Asia or Europe had significant moves, they MUST be represented. Do NOT fill all 7 slots with US news when important things happened in other regions. If a macro data release happened, it gets ONE story that includes the market reaction — not 3 separate stories about the data, the bond move, and the demand narrative.
-- Stories 8-9: Alpha/edge stories with SPECIFIC actionable intelligence that is MARKET-MOVING and of BROAD interest. These MUST name specific tickers, dollar amounts, strike prices, dates, or insider names. They MUST describe something that IS HAPPENING or HAS HAPPENED Ã¢ÂÂ an event, a trade, a filing, a spike. NEVER write "how to use" a tool, "how to scan for" X, "monitor this dashboard," or any instructional content. NEVER use routine corporate filings as alpha stories. BAD examples: prospectus supplements, shelf registrations, convertible note offerings, equity offering program updates, SEC form filings. These are corporate housekeeping, NOT alpha intelligence. The reader wants unusual TRADES, FLOW, INSIDER MOVES, or MARKET-MOVING events - not paperwork.
-BAD: "Use Fintel to monitor borrow fees." BAD: "Scan for unusual options activity." GOOD: "$TSLA saw $45M in call sweeps at $280 strike, Feb 14 expiry - 3x normal volume." GOOD: "CEO of XYZ bought $2.1M in shares on the open market, largest insider buy in 3 years." If the data doesn't have specific alpha events, pick the most newsworthy non-mainstream story available.
-- Story 10: Wildcard \u2014 the single most important remaining story you haven\u2019t covered yet, regardless of category. Could be social buzz, additional alpha, a developing geopolitical angle, or anything else. Pick purely by importance and freshness. If it\u2019s from social media, label as \u2018(unverified social buzz).\u2019
+- Stories 1-7: Major market-moving mainstream news. MUST cover DIVERSE topics AND REGIONS: macro data, earnings, geopolitics/politics, central banks, commodities, FX, etc. Think globally. If a macro data release happened, it gets ONE story that includes the market reaction.
+- Stories 8-9: Alpha/edge stories with SPECIFIC actionable intelligence that is MARKET-MOVING and of BROAD interest. These MUST name specific tickers, dollar amounts, strike prices, dates, or insider names. They MUST describe something that IS HAPPENING or HAS HAPPENED. NEVER write "how to use" a tool or any instructional content. NEVER use routine corporate filings as alpha stories.
+  BAD: "Use Fintel to monitor borrow fees." BAD: "Scan for unusual options activity."
+  GOOD: "$TSLA saw $45M in call sweeps at $280 strike, Feb 14 expiry - 3x normal volume."
+  GOOD: "CEO of XYZ bought $2.1M in shares on the open market, largest insider buy in 3 years."
+  If the data doesn't have specific alpha events, pick the most newsworthy non-mainstream story available.
+- Story 10: Wildcard \u2014 the single most important remaining story you haven't covered yet, regardless of category.
 
-ABSOLUTE RULE: Each of the 10 stories must cover a DIFFERENT topic. No two stories should be about the same data release, the same company, or the same market theme. If you catch yourself writing two stories about the same thing, MERGE them into one and find a new topic for the freed-up slot. Look for geopolitics, trade policy/tariffs (these are SEPARATE topics), sector-specific moves, individual earnings, crypto, commodities, politics - the world is big. ALWAYS include a trade policy/tariff story if any tariff or trade news exists in the data.
+ABSOLUTE RULE: Each of the 10 stories must cover a DIFFERENT topic. No two stories should be about the same data release, the same company, or the same market theme.
 
 FORMAT:
 1. Executive summary: 2-3 sentences capturing overall market mood and the single biggest theme RIGHT NOW.
 2. 10 numbered stories using emoji numbers (1 through 10).
 3. Each story: 2-3 punchy sentences with specific names, numbers, percentages.
-4. MANDATORY: After each story, include the source link on a new line formatted as: Link: [url]
-   This is CRITICAL - every story MUST have its source link. Use the Source URLs provided in the data above.
+4. MANDATORY: After each story, include the source link on a new line formatted as:
+   Link: [url]
 5. For stories 8-9, prefix with a lightning bolt emoji to signal alpha content.
 6. For story 10, prefix with a star emoji to signal wildcard/best remaining story.
 7. For verified social claims, note "confirmed by [source]". For unverified, label "(unverified social buzz)".
 8. End with one "Key Watch:" line for what to monitor next.
 
-TONE: Like a sharp morning briefing from a senior analyst who also monitors fintwit and unusual flow.
-Professional but engaging. Stories 8-9 should feel like insider intel you can't get from mainstream news. Story 10 should surprise the reader with the most important thing they might have missed.
-Every sentence earns its place.\n{history_text} No filler, no padding. The reader should feel smarter after reading all 10 stories, each one teaching them something new about a DIFFERENT corner of the market."""
-    )
+TONE: Like a sharp morning briefing from a senior analyst who also monitors fintwit and unusual flow. Professional but engaging.
+{history_text}
+No filler, no padding. The reader should feel smarter after reading all 10 stories, each one teaching them something new about a DIFFERENT corner of the market."""
 
-    return response.output_text
+    return _venice_chat(openai_client, prompt, max_tokens=4096)
 
 
 # ---------------------------------------------------------------------------
@@ -663,7 +685,6 @@ def send_telegram_message(message):
     """Send message to Telegram, splitting at newlines if over 4000 chars."""
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     max_len = 4000
-
     now = datetime.utcnow().strftime("%B %d, %Y %H:%M UTC")
     full_message = f"Daily Market Pulse - {now}\n\n{message}"
 
@@ -694,13 +715,13 @@ def send_telegram_message(message):
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 60)
-    print("Daily Market Pulse Bot v4 (Twitter + Geopolitics + Alpha Fix)")
+    print("Daily Market Pulse Bot v4.1 (Venice AI GPT-5.4)")
     print(f"{datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}")
     print("=" * 60)
 
     # Validate environment
     missing = []
-    for var in ["TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID", "OPENAI_API_KEY", "TAVILY_API_KEY"]:
+    for var in ["TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID", "VENICE_API_KEY", "TAVILY_API_KEY"]:
         if not os.environ.get(var):
             missing.append(var)
     if missing:
@@ -726,7 +747,7 @@ def main():
     print("\nStage 1: Running Tavily searches...")
     search_results = stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries)
     total = sum(len(v) for v in search_results.values())
-    print(f"   Total results gathered: {total}")
+    print(f"  Total results gathered: {total}")
 
     # Stage 2 - GPT first-pass analysis
     print("\nStage 2: GPT analyzing and ranking stories...")
@@ -736,9 +757,9 @@ def main():
     for s in top:
         c = s.get("category", "mainstream")
         cats[c] = cats.get(c, 0) + 1
-    print(f"   Top stories: {len(top)} ({', '.join(f'{k}={v}' for k,v in cats.items())})")
-    print(f"   Dig deeper targets: {len(analysis.get('dig_deeper', []))}")
-    print(f"   Fact checks needed: {len(analysis.get('fact_check', []))}")
+    print(f"  Top stories: {len(top)} ({', '.join(f'{k}={v}' for k,v in cats.items())})")
+    print(f"  Dig deeper targets: {len(analysis.get('dig_deeper', []))}")
+    print(f"  Fact checks needed: {len(analysis.get('fact_check', []))}")
 
     # Stage 3 - Verification + deep dives
     print("\nStage 3: Deep dives and fact-checking...")
@@ -747,7 +768,7 @@ def main():
     # Load history of previously covered stories
     history = load_history()
 
-    # Stage 4 \u2014 Final synthesis
+    # Stage 4 — Final synthesis
     print("\nStage 4: Generating final briefing...")
     briefing = stage4_final_synthesis(openai_client, analysis, additional, history)
 
@@ -757,7 +778,6 @@ def main():
     # Deliver
     print("\nSending to Telegram...")
     result = send_telegram_message(briefing)
-
     if result.get("ok"):
         print("Message sent successfully!")
         return True

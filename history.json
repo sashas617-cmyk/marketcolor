@@ -1,15 +1,13 @@
 {
-  "last_run": "2026-03-07T13:39:33Z",
+  "last_run": "2026-03-07T21:49:11Z",
   "stories": [
-    "U.S. labor shock: February payrolls -92,000; unemployment jumps to 4.2%\u2014risk-off impulse into next session",
-    "Fed tone hardens: Hammack says inflation is \u201ctoo high,\u201d rates could stay on hold \u201cfor some time\u201d",
-    "Trade policy re-enters the AI tape: U.S. weighs export permits tying Nvidia/AMD chip access to U.S. data-center investment",
-    "Europe risk premium stays elevated: Russian strike kills at least seven in Kharkiv (incl. children), Reuters reports",
-    "AI capex \u201call clear\u201d (for now): Oracle says OpenAI relationship unchanged; 4.5GW deal still moving forward",
-    "Single-name shock with sector read-through: Block (SQ) spikes after Jack Dorsey orders sweeping layoffs (4,000+)",
-    "Index-flow catalyst (forced buying/selling): Vertiv, Lumentum, Coherent, EchoStar to join S&P 500 effective March 23",
-    "Crowded-tape alert: Mobix Labs (MOBX) short interest +863.93%\u2014squeeze risk rises if defense/aero order news persists",
-    "Regulatory overhang (wildcard): SEC/FINRA probe 200+ firms over unusual trading ahead of crypto-treasury strategies and stock surges"
+    "Fed\u2019s Hammack pushes back on dovish hopes: inflation still \u201ctoo high,\u201d policy likely on hold near neutral",
+    "Systematic flow warning: BofA flags large CTA equity selling after drawdown",
+    "Europe adds a second energy inflation vector: natural gas spikes to year-highs",
+    "Trade/industrial policy: U.S. and Japan weigh a ~$13B Japan Display plant",
+    "AI infrastructure tone shift: Oracle and OpenAI end plans to expand the Texas data center beyond the initial build",
+    "Volatility beta is back: UVIX +13% as VIX presses toward the ~30 fear zone",
+    "Crypto flow tell: whale deploys ~$12.5M USDC to buy 6,228 ETH on the dip"
   ],
   "tickers": [],
   "alpha_tickers": []

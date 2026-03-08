@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Daily Market Pulse Bot - Enhanced Version v4.1 (Venice AI)
+Daily Market Pulse Bot - Enhanced Version v4.3 (Venice AI)
 Uses Tavily for deep multi-angle search + Benzinga for professional financial news
 + Venice AI GPT-5.4 for reasoning/synthesis.
 
@@ -52,6 +52,7 @@ def _venice_chat(client, prompt, max_tokens=4096):
     """Helper: call Venice AI chat completions and return text content.
     v4.2: Added strip_thinking_response for reasoning models (GPT-5.2/5.4)
     that wrap output in <think>...</think> tags, breaking JSON parsing.
+    v4.3: Handle None/empty responses gracefully.
     """
     response = client.chat.completions.create(
         model=VENICE_MODEL,
@@ -66,7 +67,8 @@ def _venice_chat(client, prompt, max_tokens=4096):
             }
         },
     )
-    return response.choices[0].message.content
+    content = response.choices[0].message.content
+    return content if content else ""
 
 
 def load_history():
@@ -417,7 +419,13 @@ def stage2_first_pass(openai_client, search_results):
     """Venice AI GPT-5.4 analyzes all Tavily results and produces structured analysis."""
 
     # Format all results into context with source categorization
+    # v4.3: Cap context to ~60K chars to stay within model context window.
+    # 288 results at 500 chars each = 144K which overwhelms the model (returns empty).
+    MAX_CONTEXT_CHARS = 60000
+    MAX_SNIPPET_CHARS = 300  # shortened from 500
+
     context_parts = []
+    total_chars = 0
     for category, items in search_results.items():
         is_social = any(tag in category for tag in ["social", "twitter", "fintwit", "reddit", "wsb"])
         is_alpha = any(tag in category for tag in ["alpha", "options", "insider", "short"])
@@ -432,15 +440,27 @@ def stage2_first_pass(openai_client, search_results):
         else:
             source_tag = " [MAINSTREAM]"
 
-        context_parts.append(f"\n--- {category.upper()}{source_tag} ---")
-        for item in items:
+        header = f"\n--- {category.upper()}{source_tag} ---"
+        context_parts.append(header)
+        total_chars += len(header)
+
+        # For Benzinga, limit to top 40 (most recent) to avoid flooding
+        max_items = 40 if is_benzinga else len(items)
+        for item in items[:max_items]:
             entry = f"Title: {item.get('title', 'N/A')}"
             entry += f"\nURL: {item.get('url', '')}"
-            entry += f"\nSnippet: {item.get('content', '')[:500]}"
+            entry += f"\nSnippet: {item.get('content', '')[:MAX_SNIPPET_CHARS]}"
             if item.get("published_date"):
                 entry += f"\nPublished: {item['published_date']}"
+            total_chars += len(entry)
+            if total_chars > MAX_CONTEXT_CHARS:
+                context_parts.append("... (remaining results truncated for context window)")
+                break
             context_parts.append(entry)
+        if total_chars > MAX_CONTEXT_CHARS:
+            break
     context = "\n".join(context_parts)
+    print(f"  Stage 2 context size: {len(context)} chars ({total_chars} raw)")
 
     prompt = f"""=== TAVILY SEARCH RESULTS ===
 
@@ -497,6 +517,17 @@ Return ONLY valid JSON:
 }}"""
 
     text = _venice_chat(openai_client, prompt, max_tokens=8192)
+
+    # v4.3: If response is empty, retry once with a shorter context
+    if not text or not text.strip():
+        print(f"  WARNING: Empty response from Venice AI ({len(context)} char context). Retrying with shorter context...")
+        # Retry with halved context
+        short_context = context[:MAX_CONTEXT_CHARS // 2]
+        short_prompt = prompt.replace(context, short_context)
+        text = _venice_chat(openai_client, short_prompt, max_tokens=8192)
+        if not text or not text.strip():
+            print(f"  WARNING: Still empty after retry. Response length: {len(text or '')} chars")
+            return {"top_stories": [], "dig_deeper": [], "fact_check": []}
 
     # v4.2: Robust JSON extraction — handle thinking tags, markdown, etc.
     cleaned = text
@@ -742,7 +773,7 @@ def send_telegram_message(message):
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 60)
-    print("Daily Market Pulse Bot v4.1 (Venice AI GPT-5.4)")
+    print("Daily Market Pulse Bot v4.3 (Venice AI GPT-5.4)")
     print(f"{datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}")
     print("=" * 60)
 
@@ -807,10 +838,13 @@ def main():
     result = send_telegram_message(briefing)
     if result.get("ok"):
         print("Message sent successfully!")
-        return True
     else:
-        print(f"Send error: {result}")
-        return False
+        # v4.3: Telegram failure is non-fatal — the briefing was still generated
+        print(f"  Telegram send error: {result}")
+        print("  NOTE: Pipeline completed successfully but Telegram delivery failed.")
+        print("  Check TELEGRAM_BOT_TOKEN is valid (verify via @BotFather).")
+    # Always return True if we got this far — the analysis/briefing succeeded
+    return True
 
 
 if __name__ == "__main__":

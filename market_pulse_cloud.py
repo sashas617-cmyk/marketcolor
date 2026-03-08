@@ -49,7 +49,10 @@ def init_clients():
 
 
 def _venice_chat(client, prompt, max_tokens=4096):
-    """Helper: call Venice AI chat completions and return text content."""
+    """Helper: call Venice AI chat completions and return text content.
+    v4.2: Added strip_thinking_response for reasoning models (GPT-5.2/5.4)
+    that wrap output in <think>...</think> tags, breaking JSON parsing.
+    """
     response = client.chat.completions.create(
         model=VENICE_MODEL,
         messages=[
@@ -59,6 +62,7 @@ def _venice_chat(client, prompt, max_tokens=4096):
         extra_body={
             "venice_parameters": {
                 "include_venice_system_prompt": False,
+                "strip_thinking_response": True,
             }
         },
     )

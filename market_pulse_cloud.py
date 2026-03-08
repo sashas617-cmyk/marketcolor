@@ -496,19 +496,42 @@ Return ONLY valid JSON:
   ]
 }}"""
 
-    text = _venice_chat(openai_client, prompt, max_tokens=4096)
+    text = _venice_chat(openai_client, prompt, max_tokens=8192)
+
+    # v4.2: Robust JSON extraction — handle thinking tags, markdown, etc.
+    cleaned = text
+
+    # Strip <think>...</think> reasoning tags (in case strip_thinking_response didn't work)
+    think_end = cleaned.find("</think>")
+    if think_end >= 0:
+        cleaned = cleaned[think_end + 8:].strip()
+
+    # Strip markdown code fences: ```json ... ``` or ``` ... ```
+    if "```" in cleaned:
+        parts = cleaned.split("```")
+        for part in parts[1:]:  # skip text before first fence
+            inner = part.strip()
+            if inner.startswith("json"):
+                inner = inner[4:].strip()
+            if inner.startswith("{"):
+                cleaned = inner
+                break
 
     try:
-        return json.loads(text)
+        return json.loads(cleaned)
     except Exception:
-        start = text.find("{")
-        end = text.rfind("}") + 1
+        # Try extracting the outermost JSON object
+        start = cleaned.find("{")
+        end = cleaned.rfind("}") + 1
         if start >= 0 and end > start:
             try:
-                return json.loads(text[start:end])
+                return json.loads(cleaned[start:end])
             except Exception:
                 pass
-        print("  WARNING: Could not parse Stage 2 JSON, using empty analysis")
+        # Log what we got for debugging
+        preview = text[:500] if len(text) > 500 else text
+        print(f"  WARNING: Could not parse Stage 2 JSON. Response preview:\n{preview}")
+        print(f"  Response length: {len(text)} chars")
         return {"top_stories": [], "dig_deeper": [], "fact_check": []}
 
 

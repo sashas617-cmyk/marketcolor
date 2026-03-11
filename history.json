@@ -1,6 +1,12 @@
 {
-  "last_run": "2026-03-11T15:33:27Z",
-  "stories": [],
+  "last_run": "2026-03-11T15:59:50Z",
+  "stories": [
+    "Hong Kong capital-markets pulse: Morgan Stanley adds contract capacity amid a pickup in listings",
+    "Tape condition: headline velocity + single-name dispersion stay elevated into the U.S. session",
+    "AVGO options: ~$262M call sweep (two large sweeps), deep ITM and very short-dated (as soon as ~10 days)",
+    "FISV options anomaly: put volume spike with V/OI ~309.6; example contract $49 strike, Apr 10 \u201926 expiry",
+    "Wildcard (broad positioning): SPY absorbs ~$33.6M in put hedges into macro/CB catalysts"
+  ],
   "tickers": [],
   "alpha_tickers": []
 }

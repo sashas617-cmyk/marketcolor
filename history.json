@@ -1,14 +1,10 @@
 {
-  "last_run": "2026-03-11T14:12:00Z",
+  "last_run": "2026-03-11T14:28:43Z",
   "stories": [
-    "Iran conflict: heaviest strikes yet; Tehran reiterates oil blockade as markets hunt for an \u201cendgame\u201d",
-    "Europe opens lower as war risk dominates: Stoxx 600 -0.8%",
-    "Rates macro: \u201cIt ain\u2019t over yet\u201d\u2014cut-path repricing continues as energy complicates inflation math",
-    "AI capex arms race: Reuters flags Big Tech spending ~$650B this year",
-    "ECB: Lagarde signals resolve to prevent a repeat of the last energy-driven inflation shock",
-    "Options alpha: AVGO saw a massive ~$262M call sweep; SPY put hedges also active",
-    "Insider alpha: Trade Desk CEO Jeff Green reports indirect open-market buys of 6,000,000 shares",
-    "Wildcard: FISV downside positioning spike\u201411,763 put contracts vs 38 OI (V/OI ~309.6)"
+    "Executive summary (2\u20133 sentences):",
+    "[Alpha: options flow / positioning \u2014 must include tickers + strikes + $ notional + expiry]",
+    "[Alpha: insider / block trade / buyback / activist / deal term \u2014 must include names + $]",
+    "[Wildcard: most important remaining uncaptured story]"
   ],
   "tickers": [],
   "alpha_tickers": []

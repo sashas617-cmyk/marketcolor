@@ -522,7 +522,7 @@ Return ONLY valid JSON:
   ]
 }}"""
 
-    text = _venice_chat(openai_client, prompt, max_tokens=8192)
+    text = _venice_chat(openai_client, prompt, max_tokens=12288)
 
     # v4.3: If response is empty, retry once with a shorter context
     if not text or not text.strip():
@@ -556,7 +556,7 @@ Return ONLY valid JSON:
 
     try:
         return json.loads(cleaned)
-    except Exception:
+    except Exception as e1:
         # Try extracting the outermost JSON object
         start = cleaned.find("{")
         end = cleaned.rfind("}") + 1
@@ -565,10 +565,53 @@ Return ONLY valid JSON:
                 return json.loads(cleaned[start:end])
             except Exception:
                 pass
-        # Log what we got for debugging
-        preview = text[:500] if len(text) > 500 else text
-        print(f"  WARNING: Could not parse Stage 2 JSON. Response preview:\n{preview}")
+
+        # v4.6.2: Regex fallback — extract individual story objects from malformed JSON
+        # This handles truncated responses, trailing commas, unescaped chars, etc.
+        print(f"  WARNING: Could not parse Stage 2 JSON (error: {e1}). Trying regex fallback...")
         print(f"  Response length: {len(text)} chars")
+        stories = []
+        # Match objects that have at least title and source_url
+        pattern = r'\{[^{}]*"title"\s*:\s*"([^"]*)"[^{}]*"source_url"\s*:\s*"([^"]*)"[^{}]*\}'
+        for m in re.finditer(pattern, cleaned):
+            full_match = m.group(0)
+            try:
+                obj = json.loads(full_match)
+                stories.append(obj)
+            except Exception:
+                # Build object manually from the match
+                title = m.group(1)
+                url = m.group(2)
+                # Try to extract summary too
+                summary_m = re.search(r'"summary"\s*:\s*"([^"]*)"', full_match)
+                summary = summary_m.group(1) if summary_m else title
+                stories.append({
+                    "title": title,
+                    "summary": summary,
+                    "source_url": url,
+                    "impact": "medium",
+                    "category": "mainstream"
+                })
+        if stories:
+            print(f"  Regex fallback recovered {len(stories)} stories")
+            return {"top_stories": stories, "dig_deeper": [], "fact_check": []}
+
+        # Last resort: try fixing common JSON issues
+        try:
+            # Remove trailing commas before ] or }
+            fixed = re.sub(r',\s*([\]\}])', r'\1', cleaned[start:end] if start >= 0 else cleaned)
+            # Try to close truncated JSON
+            open_braces = fixed.count('{') - fixed.count('}')
+            open_brackets = fixed.count('[') - fixed.count(']')
+            fixed += ']' * max(0, open_brackets) + '}' * max(0, open_braces)
+            result = json.loads(fixed)
+            print(f"  JSON repair recovered {len(result.get('top_stories', []))} stories")
+            return result
+        except Exception:
+            pass
+
+        preview = text[:500] if len(text) > 500 else text
+        print(f"  CRITICAL: All JSON parsing methods failed. Response preview:\n{preview}")
         return {"top_stories": [], "dig_deeper": [], "fact_check": []}
 
 
@@ -764,7 +807,7 @@ def send_telegram_message(message):
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 60)
-    print("Daily Market Pulse Bot v4.6.1 (Brave Search + Benzinga + Venice AI)'%Y-%m-%d %H:%M:%S UTC')")
+    print("Daily Market Pulse Bot v4.6.2 (Brave Search + Benzinga + Venice AI)'%Y-%m-%d %H:%M:%S UTC')")
     print("=" * 60)
 
     # Validate environment

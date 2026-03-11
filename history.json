@@ -1,10 +1,14 @@
 {
-  "last_run": "2026-03-11T14:28:43Z",
+  "last_run": "2026-03-11T14:59:53Z",
   "stories": [
-    "Executive summary (2\u20133 sentences):",
-    "[Alpha: options flow / positioning \u2014 must include tickers + strikes + $ notional + expiry]",
-    "[Alpha: insider / block trade / buyback / activist / deal term \u2014 must include names + $]",
-    "[Wildcard: most important remaining uncaptured story]"
+    "Iran doubles down: oil blockade continues until attacks end (headline risk still live)",
+    "Asia risk-on: regional equities climb as traders fade worst-case war outcomes",
+    "ECB pushback: Europe warns markets may be pricing cuts too aggressively",
+    "Hong Kong capital markets pulse: Morgan Stanley adds contract capacity for listing surge",
+    "Premarket single-stock signal: software + defense both in play (ORCL, AVAV)",
+    "Options alpha: AVGO sees a massive ~$262M call sweep (deep ITM, very near-dated)",
+    "Options anomaly: FISV put burst \u2014 Apr 10, 2026 $49 strike, ~11,763 contracts vs OI 38",
+    "Wildcard (tape check): NVDA firmer on AI spend narrative while TSLA stays heavy on delivery concerns"
   ],
   "tickers": [],
   "alpha_tickers": []

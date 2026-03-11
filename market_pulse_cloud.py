@@ -35,7 +35,8 @@ BENZINGA_API_KEY = os.environ.get("BENZINGA_API_KEY", "")
 HISTORY_FILE = Path(__file__).parent / "history.json"
 
 # Venice AI model
-VENICE_MODEL = "openai-gpt-54"
+VENICE_MODEL = "openai-gpt-52"
+VENICE_FALLBACK_MODEL = "grok-41-fast"
 VENICE_BASE_URL = "https://api.venice.ai/api/v1"
 
 
@@ -51,37 +52,38 @@ def init_clients():
 
 def _venice_chat(client, prompt, max_tokens=4096, retries=3):
     """Helper: call Venice AI chat completions and return text content.
-    v4.2: Added strip_thinking_response for reasoning models (GPT-5.2/5.4)
-    that wrap output in <think>...</think> tags, breaking JSON parsing.
-    v4.3: Handle None/empty responses gracefully.
-    v4.4: Added retry loop with backoff for BETA model reliability.
+    v4.5: Switch to stable GPT-5.2 with Grok 4.1 Fast fallback.
     """
-    for attempt in range(retries):
-        try:
-            response = client.chat.completions.create(
-                model=VENICE_MODEL,
-                messages=[
-                    {"role": "user", "content": prompt},
-                ],
-                max_tokens=max_tokens,
-                extra_body={
-                    "venice_parameters": {
-                        "include_venice_system_prompt": False,
-                        "strip_thinking_response": True,
-                    }
-                },
-            )
-            result = response.choices[0].message.content
-            if result and result.strip():
-                return result
-            print(f"  WARNING: Empty response from Venice AI (attempt {attempt+1}/{retries}). finish_reason={response.choices[0].finish_reason}")
-        except Exception as e:
-            print(f"  ERROR: Venice AI API call failed (attempt {attempt+1}/{retries}): {e}")
-        if attempt < retries - 1:
-            time.sleep(5 * (attempt + 1))
+    models_to_try = [VENICE_MODEL, VENICE_FALLBACK_MODEL]
+    for model in models_to_try:
+        for attempt in range(retries):
+            try:
+                response = client.chat.completions.create(
+                    model=model,
+                    messages=[
+                        {"role": "user", "content": prompt},
+                    ],
+                    max_tokens=max_tokens,
+                    extra_body={
+                        "venice_parameters": {
+                            "include_venice_system_prompt": False,
+                            "strip_thinking_response": True,
+                        }
+                    },
+                )
+                result = response.choices[0].message.content
+                if result and result.strip():
+                    if model != VENICE_MODEL:
+                        print(f"  INFO: Got response from fallback model {model}")
+                    return result
+                print(f"  WARNING: Empty response from {model} (attempt {attempt+1}/{retries}). finish_reason={response.choices[0].finish_reason}")
+            except Exception as e:
+                print(f"  ERROR: {model} API call failed (attempt {attempt+1}/{retries}): {e}")
+            if attempt < retries - 1:
+                time.sleep(5 * (attempt + 1))
+        print(f"  WARNING: All {retries} attempts failed for {model}, trying next model...")
+    print("  CRITICAL: All models failed to return content")
     return ""
-
-
 def load_history():
     """Load previously covered stories to avoid repetition across runs."""
     try:
@@ -432,7 +434,7 @@ def stage2_first_pass(openai_client, search_results):
     # Format all results into context with source categorization
     # v4.3: Cap context to ~60K chars to stay within model context window.
     # 288 results at 500 chars each = 144K which overwhelms the model (returns empty).
-    MAX_CONTEXT_CHARS = 30000
+    MAX_CONTEXT_CHARS = 15000
     MAX_SNIPPET_CHARS = 300  # shortened from 500
 
     context_parts = []
@@ -784,8 +786,7 @@ def send_telegram_message(message):
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 60)
-    print("Daily Market Pulse Bot v4.3 (Venice AI GPT-5.4)")
-    print(f"{datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}")
+    print("Daily Market Pulse Bot v4.5 (Venice AI GPT-5.2 + Grok fallback)'%Y-%m-%d %H:%M:%S UTC')}")
     print("=" * 60)
 
     # Validate environment

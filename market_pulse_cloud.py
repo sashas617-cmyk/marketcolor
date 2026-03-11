@@ -767,16 +767,24 @@ TONE: Like a sharp morning briefing from a senior analyst who also monitors fint
 {history_text}
 No filler, no padding. The reader should feel smarter after reading all 10 stories, each one teaching them something new about a DIFFERENT corner of the market."""
 
-    # v4.6.4: Retry if briefing too short (Venice AI sometimes returns tiny summaries)
+    # v4.6.5: Retry with story count validation + higher max_tokens for full 10-story output
     print(f"  Stage 4 prompt length: {len(prompt)} chars")
-    for s4_attempt in range(3):
-        briefing = _venice_chat(openai_client, prompt, max_tokens=4096)
-        if len(briefing) >= 1000:
+    for s4_attempt in range(4):
+        briefing = _venice_chat(openai_client, prompt, max_tokens=8192)
+        # Count stories by counting "Link:" lines (each story must have exactly one)
+        story_count = sum(1 for line in briefing.split("\n") if line.strip().startswith("Link:"))
+        print(f"  Stage 4 attempt {s4_attempt+1}/4: {len(briefing)} chars, {story_count} stories detected")
+        if len(briefing) >= 2000 and story_count >= 8:
             return briefing
-        print(f"  WARNING: Stage 4 briefing too short ({len(briefing)} chars), attempt {s4_attempt+1}/3")
-        if s4_attempt < 2:
+        reason = []
+        if len(briefing) < 2000:
+            reason.append(f"too short ({len(briefing)} chars)")
+        if story_count < 8:
+            reason.append(f"only {story_count} stories (need 8+)")
+        print(f"  WARNING: Retry needed - {', '.join(reason)}")
+        if s4_attempt < 3:
             time.sleep(5)
-    print(f"  CRITICAL: Stage 4 could not produce full briefing after 3 attempts. Using last result ({len(briefing)} chars).")
+    print(f"  CRITICAL: Stage 4 could not produce full 10-story briefing after 4 attempts. Using last result ({len(briefing)} chars, {story_count} stories).")
     return briefing
 
 
@@ -839,7 +847,7 @@ def send_telegram_message(message):
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 60)
-    print("Daily Market Pulse Bot v4.6.4 (Brave Search + Benzinga + Venice AI)'%Y-%m-%d %H:%M:%S UTC')")
+    print("Daily Market Pulse Bot v4.6.5 (Brave Search + Benzinga + Venice AI)'%Y-%m-%d %H:%M:%S UTC')")
     print("=" * 60)
 
     # Validate environment

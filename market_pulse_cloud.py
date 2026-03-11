@@ -767,7 +767,17 @@ TONE: Like a sharp morning briefing from a senior analyst who also monitors fint
 {history_text}
 No filler, no padding. The reader should feel smarter after reading all 10 stories, each one teaching them something new about a DIFFERENT corner of the market."""
 
-    return _venice_chat(openai_client, prompt, max_tokens=4096)
+    # v4.6.4: Retry if briefing too short (Venice AI sometimes returns tiny summaries)
+    print(f"  Stage 4 prompt length: {len(prompt)} chars")
+    for s4_attempt in range(3):
+        briefing = _venice_chat(openai_client, prompt, max_tokens=4096)
+        if len(briefing) >= 1000:
+            return briefing
+        print(f"  WARNING: Stage 4 briefing too short ({len(briefing)} chars), attempt {s4_attempt+1}/3")
+        if s4_attempt < 2:
+            time.sleep(5)
+    print(f"  CRITICAL: Stage 4 could not produce full briefing after 3 attempts. Using last result ({len(briefing)} chars).")
+    return briefing
 
 
 # ---------------------------------------------------------------------------
@@ -829,7 +839,7 @@ def send_telegram_message(message):
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 60)
-    print("Daily Market Pulse Bot v4.6.3 (Brave Search + Benzinga + Venice AI)'%Y-%m-%d %H:%M:%S UTC')")
+    print("Daily Market Pulse Bot v4.6.4 (Brave Search + Benzinga + Venice AI)'%Y-%m-%d %H:%M:%S UTC')")
     print("=" * 60)
 
     # Validate environment
@@ -884,6 +894,7 @@ def main():
     # Stage 4 — Final synthesis
     print("\nStage 4: Generating final briefing...")
     briefing = stage4_final_synthesis(openai_client, analysis, additional, history)
+    print(f"  Briefing length: {len(briefing)} chars")
 
     # Save history for next run
     save_history(briefing)

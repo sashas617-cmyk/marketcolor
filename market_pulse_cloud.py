@@ -774,15 +774,28 @@ No filler, no padding. The reader should feel smarter after reading all 10 stori
 # Telegram delivery
 # ---------------------------------------------------------------------------
 def send_telegram_message(message):
-    """Send message to Telegram, splitting at newlines if over 4000 chars."""
+    """Send message to Telegram, splitting at newlines if over 4000 chars. v4.6.3: full error logging."""
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     max_len = 4000
     now = datetime.utcnow().strftime("%B %d, %Y %H:%M UTC")
-    full_message = f"Daily Market Pulse - {now}\n\n{message}"
+    full_message = f"Daily Market Pulse \u2013 {now}\n\n{message}"
+    print(f"  Telegram message length: {len(full_message)} chars")
+
+    def _send_chunk(text, label=""):
+        """Send a single chunk and return (ok, response_dict)."""
+        try:
+            resp = requests.post(url, json={"chat_id": CHAT_ID, "text": text, "disable_web_page_preview": True}, timeout=30)
+            data = resp.json()
+            if not data.get("ok"):
+                print(f"  Telegram API error{label}: {data.get('error_code')} - {data.get('description')}")
+            return data.get("ok", False), data
+        except Exception as e:
+            print(f"  Telegram send exception{label}: {e}")
+            return False, {"ok": False, "description": str(e)}
 
     if len(full_message) <= max_len:
-        resp = requests.post(url, json={"chat_id": CHAT_ID, "text": full_message, "disable_web_page_preview": True}, timeout=30)
-        return resp.json()
+        ok, data = _send_chunk(full_message)
+        return data
 
     # Split on newlines
     chunks, current = [], ""
@@ -796,18 +809,27 @@ def send_telegram_message(message):
     if current:
         chunks.append(current)
 
-    result = None
-    for chunk in chunks:
-        result = requests.post(url, json={"chat_id": CHAT_ID, "text": chunk, "disable_web_page_preview": True}, timeout=30)
-    return result.json() if result else {"ok": False}
+    print(f"  Message split into {len(chunks)} chunks: {[len(c) for c in chunks]}")
+    all_ok = True
+    last_data = {"ok": False}
+    for i, chunk in enumerate(chunks):
+        ok, data = _send_chunk(chunk, f" [chunk {i+1}/{len(chunks)}]")
+        if ok:
+            print(f"  Chunk {i+1}/{len(chunks)} sent ({len(chunk)} chars)")
+        else:
+            all_ok = False
+        last_data = data
+        time.sleep(0.5)  # Rate limit buffer between chunks
 
-
+    if all_ok:
+        last_data["ok"] = True
+    return last_data
 # ---------------------------------------------------------------------------
 # Main pipeline
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 60)
-    print("Daily Market Pulse Bot v4.6.2 (Brave Search + Benzinga + Venice AI)'%Y-%m-%d %H:%M:%S UTC')")
+    print("Daily Market Pulse Bot v4.6.3 (Brave Search + Benzinga + Venice AI)'%Y-%m-%d %H:%M:%S UTC')")
     print("=" * 60)
 
     # Validate environment
@@ -867,15 +889,16 @@ def main():
     save_history(briefing)
 
     # Deliver
-    print("\nSending to Telegram...")
+    print(f"\nSending to Telegram... (briefing length: {len(briefing)} chars)")
+    print(f"  CHAT_ID: {CHAT_ID}")
+    print(f"  Briefing preview: {briefing[:200]}...")
     result = send_telegram_message(briefing)
     if result.get("ok"):
         print("Message sent successfully!")
     else:
-        # v4.3: Telegram failure is non-fatal — the briefing was still generated
-        print(f"  Telegram send error: {result}")
-        print("  NOTE: Pipeline completed successfully but Telegram delivery failed.")
-        print("  Check TELEGRAM_BOT_TOKEN is valid (verify via @BotFather).")
+        print(f"  Telegram send FAILED: {result}")
+        print("  NOTE: Pipeline completed but Telegram delivery failed.")
+        print("  Check TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID.")
     # Always return True if we got this far — the analysis/briefing succeeded
     return True
 

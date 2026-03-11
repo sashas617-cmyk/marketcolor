@@ -20,6 +20,7 @@ import os
 import json
 import re
 import requests
+import time
 from datetime import datetime
 from openai import OpenAI
 from tavily import TavilyClient
@@ -48,27 +49,37 @@ def init_clients():
     return openai_client, tavily_client
 
 
-def _venice_chat(client, prompt, max_tokens=4096):
+def _venice_chat(client, prompt, max_tokens=4096, retries=3):
     """Helper: call Venice AI chat completions and return text content.
     v4.2: Added strip_thinking_response for reasoning models (GPT-5.2/5.4)
     that wrap output in <think>...</think> tags, breaking JSON parsing.
     v4.3: Handle None/empty responses gracefully.
+    v4.4: Added retry loop with backoff for BETA model reliability.
     """
-    response = client.chat.completions.create(
-        model=VENICE_MODEL,
-        messages=[
-            {"role": "user", "content": prompt},
-        ],
-        max_tokens=max_tokens,
-        extra_body={
-            "venice_parameters": {
-                "include_venice_system_prompt": False,
-                "strip_thinking_response": False,
-            }
-        },
-    )
-    content = response.choices[0].message.content
-    return content if content else ""
+    for attempt in range(retries):
+        try:
+            response = client.chat.completions.create(
+                model=VENICE_MODEL,
+                messages=[
+                    {"role": "user", "content": prompt},
+                ],
+                max_tokens=max_tokens,
+                extra_body={
+                    "venice_parameters": {
+                        "include_venice_system_prompt": False,
+                        "strip_thinking_response": True,
+                    }
+                },
+            )
+            result = response.choices[0].message.content
+            if result and result.strip():
+                return result
+            print(f"  WARNING: Empty response from Venice AI (attempt {attempt+1}/{retries}). finish_reason={response.choices[0].finish_reason}")
+        except Exception as e:
+            print(f"  ERROR: Venice AI API call failed (attempt {attempt+1}/{retries}): {e}")
+        if attempt < retries - 1:
+            time.sleep(5 * (attempt + 1))
+    return ""
 
 
 def load_history():
@@ -421,7 +432,7 @@ def stage2_first_pass(openai_client, search_results):
     # Format all results into context with source categorization
     # v4.3: Cap context to ~60K chars to stay within model context window.
     # 288 results at 500 chars each = 144K which overwhelms the model (returns empty).
-    MAX_CONTEXT_CHARS = 60000
+    MAX_CONTEXT_CHARS = 30000
     MAX_SNIPPET_CHARS = 300  # shortened from 500
 
     context_parts = []

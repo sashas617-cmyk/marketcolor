@@ -261,8 +261,8 @@ def _clean_html(text):
     return re.sub(r'<[^>]+>', '', text).strip()
 
 
-def fetch_benzinga_news(limit=200):
-    """Fetch latest news from Benzinga API and normalize to Tavily result format."""
+def fetch_benzinga_news(limit=100):
+    """Fetch latest news from Benzinga API with retry logic."""
     if not BENZINGA_API_KEY:
         print("  benzinga: SKIPPED (no API key)")
         return []
@@ -274,11 +274,23 @@ def fetch_benzinga_news(limit=200):
         "sort": "published.desc",
     }
 
+    resp = None
+    for attempt in range(3):
+        try:
+            resp = requests.get(url, params=params, headers={"Accept": "application/json"}, timeout=30)
+            if resp.status_code == 200:
+                break
+            print(f"  benzinga: HTTP {resp.status_code} (attempt {attempt+1}/3)")
+        except Exception as e:
+            print(f"  benzinga: timeout/error (attempt {attempt+1}/3) - {e}")
+        if attempt < 2:
+            time.sleep(3)
+
+    if resp is None or resp.status_code != 200:
+        print("  benzinga: FAILED after 3 attempts")
+        return []
+
     try:
-        resp = requests.get(url, params=params, headers={"Accept": "application/json"}, timeout=15)
-        if resp.status_code != 200:
-            print(f"  benzinga: API error {resp.status_code}")
-            return []
         data = resp.json()
         articles = data.get("results", []) if isinstance(data, dict) else data
 
@@ -327,12 +339,12 @@ def fetch_benzinga_news(limit=200):
                 "content": " | ".join(content_parts),
                 "published_date": created,
             })
+
         print(f"  benzinga: {len(normalized)} articles")
         return normalized
     except Exception as e:
-        print(f"  benzinga: ERROR - {e}")
+        print(f"  benzinga: ERROR parsing response - {e}")
         return []
-
 
 # ---------------------------------------------------------------------------
 # STAGE 1: Parallel Tavily searches across multiple angles
@@ -752,7 +764,7 @@ def send_telegram_message(message):
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 60)
-    print("Daily Market Pulse Bot v4.6 (Brave Search + Benzinga + Venice AI)'%Y-%m-%d %H:%M:%S UTC')}")
+    print("Daily Market Pulse Bot v4.6.1 (Brave Search + Benzinga + Venice AI)'%Y-%m-%d %H:%M:%S UTC')")
     print("=" * 60)
 
     # Validate environment

@@ -23,14 +23,13 @@ import requests
 import time
 from datetime import datetime
 from openai import OpenAI
-from tavily import TavilyClient
 from pathlib import Path
 
 # Configuration
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 VENICE_API_KEY = os.environ.get("VENICE_API_KEY")
-TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
+BRAVE_API_KEY = os.environ.get("BRAVE_API_KEY")
 BENZINGA_API_KEY = os.environ.get("BENZINGA_API_KEY", "")
 HISTORY_FILE = Path(__file__).parent / "history.json"
 
@@ -46,8 +45,7 @@ def init_clients():
         api_key=VENICE_API_KEY,
         base_url=VENICE_BASE_URL,
     )
-    tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
-    return openai_client, tavily_client
+    return openai_client
 
 
 def _venice_chat(client, prompt, max_tokens=4096, retries=3):
@@ -148,6 +146,49 @@ def save_history(briefing_text):
         json.dump(data, f, indent=2)
     print(f"  Saved history: {len(stories)} stories, {len(tickers)} tickers, {len(alpha_tickers)} alpha tickers")
 
+
+
+# ---------------------------------------------------------------------------
+# BRAVE SEARCH: Web search via Brave Search API
+# ---------------------------------------------------------------------------
+
+def brave_search(query, count=5, freshness="pd"):
+    """Search using Brave Search API. Returns list of {title, url, content, published_date}."""
+    if not BRAVE_API_KEY:
+        print(f"  brave: SKIPPED (no API key)")
+        return []
+    url = "https://api.search.brave.com/res/v1/web/search"
+    headers = {
+        "Accept": "application/json",
+        "Accept-Encoding": "gzip",
+        "X-Subscription-Token": BRAVE_API_KEY,
+    }
+    params = {
+        "q": query,
+        "count": min(count, 20),
+        "text_decorations": False,
+        "search_lang": "en",
+    }
+    if freshness:
+        params["freshness"] = freshness
+    try:
+        resp = requests.get(url, headers=headers, params=params, timeout=15)
+        if resp.status_code != 200:
+            print(f"  brave: API error {resp.status_code}")
+            return []
+        data = resp.json()
+        results = []
+        for item in data.get("web", {}).get("results", []):
+            results.append({
+                "title": item.get("title", ""),
+                "url": item.get("url", ""),
+                "content": item.get("description", ""),
+                "published_date": item.get("page_age", item.get("age", "")),
+            })
+        return results
+    except Exception as e:
+        print(f"  brave: ERROR - {e}")
+        return []
 
 # ---------------------------------------------------------------------------
 # STAGE 0: GPT reasons about what to search for right now
@@ -296,124 +337,66 @@ def fetch_benzinga_news(limit=200):
 # ---------------------------------------------------------------------------
 # STAGE 1: Parallel Tavily searches across multiple angles
 # ---------------------------------------------------------------------------
-def stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries):
-    """Run targeted Tavily searches across multiple angles including social/alpha."""
+def stage1_brave_searches(mainstream_queries, alpha_queries):
+    """Run targeted Brave searches across multiple angles including social/alpha."""
     all_results = {}
 
-    # --- SAFETY-NET SEARCHES (broad; GPT queries do the real work) ---
+    # --- SAFETY-NET SEARCHES (broad) ---
     mainstream_searches = [
-        {
-            "name": "breaking_now",
-            "query": "breaking financial market news stock market moves latest today",
-            "topic": "finance",
-            "search_depth": "advanced",
-            "max_results": 7,
-            "time_range": "day",
-        },
-        {
-            "name": "global_markets",
-            "query": "most important global financial market news today Asia Europe US",
-            "topic": "finance",
-            "search_depth": "advanced",
-            "max_results": 5,
-            "time_range": "day",
-        },
-        {
-            "name": "geopolitics_macro",
-            "query": "geopolitics trade policy central banks commodities major developments today",
-            "topic": "news",
-            "search_depth": "advanced",
-            "max_results": 5,
-            "days": 1,
-        },
+        {"name": "breaking_now", "query": "breaking financial market news stock market moves latest today", "count": 7, "freshness": "pd"},
+        {"name": "global_markets", "query": "most important global financial market news today Asia Europe US", "count": 5, "freshness": "pd"},
+        {"name": "geopolitics_macro", "query": "geopolitics trade policy central banks commodities major developments today", "count": 5, "freshness": "pd"},
     ]
 
-    # --- SOCIAL (kept lean) ---
+    # --- SOCIAL ---
     social_searches = [
-        {
-            "name": "fintwit_movers",
-            "query": "stock market unusual move breaking catalyst today",
-            "search_depth": "basic",
-            "max_results": 5,
-            "time_range": "day",
-        },
+        {"name": "fintwit_movers", "query": "stock market unusual move breaking catalyst today fintwit", "count": 5, "freshness": "pd"},
     ]
 
-    # --- ALPHA / EDGE (kept lean) ---
+    # --- ALPHA ---
     alpha_searches = [
-        {
-            "name": "unusual_options",
-            "query": "unusual options activity large block trade sweep today",
-            "topic": "finance",
-            "search_depth": "advanced",
-            "max_results": 5,
-            "days": 1,
-        },
-        {
-            "name": "insider_trades",
-            "query": "SEC insider buying selling notable Form 4 filing today",
-            "topic": "finance",
-            "search_depth": "advanced",
-            "max_results": 5,
-            "days": 2,
-        },
+        {"name": "unusual_options", "query": "unusual options activity large block trade sweep today", "count": 5, "freshness": "pd"},
+        {"name": "insider_trades", "query": "SEC insider buying selling notable Form 4 filing today", "count": 5, "freshness": "pw"},
     ]
 
     def run_search(config):
-        """Execute a single Tavily search with error handling."""
-        name = config.pop("name")
-        query = config.pop("query")
-        try:
-            response = tavily_client.search(query=query, **config)
-            results = response.get("results", [])
-            print(f"    {name}: {len(results)} results")
-            return name, results
-        except Exception as e:
-            print(f"    {name}: ERROR - {e}")
-            return name, []
+        name = config["name"]
+        query = config["query"]
+        count = config.get("count", 5)
+        freshness = config.get("freshness", "pd")
+        results = brave_search(query, count=count, freshness=freshness)
+        print(f"    {name}: {len(results)} results")
+        return name, results
 
-    # Run all search categories
     print("  [Mainstream]")
-    for search_config in mainstream_searches:
-        name, results = run_search(dict(search_config))
+    for sc in mainstream_searches:
+        name, results = run_search(sc)
         all_results[name] = results
 
     print("  [Social/Fintwit]")
-    for search_config in social_searches:
-        name, results = run_search(dict(search_config))
+    for sc in social_searches:
+        name, results = run_search(sc)
         all_results[name] = results
 
     print("  [Alpha/Edge]")
-    for search_config in alpha_searches:
-        name, results = run_search(dict(search_config))
+    for sc in alpha_searches:
+        name, results = run_search(sc)
         all_results[name] = results
 
     # Run GPT-generated mainstream queries
     print("  [GPT Mainstream Queries]")
     for i, query in enumerate(mainstream_queries):
-        config = {
-            "name": f"gpt_mainstream_{i}",
-            "query": query,
-            "topic": "news",
-            "search_depth": "advanced",
-            "max_results": 5,
-            "days": 1,
-        }
-        name, results = run_search(config)
+        results = brave_search(query, count=5, freshness="pd")
+        name = f"gpt_mainstream_{i}"
+        print(f"    {name}: {len(results)} results")
         all_results[name] = results
 
     # Run GPT-generated alpha queries
     print("  [GPT Alpha Queries]")
     for i, query in enumerate(alpha_queries):
-        config = {
-            "name": f"gpt_alpha_{i}",
-            "query": query,
-            "topic": "finance",
-            "search_depth": "advanced",
-            "max_results": 5,
-            "days": 1,
-        }
-        name, results = run_search(config)
+        results = brave_search(query, count=5, freshness="pd")
+        name = f"gpt_alpha_{i}"
+        print(f"    {name}: {len(results)} results")
         all_results[name] = results
 
     # Benzinga professional financial news feed
@@ -423,8 +406,6 @@ def stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries):
         all_results["benzinga_pro"] = benzinga_results
 
     return all_results
-
-
 # ---------------------------------------------------------------------------
 # STAGE 2: GPT first-pass analysis - rank, flag, identify dig-deeper targets
 # ---------------------------------------------------------------------------
@@ -434,7 +415,7 @@ def stage2_first_pass(openai_client, search_results):
     # Format all results into context with source categorization
     # v4.3: Cap context to ~60K chars to stay within model context window.
     # 288 results at 500 chars each = 144K which overwhelms the model (returns empty).
-    MAX_CONTEXT_CHARS = 15000
+    MAX_CONTEXT_CHARS = 25000
     MAX_SNIPPET_CHARS = 300  # shortened from 500
 
     context_parts = []
@@ -589,8 +570,8 @@ CREDIBLE_DOMAINS = [
 ]
 
 
-def stage3_verify_and_deepen(tavily_client, analysis):
-    """Run verification for social media claims and deep dives on key stories."""
+def stage3_verify_and_deepen(analysis):
+    """Run verification for social media claims and deep dives on key stories using Brave."""
     additional = {}
 
     # Deep dive searches
@@ -599,22 +580,15 @@ def stage3_verify_and_deepen(tavily_client, analysis):
         if not query:
             continue
         try:
-            response = tavily_client.search(
-                query=query,
-                topic="news",
-                search_depth="advanced",
-                max_results=4,
-                days=2,
-            )
-            results = response.get("results", [])
+            results = brave_search(query, count=4, freshness="pw")
             additional[f"deep_{i}"] = {
                 "topic": item.get("topic", ""),
                 "why": item.get("why", ""),
                 "results": results,
             }
-            print(f"  Deep dive '{item.get('topic', '')[:40]}': {len(results)} results")
+            print(f"    Deep dive '{item.get('topic', '')[:40]}': {len(results)} results")
         except Exception as e:
-            print(f"  Deep dive {i} error: {e}")
+            print(f"    Deep dive {i} error: {e}")
 
     # Fact-check social media claims against credible sources
     for i, item in enumerate(analysis.get("fact_check", [])[:3]):
@@ -622,15 +596,9 @@ def stage3_verify_and_deepen(tavily_client, analysis):
         if not query:
             continue
         try:
-            response = tavily_client.search(
-                query=query,
-                topic="news",
-                search_depth="basic",
-                max_results=3,
-                include_domains=CREDIBLE_DOMAINS,
-                days=2,
-            )
-            sources = response.get("results", [])
+            # Add credible source names to query for better results
+            credible_query = f"{query} site:reuters.com OR site:bloomberg.com OR site:cnbc.com OR site:ft.com OR site:wsj.com"
+            sources = brave_search(credible_query, count=3, freshness="pw")
             verified = len(sources) > 0
             additional[f"verify_{i}"] = {
                 "claim": item.get("claim", ""),
@@ -639,13 +607,11 @@ def stage3_verify_and_deepen(tavily_client, analysis):
                 "credible_sources": sources,
             }
             tag = "CONFIRMED" if verified else "UNVERIFIED"
-            print(f"  Fact check: {tag} - '{item.get('claim', '')[:50]}'")
+            print(f"    Fact check: {tag} - '{item.get('claim', '')[:50]}'")
         except Exception as e:
-            print(f"  Fact check {i} error: {e}")
+            print(f"    Fact check {i} error: {e}")
 
     return additional
-
-
 # ---------------------------------------------------------------------------
 # STAGE 4: GPT final synthesis into polished briefing
 # ---------------------------------------------------------------------------
@@ -786,12 +752,12 @@ def send_telegram_message(message):
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 60)
-    print("Daily Market Pulse Bot v4.5 (Venice AI GPT-5.2 + Grok fallback)'%Y-%m-%d %H:%M:%S UTC')}")
+    print("Daily Market Pulse Bot v4.6 (Brave Search + Benzinga + Venice AI)'%Y-%m-%d %H:%M:%S UTC')}")
     print("=" * 60)
 
     # Validate environment
     missing = []
-    for var in ["TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID", "VENICE_API_KEY", "TAVILY_API_KEY"]:
+    for var in ["TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID", "VENICE_API_KEY", "BRAVE_API_KEY"]:
         if not os.environ.get(var):
             missing.append(var)
     if missing:
@@ -801,7 +767,7 @@ def main():
     if not os.environ.get("BENZINGA_API_KEY"):
         print("Note: BENZINGA_API_KEY not set - Benzinga source will be skipped")
 
-    openai_client, tavily_client = init_clients()
+    openai_client = init_clients()
 
     # Stage 0 - GPT generates smart search queries (mainstream + alpha)
     print("\nStage 0: Generating targeted search queries...")
@@ -814,8 +780,8 @@ def main():
         print(f"    -> {q}")
 
     # Stage 1 - Multi-angle Tavily searches (mainstream + social + alpha)
-    print("\nStage 1: Running Tavily searches...")
-    search_results = stage1_tavily_searches(tavily_client, mainstream_queries, alpha_queries)
+    print("\nStage 1: Running Brave + Benzinga searches...")
+    search_results = stage1_brave_searches(mainstream_queries, alpha_queries)
     total = sum(len(v) for v in search_results.values())
     print(f"  Total results gathered: {total}")
 
@@ -833,7 +799,7 @@ def main():
 
     # Stage 3 - Verification + deep dives
     print("\nStage 3: Deep dives and fact-checking...")
-    additional = stage3_verify_and_deepen(tavily_client, analysis)
+    additional = stage3_verify_and_deepen(analysis)
 
     # Load history of previously covered stories
     history = load_history()

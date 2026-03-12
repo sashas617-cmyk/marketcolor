@@ -1,15 +1,16 @@
 {
-  "last_run": "2026-03-11T23:31:02Z",
+  "last_run": "2026-03-12T07:43:58Z",
   "stories": [
-    "India policy catalyst: Adani Total Gas spikes on domestic gas prioritization",
-    "Japan macro: BOJ signals it won\u2019t deviate from its policy path despite geopolitics",
-    "Asia capital markets pulse: Morgan Stanley adds contract staff in Hong Kong on IPO/listing pickup",
-    "SERV: call volume spikes to 24,054 contracts (+53% vs avg) as stock pops on results",
-    "UAL: \u201cwhale\u201d options positioning spans $40\u2013$130 strikes (30-day window) amid oil shock",
-    "Crypto risk pulse: Bitcoin squeezes above $71K as liquidations hit ~$100M"
+    "Asia session: equities pressured as oil volatility drives risk-off positioning",
+    "China FX signal: PBOC daily fix watched for \u201cmanaged stability\u201d in USD/CNY",
+    "ECB warning: volatility can amplify shocks, reinforcing \u201cuncertainty premium\u201d in Europe",
+    "UK gilts: real-money buyers reportedly step in after a violent selloff",
+    "Credit stress dashboard: Single-B high-yield spreads stay a front-line risk gauge",
+    "US tech/AI sentiment check: Oracle earnings got rewarded as traders look for selloff exhaustion",
+    "UPST: heavy downside positioning\u2014~93,583 put contracts (\u2248185% above average)",
+    "EOSE: insider buy\u2014Director David Urban buys 16,250 shares at $6.16 (open market)",
+    "Wildcard (sector rotation tell): Citi upgrades ISRG to Buy; SYK catalyst watch; ABT PT trimmed"
   ],
-  "tickers": [
-    "ORCL"
-  ],
+  "tickers": [],
   "alpha_tickers": []
 }

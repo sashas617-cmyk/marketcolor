@@ -1,17 +1,16 @@
 {
-  "last_run": "2026-03-13T14:16:53Z",
+  "last_run": "2026-03-13T22:03:08Z",
   "stories": [
-    "Capital flight signal: Gulf wealth reportedly shifting to Switzerland; Europe banks flagged for exposure",
-    "Europe\u2019s defense re-rate stays in focus: Rheinmetall guides 40%\u201345% 2026 sales growth",
-    "Options alpha \u2014 $GTLB: ~$20M deep ITM put sale (Jan 2028 $27.5, 21,372 contracts)",
-    "Options alpha \u2014 $RKT: notable $15 call print into 1\u2011day expiry (2,795 contracts, ~$41.9K premium)"
+    "Daily Market Pulse \u2014 Fri, Mar 13, 2026 (22:02 UTC)",
+    "Oil shock persists into the close: war premium beats mitigation efforts",
+    "Fed week setup: base case is a hold, but the 2026 path is the real trade",
+    "Private wealth shifts accelerate: Gulf-to-Switzerland flows spotlight Europe bank exposure",
+    "FX tail-risk: Japan\u2019s bar for yen intervention rises as USD/JPY nears 160 again",
+    "Canada macro hit: weak jobs + oil spike reinforces defensive rotation",
+    "Alpha (Options): SentinelOne ($S) sees outsized call buying (~19,630 calls)",
+    "Alpha (Options): Amazon ($AMZN) call volume spikes vs OI (71,377 vs 7,061), ~$46.2K premium",
+    "Wildcard: Klarna gets a high-signal insider/support bid\u2014Moritz buys ~$49.9M; shares jump ~10%"
   ],
-  "tickers": [
-    "GTLB",
-    "RKT"
-  ],
-  "alpha_tickers": [
-    "GTLB",
-    "RKT"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

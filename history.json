@@ -1,18 +1,17 @@
 {
-  "last_run": "2026-03-13T07:42:19Z",
+  "last_run": "2026-03-13T14:16:53Z",
   "stories": [
-    "Executive summary (07:40 UTC):",
-    "Oil shock drives risk-off: Brent hovers near $100, keeping equities under pressure",
-    "Rates reset: \u2018valuation gravity\u2019 as the US 10Y sits around 4.27%",
-    "Europe rates repriced: ECB hike risk back on the table after Kazimir warning",
-    "Trade-policy risk premium rises: USTR probes could enable new tariffs by summer",
-    "European energy inflation tail risk: LNG disruption estimates keep gas/power volatility elevated",
-    "Europe equities: Stoxx 600 slid, with defensives/defense outperforming on conflict risk",
-    "Big-cap software reset: Atlassian cuts ~10% (~1,600 jobs) in restructuring",
-    "Options alpha (GTLB): ~$20M deep ITM put sale \u2014 21,372 contracts of $27.5 strike (Jan 2028)",
-    "Options alpha (NVDA): ~$18.7M calendar roll keeps $195 calls \u201calive\u201d through GTC",
-    "Wildcard (Asia ECM): Morgan Stanley adds contract staff in Hong Kong as listings activity picks up"
+    "Capital flight signal: Gulf wealth reportedly shifting to Switzerland; Europe banks flagged for exposure",
+    "Europe\u2019s defense re-rate stays in focus: Rheinmetall guides 40%\u201345% 2026 sales growth",
+    "Options alpha \u2014 $GTLB: ~$20M deep ITM put sale (Jan 2028 $27.5, 21,372 contracts)",
+    "Options alpha \u2014 $RKT: notable $15 call print into 1\u2011day expiry (2,795 contracts, ~$41.9K premium)"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "GTLB",
+    "RKT"
+  ],
+  "alpha_tickers": [
+    "GTLB",
+    "RKT"
+  ]
 }

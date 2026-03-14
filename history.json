@@ -1,13 +1,12 @@
 {
-  "last_run": "2026-03-14T13:54:06Z",
+  "last_run": "2026-03-14T21:52:04Z",
   "stories": [
-    "US policy twist: Washington eases some Russian oil sanctions as Mideast escalation raises chokepoint stakes",
-    "Bank risk premia jump: JPM flags HSBC & Standard Chartered as most exposed among major European banks",
-    "Canada: \u201cbrutal\u201d jobs data lands as oil flirts with $100\u2014growth scare meets inflation shock",
-    "Tape narrative: \u201cinstitutional bottom-fishers\u201d after a ~$1T wipeout (confirmed by Bloomberg/Reuters)",
-    "Options alpha (semis): concentrated positioning into NVIDIA GTC via SOXX/SMH flow",
-    "Options alpha (single-name): Pinterest saw outsized call blocks at $21 and $22",
-    "Wildcard (crypto microstructure): perpetuals hit ~$58T in 2024 as Binance share reportedly drops ~20%"
+    "Week-ahead setup: Fed rate outlook meets Iran-war inflation shock",
+    "Friday tape recap that still matters for Monday: equities finish lower as oil nears $100",
+    "Ukraine: civilians killed near Kyiv as talks stall\u2014Europe\u2019s geopolitical tail risk stays live",
+    "Options flow (RBRK): Rubrik sees a sharp call-volume spike\u201420,870 calls (+191% vs average)",
+    "Single-name signal (Klarna): insiders buy nearly $50M; stock pops ~10%",
+    "Crypto risk radar: Bitcoin nears historical bear-market \u201cbottom zone\u201d per cycle indicators"
   ],
   "tickers": [],
   "alpha_tickers": []

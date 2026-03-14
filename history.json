@@ -1,21 +1,14 @@
 {
-  "last_run": "2026-03-14T07:33:23Z",
+  "last_run": "2026-03-14T13:54:06Z",
   "stories": [
-    "Risk-off tape: equities fade as Brent clears $100 and tightens financial-conditions expectations",
-    "Oil shock confirmation: Brent ~$103 (highest since Aug 2022), up ~40% since the war began",
-    "Middle East geopolitics: Israel reportedly rejects a surprise ceasefire offer; operation continues",
-    "Canada growth scare: \u2018brutal\u2019 jobs print adds to North America slowdown jitters (with oil now the swing factor)",
-    "Cross-border allocation signal: ~$7.7B pulled from European funds; ~$6.1B added to Asia",
-    "China macro headwind: February new loans reportedly slump more than expected",
-    "Ukraine escalation: Reuters tracker flags intensified Russian drone/munition usage",
-    "Options alpha: SentinelOne ($S) sees concentrated upside positioning into April \u2014 $60 strike calls",
-    "Insider alpha: Klarna ($KLAR) chair Michael Moritz buys ~$49.9M (3.47M shares) amid follow-on attention",
-    "Real-economy spillover: travel/cruise routing disruptions spread across key MENA waterways"
+    "US policy twist: Washington eases some Russian oil sanctions as Mideast escalation raises chokepoint stakes",
+    "Bank risk premia jump: JPM flags HSBC & Standard Chartered as most exposed among major European banks",
+    "Canada: \u201cbrutal\u201d jobs data lands as oil flirts with $100\u2014growth scare meets inflation shock",
+    "Tape narrative: \u201cinstitutional bottom-fishers\u201d after a ~$1T wipeout (confirmed by Bloomberg/Reuters)",
+    "Options alpha (semis): concentrated positioning into NVIDIA GTC via SOXX/SMH flow",
+    "Options alpha (single-name): Pinterest saw outsized call blocks at $21 and $22",
+    "Wildcard (crypto microstructure): perpetuals hit ~$58T in 2024 as Binance share reportedly drops ~20%"
   ],
-  "tickers": [
-    "S"
-  ],
-  "alpha_tickers": [
-    "S"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

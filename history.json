@@ -1,16 +1,21 @@
 {
-  "last_run": "2026-03-13T22:03:08Z",
+  "last_run": "2026-03-14T07:33:23Z",
   "stories": [
-    "Daily Market Pulse \u2014 Fri, Mar 13, 2026 (22:02 UTC)",
-    "Oil shock persists into the close: war premium beats mitigation efforts",
-    "Fed week setup: base case is a hold, but the 2026 path is the real trade",
-    "Private wealth shifts accelerate: Gulf-to-Switzerland flows spotlight Europe bank exposure",
-    "FX tail-risk: Japan\u2019s bar for yen intervention rises as USD/JPY nears 160 again",
-    "Canada macro hit: weak jobs + oil spike reinforces defensive rotation",
-    "Alpha (Options): SentinelOne ($S) sees outsized call buying (~19,630 calls)",
-    "Alpha (Options): Amazon ($AMZN) call volume spikes vs OI (71,377 vs 7,061), ~$46.2K premium",
-    "Wildcard: Klarna gets a high-signal insider/support bid\u2014Moritz buys ~$49.9M; shares jump ~10%"
+    "Risk-off tape: equities fade as Brent clears $100 and tightens financial-conditions expectations",
+    "Oil shock confirmation: Brent ~$103 (highest since Aug 2022), up ~40% since the war began",
+    "Middle East geopolitics: Israel reportedly rejects a surprise ceasefire offer; operation continues",
+    "Canada growth scare: \u2018brutal\u2019 jobs print adds to North America slowdown jitters (with oil now the swing factor)",
+    "Cross-border allocation signal: ~$7.7B pulled from European funds; ~$6.1B added to Asia",
+    "China macro headwind: February new loans reportedly slump more than expected",
+    "Ukraine escalation: Reuters tracker flags intensified Russian drone/munition usage",
+    "Options alpha: SentinelOne ($S) sees concentrated upside positioning into April \u2014 $60 strike calls",
+    "Insider alpha: Klarna ($KLAR) chair Michael Moritz buys ~$49.9M (3.47M shares) amid follow-on attention",
+    "Real-economy spillover: travel/cruise routing disruptions spread across key MENA waterways"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "S"
+  ],
+  "alpha_tickers": [
+    "S"
+  ]
 }

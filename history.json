@@ -1,15 +1,23 @@
 {
-  "last_run": "2026-03-15T13:56:30Z",
+  "last_run": "2026-03-15T22:01:54Z",
   "stories": [
-    "US equities tape: risk-off posture holds; volatility remains the tax",
-    "Fed governance/policy uncertainty: DOJ appeal keeps the Powell probe in play",
-    "Ukraine: renewed Russian missile/drone strikes hit infrastructure; outages reported",
-    "Korean peninsula risk back on screen: North Korea fires 10 ballistic missiles",
-    "India: EM risk sentiment cracks \u2014 Sensex -~1,400; Nifty ~23,866",
-    "ALPHA (Credit signal): FSSL director buys size into volatility",
-    "ALPHA (Post-earnings positioning): Rubrik call volume spikes after results",
-    "Wildcard (Macro/FX cross-current): Canada pressured after \u201cbrutal\u201d jobs print"
+    "Executive summary (Sun, Mar 15 \u2014 22:00 UTC):",
+    "US index futures/late tape: oil shock + higher yields hit tech leadership",
+    "Crude back through $100: geopolitical shipping-lane/Hormuz fear premium drives cross-asset risk-off",
+    "Rates: bond vol stays elevated (MOVE ~90); upcoming Treasury auctions flagged as the next yield inflection",
+    "Fed independence / policy-risk premium: DOJ appealing block on Fed subpoenas tied to Powell probe",
+    "Global macro setup: central-bank week meets war-driven inflation fears",
+    "India risk-off pulse: Sensex -~1,400; Nifty slides as oil-war spillover hits sentiment",
+    "ALPHA: Devon Energy ($DVN) call volume explodes \u2014 99,358 calls (+311% vs typical)",
+    "ALPHA: Rubrik ($RBRK) call demand stays hot \u2014 20,870 calls (+191%); $60 strike highlighted",
+    "Wildcard (Europe financials): JPM flags HSBC & Standard Chartered as most exposed EU banks to Middle East conflict"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "DVN",
+    "RBRK"
+  ],
+  "alpha_tickers": [
+    "DVN",
+    "RBRK"
+  ]
 }

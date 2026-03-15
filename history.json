@@ -1,20 +1,15 @@
 {
-  "last_run": "2026-03-15T07:47:19Z",
+  "last_run": "2026-03-15T13:56:30Z",
   "stories": [
-    "Canada tape: oil \u2248 tailwind for energy, headwind for everything else (plus weak jobs backdrop)",
-    "Gulf security premium: UAE air defenses intercept multiple Iranian drones",
-    "Aviation/travel knock-on: airlines extend UAE/DXB disruption guidance into end-March",
-    "Institutional-risk layer: DOJ to appeal block of Fed subpoenas in Powell criminal investigation",
-    "FOMC setup: energy shock likely to dominate next week\u2019s Fed narrative",
-    "Crypto plumbing: USDC growth closes in on USDT dominance",
-    "BTC level to trade: Bitcoin holds around ~$70.9K despite risk-off macro",
-    "Single-name momentum radar: Sprouts Farmers Market ($SFM) breaks out",
-    "Wildcard (regional risk sentiment): Saudi Tadawul ($TASI) posts modest weekly dip"
+    "US equities tape: risk-off posture holds; volatility remains the tax",
+    "Fed governance/policy uncertainty: DOJ appeal keeps the Powell probe in play",
+    "Ukraine: renewed Russian missile/drone strikes hit infrastructure; outages reported",
+    "Korean peninsula risk back on screen: North Korea fires 10 ballistic missiles",
+    "India: EM risk sentiment cracks \u2014 Sensex -~1,400; Nifty ~23,866",
+    "ALPHA (Credit signal): FSSL director buys size into volatility",
+    "ALPHA (Post-earnings positioning): Rubrik call volume spikes after results",
+    "Wildcard (Macro/FX cross-current): Canada pressured after \u201cbrutal\u201d jobs print"
   ],
-  "tickers": [
-    "SFM"
-  ],
-  "alpha_tickers": [
-    "SFM"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

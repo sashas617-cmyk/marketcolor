@@ -1,22 +1,6 @@
 {
-  "last_run": "2026-03-16T14:28:03Z",
-  "stories": [
-    "Middle East macro driver: markets price higher odds of a near-term Iran deal\u2014tail risk still huge",
-    "Ukraine escalation watch: Russia says it foiled a major drone attack toward Moscow",
-    "China data surprise: early-2026 activity shows a firmer footing",
-    "Fed setup: energy prices are the focal point into next week\u2019s FOMC",
-    "India risk-off signal: Sensex drops ~1,400 points; financials among worst hit",
-    "Positioning risk: hedge funds \u201caggressively shorted\u201d global financials",
-    "Insider alpha (Credit/Income): $FSSL director buys 40,884 shares at ~$11.83",
-    "Insider alpha (Energy services): $OII director sells 25,678 shares at ~$35.27",
-    "Mega-cap catalyst week: Nvidia AI conference in focus; Meta cuts chatter adds single-name vol"
-  ],
-  "tickers": [
-    "FSSL",
-    "OII"
-  ],
-  "alpha_tickers": [
-    "FSSL",
-    "OII"
-  ]
+  "last_run": "2026-03-16T22:03:59Z",
+  "stories": [],
+  "tickers": [],
+  "alpha_tickers": []
 }

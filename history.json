@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-03-17T07:58:55Z",
+  "last_run": "2026-03-17T14:26:38Z",
   "stories": [
-    "Japan: BOJ\u2019s Ueda says underlying inflation is \u201caccelerating\u201d toward 2%\u2014but convergence is still FY26\u2013FY27",
-    "China: Shanghai Composite tries to stabilize after 3 straight declines; China growth beta still twitchy",
-    "US equities: Stocks rebounded Monday as oil eased\u2014taking some immediate \u201cinflation shock\u201d pressure off the tape",
-    "Fed week: Wednesday\u2019s FOMC decision + quarterly dot plot is the real catalyst (not the rate hold/cut itself)",
-    "Oil policy backstop: IEA signals members could release more strategic stockpiles if needed",
-    "Europe: Natural gas spike underscores structural vulnerability\u2014still a fast lane into EU inflation and margins",
-    "US tape internals: Nasdaq leadership vs. Dow lag is still about concentration and financials weakness",
-    "Positioning/flow: Goldman shows hedge funds \u201caggressively\u201d selling financials\u2014most-sold sector YTD (week to Mar 13)",
-    "Earnings tone check (software): Zoom beats and nudges outlook higher, but the stock fades\u2014classic \u201cbeat/not enough\u201d setup",
-    "Nvidia narrative risk: \u201c$1 trillion\u201d Huang headline is driving chatter into the next catalyst window (unverified social buzz)"
+    "Executive summary (14:25 UTC):",
+    "US equities rebound as oil gives back part of the spike (cross-asset driver: Middle East risk premium)",
+    "Fed week positioning: Wednesday\u2019s decision is table stakes\u2014dot plot is the catalyst",
+    "Europe: equities edge up cautiously as conflict fallout meets ECB risk",
+    "Strait of Hormuz policy response: US-led escort/coordinator concept is real\u2014but coalition depth is the question (confirmed)",
+    "Positioning tell: hedge funds have been dumping financials the most YTD (Goldman via Reuters)",
+    "Trade policy constraint set: updated US\u2013China tariff stacks keep a ceiling on \u201ceasy disinflation\u201d",
+    "Options tape (quantum): IONQ Sep 18, 2026 $35 calls flagged with stock near ~$34.45",
+    "Options tape (semis): MU Mar 20, 2026 $425 puts flagged with MU around ~$435",
+    "Wildcard (AI complex): Nvidia\u2019s \u201c$1T\u201d orders narrative is now confirmed by top-tier sources"
   ],
   "tickers": [],
   "alpha_tickers": []

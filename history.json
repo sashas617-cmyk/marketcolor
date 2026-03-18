@@ -1,16 +1,17 @@
 {
-  "last_run": "2026-03-18T07:49:29Z",
+  "last_run": "2026-03-18T14:28:34Z",
   "stories": [
-    "Fed day: dot plot risk is the whole trade",
-    "Europe open: flat-to-higher, but oil/war remains the macro governor",
-    "Australia/Asia: oil retreat helps risk appetite ahead of the Fed",
-    "India: Sensex +~700, Nifty near 23,800\u2014IT leads into the Fed",
-    "Japan trade pulse: exports +4.2% y/y (Feb) supports Asia cyclicals\u2014FX next",
-    "US equities: rebound continues as markets digest geopolitics; healthcare lagged",
-    "SoFi shockwave: short-seller allegations keep fintech sentiment on a tight leash",
-    "Insider signal (ad-tech): CRTO director buys 5,000 shares at ~$17.81",
-    "AI infrastructure: NBIS ties up with NVIDIA on \u201cEnterprise Readiness Initiative\u201d",
-    "Wildcard: prediction markets face \u201cinsider trading\u201d backlash after Iran-related bets"
+    "Executive summary:",
+    "Fed decision risk: \u201coil shock\u201d is the macro governor into the March FOMC",
+    "Iran\u2013Israel escalation: Israel says it killed an Iranian minister; no de-escalation tone",
+    "Macro pulse (cross-asset tension): Eurozone ZEW \u201ccollapsed\u201d while US housing surprised higher",
+    "Retail tape check: Macy\u2019s prints better comps (+1.8%) and talks FY26 with geopolitical caveats",
+    "Earnings split in discretionary: Lululemon beats Q4 but guides FY26 below Street; stock dips",
+    "Ukraine update: Russia strikes Odesa region; infrastructure damage raises EU logistics/energy risk",
+    "UK macro: inflation easing, but still above BoE target\u2014rates sensitivity remains",
+    "Options flow (banks): WFC MAR 27",
+    "Options flow (credit/BDC): TRIN sees",
+    "Wildcard (commodities hedging): gold sensitivity rising as geopolitics pressures central-bank easing plans"
   ],
   "tickers": [],
   "alpha_tickers": []

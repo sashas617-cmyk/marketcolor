@@ -1,14 +1,12 @@
 {
-  "last_run": "2026-03-18T22:06:17Z",
+  "last_run": "2026-03-19T07:44:49Z",
   "stories": [
-    "Fed hold + Powell tone: risk assets faded into/after the presser",
-    "War-driven supply shock: Middle East crude benchmarks hit record highs",
-    "Canada: BoC holds as oil inflation risk collides with slowing-growth optics",
-    "Crypto de-risking accelerates: liquidations hit as BTC/ETH slide",
-    "Europe energy security: EU/Ukraine coordination to restore Druzhba flows",
-    "BLDR: director Paul S. Levy bought 50,000 shares (~$4.39M) in open market",
-    "FNMA: sharp drawdown (-~8% to -~10% cited) resurfaces policy/regulatory tail risk",
-    "Staples weren\u2019t a safe haven today: GIS guidance + UL breakup chatter hit single names"
+    "US equities sold off hard post-FOMC: \u201csteady rates\u201d didn\u2019t mean \u201ceasy financial conditions\u201d",
+    "Bank of Canada holds: oil shock complicates the disinflation path in North America",
+    "UK rates risk: BoE modeling implies a more hawkish reaction to energy spikes than markets price",
+    "$TRIN: put volume explosion\u20146,512 puts (~+1004% vs avg) hits a private-credit/BDC tape",
+    "$EXFY: major open-market insider accumulation\u20142,263,444 shares bought around $0.84\u2013$1.02",
+    "Unilever portfolio shock: food-business separation under review (confirmed by Reuters)"
   ],
   "tickers": [],
   "alpha_tickers": []

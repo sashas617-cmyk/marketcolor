@@ -1,6 +1,17 @@
 {
-  "last_run": "2026-03-20T07:42:57Z",
-  "stories": [],
+  "last_run": "2026-03-20T14:17:20Z",
+  "stories": [
+    "Rates repricing tightens conditions: markets push Fed cuts out \u2014 \u201cno cuts before 2027\u201d gets priced",
+    "Energy shock remains the macro accelerant: Brent above ~$113 keeps inflation fears bid",
+    "Global central banks: hold today, but message is \u201cwe can still tighten if energy inflation spreads\u201d",
+    "Precious metals liquidation: gold & silver slide as USD + yields overwhelm inflation hedging",
+    "ECB projections flag a key hidden tightening channel: volatility (VIX) \u2192 spreads \u2192 higher funding costs",
+    "India stabilizes after the selloff: Sensex +~300, Nifty back above ~23,100 (oil watched closely)",
+    "Earnings tape (after-hours spillover): FedEx, Firefly Aerospace, Planet Labs move on prints/guidance",
+    "ADBE options: unusually large bearish/hedging signal \u2014 ~118,864 put contracts traded (+~94% vs avg)",
+    "FISV options: heavy put demand \u2014 ~38,371 puts traded (+~70% vs typical)",
+    "Wildcard (today\u2019s market-structure catalyst): $5.7T triple-witching expiration + key S&P technical levels in play"
+  ],
   "tickers": [],
   "alpha_tickers": []
 }

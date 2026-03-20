@@ -1,19 +1,6 @@
 {
-  "last_run": "2026-03-19T22:02:13Z",
-  "stories": [
-    "US index technical break: S&P 500 / Nasdaq 100 / Dow lose 200-day support (systematic sell trigger)",
-    "Oil risk premium re-prices: Persian Gulf strikes + supply curbs keep inflation tail alive",
-    "Precious metals liquidation: gold and silver dump as \u201cinflation fear + de-risking\u201d hits everything",
-    "India shock: Sensex/Nifty slide as oil + Fed stance squeeze EM risk appetite",
-    "US policy overhang: DHS shutdown uncertainty persists (no clear Senate vote timing)",
-    "Flow/hedging tell: Fiserv ($FISV) put volume spikes to 38,371 contracts (+70% vs typical 22,593)",
-    "Single-name catalyst (headline): Uber ($UBER) + Rivian ($RIVN) reportedly plan up to 50,000 fully autonomous vehicles",
-    "Wildcard (EM infrastructure/energy): Brazil locks in up to 19GW of power capacity in a record deal"
-  ],
-  "tickers": [
-    "FISV"
-  ],
-  "alpha_tickers": [
-    "FISV"
-  ]
+  "last_run": "2026-03-20T07:42:57Z",
+  "stories": [],
+  "tickers": [],
+  "alpha_tickers": []
 }

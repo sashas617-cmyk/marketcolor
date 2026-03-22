@@ -1,6 +1,23 @@
 {
-  "last_run": "2026-03-21T21:48:51Z",
-  "stories": [],
-  "tickers": [],
-  "alpha_tickers": []
+  "last_run": "2026-03-22T07:34:39Z",
+  "stories": [
+    "US equities crack a major technical level: S&P 500 reportedly below the 200-day",
+    "Iran\u2013Israel war: \u201cenergy shock\u201d back in play as Brent spikes toward mid-2022 highs",
+    "Central banks boxed in: higher energy costs revive \u201crenewed hikes / delayed cuts\u201d risk",
+    "Qatar LNG disruption tail-risk: Reuters flags 17% capacity offline (multi-year)",
+    "Euro rates stress: Italy\u2019s BTP\u2013Bund spread jumps toward ~92bp",
+    "Asia geopolitical drip: Taiwan reports PLA air/sea activity; one jet crosses the median line",
+    "US mega-cap risk proxy: Nasdaq drop to 21,647 (2%) is confirmed by Reuters",
+    "ALPHA: $PHR sees outsized insider/affiliate accumulation \u2014 1,602,505 shares (~$18.3M)",
+    "ALPHA: $BMBL overhang signal \u2014 Blackstone affiliates dispose 7,477,504 shares via post\u2011paid forward at ~$3.51",
+    "Crypto as a risk barometer: Bitcoin holds ~$70K despite ETF outflows + SEC classification chatter"
+  ],
+  "tickers": [
+    "BMBL",
+    "PHR"
+  ],
+  "alpha_tickers": [
+    "BMBL",
+    "PHR"
+  ]
 }

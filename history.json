@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-03-22T21:50:27Z",
+  "last_run": "2026-03-23T08:00:11Z",
   "stories": [
-    "US equities: slide accelerates; S&P 500 breaks the 200-day (technicals now driving flows)",
-    "Oil: war-risk premium builds; WTI\u2013Brent spread hits widest in 11 years",
-    "ECB: inflation risk rhetoric hardens; some desks start modeling April hikes",
-    "South Korea: Shin Hyun-song named BOK governor; markets read a hawkish, anti-debt tilt",
-    "Ukraine: renewed focus on risks to energy routes and critical infrastructure",
-    "Red Sea: shipping disruption remains an active inflation/trade transmission channel",
-    "Canada: markets price aggressive BoC hikes; economists warn the path is \u201cbeyond preposterous\u201d",
-    "$BMBL: Blackstone-linked entities dispose of 7,477,504 shares at $3.51 via post-paid forward",
-    "$MARA: insider selling clusters under 10b5-1 plans at $9.18 (CEO + CFO trust)",
-    "Crypto risk barometer: Bitcoin dips below ~$69,200; ~$299M liquidations (85% longs)"
+    "Geopolitics is back as the top macro input: US\u2013Iran / Hormuz headline risk",
+    "Oil shock in focus: inflation impulse risk rises with every Hormuz headline",
+    "Japan FX alarm: officials flag oil-linked speculation as USD/JPY nears 160",
+    "BOJ: narrative shift keeps an April hike in play despite growth nerves",
+    "Moody\u2019s: Asia-Pacific outlook \u201cmore daunting,\u201d growth seen slowing to ~4% in 2026",
+    "US equity positioning check: Energy \u201cbreakout\u201d still debated as oil range resets",
+    "$STM supply-chain shift: STMicro begins shipping China-made STM32 via Huahong",
+    "$TEP (Teleperformance) hit: Citi cuts rating, adding to Europe\u2019s defensive tone",
+    "Wildcard: watch the oil\u2192FX volatility channel\u2014Japan is explicitly calling it out"
   ],
   "tickers": [],
   "alpha_tickers": []

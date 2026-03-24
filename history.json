@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-03-24T14:26:00Z",
+  "last_run": "2026-03-24T22:03:23Z",
   "stories": [
-    "CME flow anomaly: futures volume spiked minutes before Trump\u2019s Iran post\u2014integrity risk premium rising",
-    "isolated burst of S&P 500 e-mini volume around ~6:50 a.m. NY",
-    "Euro rates shock: Goldman now expects ECB hikes in April and June on oil-driven inflation risk",
-    "UK: gilt yields whip and sterling rebounds as markets briefly price up to four BoE hikes",
-    "US macro impulse: ISM Manufacturing jumps to 52.3\u2014growth relief, but inflation fears reprice yields",
-    "US single-name tape (today\u2019s premarket): JEF results/dividend signal, plus NTGR/APO in focus",
-    "Metals stress signal: silver suffers an ~10% intraday air pocket as de-risking hits commodities",
-    "$META options: institution-sized blocks flagged\u2014~57K contracts (~$243M notional) plus another ~30K (~$146M)",
-    "$SMCI: -33% drawdown tied to reported $2.5B case; options market flips from bullish OI to urgent protection",
-    "India risk-off: Sensex drawdown narrative turns into an \u201coil shock\u201d proxy for EM energy importers (buzz with real positioning impact)"
+    "Middle East diplomacy whiplash: Iran denies U.S. peace talks, keeping risk premia elevated",
+    "U.S. front-end rates hit: Treasuries slide after a weak 2-year auction",
+    "Policy path repriced: oil-driven inflation fears push \u201clater cuts\u201d thinking back into the tape",
+    "U.S. equities internals: Russell 2000 drops into correction as small-cap stress resurfaces",
+    "Gold turns into the pressure valve: volatility spikes as prices hit extremes",
+    "Single-name sentiment check: JPMorgan upgrades Ecolab (ECL) to Overweight, $295 target",
+    "Semis tactical level: SMH flagged as vulnerable on a break below $369",
+    "Market microstructure edge: futures volume spike reported just before Trump\u2019s market-moving post",
+    "Deal-flow/financing signal (secondary but notable): Citi reshuffles infrastructure finance leadership"
   ],
   "tickers": [],
   "alpha_tickers": []

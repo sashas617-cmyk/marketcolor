@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-03-24T22:03:23Z",
+  "last_run": "2026-03-25T08:00:25Z",
   "stories": [
-    "Middle East diplomacy whiplash: Iran denies U.S. peace talks, keeping risk premia elevated",
-    "U.S. front-end rates hit: Treasuries slide after a weak 2-year auction",
-    "Policy path repriced: oil-driven inflation fears push \u201clater cuts\u201d thinking back into the tape",
-    "U.S. equities internals: Russell 2000 drops into correction as small-cap stress resurfaces",
-    "Gold turns into the pressure valve: volatility spikes as prices hit extremes",
-    "Single-name sentiment check: JPMorgan upgrades Ecolab (ECL) to Overweight, $295 target",
-    "Semis tactical level: SMH flagged as vulnerable on a break below $369",
-    "Market microstructure edge: futures volume spike reported just before Trump\u2019s market-moving post",
-    "Deal-flow/financing signal (secondary but notable): Citi reshuffles infrastructure finance leadership"
+    "UK CPI just hit: inflation holds at 3.0% y/y, but BOE warns war-driven energy shock can re-lift CPI",
+    "Eurozone flash PMI: growth slows toward stall while cost pressures surge (stagflation mix)",
+    "US flash PMI: activity cools to an 11\u2011month low while prices jump\u2014sticky inflation vs slowing growth",
+    "Asia execution warning (UBS): trade the first minutes after an oil shock\u2014then liquidity gets ugly",
+    "Gold\u2019s bid looks less \u201cevent-only\u201d: central banks seen sustaining demand amid geopolitics/de-dollarisation",
+    "Insider signal in energy infrastructure: EPD co-CEO bought units during war-driven oil volatility",
+    "Deal-arb focus: Janus Henderson bidding war tilts as Trian/General Catalyst raise to $52 cash",
+    "Wildcard (market integrity risk): unusual ES + oil futures volume burst before Trump post remains in focus",
+    "volume spike around ~6:50 a.m. ET"
   ],
   "tickers": [],
   "alpha_tickers": []

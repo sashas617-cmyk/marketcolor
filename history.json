@@ -1,16 +1,21 @@
 {
-  "last_run": "2026-03-25T08:00:25Z",
+  "last_run": "2026-03-25T14:24:28Z",
   "stories": [
-    "UK CPI just hit: inflation holds at 3.0% y/y, but BOE warns war-driven energy shock can re-lift CPI",
-    "Eurozone flash PMI: growth slows toward stall while cost pressures surge (stagflation mix)",
-    "US flash PMI: activity cools to an 11\u2011month low while prices jump\u2014sticky inflation vs slowing growth",
-    "Asia execution warning (UBS): trade the first minutes after an oil shock\u2014then liquidity gets ugly",
-    "Gold\u2019s bid looks less \u201cevent-only\u201d: central banks seen sustaining demand amid geopolitics/de-dollarisation",
-    "Insider signal in energy infrastructure: EPD co-CEO bought units during war-driven oil volatility",
-    "Deal-arb focus: Janus Henderson bidding war tilts as Trian/General Catalyst raise to $52 cash",
-    "Wildcard (market integrity risk): unusual ES + oil futures volume burst before Trump post remains in focus",
-    "volume spike around ~6:50 a.m. ET"
+    "Iran-war tape: fresh strikes + diplomacy chatter keeps risk assets twitchy",
+    "Crude reclaims $100: inflation impulse back in focus",
+    "Rates: Reuters warns the Middle East \u201cenergy shock\u201d repricing may be overshooting",
+    "UK CPI prints 3.0% y/y (Feb, pre-shock): forward path could be hotter",
+    "ECB: \u201chold\u201d still base case, but hike risk is rising as energy inflation re-accelerates",
+    "US equities: megacap tech/semis remain the support beam as geopolitics drives de-risking",
+    "FX: USD/JPY presses toward ~159 as the oil shock weakens the yen",
+    "Deal-arb focus: Janus Henderson ($JHG) now centers on a clean $52 cash outcome",
+    "M&A tape: Jefferies ($JEF) whipsaws on SMFG takeover chatter vs pushback",
+    "Market integrity / volatility: futures volume spike before Trump post is \u201cconfirmed\u201d"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "JEF"
+  ],
+  "alpha_tickers": [
+    "JEF"
+  ]
 }

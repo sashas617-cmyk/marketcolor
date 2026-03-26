@@ -1,11 +1,14 @@
 {
-  "last_run": "2026-03-25T22:06:27Z",
+  "last_run": "2026-03-26T08:09:23Z",
   "stories": [
-    "Gold\u2019s fear premium breaks: XAU/USD drops ~5%",
-    "TJX beats and raises: a clean \u201cconsumer still standing\u201d datapoint",
-    "OKLO options: $220K call sweep targets April upside (2,000 contracts)",
-    "Flow check: retail turns net seller early despite the headline-driven tape",
-    "Sell-side crossfire: Barclays lifts S&P 500 2026 target to 7,650 despite war/inflation risk"
+    "Fed minutes lean hawkish: \u201ctighten again if inflation risks reappear\u201d is back on the table",
+    "Nvidia blows the doors off: AI/semis leadership re-ignites (and index beta follows)",
+    "Credit impulse watch: Barclays reportedly pulls back ABL to smaller borrowers",
+    "Tech supply-chain warning: CPU lead times jump to ~8\u201312 weeks",
+    "FX pivot: EUR/USD struggles near 1.16 as yield/growth differentials bite",
+    "Options tape (nuclear/energy beta): OKLO Apr 17, 2026 $67 calls swept",
+    "Unusual options (fintech): BILL sees heavy contracts traded (12,044)",
+    "Retail flow check: early session single-stock net selling shows up again"
   ],
   "tickers": [],
   "alpha_tickers": []

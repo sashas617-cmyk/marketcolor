@@ -1,14 +1,15 @@
 {
-  "last_run": "2026-03-26T08:09:23Z",
+  "last_run": "2026-03-26T14:31:28Z",
   "stories": [
-    "Fed minutes lean hawkish: \u201ctighten again if inflation risks reappear\u201d is back on the table",
-    "Nvidia blows the doors off: AI/semis leadership re-ignites (and index beta follows)",
-    "Credit impulse watch: Barclays reportedly pulls back ABL to smaller borrowers",
-    "Tech supply-chain warning: CPU lead times jump to ~8\u201312 weeks",
-    "FX pivot: EUR/USD struggles near 1.16 as yield/growth differentials bite",
-    "Options tape (nuclear/energy beta): OKLO Apr 17, 2026 $67 calls swept",
-    "Unusual options (fintech): BILL sees heavy contracts traded (12,044)",
-    "Retail flow check: early session single-stock net selling shows up again"
+    "Risk-off tape: equities lean defensive as geopolitics + rates hit sentiment",
+    "Rates shock: U.S. 10-year tags 4.40% and duration gets squeezed",
+    "Europe: OECD cuts eurozone growth forecast as energy prices surge",
+    "Eurozone data mix: Germany manufacturing PMI near a four-year high",
+    "ECB reaction function: Lagarde keeps hike risk alive despite energy-led inflation",
+    "UK tightening impulse: BoE QT continues; balance sheet now ~\u00a3529bn",
+    "Options tape (OKLO): 2,000 Apr 17, 2026 $67 calls swept @ $1.10 (~$220k premium)",
+    "Insider + convexity (AIRS): insider adds shares plus calls (2,004 $4C @ $0.50; 2,000 $5C @ $0.33)",
+    "Wildcard momentum watch: PROP spikes ~29% with no clear catalyst cited"
   ],
   "tickers": [],
   "alpha_tickers": []

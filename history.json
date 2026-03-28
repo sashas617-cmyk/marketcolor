@@ -1,14 +1,15 @@
 {
-  "last_run": "2026-03-28T13:56:26Z",
+  "last_run": "2026-03-28T21:55:35Z",
   "stories": [
-    "Executive summary (Sat, Mar 28, 2026 \u2014 13:55 UTC):"
+    "Risk-off deepens into the weekend: stocks down, oil up on Iran-war risk premium",
+    "Rates regime shift: FedWatch now prices >50% chance of a Fed hike by end-2026",
+    "(Last-hours geopolitics) Red Sea tail-risk spikes: Houthis enter the Iran war; Bab al-Mandab threat back in focus",
+    "Ukraine adds supply-disruption headlines: renewed strikes on Russian energy infrastructure",
+    "Gaza framework: ceasefire largely holding, but ongoing clashes keep regional risk premium alive",
+    "UK bank litigation overhang: Lloyds braces for mass consumer lawsuit over mis-sold car loans (read-through across lenders)",
+    "ECB Lane: AI-driven productivity upside vs. energy-shock downside\u2014key fork for EUR rates and Europe equities",
+    "Wildcard: \u201cSanctions easing + new strikes\u201d makes Russia-related oil supply harder to model (headline-driven spreads likely Monday)"
   ],
-  "tickers": [
-    "PTEN",
-    "SMCI"
-  ],
-  "alpha_tickers": [
-    "PTEN",
-    "SMCI"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

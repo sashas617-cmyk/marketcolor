@@ -1,8 +1,16 @@
 {
-  "last_run": "2026-03-27T21:57:22Z",
+  "last_run": "2026-03-28T07:43:50Z",
   "stories": [
-    "US stocks crater into correction on Iran escalation: Dow plunges 793 points (2.1%), S&P 500 -1.7%, Nasdaq officially corrects as VIX spikes above 30.",
-    "Unusual options frenzy hits BILL (12,044 contracts), DAVE ($180 Apr 17 calls: 1,362 vol), LULU (17,291 total, ~1.7M shares equiv)\u2014informed flow pre-catalysts."
+    "Risk-off accelerates: global equities extend the selloff as energy shock darkens growth",
+    "Oil spike becomes the macro driver: energy prices surge, volatility rises",
+    "Rates repricing: FedWatch flips hawkish\u2014market now prices >50% chance of a hike by end\u20112026",
+    "Equity leadership fractures: \u201chigher-for-longer + war-risk\u201d punishes duration and leverage",
+    "FX turns defensive: safe-haven demand rises as traders cut EM and high beta",
+    "Iran war escalation: counter-strikes broaden; regional U.S. bases/assets face rising tail risk",
+    "Primary market freeze: EM debt issuance stalls as war volatility slams the funding window",
+    "Edge (trade focus): EM stress proxy list in play as issuance stops",
+    "Edge (energy logistics): Ukraine hits Russia\u2019s Ust\u2011Luga oil terminal in major drone attack",
+    "Wildcard: chokepoint risk goes systemic\u2014Hormuz threat collides with Russia logistics hits"
   ],
   "tickers": [],
   "alpha_tickers": []

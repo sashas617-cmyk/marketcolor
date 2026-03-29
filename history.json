@@ -1,14 +1,15 @@
 {
-  "last_run": "2026-03-28T21:55:35Z",
+  "last_run": "2026-03-29T07:48:24Z",
   "stories": [
-    "Risk-off deepens into the weekend: stocks down, oil up on Iran-war risk premium",
-    "Rates regime shift: FedWatch now prices >50% chance of a Fed hike by end-2026",
-    "(Last-hours geopolitics) Red Sea tail-risk spikes: Houthis enter the Iran war; Bab al-Mandab threat back in focus",
-    "Ukraine adds supply-disruption headlines: renewed strikes on Russian energy infrastructure",
-    "Gaza framework: ceasefire largely holding, but ongoing clashes keep regional risk premium alive",
-    "UK bank litigation overhang: Lloyds braces for mass consumer lawsuit over mis-sold car loans (read-through across lenders)",
-    "ECB Lane: AI-driven productivity upside vs. energy-shock downside\u2014key fork for EUR rates and Europe equities",
-    "Wildcard: \u201cSanctions easing + new strikes\u201d makes Russia-related oil supply harder to model (headline-driven spreads likely Monday)"
+    "Oil shock regime: Brent ~\\$112, WTI ~\\$100 as Hormuz risk stays bid",
+    "Geopolitics (live): U.S.\u2013Israel\u2013Iran developments remain fluid, with escalation risk centered on supply routes",
+    "Trade policy cliff: WTO talks near deadline with no breakthrough on digital customs-duty moratorium",
+    "Macro mood: \u201coil \u2192 inflation \u2192 Fed\u201d narrative hardens, raising the bar for equity-duration stabilization",
+    "UK financials: Lloyds braces for a large consumer lawsuit over mis-sold car loans",
+    "Ukraine/Russia: ISW flags continued operational pressure and strike activity\u2014energy/industrial infrastructure remains a target set",
+    "Biotech catalyst (CORT): ACC late-breaker highlights resistant HTN screening results\u201427.3% hypercortisolism signal",
+    "Microcap shipping tape: GLBS director-linked entity buying clusters around \\$1.74\u2013\\$1.80",
+    "Crypto risk-off: liquidation-driven selloff keeps beta high vs. equities into the next macro headline"
   ],
   "tickers": [],
   "alpha_tickers": []

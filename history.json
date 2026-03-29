@@ -1,16 +1,23 @@
 {
-  "last_run": "2026-03-29T07:48:24Z",
+  "last_run": "2026-03-29T14:00:04Z",
   "stories": [
-    "Oil shock regime: Brent ~\\$112, WTI ~\\$100 as Hormuz risk stays bid",
-    "Geopolitics (live): U.S.\u2013Israel\u2013Iran developments remain fluid, with escalation risk centered on supply routes",
-    "Trade policy cliff: WTO talks near deadline with no breakthrough on digital customs-duty moratorium",
-    "Macro mood: \u201coil \u2192 inflation \u2192 Fed\u201d narrative hardens, raising the bar for equity-duration stabilization",
-    "UK financials: Lloyds braces for a large consumer lawsuit over mis-sold car loans",
-    "Ukraine/Russia: ISW flags continued operational pressure and strike activity\u2014energy/industrial infrastructure remains a target set",
-    "Biotech catalyst (CORT): ACC late-breaker highlights resistant HTN screening results\u201427.3% hypercortisolism signal",
-    "Microcap shipping tape: GLBS director-linked entity buying clusters around \\$1.74\u2013\\$1.80",
-    "Crypto risk-off: liquidation-driven selloff keeps beta high vs. equities into the next macro headline"
+    "Risk-off shock backdrop: VIX > 30 resets the playbook into the reopen",
+    "Oil shock watch: CNBC says the next few weeks are \u201cdecisive,\u201d with physical stress bleeding into Europe",
+    "Geopolitics: Reuters live file widens the conflict map (Houthis involved; U.S. Marines in-region)",
+    "Shipping/insurance is the \u201creal economy\u201d transmission: Hormuz transit frictions and war-risk premia",
+    "Sanctions risk: UK Parliament brief maps the E3 \u201csnapback\u201d path\u2014secondary-sanctions tail risk",
+    "Gold: whipsaw risk as ceasefire talk hits headlines, but Turkey supply overhang is real",
+    "Crypto as weekend risk barometer: Bitcoin back near ~$66.8k on \u201ceasing concerns\u201d framing",
+    "Single-name tape risk in AI/semis: Needham flips $ARM to Buy, slaps $200 PT after 2.5 years Hold",
+    "Biotech flow: $RCKT sees a call-volume shock (7,425 calls; ~+529% vs normal)",
+    "Wildcard (systemic/legal): Reuters flags a proposed class action tied to Epstein-linked transaction monitoring at a major U.S. bank"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "ARM",
+    "RCKT"
+  ],
+  "alpha_tickers": [
+    "ARM",
+    "RCKT"
+  ]
 }

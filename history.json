@@ -1,23 +1,6 @@
 {
-  "last_run": "2026-03-29T14:00:04Z",
-  "stories": [
-    "Risk-off shock backdrop: VIX > 30 resets the playbook into the reopen",
-    "Oil shock watch: CNBC says the next few weeks are \u201cdecisive,\u201d with physical stress bleeding into Europe",
-    "Geopolitics: Reuters live file widens the conflict map (Houthis involved; U.S. Marines in-region)",
-    "Shipping/insurance is the \u201creal economy\u201d transmission: Hormuz transit frictions and war-risk premia",
-    "Sanctions risk: UK Parliament brief maps the E3 \u201csnapback\u201d path\u2014secondary-sanctions tail risk",
-    "Gold: whipsaw risk as ceasefire talk hits headlines, but Turkey supply overhang is real",
-    "Crypto as weekend risk barometer: Bitcoin back near ~$66.8k on \u201ceasing concerns\u201d framing",
-    "Single-name tape risk in AI/semis: Needham flips $ARM to Buy, slaps $200 PT after 2.5 years Hold",
-    "Biotech flow: $RCKT sees a call-volume shock (7,425 calls; ~+529% vs normal)",
-    "Wildcard (systemic/legal): Reuters flags a proposed class action tied to Epstein-linked transaction monitoring at a major U.S. bank"
-  ],
-  "tickers": [
-    "ARM",
-    "RCKT"
-  ],
-  "alpha_tickers": [
-    "ARM",
-    "RCKT"
-  ]
+  "last_run": "2026-03-29T21:57:19Z",
+  "stories": [],
+  "tickers": [],
+  "alpha_tickers": []
 }

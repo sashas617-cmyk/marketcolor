@@ -35,7 +35,7 @@ HISTORY_FILE = Path(__file__).parent / "history.json"
 
 # Venice AI model
 VENICE_MODEL = "openai-gpt-52"
-VENICE_FALLBACK_MODEL = "grok-41-fast"
+VENICE_FALLBACK_MODEL = "openai-gpt-53-codex"
 VENICE_BASE_URL = "https://api.venice.ai/api/v1"
 
 
@@ -522,19 +522,45 @@ Return ONLY valid JSON:
   ]
 }}"""
 
-    text = _venice_chat(openai_client, prompt, max_tokens=12288)
+    # v4.7: Retry loop — handles both empty responses AND malformed JSON
+    max_stage2_attempts = 3
+    for s2_attempt in range(max_stage2_attempts):
+        if s2_attempt == 0:
+            text = _venice_chat(openai_client, prompt, max_tokens=12288)
+        elif s2_attempt == 1:
+            # Second attempt: same prompt, fresh call (transient JSON glitch)
+            print(f"  Stage 2 retry {s2_attempt+1}/{max_stage2_attempts}: retrying same prompt...")
+            text = _venice_chat(openai_client, prompt, max_tokens=12288)
+        else:
+            # Third attempt: shorter context to reduce complexity
+            print(f"  Stage 2 retry {s2_attempt+1}/{max_stage2_attempts}: retrying with shorter context...")
+            short_context = context[:MAX_CONTEXT_CHARS // 2]
+            short_prompt = prompt.replace(context, short_context)
+            text = _venice_chat(openai_client, short_prompt, max_tokens=8192)
 
-    # v4.3: If response is empty, retry once with a shorter context
-    if not text or not text.strip():
-        print(f"  WARNING: Empty response from Venice AI ({len(context)} char context). Retrying with shorter context...")
-        # Retry with halved context
-        short_context = context[:MAX_CONTEXT_CHARS // 2]
-        short_prompt = prompt.replace(context, short_context)
-        text = _venice_chat(openai_client, short_prompt, max_tokens=8192)
         if not text or not text.strip():
-            print(f"  WARNING: Still empty after retry. Response length: {len(text or '')} chars")
+            print(f"  WARNING: Empty response (attempt {s2_attempt+1}/{max_stage2_attempts})")
+            if s2_attempt < max_stage2_attempts - 1:
+                time.sleep(3)
+                continue
             return {"top_stories": [], "dig_deeper": [], "fact_check": []}
 
+        # Try parsing — if it works, break out of retry loop
+        parsed = _try_parse_stage2(text)
+        if parsed is not None and len(parsed.get("top_stories", [])) > 0:
+            return parsed
+
+        print(f"  WARNING: JSON parse failed or 0 stories (attempt {s2_attempt+1}/{max_stage2_attempts})")
+        if s2_attempt < max_stage2_attempts - 1:
+            time.sleep(3)
+
+    # All attempts exhausted — return empty
+    print(f"  CRITICAL: Stage 2 failed after {max_stage2_attempts} attempts")
+    return {"top_stories": [], "dig_deeper": [], "fact_check": []}
+
+
+def _try_parse_stage2(text):
+    """Attempt to parse Stage 2 JSON response. Returns dict or None on failure."""
     # v4.2: Robust JSON extraction — handle thinking tags, markdown, etc.
     cleaned = text
 
@@ -567,11 +593,9 @@ Return ONLY valid JSON:
                 pass
 
         # v4.6.2: Regex fallback — extract individual story objects from malformed JSON
-        # This handles truncated responses, trailing commas, unescaped chars, etc.
         print(f"  WARNING: Could not parse Stage 2 JSON (error: {e1}). Trying regex fallback...")
         print(f"  Response length: {len(text)} chars")
         stories = []
-        # Match objects that have at least title and source_url
         pattern = r'\{[^{}]*"title"\s*:\s*"([^"]*)"[^{}]*"source_url"\s*:\s*"([^"]*)"[^{}]*\}'
         for m in re.finditer(pattern, cleaned):
             full_match = m.group(0)
@@ -579,10 +603,8 @@ Return ONLY valid JSON:
                 obj = json.loads(full_match)
                 stories.append(obj)
             except Exception:
-                # Build object manually from the match
                 title = m.group(1)
                 url = m.group(2)
-                # Try to extract summary too
                 summary_m = re.search(r'"summary"\s*:\s*"([^"]*)"', full_match)
                 summary = summary_m.group(1) if summary_m else title
                 stories.append({
@@ -598,9 +620,7 @@ Return ONLY valid JSON:
 
         # Last resort: try fixing common JSON issues
         try:
-            # Remove trailing commas before ] or }
             fixed = re.sub(r',\s*([\]\}])', r'\1', cleaned[start:end] if start >= 0 else cleaned)
-            # Try to close truncated JSON
             open_braces = fixed.count('{') - fixed.count('}')
             open_brackets = fixed.count('[') - fixed.count(']')
             fixed += ']' * max(0, open_brackets) + '}' * max(0, open_braces)
@@ -611,8 +631,8 @@ Return ONLY valid JSON:
             pass
 
         preview = text[:500] if len(text) > 500 else text
-        print(f"  CRITICAL: All JSON parsing methods failed. Response preview:\n{preview}")
-        return {"top_stories": [], "dig_deeper": [], "fact_check": []}
+        print(f"  WARNING: All JSON parsing methods failed. Preview:\n{preview}")
+        return None  # Signal retry to caller
 
 
 # ---------------------------------------------------------------------------

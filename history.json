@@ -1,15 +1,14 @@
 {
-  "last_run": "2026-03-30T22:05:24Z",
+  "last_run": "2026-03-31T08:06:44Z",
   "stories": [
-    "Oil shock reasserts itself: WTI settles above $100/bbl",
-    "Rates go defensive: 10-year Treasury yield breaks below 4%",
-    "Fed in the crosshairs: Powell\u2019s Harvard speech meets a war-driven inflation impulse",
-    "Gold\u2019s \u201csafe-haven\u201d script breaks: historic selloff despite war risk",
-    "Credit focus: private credit fears resurface as volatility exposes liquidity assumptions",
-    "UK macro check: mortgage approvals hit a 3\u2011month high",
-    "Alpha\u2014NVDA options: bearish put sweep flagged at $170 (Apr 17, 2026)",
-    "Alpha\u2014GOOG options: long-dated $290 call trade labeled \u201cbearish\u201d (Jan 15, 2027)",
-    "Wildcard\u2014AI capex reality check: financing the ~$3T data-center build-out"
+    "Live futures pulse: cross-asset pricing is \u201coil + yields + headlines,\u201d not fundamentals",
+    "Fed/ECB: geopolitics risks delaying the easing path (rate-cut pricing is the battleground)",
+    "India crude demand/routing risk: U.S. trade-deal conditions reportedly tied to halting Russian purchases",
+    "Europe open: DAX/FTSE show relative strength while tech-heavy benchmarks lag on cut uncertainty",
+    "Asia wrap: choppy session as Japan/Australia reverse earlier weakness; war-risk and rates dominate",
+    "Semis warning shot: Micron ($MU) extends drawdown to >30% in 8 sessions",
+    "Rotation/dispersion tape: Dow steadier while Nasdaq leaks; energy + financials stay bid",
+    "UK financial-conditions check: mortgage approvals improve; banks still build digital-asset rails"
   ],
   "tickers": [],
   "alpha_tickers": []

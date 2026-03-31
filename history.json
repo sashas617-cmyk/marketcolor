@@ -1,15 +1,22 @@
 {
-  "last_run": "2026-03-31T08:06:44Z",
+  "last_run": "2026-03-31T14:33:59Z",
   "stories": [
-    "Live futures pulse: cross-asset pricing is \u201coil + yields + headlines,\u201d not fundamentals",
-    "Fed/ECB: geopolitics risks delaying the easing path (rate-cut pricing is the battleground)",
-    "India crude demand/routing risk: U.S. trade-deal conditions reportedly tied to halting Russian purchases",
-    "Europe open: DAX/FTSE show relative strength while tech-heavy benchmarks lag on cut uncertainty",
-    "Asia wrap: choppy session as Japan/Australia reverse earlier weakness; war-risk and rates dominate",
-    "Semis warning shot: Micron ($MU) extends drawdown to >30% in 8 sessions",
-    "Rotation/dispersion tape: Dow steadier while Nasdaq leaks; energy + financials stay bid",
-    "UK financial-conditions check: mortgage approvals improve; banks still build digital-asset rails"
+    "Iran/Hormuz: war-risk premium whipsaws as de-escalation headlines hit",
+    "Eurozone inflation shock: flash CPI jumps to 2.5% y/y (from 1.9%)",
+    "Russia supply risk: Ukraine drones strike Ust-Luga port again (Baltic export node)",
+    "FX volatility: USD/JPY backs off ~160 as Japan intervention warnings return",
+    "Biotech M&A catalyst: Biogen to buy Apellis for ~$5.6B, $41/share cash",
+    "Semis/AI factor stress: Micron\u2019s drawdown is becoming the bellwether",
+    "Macro positioning: geopolitical premium persists, but focus is shifting to Fed + U.S. jobs",
+    "Options alpha: NVDA bearish put sweep hits $170 strike (Apr 17, 2026)",
+    "bearish NVDA put sweep: 136 contracts at the $170 strike, expiring Apr 17, 2026",
+    "Options alpha: EFV sees reported ~$1.3M call sweep (international value rotation)",
+    "Wildcard: Gold stays supported as markets price \u22652 cuts this year + official buying"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "MU"
+  ],
+  "alpha_tickers": [
+    "MU"
+  ]
 }

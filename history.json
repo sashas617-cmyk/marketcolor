@@ -1,6 +1,12 @@
 {
-  "last_run": "2026-03-31T22:05:02Z",
-  "stories": [],
+  "last_run": "2026-04-01T08:13:22Z",
+  "stories": [
+    "FX setup: USD still \u201csafe-haven winner,\u201d but EUR/USD headline risk is elevated",
+    "Europe equities still fragile: DAX staring at ~10% monthly drawdown",
+    "Options alpha: AppLovin ($APP) flagged with $340 strike prints (~$188K premium)",
+    "Options alpha: Industrials flow\u2014Powell Industries ($POWL) / Bloom Energy ($BE) calls split-filled (~$81.6K)",
+    "Wildcard: Greece\u2019s \u201cbad-loan backlog\u201d is still a growth drag"
+  ],
   "tickers": [],
   "alpha_tickers": []
 }

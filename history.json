@@ -1,22 +1,15 @@
 {
-  "last_run": "2026-04-01T14:46:58Z",
+  "last_run": "2026-04-01T22:05:15Z",
   "stories": [
-    "Oil shock is still the macro landmine: crude up huge, but equities are looking through it",
-    "Fresh macro (last ~2 hours): ISM Manufacturing snaps back into expansion",
-    "Fed reaction function: Powell signals patience on war-driven oil inflation",
-    "Europe: inflation pops back above target, complicating ECB easing",
-    "China macro pulse: factory activity hits a 1-year high",
-    "Positioning risk: Goldman data flags the \u201cbiggest selling in a year\u201d as shorts build",
-    "Alpha (options): Marriott ($MAR) call volume explodes",
-    "Alpha (options): Centessa ($CNTA) call buying spikes +472%",
-    "Wildcard (single-name but major): Apellis ($APLS) reprices on Biogen acquisition"
+    "Risk-on squeeze: equities rip higher as \u201cHormuz Hope\u201d cools worst-case pricing; VIX eases but stays elevated",
+    "Oil whipsaw: crude retreats on \u2018war-exit\u2019 optics, but IEA warns April is setting up a physical squeeze",
+    "Rates check: 10-year Treasury yields dip as markets reprice geopolitics and the Fed path",
+    "Global cross-asset divergence stays the Q2 tell (rates/FX/commodities): region-by-region risk pricing",
+    "Single-name volatility remains acute: CNBC\u2019s midday movers highlight factor churn (healthcare/defensives/consumer)",
+    "Credit/liquidity canary: private-credit outflow chatter and \u201cwatch the spreads\u201d messaging grows louder",
+    "ALPHA \u2014 AEHR unusual options: June 18, 2026 expiry, $140 strike print (~24 contracts; ~$31.2K premium)",
+    "ALPHA \u2014 Insider buy: Energy Vault (NRGV) CEO Robert Piconi buys 12,500 shares at ~$3.2096 (~$40K)"
   ],
-  "tickers": [
-    "CNTA",
-    "MAR"
-  ],
-  "alpha_tickers": [
-    "CNTA",
-    "MAR"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

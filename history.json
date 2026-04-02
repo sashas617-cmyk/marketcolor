@@ -1,21 +1,17 @@
 {
-  "last_run": "2026-04-02T14:33:47Z",
+  "last_run": "2026-04-02T22:12:55Z",
   "stories": [
-    "US labor stays tight: initial jobless claims drop to 202k (near 2-year low)",
-    "Rates reprice higher: US 10-year yield pushes up to ~4.38%",
-    "Energy shock intensifies: Hormuz traffic \u201clargely ceases,\u201d oil whipsaws (Brent ~106, WTI ~103)",
-    "US equity tone: futures pull back as \u201cwar + oil\u201d dominates (but VIX < ~25)",
-    "ECB message: inflation still too high\u2014~2.6% projected for 2026, easing stays \u201cdata-dependent\u201d",
-    "UK rates: gilts sell off despite Bailey warning markets are \u201cgetting ahead\u201d on hikes",
-    "Capital markets stress test: the ~$3T AI data-center build-out runs into tighter funding conditions",
-    "Crypto security shock: Drift Protocol hit by reported ~$285M exploit (Solana DeFi risk-off)",
-    "Crypto flows: \u201cBitcoin treasury boom\u201d unwinds\u2014public companies and Bhutan selling adds spot supply",
-    "Wildcard: SpaceX confidentially files for IPO; valuation talk >$1.75T would reset IPO/risk appetite"
+    "Oil shock re-ignites: WTI +>11%, Brent ~+8% after Trump vows continued attacks on Iran",
+    "OPEC+ may move fast: eight members weigh another output increase at Sunday meeting (Apr 5)",
+    "Russia-Ukraine energy escalation: drone strikes make Russian oil output cuts \u201cunavoidable\u201d",
+    "Macro spillover: today\u2019s crude spike is a direct inflation-risk repricing into the next session",
+    "Credit pulse check: private markets hit a tense moment as retail distribution ramps",
+    "AI capex shock meets tighter funding: the ~$3T data-center build-out faces borrowing/power constraints",
+    "IPO heat check: \u201cworld\u2019s most valuable startup\u201d readies a potentially record debut",
+    "Earnings season setup: volatility rising as guidance and pricing power take center stage",
+    "Tape/dispersion alert: CNBC flags TSLA, NEXT, DAL among biggest midday movers",
+    "Gold\u2019s message: pressure persists as higher yields blunt safe-haven demand"
   ],
-  "tickers": [
-    "RIOT"
-  ],
-  "alpha_tickers": [
-    "RIOT"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

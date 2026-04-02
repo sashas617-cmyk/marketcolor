@@ -1,17 +1,21 @@
 {
-  "last_run": "2026-04-02T08:48:16Z",
+  "last_run": "2026-04-02T14:33:47Z",
   "stories": [
-    "\u201cHormuz Hope\u201d pushes a risk-on tape: VIX eases, tech leads, small caps join",
-    "Oil volatility re-ignites: Brent/WTI jump ~5% after Trump\u2019s Iran remarks",
-    "Euro area inflation re-accelerates: March CPI 2.5% (vs 1.9% prior)",
-    "European natural gas cools (for now): TTF pulls back on ceasefire hopes after a month-long spike",
-    "Washington turns the spotlight on private credit: Treasury to meet insurance regulators on spillover risk",
-    "Central banks\u2019 real-time problem: reading inflation expectations amid an energy shock",
-    "FX tripwire: Japan intervention risk zone near USD/JPY 162\u2013164 (confirmed by Reuters/Bloomberg)",
-    "Single-name flow (Options): AEHR \u201cbullish put\u201d whale print \u2014 Jan 15, 2027 expiry, $35 strike",
-    "Insider buy: Energy Vault (NRGV) CEO Robert Piconi buys 12,500 shares at ~$3.2096 (~$40K)",
-    "Wildcard (macro theme): AI capex funding pressure \u2014 ~$3T data-center buildout raises borrowing/credit questions"
+    "US labor stays tight: initial jobless claims drop to 202k (near 2-year low)",
+    "Rates reprice higher: US 10-year yield pushes up to ~4.38%",
+    "Energy shock intensifies: Hormuz traffic \u201clargely ceases,\u201d oil whipsaws (Brent ~106, WTI ~103)",
+    "US equity tone: futures pull back as \u201cwar + oil\u201d dominates (but VIX < ~25)",
+    "ECB message: inflation still too high\u2014~2.6% projected for 2026, easing stays \u201cdata-dependent\u201d",
+    "UK rates: gilts sell off despite Bailey warning markets are \u201cgetting ahead\u201d on hikes",
+    "Capital markets stress test: the ~$3T AI data-center build-out runs into tighter funding conditions",
+    "Crypto security shock: Drift Protocol hit by reported ~$285M exploit (Solana DeFi risk-off)",
+    "Crypto flows: \u201cBitcoin treasury boom\u201d unwinds\u2014public companies and Bhutan selling adds spot supply",
+    "Wildcard: SpaceX confidentially files for IPO; valuation talk >$1.75T would reset IPO/risk appetite"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "RIOT"
+  ],
+  "alpha_tickers": [
+    "RIOT"
+  ]
 }

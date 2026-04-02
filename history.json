@@ -1,14 +1,16 @@
 {
-  "last_run": "2026-04-01T22:05:15Z",
+  "last_run": "2026-04-02T08:48:16Z",
   "stories": [
-    "Risk-on squeeze: equities rip higher as \u201cHormuz Hope\u201d cools worst-case pricing; VIX eases but stays elevated",
-    "Oil whipsaw: crude retreats on \u2018war-exit\u2019 optics, but IEA warns April is setting up a physical squeeze",
-    "Rates check: 10-year Treasury yields dip as markets reprice geopolitics and the Fed path",
-    "Global cross-asset divergence stays the Q2 tell (rates/FX/commodities): region-by-region risk pricing",
-    "Single-name volatility remains acute: CNBC\u2019s midday movers highlight factor churn (healthcare/defensives/consumer)",
-    "Credit/liquidity canary: private-credit outflow chatter and \u201cwatch the spreads\u201d messaging grows louder",
-    "ALPHA \u2014 AEHR unusual options: June 18, 2026 expiry, $140 strike print (~24 contracts; ~$31.2K premium)",
-    "ALPHA \u2014 Insider buy: Energy Vault (NRGV) CEO Robert Piconi buys 12,500 shares at ~$3.2096 (~$40K)"
+    "\u201cHormuz Hope\u201d pushes a risk-on tape: VIX eases, tech leads, small caps join",
+    "Oil volatility re-ignites: Brent/WTI jump ~5% after Trump\u2019s Iran remarks",
+    "Euro area inflation re-accelerates: March CPI 2.5% (vs 1.9% prior)",
+    "European natural gas cools (for now): TTF pulls back on ceasefire hopes after a month-long spike",
+    "Washington turns the spotlight on private credit: Treasury to meet insurance regulators on spillover risk",
+    "Central banks\u2019 real-time problem: reading inflation expectations amid an energy shock",
+    "FX tripwire: Japan intervention risk zone near USD/JPY 162\u2013164 (confirmed by Reuters/Bloomberg)",
+    "Single-name flow (Options): AEHR \u201cbullish put\u201d whale print \u2014 Jan 15, 2027 expiry, $35 strike",
+    "Insider buy: Energy Vault (NRGV) CEO Robert Piconi buys 12,500 shares at ~$3.2096 (~$40K)",
+    "Wildcard (macro theme): AI capex funding pressure \u2014 ~$3T data-center buildout raises borrowing/credit questions"
   ],
   "tickers": [],
   "alpha_tickers": []

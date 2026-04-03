@@ -1,16 +1,6 @@
 {
-  "last_run": "2026-04-03T14:08:48Z",
-  "stories": [
-    "Executive summary (14:07 UTC):",
-    "Fed (Williams): energy shock may pass through slowly; policy \u201cpositioned for multiple scenarios\u201d",
-    "Macro politics constraint: Powell warning flags debt + tariffs as inflation wildcards",
-    "Jobs Friday setup: NFP seen +60K; unemployment 4.4% \u2014 but holiday timing may distort reaction",
-    "Oil: market holds a geopolitical premium even as 2026 \u201coversupply\u201d is the base case",
-    "AI platform chess move: Microsoft reportedly building its own high-powered models (less reliance on OpenAI)",
-    "Unusual options (AMD): \u201cwhale\u201d print flagged\u2014100 contracts at ~$392/contract (~$39.2K), split across 5 fills",
-    "Insider buy (CGCT): Cartesian Growth III insider purchased 971,000 Class A shares around $10.28\u2013$10.30",
-    "Wildcard (capital markets): financing the ~$3T AI data-center build-out is becoming the next big credit story"
-  ],
+  "last_run": "2026-04-03T21:59:31Z",
+  "stories": [],
   "tickers": [],
   "alpha_tickers": []
 }

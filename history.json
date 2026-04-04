@@ -1,6 +1,16 @@
 {
-  "last_run": "2026-04-03T21:59:31Z",
-  "stories": [],
-  "tickers": [],
-  "alpha_tickers": []
+  "last_run": "2026-04-04T07:44:58Z",
+  "stories": [
+    "AI infrastructure\u2019s financing wave: borrowing accelerates for a projected ~$3T data-center build-out",
+    "Ukraine: Zelenskiy warns of \u201cEaster escalation\u201d amid rolling aerial attacks",
+    "CEF alpha: Saba Capital adds 303,392 shares of $ECAT at ~$13.87 (Form 4), stake ~21.7M shares",
+    "Options edge: IT complex sees a single-strike put burst\u201410,019 contracts traded vs. 966 OI (Benzinga)",
+    "Wildcard risk: private markets face a tense moment as the industry pushes deeper into retail distribution"
+  ],
+  "tickers": [
+    "ECAT"
+  ],
+  "alpha_tickers": [
+    "ECAT"
+  ]
 }

@@ -1,12 +1,18 @@
 {
-  "last_run": "2026-04-04T13:59:37Z",
+  "last_run": "2026-04-04T21:56:19Z",
   "stories": [
     "Executive summary:",
-    "Next macro catalyst: U.S. jobs report becomes the swing factor for front-end rates, USD, and equity multiples",
-    "AI buildout\u2019s financing wall: Bloomberg spotlights the scale of data-center borrowing and private-market retail push",
-    "Options alpha (ASML): bearish put burst points to near-dated hedging demand in Euro semis",
-    "Options alpha (RCL): unusual activity tied to Hormuz/fuel volatility\u2014long strangle structure highlighted",
-    "Wildcard (sanctions/trade): Philippines seeks U.S. waivers to buy oil from sanctioned sources (Iran/Venezuela)"
+    "Iran conflict: ceasefire optics remain muddy, retaliation risk stays the dominant cross-asset catalyst",
+    "Oil is still the macro choke-point: OPEC+ talks more supply, but Hormuz constraints keep the risk premium sticky",
+    "Rates repricing is back in charge: stronger March employment pushes yields up and trims near-term cut expectations",
+    "US equities: S&P 500 snaps a 5-week losing streak, but the \u201cwar-path\u201d remains the only story that matters",
+    "Russia\u2013Ukraine: continued large-scale strikes hit energy/rail infrastructure, keeping Europe\u2019s risk premium elevated",
+    "Credit stress watch: Reuters flags emerging strain in private lending (system-relevant, opaque, and prone to surprises)",
+    "Crypto risk-off: Bitcoin breaks down (reported move under ~$92K) as correlation spikes during geopolitical stress",
+    "Insider tape (M): Macy\u2019s CEO Antony Spring sold shares at ~$18.08\u2014",
+    "Options edge (AAL): whale call flow flagged in American Airlines\u2014May 15, 2026 $8 calls, 100 contracts, split across 6 trades (~$25K premium)",
+    "Stablecoin regulation catalyst: Treasury rolls out GENIUS Act implementation via NPRM\u2014tightening reserve/redemption expectations (and creating winners/losers)",
+    "1:1 backing with high-quality liquid assets"
   ],
   "tickers": [],
   "alpha_tickers": []

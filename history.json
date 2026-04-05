@@ -1,19 +1,26 @@
 {
-  "last_run": "2026-04-04T21:56:19Z",
+  "last_run": "2026-04-05T07:51:45Z",
   "stories": [
-    "Executive summary:",
-    "Iran conflict: ceasefire optics remain muddy, retaliation risk stays the dominant cross-asset catalyst",
-    "Oil is still the macro choke-point: OPEC+ talks more supply, but Hormuz constraints keep the risk premium sticky",
-    "Rates repricing is back in charge: stronger March employment pushes yields up and trims near-term cut expectations",
-    "US equities: S&P 500 snaps a 5-week losing streak, but the \u201cwar-path\u201d remains the only story that matters",
-    "Russia\u2013Ukraine: continued large-scale strikes hit energy/rail infrastructure, keeping Europe\u2019s risk premium elevated",
-    "Credit stress watch: Reuters flags emerging strain in private lending (system-relevant, opaque, and prone to surprises)",
-    "Crypto risk-off: Bitcoin breaks down (reported move under ~$92K) as correlation spikes during geopolitical stress",
-    "Insider tape (M): Macy\u2019s CEO Antony Spring sold shares at ~$18.08\u2014",
-    "Options edge (AAL): whale call flow flagged in American Airlines\u2014May 15, 2026 $8 calls, 100 contracts, split across 6 trades (~$25K premium)",
-    "Stablecoin regulation catalyst: Treasury rolls out GENIUS Act implementation via NPRM\u2014tightening reserve/redemption expectations (and creating winners/losers)",
-    "1:1 backing with high-quality liquid assets"
+    "Energy: weekend strike tempo raises the odds of a gap-open in crude and refined products",
+    "Shipping & insurance: renewed Middle East kinetic risk keeps logistics a live P&L variable",
+    "Credit stress watch: Reuters flags emerging trouble signals in private credit (systemic \u201copacity\u201d risk)",
+    "Banks & funding: private-credit wobble is a potential regional-bank narrative accelerant",
+    "Macro reality check: Reuters warns the labor-market \u201crebound\u201d may be misleading",
+    "India risk-on pocket: Sensex/Nifty snap back on a stronger rupee and selective dip-buying",
+    "Trade map (credit): stress talk targets specific public proxies\u2014watch $BIZD, $SRLN, $HYG, $LQD",
+    "Trade map (India/FX): INR strength supports India beta\u2014watch $INDA alongside USD/oil sensitivity",
+    "Wildcard: \u201cheadline velocity\u201d itself is the product\u2014expect higher vol into the next open"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "BIZD",
+    "HYG",
+    "INDA",
+    "SRLN"
+  ],
+  "alpha_tickers": [
+    "BIZD",
+    "HYG",
+    "INDA",
+    "SRLN"
+  ]
 }

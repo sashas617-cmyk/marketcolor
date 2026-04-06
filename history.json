@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-04-05T21:57:21Z",
+  "last_run": "2026-04-06T08:21:43Z",
   "stories": [
-    "Oil shock stays the macro driver: OPEC+ agrees to a ~206k bpd quota increase\u2014but only if Hormuz reopens",
-    "Europe tail risk: Russia\u2013Ukraine drone/missile activity continues, keeping regional risk premium sticky",
-    "Middle East volatility remains live: Gaza war continues as an overhang with escalation risk",
-    "AI capex meets financing reality: focus shifts to who funds the \u201c$3T data-center build-out\u201d",
-    "Global trade: geopolitics is overtaking economics in routing decisions\u2014political-risk insurance demand rising",
-    "Wall Street product war: Goldman closes acquisition of active-ETF shop Innovator",
-    "US Monday setup: traders fixate on index futures/premarkets as oil-geopolitics collides with growth narratives",
-    "Options tape (Consumer Discretionary): BKNG/CVNA highlighted with a $130 strike print into Apr 17",
-    "Insider accumulation near trust value: CGCT sponsor/insider buys ~971k shares around $10.28\u2013$10.30",
-    "Wildcard (risk-off playbook): \u201cNetflix held up well during the last downturn\u201d \u2014 confirmed by Reuters context"
+    "Oil-driven risk tape: futures steady, crude still the catalyst",
+    "Ukraine supply-risk premium: reported drone strike near Novorossiysk",
+    "Japan: BOJ hike expectations + weak yen keep Nikkei technically fragile",
+    "EIA STEO: US natural gas baseline reset lower; LNG stress shows up \u201coverseas\u201d",
+    "AI build-out financing: markets fixate on who funds the ~$3T data-center boom",
+    "Memory cycle signal: Samsung reportedly lifts Q2 2026 DRAM contract prices ~30%",
+    "CGCT: sponsor-linked insider buying near trust value",
+    "IREN options tape: whale-sized call print at $42 strike (Apr 24, 2026)",
+    "Positioning check: equity ETF inflows reportedly hit a 9-month low in Q1"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,12 +1,14 @@
 {
-  "last_run": "2026-04-06T14:18:53Z",
+  "last_run": "2026-04-06T22:01:44Z",
   "stories": [
-    "Inflation tripwire: Cleveland Fed daily nowcast becomes a higher-frequency \u201creality check\u201d",
-    "Crypto high-beta tell: Bitcoin reclaims",
-    "ALPHA: SPAC radar \u2014 Cartesian Growth Corp. III (",
-    "ALPHA: Options pricing \u2014 Iris Energy (",
-    "Wildcard (today\u2019s execution reality): U.S. markets are OPEN on Easter Monday \u2014 normal NYSE/Nasdaq hours",
-    "9:30 a.m.\u20134:00 p.m. ET"
+    "Risk-on tape: S&P 500 extends its winning streak into the close on Iran de-escalation hopes",
+    "Rates/housing: mortgage rates stay elevated as Treasury yields absorb fresh inflation/oil anxiety",
+    "Single-name shock: Tesla slides on weakest quarterly deliveries in a year (inventory/demand focus intensifies)",
+    "AI capex gravity: financing behind an estimated $3T data-center buildout becomes market-moving",
+    "Earnings season \u201cbogey\u201d: a 13% growth expectation raises the penalty for misses",
+    "Unusual options (IT): whale-sized block flagged\u20142,000 contracts at $15.50 strike (~$122K premium)",
+    "Insider buy (SPAC): CGCT insider purchases ~971,000 shares around $10.28",
+    "Crypto beta check: Bitcoin back above $69K as shorts get squeezed"
   ],
   "tickers": [],
   "alpha_tickers": []

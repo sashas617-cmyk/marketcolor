@@ -1,15 +1,6 @@
 {
-  "last_run": "2026-04-07T08:09:17Z",
-  "stories": [
-    "China FX signal: PBOC sets a stronger fix (USD/CNY 6.8854 vs 6.8929 prior)",
-    "India pivots harder into Russian barrels: March imports jump ~90% amid Middle East disruption",
-    "Gold stays supported: rate-cut pricing + persistent central-bank buying",
-    "Tesla remains a volatility anchor: JPMorgan reiterates deep downside case into 2026",
-    "Private markets flashpoint: retail distribution push meets tighter liquidity conditions",
-    "UNUSUAL OPTIONS \u2014 SVC: call volume spikes to 8,089 contracts (+366% vs average)",
-    "UNUSUAL OPTIONS \u2014 EBAY: extreme call V/OI (1,323 volume vs 13 OI; V/OI ~101.8)",
-    "Wildcard \u2014 Biotech deal tape stays alive: Neurocrine to buy Soleno for $2.5B"
-  ],
+  "last_run": "2026-04-07T22:06:01Z",
+  "stories": [],
   "tickers": [],
   "alpha_tickers": []
 }

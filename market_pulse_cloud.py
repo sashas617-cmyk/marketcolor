@@ -34,8 +34,8 @@ BENZINGA_API_KEY = os.environ.get("BENZINGA_API_KEY", "")
 HISTORY_FILE = Path(__file__).parent / "history.json"
 
 # Venice AI model
-VENICE_MODEL = "openai-gpt-53-codex"
-VENICE_FALLBACK_MODEL = "openai-gpt-53-codex"
+VENICE_MODEL = "openai-gpt-52"
+VENICE_FALLBACK_MODEL = "openai-gpt-52"
 VENICE_BASE_URL = "https://api.venice.ai/api/v1"
 
 

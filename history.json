@@ -1,8 +1,21 @@
 {
-  "last_run": "2026-04-09T08:15:07Z",
+  "last_run": "2026-04-09T15:02:06Z",
   "stories": [
-    "Executive summary:"
+    "Geopolitics: the ceasefire itself is now the catalyst (fragility = premium stays embedded)",
+    "Fed minutes tilt hawkish at the margin: oil is explicitly a policy risk now",
+    "Inflation backdrop: pre-war PCE cited at 2.8%\u2014Fed caution remains structurally justified",
+    "Alpha/edge: Physical tightness favors upstream pricing power\u2014watch the equity factor split (upstream vs. fuel-sensitive)",
+    "Alpha/edge: The Fed\u2019s \u201coil inflation\u201d sensitivity makes duration more asymmetric than usual (rates vol risk)",
+    "Wildcard: \u201cStagflation-lite\u201d risk is what ties the whole tape together today"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "CVX",
+    "SHEL",
+    "UAL"
+  ],
+  "alpha_tickers": [
+    "CVX",
+    "SHEL",
+    "UAL"
+  ]
 }

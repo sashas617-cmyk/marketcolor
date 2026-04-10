@@ -1,13 +1,22 @@
 {
-  "last_run": "2026-04-09T22:06:32Z",
+  "last_run": "2026-04-10T08:19:27Z",
   "stories": [
-    "Executive summary:",
-    "AI capex becomes a macro funding story: Bloomberg flags borrowing needs for a \u201c$3T\u201d data-center buildout",
-    "Europe banking/sanctions overhang: ING terminates deal to sell its Russia business",
-    "AMZN options shocker: 124,311-contract put line item hits the tape into Apr-17 expiry window",
-    "New spot Bitcoin ETF \u201cMSBT\u201d launches into a fee war: ~$34M day-one volume, 0.14% fee",
-    "Wildcard macro frame: \u201cde-dollarisation\u201d increasingly pitched as the structural bid behind commodities"
+    "Global equities: steady on the surface, fragile underneath as Asia trades every oil tick",
+    "US inflation framing: PCE is the last \u201cclean\u201d read before war-related pass-through shows up",
+    "Saudi disruption details harden: capacity and pipeline cuts quantified (and that changes the oil debate)",
+    "UK credit/event risk: Close Brothers gaps higher as motor-finance redress looks provision-covered",
+    "Unusual options: $MOD call volume explodes vs OI (classic \u201cpositioning shock\u201d signal)",
+    "Tech options tape: whale scanner flags activity across $ADBE / $AMAT and other IT names",
+    "ECB-side convergence signal: Bulgaria euro-adoption inflation fears easing (FX/rates implication)"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "ADBE",
+    "AMAT",
+    "MOD"
+  ],
+  "alpha_tickers": [
+    "ADBE",
+    "AMAT",
+    "MOD"
+  ]
 }

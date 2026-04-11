@@ -1,16 +1,6 @@
 {
-  "last_run": "2026-04-10T22:34:09Z",
-  "stories": [
-    "Risk-on surge: U.S. stocks jump on Iran strait deadline extension",
-    "Energy shock back on: WTI +~7% and gasoline jumps",
-    "Taiwan risk re-priced: Xi cites \u2018threat\u2019 of independence in rare talks",
-    "Semis: TSMC posts record revenue on AI chip demand",
-    "Macro theme: financing ramps for a $3T AI data-center buildout",
-    "Policy/market-structure shift: agencies shrink as admin leans into crypto + prediction markets",
-    "Alpha (options): Trane Technologies call sweep into 4/17 expiry",
-    "Alpha (options): AMD sees large premium call activity (~$472k)",
-    "Wildcard: Software re-rating risk\u2014UBS downgrades ServiceNow on AI threat"
-  ],
+  "last_run": "2026-04-11T07:47:01Z",
+  "stories": [],
   "tickers": [],
   "alpha_tickers": []
 }

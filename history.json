@@ -1,23 +1,17 @@
 {
-  "last_run": "2026-04-12T08:01:30Z",
+  "last_run": "2026-04-12T14:06:06Z",
   "stories": [
-    "Geopolitics: U.S.\u2013Iran\u2013Israel cease-fire holding, but \u201cfragile\u201d is the operative word",
-    "Oil: Strait of Hormuz reopening remains the key lever for crude risk premium",
-    "Shipping: Gulf missile/drone activity keeps marine insurance + freight risk elevated",
-    "Japan FX/Policy: minister floats \u201cboost the yen\u201d as an anti-inflation tool",
-    "Global macro: war-linked inflation risk nudges central banks toward \u201chold\u201d mode",
-    "US equities (Sunday tape): S&P 500 CFD soft but still extended",
-    "AI catalyst: Meta \u201cmodel-drop = re-rate\u201d reflex back in play",
-    "Single-name pressure (Discretionary): Nike hit by high-visibility \u201cdamning\u201d downgrade chatter",
-    "Crypto beta stress: XRP slides to ~\\$1.33 on liquidation-style selloff",
-    "Wildcard (momentum/AI-infra basket): PLTR, MRVL, CoreWeave on the \u201cbiggest moves\u201d screen"
+    "Geopolitics/energy: U.S. announces a Strait of Hormuz blockade after talks fail",
+    "Macro/central banks: \u201cHold\u201d mode reinforced as oil-driven inflation risk returns",
+    "Ukraine: Russian drones hit power infrastructure in Odesa region",
+    "Sunday markets: U.S. equities edge lower with cautious rotation",
+    "AI/credit: The $3T data-center build-out shifts focus to financing and spreads",
+    "Japan industrial policy/semis: Extra \u00a5631.5B approved for Rapidus R&D push",
+    "EU political risk: Hungary election headlines hit screens",
+    "Crypto capital markets (alpha): Ether Machine SPAC deal collapses \u2014 listing window tightens",
+    "Options/positioning (alpha): Silver miners leverage appetite shows up via SILJ verticals into near-dated expiry",
+    "China macro wildcard: \u201cDon\u2019t look for stimulus\u201d framing pushes sector-rotation risk into Asia open"
   ],
-  "tickers": [
-    "NKE",
-    "XRP"
-  ],
-  "alpha_tickers": [
-    "NKE",
-    "XRP"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

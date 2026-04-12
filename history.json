@@ -1,8 +1,23 @@
 {
-  "last_run": "2026-04-11T22:03:38Z",
+  "last_run": "2026-04-12T08:01:30Z",
   "stories": [
-    "Data constraint (important):"
+    "Geopolitics: U.S.\u2013Iran\u2013Israel cease-fire holding, but \u201cfragile\u201d is the operative word",
+    "Oil: Strait of Hormuz reopening remains the key lever for crude risk premium",
+    "Shipping: Gulf missile/drone activity keeps marine insurance + freight risk elevated",
+    "Japan FX/Policy: minister floats \u201cboost the yen\u201d as an anti-inflation tool",
+    "Global macro: war-linked inflation risk nudges central banks toward \u201chold\u201d mode",
+    "US equities (Sunday tape): S&P 500 CFD soft but still extended",
+    "AI catalyst: Meta \u201cmodel-drop = re-rate\u201d reflex back in play",
+    "Single-name pressure (Discretionary): Nike hit by high-visibility \u201cdamning\u201d downgrade chatter",
+    "Crypto beta stress: XRP slides to ~\\$1.33 on liquidation-style selloff",
+    "Wildcard (momentum/AI-infra basket): PLTR, MRVL, CoreWeave on the \u201cbiggest moves\u201d screen"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "NKE",
+    "XRP"
+  ],
+  "alpha_tickers": [
+    "NKE",
+    "XRP"
+  ]
 }

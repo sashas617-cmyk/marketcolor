@@ -1,23 +1,17 @@
 {
-  "last_run": "2026-04-13T14:58:29Z",
+  "last_run": "2026-04-13T22:10:23Z",
   "stories": [
-    "Hormuz escalation: U.S. blockade posture goes live, raising direct supply-disruption risk",
-    "Oil shock: crude rips back above $100, reviving inflation and policy-tightening fears",
-    "U.S. session setup: equity futures slide into the open on geopolitics + oil",
-    "Europe mid-session: Stoxx 600 lower as energy stress re-hits cyclicals",
-    "Hedges bid: cross-commodity volatility rises; gold holds firm amid yields tug-of-war",
-    "Hungary political shock turns into a market rally: HUF and local assets outperform",
-    "Physical market stress: \u201carmada of tankers\u201d signals logistics strain and flow reshuffling",
-    "ALPHA (unusual retail reflexivity): $DAVE squeeze narrative heating up on social tape",
-    "ALPHA (insider): $TSM VP adds via ESPP at $57.87; holdings already ~298k shares",
-    "Wildcard catalyst: BP faces rising pressure into its AGM (UK energy equity sentiment risk)"
+    "Japan in focus: BOJ seen potentially supporting the yen; markets price meaningful odds of an April hike",
+    "Private markets strain: the ~$3T AI data-center buildout is colliding with tougher financing reality",
+    "Defensive leadership is loud: utilities are having their best start since 2019",
+    "Crypto catalyst watch: \u201cCLARITY Act\u201d odds jump on prediction markets; SEC roundtable feeds narrative",
+    "Unusual options (EV): $RIVN May 15, 2026 $20 calls \u2014 1,091 contracts traded (~$32.7K premium)",
+    "Wildcard (tape risk): NYSE flags S&P futures whipsaw on \u201curanium deal\u201d headline later clarified"
   ],
   "tickers": [
-    "DAVE",
-    "TSM"
+    "RIVN"
   ],
   "alpha_tickers": [
-    "DAVE",
-    "TSM"
+    "RIVN"
   ]
 }

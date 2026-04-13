@@ -1,6 +1,29 @@
 {
-  "last_run": "2026-04-12T21:59:48Z",
-  "stories": [],
-  "tickers": [],
-  "alpha_tickers": []
+  "last_run": "2026-04-13T09:08:02Z",
+  "stories": [
+    "Japan rates jolt: 10Y JGB yield hits a 29\u2011year high; yen-support talk surfaces as inflation fear rises",
+    "US equities pressure: higher energy revives \u2018higher\u2011for\u2011longer\u2019 risk into earnings",
+    "China FX signal: PBOC sets USD/CNY midpoint at 6.8657 (vs 6.8654 prior)",
+    "ECB setup: market braced for a 25 bp cut; EUR/USD downside asymmetry flagged",
+    "Hungary election shock: Bloomberg flags a landslide ending the Orb\u00e1n era \u2014 HUF risk premium in play",
+    "$3T AI data-center build-out: focus shifts to financing risk \u2014 rates, spreads, and capex winners/losers",
+    "Private markets: \u201calts to retail\u201d push meets a tense liquidity moment \u2014 watch listed alt managers",
+    "Earnings catalyst: JPMorgan and Netflix set the tone as reporting season begins"
+  ],
+  "tickers": [
+    "AMD",
+    "APO",
+    "ARES",
+    "JPM",
+    "KKR",
+    "NFLX"
+  ],
+  "alpha_tickers": [
+    "AMD",
+    "APO",
+    "ARES",
+    "JPM",
+    "KKR",
+    "NFLX"
+  ]
 }

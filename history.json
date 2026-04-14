@@ -1,16 +1,6 @@
 {
-  "last_run": "2026-04-14T08:25:00Z",
-  "stories": [
-    "U.S. equities: Iran-war risk premium fades, drawdown gets erased",
-    "ECB path reprices upward: \u201chigher-for-longer\u201d back on the table",
-    "Oil microstructure: tanker redeployments point to tighter logistics (and wider spreads)",
-    "China/FX constraint: PBOC liquidity drain to defend yuan dampens stimulus hopes",
-    "AI capex trade meets credit reality: ~$3T data-center buildout is rate-sensitive",
-    "UK macro snapshot: modest real wage gains, cooling vacancies shape the BoE debate",
-    "Germany/Europe equities: DAX steady, but hypersensitive to ECB expectations + German CPI risk",
-    "Options alpha ($AAPL): outsized call print vs. prior open interest",
-    "Options alpha ($INTC): $57 puts implode as stock holds above strike (fast P&L / dealer unwind signal)"
-  ],
+  "last_run": "2026-04-14T14:57:24Z",
+  "stories": [],
   "tickers": [],
   "alpha_tickers": []
 }

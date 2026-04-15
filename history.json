@@ -1,16 +1,13 @@
 {
-  "last_run": "2026-04-15T08:26:33Z",
+  "last_run": "2026-04-15T14:52:53Z",
   "stories": [
-    "Executive summary (08:24 UTC):",
-    "Oil volatility snaps hard: WTI drops >7% to sub-$92 on talk-resumption headlines (but the curve is still \u201cgeopolitics-first\u201d).",
-    "U.S. rates: March PPI (+0.5%) keeps the \u201cdovish Fed hopes\u201d narrative in play; yields stay pressured.",
-    "UK rates/GBP: Parliament brief flags BoE view CPI likely 3\u20133.5% over the next couple quarters on energy\u2014front-end cuts may stay constrained.",
-    "AI capex mega-theme: the $3T data-center build-out is turning into a macro credit story (not just tech beta).",
-    "Banks: JPMorgan\u2019s traders post a record haul\u2014volatility is paying the bills even if underwriting stays mixed.",
-    "Private markets: retail distribution push raises liquidity/valuation-mismatch risk (potential spillover into public credit).",
-    "Options edge (Industrials/defense): notable whale-style call flow hits AVAV and other aerospace/defense-adjacent names.",
-    "Options edge (AMZN): call accumulation building into early-May earnings\u2014watch dealer gamma into the print.",
-    "Wildcard single-name volatility (ASTS): FCC \u201cthree-way race\u201d framing + BlueBird timing slippage is moving the tape."
+    "Bank of America prints: trading desks post record results, reinforcing the \u201cvolatility is profitable\u201d bank tape",
+    "Brent stabilizes around ~$95: market balances war-risk premium vs. renewed US\u2013Iran talks chatter",
+    "FT: Asian crude buyers are \u201cvacuuming\u201d supply\u2014tightening availability for Europe/US and amplifying regional dislocations",
+    "BoC decision day: Canada rates/CAD volatility elevated into the statement + press conference",
+    "AAPL options tape: heavy near-dated $155 calls (Apr 17, 2026) with premium ~$66.8K; volume dwarfs OI",
+    "HTO insider/holder accumulation: Atlas Infrastructure Partners buys ~50,385 shares (~$2.98M) around $59.06",
+    "Wildcard micro-cap volatility: Perfect Moment says \u201cno material development\u201d behind unusual trading action"
   ],
   "tickers": [],
   "alpha_tickers": []

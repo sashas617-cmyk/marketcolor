@@ -1,14 +1,22 @@
 {
-  "last_run": "2026-04-15T14:52:53Z",
+  "last_run": "2026-04-15T22:11:55Z",
   "stories": [
-    "Bank of America prints: trading desks post record results, reinforcing the \u201cvolatility is profitable\u201d bank tape",
-    "Brent stabilizes around ~$95: market balances war-risk premium vs. renewed US\u2013Iran talks chatter",
-    "FT: Asian crude buyers are \u201cvacuuming\u201d supply\u2014tightening availability for Europe/US and amplifying regional dislocations",
-    "BoC decision day: Canada rates/CAD volatility elevated into the statement + press conference",
-    "AAPL options tape: heavy near-dated $155 calls (Apr 17, 2026) with premium ~$66.8K; volume dwarfs OI",
-    "HTO insider/holder accumulation: Atlas Infrastructure Partners buys ~50,385 shares (~$2.98M) around $59.06",
-    "Wildcard micro-cap volatility: Perfect Moment says \u201cno material development\u201d behind unusual trading action"
+    "SEC/FINRA pattern day-trader (PDT) rule change: retail market structure shockwave",
+    "Oil macro reset: EIA flags a higher 2Q26 peak scenario; Hormuz friction remains the tail risk",
+    "US Treasury targets Iran-linked oil network: enforcement risk back on the tape",
+    "AI data-center capex boom meets financing reality: watch credit, not just semis",
+    "World Bank: Latin America & Caribbean growth outlook stays muted (~2.3% in 2026)",
+    "Trade policy risk map: Section 232 exposure is increasingly investable (and hedgeable)",
+    "Options alpha: $AAPL unusual upside call print (May 15, 2026; $275 strike)",
+    "Options alpha: $AMZN call activity builds into late-April/early-May earnings window",
+    "Wildcard macro narrative: de-dollarisation bid shows up as \u201cgold + resources as quasi-reserves\u201d"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "AAPL",
+    "AMZN"
+  ],
+  "alpha_tickers": [
+    "AAPL",
+    "AMZN"
+  ]
 }

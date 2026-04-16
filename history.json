@@ -1,15 +1,13 @@
 {
-  "last_run": "2026-04-16T08:26:13Z",
+  "last_run": "2026-04-16T15:07:28Z",
   "stories": [
-    "China: Q1 GDP hits 5% YoY, but the market takeaway is \u201cgrowth OK, consumption still not fixed\u201d",
-    "ECB: Schnabel signals policy is \u201crelatively favorable\u201d after inflation was pushed back near ~2% (pre-war)",
-    "U.S. equities: more S&P 500 names print fresh all-time highs, reinforcing momentum/CTA tailwinds",
-    "Europe: Luxury takes a hit as Kering drops on Gucci sales miss (read-through risk for the whole complex)",
-    "Geopolitics + market structure: CFTC examines suspicious oil futures trades ahead of Trump\u2019s Iran pivots (confirmed)",
-    "AI build-out: the \u201c$3 trillion data-center wave\u201d is increasingly a financing story (credit spreads/utility power in focus)",
-    "Unusual options (KNX): massive downside put burst targets Jul 17 $42.50 \u2014 vol 5,913 vs OI 120",
-    "Insider/holder signal (AIMD): ASE Test adds to 6% convertible notes; conversion price $22.50; total holdings 105,868 units",
-    "Trade policy: JPM keeps tariffs on the tape as a cross-asset volatility source (industrials/semis/FX)"
+    "Executive summary:",
+    "Iran-linked maritime sanctions: enforcement \u201cleakiness\u201d shows up as sanctioned VLCCs transit, while Treasury targets revenue networks",
+    "Europe rates/risk: Italy\u2019s new 10Y syndication sees record foreign take-up (supports periphery spreads)",
+    "AI build-out becomes a financing story: borrowing ramps for the ~$3T data-center wave",
+    "KNX: extreme downside positioning hits the July 17 $42.50 put (fresh size, not just rolling)",
+    "MU insider tape: EVP sells shares at ~$420 (small size, but worth noting at AI-memory valuations)",
+    "Gold holds near $4,820/oz: safe-haven bid vs \u201cstill-high yields\u201d tug-of-war"
   ],
   "tickers": [],
   "alpha_tickers": []

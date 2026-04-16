@@ -1,22 +1,16 @@
 {
-  "last_run": "2026-04-15T22:11:55Z",
+  "last_run": "2026-04-16T08:26:13Z",
   "stories": [
-    "SEC/FINRA pattern day-trader (PDT) rule change: retail market structure shockwave",
-    "Oil macro reset: EIA flags a higher 2Q26 peak scenario; Hormuz friction remains the tail risk",
-    "US Treasury targets Iran-linked oil network: enforcement risk back on the tape",
-    "AI data-center capex boom meets financing reality: watch credit, not just semis",
-    "World Bank: Latin America & Caribbean growth outlook stays muted (~2.3% in 2026)",
-    "Trade policy risk map: Section 232 exposure is increasingly investable (and hedgeable)",
-    "Options alpha: $AAPL unusual upside call print (May 15, 2026; $275 strike)",
-    "Options alpha: $AMZN call activity builds into late-April/early-May earnings window",
-    "Wildcard macro narrative: de-dollarisation bid shows up as \u201cgold + resources as quasi-reserves\u201d"
+    "China: Q1 GDP hits 5% YoY, but the market takeaway is \u201cgrowth OK, consumption still not fixed\u201d",
+    "ECB: Schnabel signals policy is \u201crelatively favorable\u201d after inflation was pushed back near ~2% (pre-war)",
+    "U.S. equities: more S&P 500 names print fresh all-time highs, reinforcing momentum/CTA tailwinds",
+    "Europe: Luxury takes a hit as Kering drops on Gucci sales miss (read-through risk for the whole complex)",
+    "Geopolitics + market structure: CFTC examines suspicious oil futures trades ahead of Trump\u2019s Iran pivots (confirmed)",
+    "AI build-out: the \u201c$3 trillion data-center wave\u201d is increasingly a financing story (credit spreads/utility power in focus)",
+    "Unusual options (KNX): massive downside put burst targets Jul 17 $42.50 \u2014 vol 5,913 vs OI 120",
+    "Insider/holder signal (AIMD): ASE Test adds to 6% convertible notes; conversion price $22.50; total holdings 105,868 units",
+    "Trade policy: JPM keeps tariffs on the tape as a cross-asset volatility source (industrials/semis/FX)"
   ],
-  "tickers": [
-    "AAPL",
-    "AMZN"
-  ],
-  "alpha_tickers": [
-    "AAPL",
-    "AMZN"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

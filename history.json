@@ -1,13 +1,14 @@
 {
-  "last_run": "2026-04-16T15:07:28Z",
+  "last_run": "2026-04-16T22:14:24Z",
   "stories": [
-    "Executive summary:",
-    "Iran-linked maritime sanctions: enforcement \u201cleakiness\u201d shows up as sanctioned VLCCs transit, while Treasury targets revenue networks",
-    "Europe rates/risk: Italy\u2019s new 10Y syndication sees record foreign take-up (supports periphery spreads)",
-    "AI build-out becomes a financing story: borrowing ramps for the ~$3T data-center wave",
-    "KNX: extreme downside positioning hits the July 17 $42.50 put (fresh size, not just rolling)",
-    "MU insider tape: EVP sells shares at ~$420 (small size, but worth noting at AI-memory valuations)",
-    "Gold holds near $4,820/oz: safe-haven bid vs \u201cstill-high yields\u201d tug-of-war"
+    "Crude snaps higher again: Brent settles near $99 as Hormuz risk + impaired price discovery linger",
+    "U.S. Treasury escalates Iran pressure: sanctions enforcement risk rises for shippers/traders",
+    "Ukraine: worst attack this year raises Europe security/energy tail risk",
+    "After-hours single-name shock: Netflix -10% on Hastings exit headline",
+    "Tariffs back in the macro driver\u2019s seat (JPM): regime risk for equities, rates, and gold",
+    "$SHOP flow: ~40,000 May 15 $85 calls trade \u2014 looks like overwrite/covered-call rolling",
+    "$TSCO downside hedge spikes: July 17 $45 puts print 6,109 contracts vs ~901 OI",
+    "Wildcard (positioning/vol): \u201cwar-premium\u201d unwind still shaping FX/rates/vol correlations"
   ],
   "tickers": [],
   "alpha_tickers": []

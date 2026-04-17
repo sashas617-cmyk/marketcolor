@@ -1,24 +1,17 @@
 {
-  "last_run": "2026-04-17T08:24:37Z",
+  "last_run": "2026-04-17T14:28:03Z",
   "stories": [
-    "Risk-on tape: equities rip higher while crude gets hit on U.S.\u2013Iran ceasefire relief",
-    "ECB tries to slow the market: policymakers play down chances of an April hike",
-    "Eurozone inflation locked in: March CPI finalized at 2.6% y/y",
-    "China surprise support: Q1 GDP +5.0% y/y beats expectations, but war-linked headwinds loom",
-    "Japan rates: Reuters poll leans to a BOJ hike by June as inflation risk re-accelerates",
-    "Macro regime shift: commodities reshaping geopolitics could reset the FX \u201cpecking order\u201d",
-    "Hong Kong policy bid: tax break to lure global commodity traders",
-    "Options alpha: $AMZN bearish put sweep flagged (Jan 15, 2027 $180)",
-    "Options alpha: $QCOM long-dated $195 call print (~100 contracts; ~$134K) tagged \u201cbearish transfer\u201d",
-    "Wildcard (market internals): calls beating puts >2:1; breadth shows 117 new 52-week highs",
-    "calls outpacing puts by better than 2:1"
+    "Private capital vs. the AI data-center boom: financing strain meets a retail-distribution push",
+    "India bullion disruption: banks reportedly halt gold/silver imports amid clearance delays",
+    "Crypto plumbing risk for European financials: RBC flags bank exposure to corporate crypto payments",
+    "Options alpha: $SHOP \u201cwhale\u201d flow suggests covered-call management (40,000 contracts)",
+    "Market integrity / energy vol: CFTC scrutinizes suspiciously timed oil futures trades",
+    "Macro regime shift watch: commodities are re-ordering geopolitics\u2014and the FX pecking order"
   ],
   "tickers": [
-    "AMZN",
-    "QCOM"
+    "SHOP"
   ],
   "alpha_tickers": [
-    "AMZN",
-    "QCOM"
+    "SHOP"
   ]
 }

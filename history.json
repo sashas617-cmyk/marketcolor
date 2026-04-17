@@ -1,17 +1,6 @@
 {
-  "last_run": "2026-04-17T14:28:03Z",
-  "stories": [
-    "Private capital vs. the AI data-center boom: financing strain meets a retail-distribution push",
-    "India bullion disruption: banks reportedly halt gold/silver imports amid clearance delays",
-    "Crypto plumbing risk for European financials: RBC flags bank exposure to corporate crypto payments",
-    "Options alpha: $SHOP \u201cwhale\u201d flow suggests covered-call management (40,000 contracts)",
-    "Market integrity / energy vol: CFTC scrutinizes suspiciously timed oil futures trades",
-    "Macro regime shift watch: commodities are re-ordering geopolitics\u2014and the FX pecking order"
-  ],
-  "tickers": [
-    "SHOP"
-  ],
-  "alpha_tickers": [
-    "SHOP"
-  ]
+  "last_run": "2026-04-17T22:08:39Z",
+  "stories": [],
+  "tickers": [],
+  "alpha_tickers": []
 }

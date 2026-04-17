@@ -1,15 +1,24 @@
 {
-  "last_run": "2026-04-16T22:14:24Z",
+  "last_run": "2026-04-17T08:24:37Z",
   "stories": [
-    "Crude snaps higher again: Brent settles near $99 as Hormuz risk + impaired price discovery linger",
-    "U.S. Treasury escalates Iran pressure: sanctions enforcement risk rises for shippers/traders",
-    "Ukraine: worst attack this year raises Europe security/energy tail risk",
-    "After-hours single-name shock: Netflix -10% on Hastings exit headline",
-    "Tariffs back in the macro driver\u2019s seat (JPM): regime risk for equities, rates, and gold",
-    "$SHOP flow: ~40,000 May 15 $85 calls trade \u2014 looks like overwrite/covered-call rolling",
-    "$TSCO downside hedge spikes: July 17 $45 puts print 6,109 contracts vs ~901 OI",
-    "Wildcard (positioning/vol): \u201cwar-premium\u201d unwind still shaping FX/rates/vol correlations"
+    "Risk-on tape: equities rip higher while crude gets hit on U.S.\u2013Iran ceasefire relief",
+    "ECB tries to slow the market: policymakers play down chances of an April hike",
+    "Eurozone inflation locked in: March CPI finalized at 2.6% y/y",
+    "China surprise support: Q1 GDP +5.0% y/y beats expectations, but war-linked headwinds loom",
+    "Japan rates: Reuters poll leans to a BOJ hike by June as inflation risk re-accelerates",
+    "Macro regime shift: commodities reshaping geopolitics could reset the FX \u201cpecking order\u201d",
+    "Hong Kong policy bid: tax break to lure global commodity traders",
+    "Options alpha: $AMZN bearish put sweep flagged (Jan 15, 2027 $180)",
+    "Options alpha: $QCOM long-dated $195 call print (~100 contracts; ~$134K) tagged \u201cbearish transfer\u201d",
+    "Wildcard (market internals): calls beating puts >2:1; breadth shows 117 new 52-week highs",
+    "calls outpacing puts by better than 2:1"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "AMZN",
+    "QCOM"
+  ],
+  "alpha_tickers": [
+    "AMZN",
+    "QCOM"
+  ]
 }

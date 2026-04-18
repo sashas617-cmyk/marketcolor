@@ -1,6 +1,18 @@
 {
-  "last_run": "2026-04-17T22:08:39Z",
-  "stories": [],
-  "tickers": [],
-  "alpha_tickers": []
+  "last_run": "2026-04-18T07:58:22Z",
+  "stories": [
+    "Iran\u2013US talks: de-escalation priced, but \u201cheadline risk\u201d still live",
+    "Fed to big banks: don\u2019t aggressively fight the new capital rules",
+    "Positioning/flows: hedge-fund stock buying hits $86B",
+    "Macro/FX: commodities are reshaping geopolitics\u2014and the currency pecking order",
+    "Single-name vol (quantum): $QBTS call volume explodes",
+    "Health-care options \u201cwhale\u201d print: $175 strike block flagged",
+    "Crypto leverage flush: ~$820M liquidations as Bitcoin tags ~$78K"
+  ],
+  "tickers": [
+    "QBTS"
+  ],
+  "alpha_tickers": [
+    "QBTS"
+  ]
 }

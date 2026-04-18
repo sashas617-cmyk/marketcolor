@@ -1,18 +1,21 @@
 {
-  "last_run": "2026-04-18T14:06:40Z",
+  "last_run": "2026-04-18T21:59:35Z",
   "stories": [
-    "Commodity shock widens: aluminium turmoil spills into copper + nickel supply chains",
-    "U.S. bank policy risk: Fed warns big banks not to fight new capital rules too aggressively",
-    "U.S. housing sensitivity rises again: mortgage rates back near ~6.3%",
-    "AI capex stress-test: Bloomberg highlights funding fault lines around a ~$3T data-center buildout",
-    "Options alpha (Health Care): concentrated whale flow with strike/OI signal",
-    "Insider tape (Biopharma): $LQDA CEO sells stock via 10b5-1",
-    "European telecom M&A shock: French trio raises SFR bid to \u20ac20.35B (~$24B)"
+    "Asia tail risk rises: China runs East China Sea drills after Taiwan Strait transit",
+    "IMF turns more cautious: slower growth + higher inflation linked to conflict/energy",
+    "Rates narrative shifts: markets price fewer cuts; broker desks still point to mid-2026 easing",
+    "Bank regulation overhang: Fed signals big banks shouldn\u2019t publicly fight capital rules",
+    "Single-stock shock: Netflix guidance hit triggers another leadership rotation",
+    "Options alpha: D-Wave Quantum ($QBTS) call volume explodes",
+    "Options alpha: $HCA whale flow targets the $175 line into mid-June",
+    "Wildcard (policy/compliance): U.S. lawmaker probes \u201csuspicious\u201d oil trades during Iran war"
   ],
   "tickers": [
-    "LQDA"
+    "HCA",
+    "QBTS"
   ],
   "alpha_tickers": [
-    "LQDA"
+    "HCA",
+    "QBTS"
   ]
 }

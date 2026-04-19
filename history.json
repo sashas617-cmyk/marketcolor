@@ -1,17 +1,17 @@
 {
-  "last_run": "2026-04-19T08:12:51Z",
+  "last_run": "2026-04-19T14:06:26Z",
   "stories": [
-    "U.S. equities: records hold as crude backs off, reinforcing the risk-on rotation",
-    "Iran war livewire: escalation/retaliation/nuclear rhetoric remains the core global volatility catalyst (last few hours)",
-    "Asia risk premium: China launches drills after Japanese destroyer transits the Taiwan Strait",
-    "Europe security: Ukraine reports a large-scale overnight drone wave with casualties/infrastructure impacts (fresh updates)",
-    "Crypto credit shock: ~$292M drained from Kelp DAO, emergency freezes ripple through DeFi",
-    "Rates playbook: BofA\u2019s Hartnett leans into \u201clower rates\u201d positioning + frames an \u201cAI war\u201d trade setup",
-    "Gold bid: demand/positioning focus into Akshaya Tritiya amid geopolitics and macro uncertainty",
-    "Crypto microstructure: ~$593M in short liquidations overnight signals leverage still crowded",
-    "Oil vol/odds signal: Polymarket pricing centers April catalysts (EIA inventories + geopolitics)",
-    "Wildcard \u2014 single-name dispersion is back: RCL, XOM, Critical Metals, NFLX flagged as big movers"
+    "U.S. equities re-risk: S&P 500 + Nasdaq at record highs after the geopolitics wobble",
+    "Iran\u2013U.S. negotiations: sanctions remain an active lever; China-linked supply chains in the crosshairs",
+    "Energy security premium is \u201csticky\u201d: traders are pricing disruption risk from two directions",
+    "Most direct liquid \u201cevent-beta\u201d basket for Hormuz risk: tanker exposure (tickers to watch into next session)",
+    "Sanctions headline-beta: energy/services and China-supply-chain sensitivity (tickers to keep on the radar)",
+    "Wildcard: record highs + geopolitics = \u201ccalm surface, fragile depth\u201d regime"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "FRO"
+  ],
+  "alpha_tickers": [
+    "FRO"
+  ]
 }

@@ -1,17 +1,14 @@
 {
-  "last_run": "2026-04-19T14:06:26Z",
+  "last_run": "2026-04-19T22:00:03Z",
   "stories": [
-    "U.S. equities re-risk: S&P 500 + Nasdaq at record highs after the geopolitics wobble",
-    "Iran\u2013U.S. negotiations: sanctions remain an active lever; China-linked supply chains in the crosshairs",
-    "Energy security premium is \u201csticky\u201d: traders are pricing disruption risk from two directions",
-    "Most direct liquid \u201cevent-beta\u201d basket for Hormuz risk: tanker exposure (tickers to watch into next session)",
-    "Sanctions headline-beta: energy/services and China-supply-chain sensitivity (tickers to keep on the radar)",
-    "Wildcard: record highs + geopolitics = \u201ccalm surface, fragile depth\u201d regime"
+    "ECB: Lagarde flags a stagflationary war shock risk (growth down, inflation up)",
+    "Russia\u2013Ukraine: Reuters flags the heaviest strikes of the year \u2014 second war theater still active",
+    "Israel\u2013Lebanon: a 10-day ceasefire offers a pressure valve, but it\u2019s still fragile",
+    "Earnings tape risk: \u201cbuy-ahead\u201d lists circulate, while semis get an \u2018overbought\u2019 warning",
+    "ALPHA (flow/timing): report claims a ~$760M Brent crude short hit before de-escalation headlines",
+    "Crypto leverage map: liquidation bands cluster near BTC $77k (shorts) and $73k (longs)",
+    "Wildcard: TSLA\u2019s bearish technical narrative goes viral \u2014 trendline break + \u2018fake breakout\u2019 framing"
   ],
-  "tickers": [
-    "FRO"
-  ],
-  "alpha_tickers": [
-    "FRO"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

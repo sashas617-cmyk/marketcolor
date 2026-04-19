@@ -1,21 +1,17 @@
 {
-  "last_run": "2026-04-18T21:59:35Z",
+  "last_run": "2026-04-19T08:12:51Z",
   "stories": [
-    "Asia tail risk rises: China runs East China Sea drills after Taiwan Strait transit",
-    "IMF turns more cautious: slower growth + higher inflation linked to conflict/energy",
-    "Rates narrative shifts: markets price fewer cuts; broker desks still point to mid-2026 easing",
-    "Bank regulation overhang: Fed signals big banks shouldn\u2019t publicly fight capital rules",
-    "Single-stock shock: Netflix guidance hit triggers another leadership rotation",
-    "Options alpha: D-Wave Quantum ($QBTS) call volume explodes",
-    "Options alpha: $HCA whale flow targets the $175 line into mid-June",
-    "Wildcard (policy/compliance): U.S. lawmaker probes \u201csuspicious\u201d oil trades during Iran war"
+    "U.S. equities: records hold as crude backs off, reinforcing the risk-on rotation",
+    "Iran war livewire: escalation/retaliation/nuclear rhetoric remains the core global volatility catalyst (last few hours)",
+    "Asia risk premium: China launches drills after Japanese destroyer transits the Taiwan Strait",
+    "Europe security: Ukraine reports a large-scale overnight drone wave with casualties/infrastructure impacts (fresh updates)",
+    "Crypto credit shock: ~$292M drained from Kelp DAO, emergency freezes ripple through DeFi",
+    "Rates playbook: BofA\u2019s Hartnett leans into \u201clower rates\u201d positioning + frames an \u201cAI war\u201d trade setup",
+    "Gold bid: demand/positioning focus into Akshaya Tritiya amid geopolitics and macro uncertainty",
+    "Crypto microstructure: ~$593M in short liquidations overnight signals leverage still crowded",
+    "Oil vol/odds signal: Polymarket pricing centers April catalysts (EIA inventories + geopolitics)",
+    "Wildcard \u2014 single-name dispersion is back: RCL, XOM, Critical Metals, NFLX flagged as big movers"
   ],
-  "tickers": [
-    "HCA",
-    "QBTS"
-  ],
-  "alpha_tickers": [
-    "HCA",
-    "QBTS"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

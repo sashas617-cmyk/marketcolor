@@ -1,14 +1,16 @@
 {
-  "last_run": "2026-04-22T14:55:58Z",
+  "last_run": "2026-04-22T22:14:00Z",
   "stories": [
-    "Positioning tailwind: Reuters/Goldman data shows hedge funds bought ~$86B in equities as peace hopes rise",
-    "US breadth signal: Russell 2000 tags a new all-time intraday high; earnings dispersion is driving single-name volatility",
-    "Bank-regulation overhang: Reuters reports the Fed told big banks not to \u201cpush back aggressively\u201d on new capital rules",
-    "Trade policy back on the tape: CNBC highlights Trump efforts to blunt tariff/geopolitical blowback",
-    "Europe macro/rates: ECB still on hold (deposit rate 2.0%) as war-linked energy inflation complicates the next move",
-    "Crypto-equities long-dated upside: RIOT sees bullish Jan 15, 2027 $15 call activity (~150 contracts, ~$64.5K premium)",
-    "Insider tape (clean sentiment): Badger Meter CEO buys 2,200 shares at $117.53",
-    "Earnings tape-shaper in defensives: UnitedHealth jumps >8% on beat + raised outlook"
+    "Strategists chase the AI tape: J.P. Morgan lifts S&P 500 year-end target to 7,600",
+    "Tesla prints a headline beat (post-close): adj. EPS $0.41 vs $0.34 est; revenue $22.39B vs $22.19B est",
+    "ServiceNow keeps the enterprise software \u201cdurability\u201d bid alive: revenue +22.1% YoY to $3.77B; non-GAAP EPS $0.97 (in line)",
+    "Geopolitics remains a live fuse: ceasefire-extension headlines vs ongoing Strait of Hormuz disruption risk",
+    "Oil is the macro tax: Brent near $101.73/bbl, up ~54% YoY",
+    "Trade policy back in focus: Trump seeks to mitigate tariff/geopolitical blowback (markets still hypersensitive)",
+    "US bank capital overhang: Reuters says the Fed told big banks not to \u201cpush back aggressively\u201d on new rules",
+    "Options alpha (crypto equities): RIOT sees long-dated bullish call trade \u2014 Jan 15, 2027 $15 calls (150 contracts), ~$64.5K premium",
+    "Options alpha (China tech convexity): BABA flagged for bullish call sweep \u2014 Dec 17, 2027 expiry, $150 strike (9 contracts)",
+    "Europe regulation watch: Switzerland banking reform plans advance (post-lobbying) \u2014 potential spillover for European financials"
   ],
   "tickers": [],
   "alpha_tickers": []

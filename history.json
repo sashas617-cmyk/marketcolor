@@ -1,17 +1,23 @@
 {
-  "last_run": "2026-04-22T22:14:00Z",
+  "last_run": "2026-04-23T08:34:00Z",
   "stories": [
-    "Strategists chase the AI tape: J.P. Morgan lifts S&P 500 year-end target to 7,600",
-    "Tesla prints a headline beat (post-close): adj. EPS $0.41 vs $0.34 est; revenue $22.39B vs $22.19B est",
-    "ServiceNow keeps the enterprise software \u201cdurability\u201d bid alive: revenue +22.1% YoY to $3.77B; non-GAAP EPS $0.97 (in line)",
-    "Geopolitics remains a live fuse: ceasefire-extension headlines vs ongoing Strait of Hormuz disruption risk",
-    "Oil is the macro tax: Brent near $101.73/bbl, up ~54% YoY",
-    "Trade policy back in focus: Trump seeks to mitigate tariff/geopolitical blowback (markets still hypersensitive)",
-    "US bank capital overhang: Reuters says the Fed told big banks not to \u201cpush back aggressively\u201d on new rules",
-    "Options alpha (crypto equities): RIOT sees long-dated bullish call trade \u2014 Jan 15, 2027 $15 calls (150 contracts), ~$64.5K premium",
-    "Options alpha (China tech convexity): BABA flagged for bullish call sweep \u2014 Dec 17, 2027 expiry, $150 strike (9 contracts)",
-    "Europe regulation watch: Switzerland banking reform plans advance (post-lobbying) \u2014 potential spillover for European financials"
+    "Daily Market Pulse \u2014 Thu, Apr 23, 2026 \u2014 08:31 UTC",
+    "Oil: geopolitical risk premium jumps again on Hormuz ship-attack reports + U.S. fuel stock draw",
+    "U.S. equities: record closes on ceasefire extension, but headline-risk remains a live fuse",
+    "Macro catalyst (hours away): flash PMIs could flip the growth narrative back to \u201cscare\u201d",
+    "U.S. banks: Fed reportedly urges big banks not to fight capital rules\u2014buyback/ROE math at risk",
+    "Positioning watch: Goldman flow data shows hedge fund equity buying surges to ~$86B",
+    "UK focus: inflation ticks up, while \u201cAI investing guidance\u201d hits the FCA scrutiny zone",
+    "Options alpha \u2014 $AAPL: near-dated $130 strike activity into Apr 24 expiry",
+    "Insider alpha \u2014 $BMI: VP Richard Htwe buys 1,700 shares in the open market",
+    "Wildcard cross-asset: gold slides despite geopolitics\u2014haven bid is not \u201cautomatic\u201d"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "AAPL",
+    "BMI"
+  ],
+  "alpha_tickers": [
+    "AAPL",
+    "BMI"
+  ]
 }

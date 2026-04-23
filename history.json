@@ -1,15 +1,12 @@
 {
-  "last_run": "2026-04-23T15:22:11Z",
+  "last_run": "2026-04-23T22:30:40Z",
   "stories": [
-    "Eurozone growth scare: flash PMI drops into contraction at 48.6",
-    "U.S. labor market still steady: jobless claims edge up to 214,000",
-    "Banks: capital-rule overhang intensifies as Fed discourages a big pushback",
-    "Trade policy risk returns: tariff messaging turns to \u201cmanage blowback\u201d",
-    "Big call from sell-side: J.P. Morgan lifts S&P 500 year-end target to 7,600",
-    "Semis/industrial electronics: Texas Instruments pops on a clean beat",
-    "Options tape (AMZN): call block flagged \u2014 ~5,126 contracts, ~$510K premium",
-    "Options anomaly (ADP): ultra-high strike activity flagged \u2014 verify contract specs",
-    "Wildcard mega-cap: TSLA reprices on \u201csubstantially\u201d higher capex for autonomy/robots"
+    "U.S. bank overhang: Fed urges big banks not to \u201caggressively\u201d resist new capital rules",
+    "Europe semicap pulse: ASMI pops ~7% on Q1 beat",
+    "Positioning check: Goldman data shows hedge-fund stock buying hits $86B",
+    "Software squeeze may be tiring: Goldman flags the ~19% bounce may not extend",
+    "ADP options: \u201cbullish\u201d put sweep flagged at $1,100 strike into Friday expiry",
+    "Prediction-market integrity risk: claims Paris temperature data was manipulated for wagers"
   ],
   "tickers": [],
   "alpha_tickers": []

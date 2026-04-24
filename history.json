@@ -1,15 +1,20 @@
 {
-  "last_run": "2026-04-24T08:58:53Z",
+  "last_run": "2026-04-24T14:50:52Z",
   "stories": [
-    "Risk-off tape: oil up again as geopolitics re-price; tech takes the hit",
-    "UK consumer demand looks sturdier: retail sales surprise to the upside",
-    "Germany sentiment misses: Ifo underwhelms and keeps \u201cfragile growth\u201d front-and-center",
-    "ECB setup: April hold looks easy; June risk is where the volatility sits",
-    "European banks: Santander pauses buybacks ahead of the $12.2B Webster vote",
-    "Volatility pocket check: \u201cmeme-style\u201d dynamics are back in single names",
-    "ALPHA \u2014 TSM: institution-style \u201cupside + put monetization\u201d blocks flagged",
-    "ALPHA \u2014 AAPL: 1DTE options sweep concentrates risk at a key strike into today\u2019s expiry"
+    "Geopolitics back in the driver\u2019s seat: U.S.\u2013Iran tensions push oil up, tech wobbles.",
+    "Europe growth scare deepens: Germany Ifo slumps to 84.4 (lowest since May 2020) while Eurozone PMI dips into contraction with costs rising.",
+    "UK demand surprise: retail sales beat adds near-term support to growth expectations.",
+    "ECB April 30 preview: \u201cfragile hold\u201d as energy-driven inflation risk collides with weakening activity.",
+    "BOJ preview: steady rates likely, but sources see less hawkish messaging as fuel costs hit the outlook.",
+    "U.S. tape check: semis/PC complex in focus premarket (Intel, AMD among top movers).",
+    "ALPHA (Options): $TSM sees institution-style \u201cupside + put monetization\u201d structure flagged.",
+    "ALPHA (Deal/capital return): Santander pauses buyback *starting today* into Webster shareholder vote; restart window now defined.",
+    "Wildcard: Meme-style volatility is back\u2014Avis Budget ($CAR) tied to a >400% short-squeeze move."
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "TSM"
+  ],
+  "alpha_tickers": [
+    "TSM"
+  ]
 }

@@ -1,12 +1,14 @@
 {
-  "last_run": "2026-04-23T22:30:40Z",
+  "last_run": "2026-04-24T08:58:53Z",
   "stories": [
-    "U.S. bank overhang: Fed urges big banks not to \u201caggressively\u201d resist new capital rules",
-    "Europe semicap pulse: ASMI pops ~7% on Q1 beat",
-    "Positioning check: Goldman data shows hedge-fund stock buying hits $86B",
-    "Software squeeze may be tiring: Goldman flags the ~19% bounce may not extend",
-    "ADP options: \u201cbullish\u201d put sweep flagged at $1,100 strike into Friday expiry",
-    "Prediction-market integrity risk: claims Paris temperature data was manipulated for wagers"
+    "Risk-off tape: oil up again as geopolitics re-price; tech takes the hit",
+    "UK consumer demand looks sturdier: retail sales surprise to the upside",
+    "Germany sentiment misses: Ifo underwhelms and keeps \u201cfragile growth\u201d front-and-center",
+    "ECB setup: April hold looks easy; June risk is where the volatility sits",
+    "European banks: Santander pauses buybacks ahead of the $12.2B Webster vote",
+    "Volatility pocket check: \u201cmeme-style\u201d dynamics are back in single names",
+    "ALPHA \u2014 TSM: institution-style \u201cupside + put monetization\u201d blocks flagged",
+    "ALPHA \u2014 AAPL: 1DTE options sweep concentrates risk at a key strike into today\u2019s expiry"
   ],
   "tickers": [],
   "alpha_tickers": []

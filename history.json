@@ -1,20 +1,24 @@
 {
-  "last_run": "2026-04-24T14:50:52Z",
+  "last_run": "2026-04-24T22:20:58Z",
   "stories": [
-    "Geopolitics back in the driver\u2019s seat: U.S.\u2013Iran tensions push oil up, tech wobbles.",
-    "Europe growth scare deepens: Germany Ifo slumps to 84.4 (lowest since May 2020) while Eurozone PMI dips into contraction with costs rising.",
-    "UK demand surprise: retail sales beat adds near-term support to growth expectations.",
-    "ECB April 30 preview: \u201cfragile hold\u201d as energy-driven inflation risk collides with weakening activity.",
-    "BOJ preview: steady rates likely, but sources see less hawkish messaging as fuel costs hit the outlook.",
-    "U.S. tape check: semis/PC complex in focus premarket (Intel, AMD among top movers).",
-    "ALPHA (Options): $TSM sees institution-style \u201cupside + put monetization\u201d structure flagged.",
-    "ALPHA (Deal/capital return): Santander pauses buyback *starting today* into Webster shareholder vote; restart window now defined.",
-    "Wildcard: Meme-style volatility is back\u2014Avis Budget ($CAR) tied to a >400% short-squeeze move."
+    "Executive summary:",
+    "U.S. equities: S&P 500 + Nasdaq end at record highs on risk-on close",
+    "Geopolitics: \u201cimproved U.S.\u2013Iran diplomacy outlook\u201d becomes the day\u2019s macro catalyst",
+    "Earnings shock: Intel rips ~24% (best day since 1987) after blowout quarter",
+    "Crude: volatile session ends mixed, but the week closes with sharp gains",
+    "Macro implication: oil\u2019s weekly jump complicates the \u201cdisinflation glidepath\u201d narrative",
+    "Single-name momentum (actionable): $INTC prints a regime-shift day (+~24%)",
+    "Actionable cross-asset: crude\u2019s \u201cmixed day / big week\u201d pattern keeps $CL (WTI) and $BZ (Brent) headline-sensitive",
+    "Wildcard: equities are pricing diplomacy progress while oil still prices disruption\u2014this divergence is the risk"
   ],
   "tickers": [
-    "TSM"
+    "BZ",
+    "CL",
+    "INTC"
   ],
   "alpha_tickers": [
-    "TSM"
+    "BZ",
+    "CL",
+    "INTC"
   ]
 }

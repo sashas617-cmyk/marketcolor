@@ -1,15 +1,20 @@
 {
-  "last_run": "2026-04-25T08:06:34Z",
+  "last_run": "2026-04-25T14:14:28Z",
   "stories": [
-    "U.S. single-name impulse: Intel\u2019s shock beat is still the tape-driver into next week",
-    "Big-picture equity narrative support: JPM lifts S&P 500 year-end target to 7,600",
-    "FX stress point (live): USD/JPY hovers near 160 as BoJ hike speculation builds",
-    "Software factor rotation risk: Goldman flags ServiceNow dynamics pushing \u201cdurable rally\u201d to 2H",
-    "Europe AI positioning: Cohere to acquire Germany\u2019s Aleph Alpha",
-    "Options tape (IT mega-cap): whale-sized prints flagged in Apple/AMD-linked flow",
-    "Momentum micro-cap (tactical): QUIK triggers above a key level",
-    "Wildcard (live cross-asset): gold struggles as yields stay high and haven demand fades"
+    "Executive summary (Sat, Apr 25, 2026 14:12 UTC):",
+    "Sell-side re-anchoring risk: JPMorgan lifts its S&P 500 year-end target to 7,600",
+    "FX stress point into next week: USD/JPY near 160 with BoJ hike/intervention risk rising",
+    "Single-name volatility shock returns: Avis Budget (CAR) echoes 2021-style meme dynamics after a >400% squeeze",
+    "AI platform consolidation: Cohere to acquire Aleph Alpha in a Europe expansion push",
+    "Ukraine war risk bid persists: ongoing drone/missile strike cycle keeps tail-risk channels open for Europe",
+    "Unusual options (mega-cap IT): whale-sized call print flagged in AAPL/AMD-linked flow",
+    "Thin-float momentum trigger: $QUIK trips a breakout level around ~$13.43 (last flagged ~$13.45)",
+    "Crypto cross-asset risk: BTC holds the high-$70Ks as traders eye a potential liquidity siphon from mega fundraises/IPOs"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "QUIK"
+  ],
+  "alpha_tickers": [
+    "QUIK"
+  ]
 }

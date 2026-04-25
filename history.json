@@ -1,24 +1,15 @@
 {
-  "last_run": "2026-04-24T22:20:58Z",
+  "last_run": "2026-04-25T08:06:34Z",
   "stories": [
-    "Executive summary:",
-    "U.S. equities: S&P 500 + Nasdaq end at record highs on risk-on close",
-    "Geopolitics: \u201cimproved U.S.\u2013Iran diplomacy outlook\u201d becomes the day\u2019s macro catalyst",
-    "Earnings shock: Intel rips ~24% (best day since 1987) after blowout quarter",
-    "Crude: volatile session ends mixed, but the week closes with sharp gains",
-    "Macro implication: oil\u2019s weekly jump complicates the \u201cdisinflation glidepath\u201d narrative",
-    "Single-name momentum (actionable): $INTC prints a regime-shift day (+~24%)",
-    "Actionable cross-asset: crude\u2019s \u201cmixed day / big week\u201d pattern keeps $CL (WTI) and $BZ (Brent) headline-sensitive",
-    "Wildcard: equities are pricing diplomacy progress while oil still prices disruption\u2014this divergence is the risk"
+    "U.S. single-name impulse: Intel\u2019s shock beat is still the tape-driver into next week",
+    "Big-picture equity narrative support: JPM lifts S&P 500 year-end target to 7,600",
+    "FX stress point (live): USD/JPY hovers near 160 as BoJ hike speculation builds",
+    "Software factor rotation risk: Goldman flags ServiceNow dynamics pushing \u201cdurable rally\u201d to 2H",
+    "Europe AI positioning: Cohere to acquire Germany\u2019s Aleph Alpha",
+    "Options tape (IT mega-cap): whale-sized prints flagged in Apple/AMD-linked flow",
+    "Momentum micro-cap (tactical): QUIK triggers above a key level",
+    "Wildcard (live cross-asset): gold struggles as yields stay high and haven demand fades"
   ],
-  "tickers": [
-    "BZ",
-    "CL",
-    "INTC"
-  ],
-  "alpha_tickers": [
-    "BZ",
-    "CL",
-    "INTC"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

@@ -1,6 +1,17 @@
 {
-  "last_run": "2026-04-26T08:15:15Z",
-  "stories": [],
+  "last_run": "2026-04-26T14:41:14Z",
+  "stories": [
+    "US equities: Intel\u2019s earnings shockwave re-prices the whole semi complex, pushing indexes to records",
+    "Strait of Hormuz: blockade remains; US authorizes lethal action vs suspected mine-layers (shipping/energy tail-risk)",
+    "Russia-Ukraine: energy infrastructure stays in the crosshairs; Tuapse refinery fire contained after drone attack",
+    "Israel-Gaza/Lebanon: Israeli push in western Gaza; Lebanon truce friction keeps regional risk premium elevated",
+    "FX: Japan re-ups intervention warning near \u00a5160/$; signals readiness for \u201cdecisive action\u201d with US coordination",
+    "Europe: risk-off tone as ceasefire optimism fades; Novo Nordisk spikes on weight-loss competitive read-through",
+    "Crypto: Bitcoin ETF inflows extend; TRUMP memecoin reportedly down ~$100M on event-driven selling",
+    "Oil curve signal: Brent backwardation persists (physical tightness), even with pullbacks",
+    "Single-name options tell: SPXC sees large-premium blocks showing up in flow",
+    "Wildcard: meme-stock-style surge returns\u2014FT flags a US stock up >400% (froth/short-squeeze risk pockets)"
+  ],
   "tickers": [],
   "alpha_tickers": []
 }

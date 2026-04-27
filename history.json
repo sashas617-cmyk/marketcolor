@@ -1,23 +1,17 @@
 {
-  "last_run": "2026-04-26T22:44:21Z",
+  "last_run": "2026-04-27T09:22:07Z",
   "stories": [
-    "U.S. equities: JPM lifts S&P 500 year-end target to 7,600 (AI earnings regime still in control)",
-    "Oil shockwatch: Brent holds >$106 as Hormuz disruption signals keep tail-risk bid firm",
-    "Israel: updated security restrictions raise \u201cSunday night \u2192 Monday open\u201d escalation sensitivity",
-    "Europe risk-off: stocks lower as ceasefire optimism fades (macro/geopolitical drag back in focus)",
-    "Ukraine: weekend strikes + Chernobyl anniversary re-activates nuclear-risk sensitivities (Europe sentiment channel)",
-    "China macro: World Bank flags property drag + weak demand/deflation pressure amid trade-policy uncertainty",
-    "Rates narrative: prediction-market repricing leans hawkish on 2026 inflation (cuts less \u201cassured\u201d)",
-    "GLP-1 tape: Lilly headlines drive sharp single-name dispersion (watch $NVO vs $LLY read-through)",
-    "Retail metals microstructure: Revolut to wind down commodities product in parts of Europe (60-day timeline)",
-    "Wildcard froth indicator: FT flags a fresh meme-stock style squeeze (single U.S. name up 400%+)"
+    "Executive summary (09:20 UTC):",
+    "Middle East/Russia: Iran FM heads to Moscow for Putin talks\u2014headline risk stays live",
+    "China policy: PBoC signals tighter liquidity with a net 200B yuan MLF drain (first since Feb 2025)",
+    "Asia risk-on: Nikkei & Kospi hit new highs; China industrial profits +15.8% YoY (March)",
+    "Japan FX tail-risk: intervention rhetoric returns as officials hint at action on the yen",
+    "US inflation pulse still reverberating: CPI +0.9% m/m (largest since June 2022)",
+    "Mega-cap concentration check: Nvidia hits a record close, market cap pushes past $5T",
+    "Meme-squeeze redux: Avis Budget ($CAR) +400%+ as float tightens and positioning snaps",
+    "Insider supply signal (cluster): SEI Investments ($SEIC) officer sells 25,000 shares after option exercise",
+    "Wildcard (UK setup): GBP/USD hovers near 1.3500 into the Bank of England decision"
   ],
-  "tickers": [
-    "LLY",
-    "NVO"
-  ],
-  "alpha_tickers": [
-    "LLY",
-    "NVO"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

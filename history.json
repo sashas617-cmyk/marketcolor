@@ -1,13 +1,16 @@
 {
-  "last_run": "2026-04-27T15:19:30Z",
+  "last_run": "2026-04-27T22:22:35Z",
   "stories": [
-    "Executive summary (15:15 UTC):",
-    "Fed week: no cut expected; guidance + \u201cinstitutional continuity\u201d risk in focus",
-    "U.S. 10-year yields: two-year compression warns of breakout + volatility regime shift",
-    "UK rates: BoE reaction function turns asymmetric as energy threatens CPI re-acceleration",
-    "China FX: yuan steadies on firm fixing + better industrial profits despite geopolitics",
-    "Trade policy edge: Bloomberg spotlights escalating U.S.\u2013China \u201ceconomic war\u201d dynamics",
-    "Transmission trade: \u201coil \u2192 inflation \u2192 rates\u201d is back\u2014stress-test duration + credit"
+    "US equities: muted tape into megacap earnings + central-bank week",
+    "Crude: geopolitical risk premium back\u2014oil jumps >2% on stalled US\u2013Iran talks + Hormuz disruption",
+    "Energy M&A: Shell reportedly buying Canada\u2019s ARC in a ~$13.6B deal",
+    "Airlines: United CEO confirms outreach to American about a merger",
+    "FX: USD/JPY \u201cbreakout risk\u201d as markets underprice BoJ surprise",
+    "Trade policy: tariff pressure shifts toward consumer goods\u2014hearings start this week",
+    "Rates/vol: restrictive backdrop still intact despite calm equity tape",
+    "ALPHA (Options): Apple whale flow\u2014May 15 $200 calls traded in size",
+    "ALPHA (Crypto microstructure): BTC stalls near $80K as ETF flows set the marginal bid; ETH slips on liquidations",
+    "Wildcard: households are still gloomy\u2014sentiment at 53.3 while markets price calm"
   ],
   "tickers": [],
   "alpha_tickers": []

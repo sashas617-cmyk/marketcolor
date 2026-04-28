@@ -1,13 +1,12 @@
 {
-  "last_run": "2026-04-28T09:18:15Z",
+  "last_run": "2026-04-28T15:34:11Z",
   "stories": [
-    "Macro volatility setup: Fed/ECB/BoE/BoJ decision cluster collides with geopolitics",
-    "EU rates: fresh EU-Bonds auction results add duration supply into CB-heavy week",
-    "Europe equities check: DAX slips; Qiagen leads downside",
-    "Crypto microstructure: ~$300M liquidated as BTC taps ~$79K and reverses",
-    "$MU: Micron extends surge with unusually heavy options activity",
-    "$ASGN: Director Patricia L. Obermaier buys 2,500 shares (~$20.605) in open market",
-    "Uranium equity catalyst: Triton Uranium explores a 2026 U.S. listing"
+    "AI capex \u201carms race\u201d still accelerating: hyperscalers reportedly eye ~$650B spend in 2026 (+71% YoY)",
+    "Credit markets: Bloomberg flags renewed bid for public debt as private-market \u201ccracks\u201d and geopolitics add volatility",
+    "Commodities hedge bid: gold\u2019s sensitivity rises on Iran headlines + central-bank-week risk",
+    "Japan rates/FX input: BoJ publishes April 2026 \u201cOutlook for Economic Activity and Prices\u201d",
+    "AMZN whale options: large call trade flagged \u201cbearish,\u201d ~1,500 contracts, ~$510K premium, May 15, 2026 expiry",
+    "UK event risk: BoE Gov. Bailey speech on deck (GBP rates in focus)"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,16 +1,13 @@
 {
-  "last_run": "2026-04-27T22:22:35Z",
+  "last_run": "2026-04-28T09:18:15Z",
   "stories": [
-    "US equities: muted tape into megacap earnings + central-bank week",
-    "Crude: geopolitical risk premium back\u2014oil jumps >2% on stalled US\u2013Iran talks + Hormuz disruption",
-    "Energy M&A: Shell reportedly buying Canada\u2019s ARC in a ~$13.6B deal",
-    "Airlines: United CEO confirms outreach to American about a merger",
-    "FX: USD/JPY \u201cbreakout risk\u201d as markets underprice BoJ surprise",
-    "Trade policy: tariff pressure shifts toward consumer goods\u2014hearings start this week",
-    "Rates/vol: restrictive backdrop still intact despite calm equity tape",
-    "ALPHA (Options): Apple whale flow\u2014May 15 $200 calls traded in size",
-    "ALPHA (Crypto microstructure): BTC stalls near $80K as ETF flows set the marginal bid; ETH slips on liquidations",
-    "Wildcard: households are still gloomy\u2014sentiment at 53.3 while markets price calm"
+    "Macro volatility setup: Fed/ECB/BoE/BoJ decision cluster collides with geopolitics",
+    "EU rates: fresh EU-Bonds auction results add duration supply into CB-heavy week",
+    "Europe equities check: DAX slips; Qiagen leads downside",
+    "Crypto microstructure: ~$300M liquidated as BTC taps ~$79K and reverses",
+    "$MU: Micron extends surge with unusually heavy options activity",
+    "$ASGN: Director Patricia L. Obermaier buys 2,500 shares (~$20.605) in open market",
+    "Uranium equity catalyst: Triton Uranium explores a 2026 U.S. listing"
   ],
   "tickers": [],
   "alpha_tickers": []

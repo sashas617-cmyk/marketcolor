@@ -1,15 +1,12 @@
 {
-  "last_run": "2026-05-01T08:56:21Z",
+  "last_run": "2026-05-01T14:32:15Z",
   "stories": [
-    "JPY shock: yen rips on reported Japan intervention; USD/JPY volatility spikes",
-    "Oil risk premium remains fragile: crude whipsaws after tagging multi-year highs",
-    "China macro check: PMI beats, but the composition cools",
-    "Europe open: rotation toward defensives as geopolitics stays elevated",
-    "U.S. equities: index highs mask widening dispersion (Dow strength vs Nasdaq softness)",
-    "Central banks (UK): BoE holds at 3.75% with war-driven inflation risks in focus",
-    "BKNG options tape: standout upside bet in Jul 17 $160 calls (Vol/OI leader)",
-    "INTC downside hedge/spec shows up: May 15 $90 puts flagged with stock ~ $93.2",
-    "UK politics risk: local elections framed through the \u201cgilt scoreboard\u201d"
+    "U.S. labor resilience: initial jobless claims drop to 189k, reinforcing \u201cno rush to cut\u201d rates logic",
+    "Factory pulse: S&P Global US Manufacturing PMI shows firmer output/new orders (but exports a headwind)",
+    "Euro zone macro bind: inflation accelerates to 3% as growth nearly stalls (Q1 +0.1%)",
+    "BKNG options \u201cwhale\u201d detail: ~31,000-lot July 17 $160 calls traded at ~$21.30 (single print)",
+    "CHTR insider signal: Director Wade Davis buys 5,728 shares (~$995k) in the open market",
+    "Crypto positioning check: perpetual funding rates flag fragility despite \u201cwinter is over\u201d talk"
   ],
   "tickers": [],
   "alpha_tickers": []

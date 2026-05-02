@@ -1,17 +1,16 @@
 {
-  "last_run": "2026-05-02T08:21:14Z",
+  "last_run": "2026-05-02T14:16:34Z",
   "stories": [
-    "two fast-moving cross-asset shocks: FX (yen intervention risk) and oil/geopolitics",
-    "Wall St \u201cweek ahead\u201d setup: earnings + May 8 payrolls are the next real catalysts (oil is the swing factor)",
-    "US equities: S&P 500 notches a fresh intraday ATH\u2014mega-cap leadership (Apple) still dominates",
-    "FX shockwatch: USD/JPY whipsaw after suspected Japan intervention; global vol spillover risk is real",
-    "Commodities split: gold back above ~$4,600 as hedging demand lingers (central-bank bid still in focus)",
-    "UK macro/rates: 10Y gilts steady just above 5% after BoE holds at 3.75%\u2014oil pass-through still the risk",
-    "Middle East risk premia: US\u2013Iran ceasefire/nuclear talks remain fragile; shipping/security is the market\u2019s transmission channel",
-    "Europe war risk: reports of mass drone strikes targeting energy/critical infrastructure keep the energy-security premium alive",
-    "Options alpha (SLB): bullish activity concentrates in Sept 18 $75 calls\u2014traders leaning into energy-services upside",
-    "Insider alpha (CHTR): director buys 5,728 shares at ~$173.72 in the open market",
-    "Wildcard (trade policy/positioning): EU auto-tariff headlines and \u201cair pockets\u201d are back\u2014watch Monday\u2019s sector gaps"
+    "Daily Market Pulse \u2014 Sat, May 02, 2026 (14:15 UTC)",
+    "Iran: Strait of Hormuz risk remains the #1 cross-asset tripwire",
+    "Ukraine-Russia: renewed strikes on critical/energy infrastructure raise Europe energy tail-risk",
+    "World Bank: energy prices projected +24% in 2026 amid Middle East shock",
+    "China: zero-tariff access for 53 African nations is a real trade-flow shock",
+    "Fed optics: Powell political-pressure narrative is back (rates-vol risk)",
+    "US equities: S&P 500 just logged another intraday ATH with Apple leadership",
+    "Options (SLB): unusual bullish call-spread activity concentrates in Sept 18 $75 calls",
+    "Options (EXE): heavy put buying\u201411,220 puts traded (~+60% vs typical)",
+    "UBS: Q1 profit beat on record trading revenue\u2014volatility is paying the dealers"
   ],
   "tickers": [],
   "alpha_tickers": []

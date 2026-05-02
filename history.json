@@ -1,14 +1,17 @@
 {
-  "last_run": "2026-05-01T22:15:21Z",
+  "last_run": "2026-05-02T08:21:14Z",
   "stories": [
-    "Executive summary:",
-    "Oil risk premium snaps back: crude dumps on an updated Iran \u201cpeace proposal\u201d headline",
-    "Energy shock fades intraday: WTI settles near ~$102, Brent near ~$108",
-    "Japan steps into FX markets: first yen intervention in ~2 years, USD/JPY whipsaw risk jumps",
-    "World Bank flags a bigger macro overhang: energy prices projected up ~24% this year",
-    "Options tape (AAPL): $145 strike sees a flagged 500-contract trade (~$25K premium)",
-    "Options tape (AMSC): heavy May $50 strike activity (~1,183 contracts; ~$289.8K premium), flagged bearish",
-    "Wildcard: headline-velocity tape into the weekend raises gap/whipsaw risk across risk assets"
+    "two fast-moving cross-asset shocks: FX (yen intervention risk) and oil/geopolitics",
+    "Wall St \u201cweek ahead\u201d setup: earnings + May 8 payrolls are the next real catalysts (oil is the swing factor)",
+    "US equities: S&P 500 notches a fresh intraday ATH\u2014mega-cap leadership (Apple) still dominates",
+    "FX shockwatch: USD/JPY whipsaw after suspected Japan intervention; global vol spillover risk is real",
+    "Commodities split: gold back above ~$4,600 as hedging demand lingers (central-bank bid still in focus)",
+    "UK macro/rates: 10Y gilts steady just above 5% after BoE holds at 3.75%\u2014oil pass-through still the risk",
+    "Middle East risk premia: US\u2013Iran ceasefire/nuclear talks remain fragile; shipping/security is the market\u2019s transmission channel",
+    "Europe war risk: reports of mass drone strikes targeting energy/critical infrastructure keep the energy-security premium alive",
+    "Options alpha (SLB): bullish activity concentrates in Sept 18 $75 calls\u2014traders leaning into energy-services upside",
+    "Insider alpha (CHTR): director buys 5,728 shares at ~$173.72 in the open market",
+    "Wildcard (trade policy/positioning): EU auto-tariff headlines and \u201cair pockets\u201d are back\u2014watch Monday\u2019s sector gaps"
   ],
   "tickers": [],
   "alpha_tickers": []

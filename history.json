@@ -1,16 +1,19 @@
 {
-  "last_run": "2026-05-03T08:32:54Z",
+  "last_run": "2026-05-03T14:17:28Z",
   "stories": [
-    "OPEC+\u2019s first quota decision post-UAE exit: markets brace for a \u201cpaper hike\u201d",
-    "Crude stays structurally bid: WTI ~\\$105 as Hormuz risk caps downside",
-    "Russia-Ukraine: continued strikes keep Europe\u2019s security/energy logistics premium live",
-    "Israel-Gaza negotiations show friction: disarmament demand remains a blocker",
-    "Credit \u201cpain trade\u201d warning: banks flag drawdown risk after a strong rally",
-    "Crypto vs equities divergence: Bitcoin steady, but ETF flow narrative remains negative",
-    "Insider/positioning signal: Pershing Square USA ($PSUS) sees large insider buys",
-    "Unusual options: Butterfly Network ($BFLY) call volume spike",
-    "Mobile gaming monetization headwind: scrutiny of \u201ccasino-like\u201d mechanics (e.g., Monopoly GO!)"
+    "Energy shock stack: Ukraine hits Russia\u2019s Primorsk Baltic export hub as OPEC+ sticks to \u201cbusiness-as-usual\u201d hikes despite Hormuz closure",
+    "JPY volatility returns: yen jumps as Japan signals readiness to intervene again",
+    "U.S. natural gas tightness setup: production drops while LNG feedgas runs near record highs",
+    "Options alpha: $AAPL sees heavy $240 put activity (~11,970 contracts vs ~665 prior OI)",
+    "Ownership/flow alpha: $PSUS insider + affiliated buying prints real size (CFO +100k shares; Ackman-linked buys ~4.9M shares)",
+    "Cross-asset check: U.S. equities at record highs while crypto ETF outflows persist"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "AAPL",
+    "PSUS"
+  ],
+  "alpha_tickers": [
+    "AAPL",
+    "PSUS"
+  ]
 }

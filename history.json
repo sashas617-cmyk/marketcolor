@@ -1,18 +1,12 @@
 {
-  "last_run": "2026-05-04T15:17:57Z",
+  "last_run": "2026-05-04T22:35:15Z",
   "stories": [
-    "Rates: \u201ccuts are less pre-committed\u201d \u2014 CEE central banks seen holding as the Fed tone stays data-dependent",
-    "FX: Reuters technicals flag scope for renewed yuan strength \u2014 implications for EM risk + China-sensitive cyclicals",
-    "Crypto macro: BTC slips below $76K; ETF flows turn into a near-term headwind",
-    "India: Sensex/Nifty stay firm with elections + high crude dominating the catalyst stack",
-    "Microcap tape anomaly: $FTFT flags ~41x premarket volume ratio \u2014 volatility/halts risk rises",
-    "Insider signal: Pershing Square USA ($PSUS) CFO Michael Gonnella buys 100,000 shares at $50 (~$5.0M)",
-    "Fund flows: renewables funds see biggest inflows in 5 years \u2014 rotation signal amid geopolitics repricing"
+    "Rates: the 30-year Treasury yield remains the key pressure point for duration.",
+    "Europe M&A: Kone renews push in the takeover battle for Germany\u2019s TKE (Reuters).",
+    "Crypto flows: Bitcoin back around/above $80k with heavy liquidation prints.",
+    "Options edge (IT): Benzinga flags a $140 strike block (~95 contracts; ~$560k premium), with APLD among highlighted names.",
+    "After-hours: futures + post-market movers in focus for gap risk into the next session."
   ],
-  "tickers": [
-    "FTFT"
-  ],
-  "alpha_tickers": [
-    "FTFT"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

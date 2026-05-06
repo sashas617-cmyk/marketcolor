@@ -1,22 +1,19 @@
 {
-  "last_run": "2026-05-06T09:19:32Z",
+  "last_run": "2026-05-06T15:45:09Z",
   "stories": [
-    "Oil shock re-prices inflation tails: WTI spikes to ~$105 on Middle East tension + shipping risk",
-    "UK long-end breaks out: borrowing costs hit highest since 1998 (fiscal credibility in focus)",
-    "U.S. policy/regulatory regime shift risk: SEC moves to scrap quarterly reporting requirement",
-    "Europe geopolitics: Russia strikes Ukraine energy infrastructure; fatalities reported",
-    "Europe finance policy: EU urges bigger bank \u201cchampions,\u201d stoking M&A/speculation risk",
-    "U.S. equities hold the growth bid: Nasdaq hits a record high as earnings tone offsets energy noise",
-    "Options alpha: $EBAY long-dated bullish positioning \u2014 Jan 15, 2027 $90 calls (23 contracts, ~$52.6K premium)",
-    "Options alpha: $AMD \u201cbearish\u201d call sweep \u2014 May 8, 2026 $400 strike (100 contracts across 7 trades)",
-    "Europe micro-to-macro signal: AB InBev jumps ~9% on first volume growth since 2023"
+    "Rates check: 30-year Treasury yield hangs around 5%, keeping term-premium risk alive",
+    "Ukraine: strikes kill 22 ahead of an announced ceasefire\u2014geopolitical risk premium lingers",
+    "Gold holds a bid: market still hedging \u201cfragile truce + sticky inflation\u201d",
+    "ALPHA: $CAT insider buy \u2014 director purchases 250 shares at $876.84",
+    "ALPHA: $HD unusual long-dated downside \u2014 Dec 17, 2027 $430 puts (~$75.7K premium)",
+    "Wildcard: crypto ETPs log a 5th straight week of inflows, totals above $4B"
   ],
   "tickers": [
-    "AMD",
-    "EBAY"
+    "CAT",
+    "HD"
   ],
   "alpha_tickers": [
-    "AMD",
-    "EBAY"
+    "CAT",
+    "HD"
   ]
 }

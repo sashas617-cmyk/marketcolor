@@ -1,19 +1,14 @@
 {
-  "last_run": "2026-05-06T15:45:09Z",
+  "last_run": "2026-05-06T22:17:15Z",
   "stories": [
-    "Rates check: 30-year Treasury yield hangs around 5%, keeping term-premium risk alive",
-    "Ukraine: strikes kill 22 ahead of an announced ceasefire\u2014geopolitical risk premium lingers",
-    "Gold holds a bid: market still hedging \u201cfragile truce + sticky inflation\u201d",
-    "ALPHA: $CAT insider buy \u2014 director purchases 250 shares at $876.84",
-    "ALPHA: $HD unusual long-dated downside \u2014 Dec 17, 2027 $430 puts (~$75.7K premium)",
-    "Wildcard: crypto ETPs log a 5th straight week of inflows, totals above $4B"
+    "Strait of Hormuz: shipping risk remains a live tail event for oil, freight, and inflation hedges",
+    "Uber\u2019s print: mobility softness vs upbeat forward bookings\u2014consumer demand read-through stays mixed",
+    "ALPHA: CoStar CEO buys 71,430 shares in the open market (high-signal insider demand)",
+    "ALPHA: Micron unusual options\u2014~5,300 May 15, 2026 $600 puts trade as the stock rips",
+    "Wildcard: Zcash squeeze rips through crowded shorts\u2014$46.7M liquidated as ZEC spikes ~30%"
   ],
   "tickers": [
-    "CAT",
-    "HD"
+    "UBER"
   ],
-  "alpha_tickers": [
-    "CAT",
-    "HD"
-  ]
+  "alpha_tickers": []
 }

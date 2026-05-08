@@ -1,6 +1,20 @@
 {
-  "last_run": "2026-05-08T15:11:00Z",
-  "stories": [],
-  "tickers": [],
-  "alpha_tickers": []
+  "last_run": "2026-05-08T22:33:29Z",
+  "stories": [
+    "AI/cloud infrastructure \u201csecond-derivative\u201d trade: AKAM explodes on a $1.8B commitment; RXT jumps on AMD MOU",
+    "Crypto market plumbing risk: Coinbase pins hours-long trading outage on AWS",
+    "Gold \u201creal-rates regime\u201d call: Morgan Stanley floats a $5,200 scenario on central-bank demand + Fed-cut path",
+    "Industrial metals macro: US\u2013EU protectionism pulse rises as LME vs. SHFE divergence gets attention (aluminum in focus)",
+    "Options/positioning: $BBAI shows unusually large put flow (3,970 contracts vs 55 prior OI)",
+    "Options/flow read: $SHOP unusual activity looks like covered-call monetization, not pure upside chasing",
+    "Wildcard (systemic risk): IMF warns AI is amplifying cyber-attack capability\u2014financial stability angle"
+  ],
+  "tickers": [
+    "BBAI",
+    "SHOP"
+  ],
+  "alpha_tickers": [
+    "BBAI",
+    "SHOP"
+  ]
 }

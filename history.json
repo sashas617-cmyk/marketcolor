@@ -1,12 +1,12 @@
 {
-  "last_run": "2026-05-07T22:37:26Z",
-  "stories": [
-    "China sanctions spillover hits credit: regulator urges big banks to halt new loans to 5 sanctioned refineries",
-    "Fed stays on pause: policy rate held at 3.5%\u20133.75% for a third straight meeting",
-    "Japan melts up: Nikkei jumps ~5.6% to a record close, briefly tops 63,000 intraday",
-    "$COIN prints a top-line miss: Q1 revenue $1.4B vs $1.49B est.; shares dip after hours",
-    "Private credit stress signal: retail investors reportedly eye exits as turbulence grows"
+  "last_run": "2026-05-08T08:33:43Z",
+  "stories": [],
+  "tickers": [
+    "AAL",
+    "SHOP"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "alpha_tickers": [
+    "AAL",
+    "SHOP"
+  ]
 }

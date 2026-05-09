@@ -1,23 +1,23 @@
 {
-  "last_run": "2026-05-09T08:27:47Z",
+  "last_run": "2026-05-09T14:23:01Z",
   "stories": [
-    "U.S. jobs: payrolls +115k; unemployment 4.3% \u2014 keeps near-term rate cuts debated",
-    "U.S. equities: records grind higher as semis/AI momentum dominates (MU +13%, QCOM +9%, AMD +8%)",
-    "Energy/geopolitics: Hormuz flare-up adds disruption premium into the weekend",
-    "Russia\u2013Ukraine: ceasefire narrative contested as both sides allege violations around V\u2011Day",
-    "Trade/industrial policy: China rare-earth export restrictions back in focus (supply-chain risk for advanced manufacturing)",
-    "Europe financial stability: ECB\u2019s Lagarde spotlights AI-enabled cyber risk (operational risk is underpriced)",
-    "Crypto: BTC breaks below $80,000 as liquidations hit; Coinbase outage adds plumbing anxiety",
-    "Alpha (options) \u2014 $PINS: large put position flagged (~7,400 contracts; \u2248740,000 shares notional; ~$15.75M) plus Sep call leg",
-    "Alpha (insider) \u2014 $SONO: Director Carmine Arabia bought 50 shares open-market; holds 14,364 shares",
-    "Wildcard (systemic/risk) \u2014 Private credit: Bloomberg flags \u201cturmoil\u201d as retail investors eye exits"
+    "Energy complex: Hormuz disruption premium stays bid as \u201ccartel cohesion\u201d gets questioned",
+    "ECB/Europe: Lagarde flags AI-driven cyberattack risk as a financial-stability issue",
+    "Crypto plumbing: Coinbase pins an hours-long trading outage on AWS",
+    "Rates macro: \u201ccooling labor\u201d supports easier policy expectations\u2014unless wages re-accelerate",
+    "Equities leadership: semis reassert momentum (SMH to a new 52-week high)",
+    "Positioning/flows: software breakouts + a $1B single-day ETF inflow signal crowded risk",
+    "Europe security risk: ISW sees Russian underperformance but sustained long-range strike pressure",
+    "ALPHA (Options): $SHOP \u2014 deep OTM call burst concentrates at 195 strike",
+    "ALPHA (Options): $MU \u2014 \u201cunusual\u201d near-dated put activity flagged as MU rips",
+    "Wildcard (Market structure): Bloomberg flags a record $39.6B trading haul at a top market maker"
   ],
   "tickers": [
-    "PINS",
-    "SONO"
+    "MU",
+    "SHOP"
   ],
   "alpha_tickers": [
-    "PINS",
-    "SONO"
+    "MU",
+    "SHOP"
   ]
 }

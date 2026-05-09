@@ -1,20 +1,23 @@
 {
-  "last_run": "2026-05-08T22:33:29Z",
+  "last_run": "2026-05-09T08:27:47Z",
   "stories": [
-    "AI/cloud infrastructure \u201csecond-derivative\u201d trade: AKAM explodes on a $1.8B commitment; RXT jumps on AMD MOU",
-    "Crypto market plumbing risk: Coinbase pins hours-long trading outage on AWS",
-    "Gold \u201creal-rates regime\u201d call: Morgan Stanley floats a $5,200 scenario on central-bank demand + Fed-cut path",
-    "Industrial metals macro: US\u2013EU protectionism pulse rises as LME vs. SHFE divergence gets attention (aluminum in focus)",
-    "Options/positioning: $BBAI shows unusually large put flow (3,970 contracts vs 55 prior OI)",
-    "Options/flow read: $SHOP unusual activity looks like covered-call monetization, not pure upside chasing",
-    "Wildcard (systemic risk): IMF warns AI is amplifying cyber-attack capability\u2014financial stability angle"
+    "U.S. jobs: payrolls +115k; unemployment 4.3% \u2014 keeps near-term rate cuts debated",
+    "U.S. equities: records grind higher as semis/AI momentum dominates (MU +13%, QCOM +9%, AMD +8%)",
+    "Energy/geopolitics: Hormuz flare-up adds disruption premium into the weekend",
+    "Russia\u2013Ukraine: ceasefire narrative contested as both sides allege violations around V\u2011Day",
+    "Trade/industrial policy: China rare-earth export restrictions back in focus (supply-chain risk for advanced manufacturing)",
+    "Europe financial stability: ECB\u2019s Lagarde spotlights AI-enabled cyber risk (operational risk is underpriced)",
+    "Crypto: BTC breaks below $80,000 as liquidations hit; Coinbase outage adds plumbing anxiety",
+    "Alpha (options) \u2014 $PINS: large put position flagged (~7,400 contracts; \u2248740,000 shares notional; ~$15.75M) plus Sep call leg",
+    "Alpha (insider) \u2014 $SONO: Director Carmine Arabia bought 50 shares open-market; holds 14,364 shares",
+    "Wildcard (systemic/risk) \u2014 Private credit: Bloomberg flags \u201cturmoil\u201d as retail investors eye exits"
   ],
   "tickers": [
-    "BBAI",
-    "SHOP"
+    "PINS",
+    "SONO"
   ],
   "alpha_tickers": [
-    "BBAI",
-    "SHOP"
+    "PINS",
+    "SONO"
   ]
 }

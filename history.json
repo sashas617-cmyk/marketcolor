@@ -1,22 +1,16 @@
 {
-  "last_run": "2026-05-09T22:10:06Z",
+  "last_run": "2026-05-10T08:52:00Z",
   "stories": [
-    "Week-ahead macro catalyst stack: inflation + spending + U.S.\u2013China leadership meeting",
-    "Middle East shock risk: U.S. and Iran reportedly exchange fire near the Strait of Hormuz",
-    "Oil pressured by a \u201cpolicy + supply\u201d narrative: Trump \u2018Project Freedom\u2019 + OPEC+ output increase",
-    "Trade-policy escalation channel: China\u2019s rare-earth export restrictions move to front-line risk",
-    "Equity leadership check: semis/AI concentration stays in control",
-    "ECB financial-stability warning: AI-enabled cyber risk enters the policy lane",
-    "Crypto market-structure stress test: Coinbase blames AWS for hours-long trading outage",
-    "ALPHA (Options) \u2014 $PINS: large downside hedge/position shows up in size",
-    "ALPHA (Insider) \u2014 $SONO: director open-market buy (small, but directionally notable)"
+    "Hormuz tail-risk re-ignites: U.S. and Iran exchange fire despite ceasefire claims",
+    "OPEC cohesion risk: UAE planning to leave OPEC/OPEC+ keeps supply-discipline assumptions fragile",
+    "JPY credibility moment: Japan reportedly spent ~$64B defending the yen",
+    "China macro/trade catalyst: exports +14.1% (Apr) despite tariff pressure; Trump\u2013Xi meeting ahead",
+    "Semis/AI tape: memory-led momentum broadens, but crowding risk is rising",
+    "Ukraine: Russian drones increasingly target smaller power infrastructure",
+    "Crypto flow shock: spot Bitcoin ETFs see ~$268M net outflows; IBIT/FBTC lead",
+    "Retail/momentum stress point: AST SpaceMobile valuation framing + sharp swing profile",
+    "Defense posture shift: Japan/U.S. coordination on \u2018counterattack capabilities\u2019"
   ],
-  "tickers": [
-    "PINS",
-    "SONO"
-  ],
-  "alpha_tickers": [
-    "PINS",
-    "SONO"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

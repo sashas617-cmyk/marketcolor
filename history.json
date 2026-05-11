@@ -1,16 +1,13 @@
 {
-  "last_run": "2026-05-11T16:11:13Z",
+  "last_run": "2026-05-11T22:35:54Z",
   "stories": [
-    "U.S. equities: record-high momentum tape into today\u2019s session",
-    "Oil shock still in play: Hormuz disruption keeps a large risk premium embedded",
-    "Europe: ECB \u201ctwo hikes in 2026\u201d narrative returns as war-driven inflation pressure rises",
-    "Japan FX: USD/JPY ~156 keeps intervention risk \u201clive\u201d",
-    "Russia\u2013Ukraine: fighting continues despite a ceasefire window",
-    "Red Sea: maritime security risk remains elevated",
-    "U.S. single-name volatility: premarket focus on Intel, Moderna, Monday.com, Beazer",
-    "Prediction-market signal: Polymarket pricing a June ECB hike as the base case",
-    "Crowded-momentum risk check: AST SpaceMobile (ASTS) valuation optics are extreme",
-    "Microstructure wildcard: halt risk awareness rises with momentum/geo-driven volatility"
+    "Oil remains the macro transmission channel: extreme volatility on Hormuz risk + tight inventories",
+    "Late-day risk check: U.S. equity futures slightly negative as traders test AI-rally durability vs. oil-driven inflation",
+    "Fed reaction-function warning: policy held, but multiple dissents signal a less-dovish center of gravity",
+    "Technical risk building: S&P 500 / Nasdaq 100 flagged as \u201coverbought,\u201d raising near-term vol risk",
+    "On-the-water reality check: ship-tracking shows limited Hormuz crossings and effectively no tanker traffic",
+    "Single-name flow: Micron ($MU) flagged for \u201cunusual options\u201d premium prints (>$20k) in the memory/AI complex",
+    "Crypto risk appetite: bitcoin funds pull in ~$700M as institutions add exposure"
   ],
   "tickers": [],
   "alpha_tickers": []

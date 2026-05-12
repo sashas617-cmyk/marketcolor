@@ -1,16 +1,13 @@
 {
-  "last_run": "2026-05-12T09:42:15Z",
+  "last_run": "2026-05-12T15:45:21Z",
   "stories": [
-    "Macro \u201cmain event\u201d: U.S. CPI today \u2014 positioning looks fragile into the print",
-    "Geopolitics \u2192 inflation channel: Brent stays above $100 as Hormuz disruption remains live",
-    "Europe opens risk-off: Stoxx 600 lower; UK banks lead declines amid the oil/inflation overhang",
-    "UK macro/politics: gilt yields creep higher as fiscal credibility anxiety resurfaces",
-    "U.S.\u2013China event risk: markets frame a Trump\u2013Xi meeting as a \u201cbinary\u201d tariff signal",
-    "Europe rates path: Polymarket implies ~76.5% odds of a 25bp ECB hike to 2.25% in June",
-    "U.S. equities: earnings momentum keeps indices near/new highs \u2014 CPI is the near-term gate",
-    "Options alpha: Astera Labs (ALAB) \u2014 small but notable split-fill call sequence into near-term expiry",
-    "Options alpha: Trade Desk (TTD) \u2014 put sweep shows longer-dated hedge/spec interest at low strike",
-    "Crypto risk appetite: Bitcoin funds see ~$700M inflows; Strategy adds 535 BTC (~$43M)"
+    "Europe opens red: energy-cost shock + geopolitics hits risk appetite",
+    "Japan FX risk: US & Japan reiterate \u201cexcess volatility undesirable\u201d",
+    "BOJ watch: corporate funding strains flagged amid energy/geopolitical uncertainty",
+    "EUR/USD pressured: risk-off USD bid collides with ECB June-cut pricing",
+    "Options alpha: ALAB \u201cwhale\u201d call activity shows institutional-style structure",
+    "Momentum alpha: DXYZ triggers continuation chatter above ~$70.59",
+    "Cross-asset reality check: BlackRock warns the \u201cdisconnect\u201d can snap"
   ],
   "tickers": [],
   "alpha_tickers": []

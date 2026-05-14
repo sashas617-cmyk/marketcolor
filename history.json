@@ -1,16 +1,12 @@
 {
-  "last_run": "2026-05-14T15:27:59Z",
+  "last_run": "2026-05-14T22:41:13Z",
   "stories": [
-    "U.S. inflation shock: April PPI +1.4% jolts the \u201ccuts\u201d narrative (last few hours)",
-    "U.S. growth holds up: April retail sales +0.5% reinforces the \u201csticky demand + sticky inflation\u201d mix (last few hours)",
-    "U.S. equities: tech/semis keep the bid as S&P 500 + Nasdaq print fresh records",
-    "Energy: WTI steadies above ~$101 as supply risk keeps inflation premia elevated (live)",
-    "Europe rates: ECB seen turning hawkish again; EUR/JPY strength flags global rates-vol risk (today)",
-    "Middle East tail-risk: Iran escalation chatter keeps hedging demand tied directly to oil (live headline risk)",
-    "Ukraine escalation: Russia intensifies strikes with massive drone attacks, keeping Europe risk premium in play (today)",
-    "Crowding signal: Roundhill Memory ETF (DRAM) AUM surges past ~$6.5B as the semi trade concentrates",
-    "Insider tape: Upstart (UPST) CEO Paul Gu family trust buys 50,000 shares at $27.50",
-    "China ADR positioning: Alibaba (BABA) \u201cwhale\u201d call trade (~$85.4K premium) hits as tariff optics stay binary"
+    "Rates warning light: U.S. 30-year auction clears above 5% (first time since 2007)",
+    "Trump\u2013Xi summit watch: Trump signals push for China to \u201copen up\u201d and roll back barriers",
+    "Europe credit read-through: ABN Amro downplays near-term lending hit from ECB rate rises",
+    "IPO window flare: Cerebras pops ~68% in Nasdaq debut, valued around ~$95B",
+    "FX tripwire: USD/JPY re-tests 158 as intervention-driven yen strength fades",
+    "Wildcard: Momentum is getting rewarded again\u2014great until vol returns"
   ],
   "tickers": [],
   "alpha_tickers": []

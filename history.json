@@ -1,6 +1,16 @@
 {
-  "last_run": "2026-05-15T15:24:55Z",
-  "stories": [],
+  "last_run": "2026-05-15T22:50:53Z",
+  "stories": [
+    "Oil shock: Brent spikes near $109 on Iran/Hormuz risk premium",
+    "Rates reprice higher: Treasury yields near 1-year highs, USD firmer; tech momentum stalls",
+    "Trade policy overhang: Trump\u2019s China trip ends without easing investor anxiety",
+    "Escalation risk: major daytime attack on Kyiv raises geopolitical tail risk",
+    "Equity internals flash caution: mega-cap AI leadership vs weakening breadth",
+    "Cross-asset pulse: report ties hawkish BoJ signals to $635M Bitcoin ETF outflows",
+    "Political/flow intel: Trump disclosure shows at least $220M in securities transactions",
+    "Fund-flow catalyst: Pershing Square reportedly built a position in Microsoft ($MSFT)",
+    "DeFi risk shock: Thorchain halts trading after ~$10.8M cross-chain exploit; RUNE slides"
+  ],
   "tickers": [],
   "alpha_tickers": []
 }

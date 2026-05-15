@@ -1,12 +1,14 @@
 {
-  "last_run": "2026-05-14T22:41:13Z",
+  "last_run": "2026-05-15T09:41:09Z",
   "stories": [
-    "Rates warning light: U.S. 30-year auction clears above 5% (first time since 2007)",
-    "Trump\u2013Xi summit watch: Trump signals push for China to \u201copen up\u201d and roll back barriers",
-    "Europe credit read-through: ABN Amro downplays near-term lending hit from ECB rate rises",
-    "IPO window flare: Cerebras pops ~68% in Nasdaq debut, valued around ~$95B",
-    "FX tripwire: USD/JPY re-tests 158 as intervention-driven yen strength fades",
-    "Wildcard: Momentum is getting rewarded again\u2014great until vol returns"
+    "Trump\u2013Xi summit is live: tariffs + tech export controls are the immediate catalyst",
+    "ECB path uncertainty rises: June hike odds wobble as oil-shock inflation meets slowing growth",
+    "Euro periphery check: Italy BTP\u2013Bund spread edges wider (~77 bps) as yields climb",
+    "UK macro surprise: Q1 GDP prints +0.6% q/q, reshaping near-term gilt/GBP sensitivities",
+    "Turkey: central bank lifts 2026 inflation target/forecast to 24% (from 16%)",
+    "Insider buy (PLNT): CEO Colleen Keating buys 5,000 shares at $49.54",
+    "Insider buy (UPST): CEO Paul Gu\u2019s family trust buys 50,000 shares at $27.50",
+    "Market structure flag: record gamma + concentrated call buying can mask single-name air pockets"
   ],
   "tickers": [],
   "alpha_tickers": []

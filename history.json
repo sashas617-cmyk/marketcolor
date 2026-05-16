@@ -1,12 +1,11 @@
 {
-  "last_run": "2026-05-16T14:28:11Z",
+  "last_run": "2026-05-16T22:13:24Z",
   "stories": [
-    "Euroclear tail risk: Moscow court backs central bank in ~$249B damages claim",
-    "Russia refining vulnerability: Ukraine drones reportedly ignite Ryazan refinery",
-    "China FX policy signal: firmer USD/CNY fixing + May 20 PBoC decision in focus",
-    "TSLA: bullish 0DTE call sweep targets $430 strike (389 contracts, 75 fills)",
-    "AXON: concentrated near-dated upside \u2014 May 22 $410 calls (~$149.7K premium)",
-    "India/EM regulatory overhang eases: SEC settles Adani case (FT)"
+    "Sanctions/flows watch: Trump weighs lifting sanctions on Chinese oil companies buying Iranian crude",
+    "Rates shock abroad: central bank hikes target rate to 24% from 16% on Iran-war inflation pressures",
+    "TSLA options: aggressive 0DTE upside punt at $430 (389 calls, split across 75 fills)",
+    "DXC insider signal: CEO Raul J. Fernandez bought ~28,050 shares around $8.90\u2013$9.00 (~$249.5K)",
+    "Crypto risk-off: ~$500M in long liquidations as bitcoin slides toward ~$78K"
   ],
   "tickers": [],
   "alpha_tickers": []

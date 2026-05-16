@@ -1,15 +1,14 @@
 {
-  "last_run": "2026-05-15T22:50:53Z",
+  "last_run": "2026-05-16T08:35:07Z",
   "stories": [
-    "Oil shock: Brent spikes near $109 on Iran/Hormuz risk premium",
-    "Rates reprice higher: Treasury yields near 1-year highs, USD firmer; tech momentum stalls",
-    "Trade policy overhang: Trump\u2019s China trip ends without easing investor anxiety",
-    "Escalation risk: major daytime attack on Kyiv raises geopolitical tail risk",
-    "Equity internals flash caution: mega-cap AI leadership vs weakening breadth",
-    "Cross-asset pulse: report ties hawkish BoJ signals to $635M Bitcoin ETF outflows",
-    "Political/flow intel: Trump disclosure shows at least $220M in securities transactions",
-    "Fund-flow catalyst: Pershing Square reportedly built a position in Microsoft ($MSFT)",
-    "DeFi risk shock: Thorchain halts trading after ~$10.8M cross-chain exploit; RUNE slides"
+    "Rates shock risk: yields near one-year highs as Warsh takes over at the Fed",
+    "US equities: AI-led rally continues, but breadth narrows and cyclicals/miners lag",
+    "Macro/fiscal: >5% long-end borrowing costs raise fragility to shocks",
+    "Ukraine supply tail-risk: drone strikes have knocked out ~700 kbpd of Russian refining YTD",
+    "Gaza negotiations risk: Israeli strike kills son of Hamas\u2019 chief negotiator as leaders meet in Cairo",
+    "TSLA options: bullish same-day $430 call sweep (389 contracts) split across 75 fills",
+    "DXC insider signal: CEO Raul J. Fernandez bought ~28,050.853 shares (~$249.5K) in the open market",
+    "Wildcard (EM/regulatory): SEC settlement tied to Adani could shift India risk sentiment"
   ],
   "tickers": [],
   "alpha_tickers": []

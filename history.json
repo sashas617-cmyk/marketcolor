@@ -1,14 +1,12 @@
 {
-  "last_run": "2026-05-16T08:35:07Z",
+  "last_run": "2026-05-16T14:28:11Z",
   "stories": [
-    "Rates shock risk: yields near one-year highs as Warsh takes over at the Fed",
-    "US equities: AI-led rally continues, but breadth narrows and cyclicals/miners lag",
-    "Macro/fiscal: >5% long-end borrowing costs raise fragility to shocks",
-    "Ukraine supply tail-risk: drone strikes have knocked out ~700 kbpd of Russian refining YTD",
-    "Gaza negotiations risk: Israeli strike kills son of Hamas\u2019 chief negotiator as leaders meet in Cairo",
-    "TSLA options: bullish same-day $430 call sweep (389 contracts) split across 75 fills",
-    "DXC insider signal: CEO Raul J. Fernandez bought ~28,050.853 shares (~$249.5K) in the open market",
-    "Wildcard (EM/regulatory): SEC settlement tied to Adani could shift India risk sentiment"
+    "Euroclear tail risk: Moscow court backs central bank in ~$249B damages claim",
+    "Russia refining vulnerability: Ukraine drones reportedly ignite Ryazan refinery",
+    "China FX policy signal: firmer USD/CNY fixing + May 20 PBoC decision in focus",
+    "TSLA: bullish 0DTE call sweep targets $430 strike (389 contracts, 75 fills)",
+    "AXON: concentrated near-dated upside \u2014 May 22 $410 calls (~$149.7K premium)",
+    "India/EM regulatory overhang eases: SEC settles Adani case (FT)"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,17 +1,18 @@
 {
-  "last_run": "2026-05-17T14:32:09Z",
+  "last_run": "2026-05-17T22:15:17Z",
   "stories": [
-    "Rates shock: U.S. 30-year yield pops above ~5.1% (near 1-year highs), raising the bar for equity multiples",
-    "China signals a concrete U.S.\u2013China de-escalation channel: expand ag trade via tariff cuts + tackle non-tariff barriers",
-    "Sanctions/oil: Trump says he\u2019ll decide \u201csoon\u201d on lifting sanctions tied to Chinese firms buying Iranian oil",
-    "Ukraine deep-strike escalation: Moscow region hit in biggest drone attack in over a year; civilians reported killed",
-    "Energy policy tightening impulse: U.S. allows a Russian oil sanctions waiver to lapse (per reporting)",
-    "Middle East: Israel conducts new strikes despite Gaza ceasefire; drone/strike dynamics keep escalation risk elevated",
-    "UK macro risk pulse: gilts volatile as political pressure mounts on PM Starmer",
-    "Insider signal (UPST): CEO Paul Gu family trust buys 50,000 shares at $27.50 (~$1.375M)",
-    "Insider supply/overhang (EXTR): Extreme Networks CEO sold ~100,000 shares at ~$23.07 (~$2.31M)",
-    "Crypto deleveraging: ~$500M in longs liquidated as bitcoin slides to ~$78,000; COIN becomes the equity \u201ctell\u201d"
+    "Rates shock (again): U.S. long-end yields jump as Iran/Mideast risk premium builds",
+    "Oil stays in control: WTI ~",
+    "U.S.\u2013China risk: Taiwan moves to the center of Trump\u2013Xi talks (trade/ex-control implications)",
+    "Israel/Lebanon/Gaza: renewed strike activity keeps ceasefire fragility front-and-center",
+    "Defensives bid: gold strengthens as the dollar softens and hedging demand improves",
+    "INSIDER ALPHA \u2014 $UPST: CEO Paul Gu family trust buys 50,000 shares at $27.50 (~$1.375M)",
+    "Europe rates signal: UK gilts remain volatile as cross-asset tone stays split"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "UPST"
+  ],
+  "alpha_tickers": [
+    "UPST"
+  ]
 }

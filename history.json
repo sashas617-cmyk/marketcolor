@@ -1,18 +1,16 @@
 {
-  "last_run": "2026-05-17T22:15:17Z",
+  "last_run": "2026-05-18T11:01:04Z",
   "stories": [
-    "Rates shock (again): U.S. long-end yields jump as Iran/Mideast risk premium builds",
-    "Oil stays in control: WTI ~",
-    "U.S.\u2013China risk: Taiwan moves to the center of Trump\u2013Xi talks (trade/ex-control implications)",
-    "Israel/Lebanon/Gaza: renewed strike activity keeps ceasefire fragility front-and-center",
-    "Defensives bid: gold strengthens as the dollar softens and hedging demand improves",
-    "INSIDER ALPHA \u2014 $UPST: CEO Paul Gu family trust buys 50,000 shares at $27.50 (~$1.375M)",
-    "Europe rates signal: UK gilts remain volatile as cross-asset tone stays split"
+    "Executive summary:",
+    "Global bond rout: yields grind higher, raising the equity discount rate",
+    "Europe slides in broad risk-off: oil + yields squeeze cyclicals; Italy/France notably weak",
+    "Japan FX: yen stays under pressure despite intervention optics\u2014oil + U.S. long rates reassert USD/JPY uptrend",
+    "Gold narrative stays bid: JPM reiterates $6,000 target into 2H26 demand re-acceleration thesis",
+    "Next major catalyst risk: Nvidia + retail earnings set to validate/deflate crowded AI positioning",
+    "Crypto deleveraging accelerates: Bitcoin breaks below ~$77k; ~$661M liquidations; spot ETF outflows ~$1B",
+    "Policy edge: Incoming Fed chair Kevin Warsh\u2019s QT emphasis is an extra tightening channel (even without hikes)",
+    "AI \u201cpower constraint\u201d theme resurfaces: electricity demand could revive sidelined generation + grid capex"
   ],
-  "tickers": [
-    "UPST"
-  ],
-  "alpha_tickers": [
-    "UPST"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

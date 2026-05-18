@@ -1,15 +1,16 @@
 {
-  "last_run": "2026-05-18T11:01:04Z",
+  "last_run": "2026-05-18T16:33:30Z",
   "stories": [
-    "Executive summary:",
-    "Global bond rout: yields grind higher, raising the equity discount rate",
-    "Europe slides in broad risk-off: oil + yields squeeze cyclicals; Italy/France notably weak",
-    "Japan FX: yen stays under pressure despite intervention optics\u2014oil + U.S. long rates reassert USD/JPY uptrend",
-    "Gold narrative stays bid: JPM reiterates $6,000 target into 2H26 demand re-acceleration thesis",
-    "Next major catalyst risk: Nvidia + retail earnings set to validate/deflate crowded AI positioning",
-    "Crypto deleveraging accelerates: Bitcoin breaks below ~$77k; ~$661M liquidations; spot ETF outflows ~$1B",
-    "Policy edge: Incoming Fed chair Kevin Warsh\u2019s QT emphasis is an extra tightening channel (even without hikes)",
-    "AI \u201cpower constraint\u201d theme resurfaces: electricity demand could revive sidelined generation + grid capex"
+    "Oil shock premium sticks: Gulf/Hormuz risk back on the front page",
+    "Global bond rout intensifies: U.S. 10Y near ~1-year high; Japan long-end stress spreads",
+    "U.S. equities extend pullback: tech/semis wobble as oil + yields stay elevated",
+    "Fed policy overhang: \u201cWarsh risk\u201d = tighter liquidity even without hikes",
+    "U.K. risk premium check: gilts stabilize after last week\u2019s political-driven sell-off",
+    "Market plumbing matters: BoE pushes CHAPS toward \u201cnear-24/7\u201d settlement (22x6)",
+    "Trade headline risk: Boeing stays weak on Trump \u201cChina agreed to purchase\u201d claim",
+    "Insider buy (credit/AI-fintech sentiment): UPST CEO family trust buys ~$1.38M",
+    "Insider sell (networking hardware sentiment): EXTR CEO sells ~$2.31M near ~$23.07",
+    "Wildcard catalyst risk: markets brace for Nvidia + key retail prints with war-stoked inflation in the backdrop"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,22 +1,14 @@
 {
-  "last_run": "2026-05-19T16:29:59Z",
+  "last_run": "2026-05-19T22:47:29Z",
   "stories": [
-    "Oil shock stays on the board: Brent >$112 keeps the inflation tail-risk elevated",
-    "Rates regime shift: the U.S. long bond is flirting with levels last seen near the GFC",
-    "Policy pricing recalibrates in real time: FedWatch probabilities shift as yields climb",
-    "U.S. equities keep ripping: S&P 500 + Nasdaq print fresh record highs despite firm inflation prints",
-    "Second supply-risk vector: Ukraine strikes hit Russian oil infrastructure at the largest scale since 2022",
-    "Metals tape confirms the inflation/industrial bid: copper hits a record, silver rallies alongside",
-    "Unusual options alert: $TE call pile-up targets May 22 $7 strike (volume dwarfs OI)",
-    "Long-dated \u201cbearish-labeled\u201d flow: $ENVX Jan 2027 $12 calls (1,999 contracts) with ~$119.9K premium",
-    "Wildcard (consumer/housing tell): Home Depot profit falls YoY as rates bite"
+    "Japan: hawkish BoJ rhetoric puts the JGB curve back under a microscope",
+    "Geopolitics \u2192 logistics: Strait of Hormuz disruption trade keeps tanker-rate products bid",
+    "Commodities: industrial metals momentum builds \u2014 copper records, silver rallies, gold lags",
+    "Single-name flows: Berkshire headlines hit UNH, while Macy\u2019s pops on stake disclosure",
+    "Options flow (MSFT): \u201cbearish\u201d call sweep into same-day expiry at $425",
+    "Index positioning risk: NDX futures specs reportedly flip to largest net short since the 2023 low (NVDA catalyst nearby)",
+    "Crypto volatility: elevated risk of cascading Bitcoin liquidations as macro sensitivity rises"
   ],
-  "tickers": [
-    "ENVX",
-    "TE"
-  ],
-  "alpha_tickers": [
-    "ENVX",
-    "TE"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

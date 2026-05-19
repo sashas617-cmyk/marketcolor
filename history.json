@@ -1,6 +1,13 @@
 {
-  "last_run": "2026-05-18T22:35:22Z",
-  "stories": [],
+  "last_run": "2026-05-19T10:34:07Z",
+  "stories": [
+    "Japan rates shock is back: long-end JGB selloff tightens global financial conditions",
+    "Geopolitical energy tail-risk: Ukraine drone strikes broaden to Russian oil infrastructure",
+    "U.S. tape check: semis weaken (Micron cited ~-6%) into key earnings + housing data",
+    "Unusual options (TE): May 22 $7 calls explode (~15,195 contracts vs ~970 OI)",
+    "Options flow (MSFT): bearish same-day $425 call sweep (648 contracts, 10 fills)",
+    "Wildcard (EM risk): India desks flag key Nifty/Bank Nifty supports that could accelerate selling"
+  ],
   "tickers": [],
   "alpha_tickers": []
 }

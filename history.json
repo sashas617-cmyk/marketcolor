@@ -1,14 +1,20 @@
 {
-  "last_run": "2026-05-19T22:47:29Z",
+  "last_run": "2026-05-20T10:27:04Z",
   "stories": [
-    "Japan: hawkish BoJ rhetoric puts the JGB curve back under a microscope",
-    "Geopolitics \u2192 logistics: Strait of Hormuz disruption trade keeps tanker-rate products bid",
-    "Commodities: industrial metals momentum builds \u2014 copper records, silver rallies, gold lags",
-    "Single-name flows: Berkshire headlines hit UNH, while Macy\u2019s pops on stake disclosure",
-    "Options flow (MSFT): \u201cbearish\u201d call sweep into same-day expiry at $425",
-    "Index positioning risk: NDX futures specs reportedly flip to largest net short since the 2023 low (NVDA catalyst nearby)",
-    "Crypto volatility: elevated risk of cascading Bitcoin liquidations as macro sensitivity rises"
+    "Executive summary:",
+    "Oil shock still the macro wildcard: Hormuz disruption keeps Brent risk premium elevated",
+    "Japan FX volatility: yen \u201crate checks\u201d + intervention chatter back on the table",
+    "ECB path re-priced: ~73bp of 2026 tightening is in the curve, EUR/USD bounce looks fragile",
+    "13F-driven single-name flow: Berkshire trims $UNH, reveals new $M stake",
+    "Private credit stress watch: retail investors reportedly looking for exits (liquidity mismatch risk)",
+    "Wildcard: Hormuz isn\u2019t just \u201coil\u201d\u2014it\u2019s a shipping/insurance shock channel"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "M",
+    "UNH"
+  ],
+  "alpha_tickers": [
+    "M",
+    "UNH"
+  ]
 }

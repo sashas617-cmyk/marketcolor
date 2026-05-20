@@ -1,20 +1,17 @@
 {
-  "last_run": "2026-05-20T10:27:04Z",
+  "last_run": "2026-05-20T16:34:20Z",
   "stories": [
     "Executive summary:",
-    "Oil shock still the macro wildcard: Hormuz disruption keeps Brent risk premium elevated",
-    "Japan FX volatility: yen \u201crate checks\u201d + intervention chatter back on the table",
-    "ECB path re-priced: ~73bp of 2026 tightening is in the curve, EUR/USD bounce looks fragile",
-    "13F-driven single-name flow: Berkshire trims $UNH, reveals new $M stake",
-    "Private credit stress watch: retail investors reportedly looking for exits (liquidity mismatch risk)",
-    "Wildcard: Hormuz isn\u2019t just \u201coil\u201d\u2014it\u2019s a shipping/insurance shock channel"
+    "Rates shock persists: long-end Treasuries keep pressuring equity duration",
+    "Geopolitics is back in the driver\u2019s seat: Iran-strike headlines whip risk, gold, and energy premia",
+    "UK CPI cools to 2.8%: gilts and GBP reprice toward more BoE breathing room",
+    "Nvidia \u201cearnings gravity\u201d: semis/AI positioning tightens into a major vol catalyst",
+    "Trade policy signal: China shifts import tactics under tariffs (agri + commodities + FX implications)",
+    "Global tape check: cross-asset trading is being dominated by rates + energy (again)",
+    "Unusual options: Freshworks (FRSH) call/put imbalance ~40:1, focus on Jun 18 $10 calls",
+    "Insider \u201ccluster\u201d buy signal: CSP Inc. (CSPI) director buys at ~$9.36; 10% holder also adding",
+    "Wildcard (megacap risk): Apple slips from highs on report of potential OpenAI legal action"
   ],
-  "tickers": [
-    "M",
-    "UNH"
-  ],
-  "alpha_tickers": [
-    "M",
-    "UNH"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

@@ -1,14 +1,16 @@
 {
-  "last_run": "2026-05-21T10:34:01Z",
+  "last_run": "2026-05-21T16:22:55Z",
   "stories": [
-    "U.S. tape: \u201cduration repricing\u201d still the boss (yields \u2194 leadership)",
-    "Eurozone PMI shock: recession risk rises fast (France ugly)",
-    "Fed backdrop: policy rate held at 3.5%\u20133.75% with an unusual 8\u20134 dissent; FedWatch is the live tripwire",
-    "SpaceX: reported S\u20111 filing ahead of June roadshow (IPO setup moves from rumor to process)",
-    "Earnings tape: TJX flagged as a standout retail \u201chigher-for-longer\u201d beneficiary",
-    "Options alpha (Industrials): Southwest ($LUV) long-dated downside positioned via Mar-2027 puts",
-    "FX edge: EUR/USD \u201cdouble top\u201d breakdown puts 1.1500 in play",
-    "Wildcard geopolitics: Ukraine strikes continue (energy/infrastructure risk stays in the background)"
+    "Executive summary (16:21 UTC):",
+    "Live tape: equities catching a bid as oil cools and the bond sell-off eases",
+    "Global \u201cduration reset\u201d broadens: higher sovereign yields (including Japan) tighten conditions",
+    "Nvidia earnings/guidance: AI bellwether prints, but sustainability/competition questions drive the reaction",
+    "Middle East risk premium whipsaws: oil dipped below $100 on Iran-talks headlines, Citi warns risk is underpriced",
+    "UK rates: Goldman points to politics + term premium as gilt yields climb (global correlation risk)",
+    "Ukraine tail-risk stays active: overnight attacks + Ukrainian drone strikes into Russia keep risk floor elevated",
+    "ALPHA (options): AMZN call flow spikes\u2014134,859 contracts across 8 prints, ~$280/contract",
+    "ALPHA (options): ARM downside protection/positioning\u2014put printed in 111 splits; ~$206.6K premium at $105/contract",
+    "Wildcard: SpaceX IPO planning\u2014Musk outlines what could be the biggest IPO in history"
   ],
   "tickers": [],
   "alpha_tickers": []

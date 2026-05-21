@@ -1,15 +1,14 @@
 {
-  "last_run": "2026-05-20T23:03:47Z",
+  "last_run": "2026-05-21T10:34:01Z",
   "stories": [
-    "Rates shock remains the #1 macro driver: equities are trading off duration repricing (10Y/30Y) intraday",
-    "Iran risk premium stays embedded: Trump says a planned strike was suspended; gold remains the clean hedge",
-    "EIA STEO reframes oil assumptions: UAE exit from OPEC (effective May 1) reshapes spare-capacity math",
-    "SpaceX IPO drumbeat: talk of up to ~$75B raise at a >$2T valuation becomes a real rotation risk",
-    "Fed minutes risk: the next catalyst for the rate path (and equity duration) as vol stays elevated",
-    "U.S. consumer read-through: TJX strong quarter reinforces off-price as a \u2018higher-for-longer\u2019 winner",
-    "Alpha (options): Consumer Discretionary whale tape shows extreme call churn\u2014134,859 contracts (~$280/contract) split across 8 trades",
-    "Alpha (insider): Upstart CEO family trust buys 50,000 shares at $27.50",
-    "Crypto sentiment check: Trump Media withdraws bitcoin ETF filing as macro/geopolitical stress drives broader ETP outflows"
+    "U.S. tape: \u201cduration repricing\u201d still the boss (yields \u2194 leadership)",
+    "Eurozone PMI shock: recession risk rises fast (France ugly)",
+    "Fed backdrop: policy rate held at 3.5%\u20133.75% with an unusual 8\u20134 dissent; FedWatch is the live tripwire",
+    "SpaceX: reported S\u20111 filing ahead of June roadshow (IPO setup moves from rumor to process)",
+    "Earnings tape: TJX flagged as a standout retail \u201chigher-for-longer\u201d beneficiary",
+    "Options alpha (Industrials): Southwest ($LUV) long-dated downside positioned via Mar-2027 puts",
+    "FX edge: EUR/USD \u201cdouble top\u201d breakdown puts 1.1500 in play",
+    "Wildcard geopolitics: Ukraine strikes continue (energy/infrastructure risk stays in the background)"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,14 +1,17 @@
 {
-  "last_run": "2026-05-21T22:51:22Z",
+  "last_run": "2026-05-22T10:23:28Z",
   "stories": [
-    "Trade-policy risk re-enters the pricing: \u201cstrategic industries\u201d in focus under Trump push",
-    "Software multiple sensitivity on display: Intuit -13% after-hours on revenue miss + layoffs",
-    "Rates narrative: \u201cno cuts in 2026\u201d call gains airtime, raising duration risk",
-    "Energy geopolitics: EU/UK sanctions split + Ukraine refinery strike keep a risk premium under crude/products",
-    "High-beta single-name rotation: quantum/AI + industrial/energy-transition movers dominate the momentum tape",
-    "Options alpha (IT): split-fill call flagged in AAPL/AMD complex \u2014 Jul 17, 2026 $60C",
-    "Options alpha (airlines): Southwest long-dated bearish positioning \u2014 Mar 19, 2027 $37.50 puts",
-    "Wildcard: SpaceX IPO talk resurfaces \u2014 \u201cbiggest IPO in history\u201d framing could shift proxy sentiment"
+    "Executive summary (10:17 UTC):",
+    "UK fiscal shock: April borrowing prints \u00a324.3bn (above expectations), putting the \u201crates + fiscal\u201d mix back on the tape.",
+    "UK consumer warning: retail sales fall as petrol demand sees the biggest drop in six years.",
+    "Eurozone flash PMIs: composite drops in May, with services softness reviving recession/ECB downside risk.",
+    "US rates regime: markets keep pushing back on the \u201ccuts\u201d narrative\u2014December hike odds are creeping into Fed funds pricing.",
+    "Oil regime remains unstable: OPEC+ \u201cmore barrels\u201d talk collides with persistent geopolitical risk premium.",
+    "US\u2013Iran escalation watch: blockade posture + reported briefings on potential operations keep tail-risk elevated.",
+    "Ukraine targets Russian oil infrastructure: Zelenskyy says May\u2019s long-range plan is largely on track.",
+    "NVDA options anomaly: short-dated calls traded at a premium to puts into earnings (positive skew\u2014rare for single stocks).",
+    "Insider signal (AMRZ): CEO Jan Philipp Jenisch keeps buying stock in size; additional officer buying adds to the cluster.",
+    "Wildcard (trade backdrop): updated map of where US\u2013China tariff rates stand\u2014useful for rapid margin/supply-chain stress tests."
   ],
   "tickers": [],
   "alpha_tickers": []

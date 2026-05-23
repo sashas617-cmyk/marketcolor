@@ -1,16 +1,13 @@
 {
-  "last_run": "2026-05-22T22:37:35Z",
+  "last_run": "2026-05-23T09:12:19Z",
   "stories": [
-    "Fed leadership transition: Kevin Warsh is now officially Fed Chair (reaction-function risk)",
-    "Hawkish Fed messaging + curve signal: the 2Y yield is trading above the fed funds rate",
-    "Oil macro: OPEC+ expected to approve only a modest July supply increase; \u201c$100 Brent baseline\u201d talk returns",
-    "Middle East tape: Trump says Iran war \u201cwill be over soon\u201d \u2014 de-escalation rhetoric vs. headline whiplash",
-    "Russia\u2013Ukraine escalation: Ukraine says drones hit another Russian refinery (refined-products risk)",
-    "China inflation impulse: China lifts retail gasoline/diesel pricing again",
-    "Rates vs. growth stocks: AI/semi momentum re-accelerates (Qualcomm highlighted)",
-    "ALPHA \u2014 QBTS: massive same-day call targeting (May 22 $25) suggests new positioning + gamma risk",
-    "ALPHA \u2014 ASTS: extreme $320-strike call activity prints (tail-upside / positioning tell)",
-    "Wildcard \u2014 Gold\u2019s \u201cwar premium\u201d continues to fade: prices ~14% below the conflict peak"
+    "Strait of Hormuz risk is bleeding into rates: inflation premia bid, global bonds softer",
+    "Oil holds a live geopolitical premium: Brent ~$104, WTI ~$97 (this morning)",
+    "U.S. equities: AI/semis keep leading\u2014momentum tape still intact",
+    "Concentration risk: AI\u2019s index-level grip keeps squeezing active managers",
+    "ALPHA (Options) \u2014 CSX: giant June 18 $48.50 call print (~45,000 contracts)",
+    "ALPHA (Options) \u2014 UAL: bullish mid-June call sweep as oil risk stays elevated",
+    "Crypto narrative shift: \u201cBTC as hedge\u201d takes a hit after reported billionaire selling"
   ],
   "tickers": [],
   "alpha_tickers": []

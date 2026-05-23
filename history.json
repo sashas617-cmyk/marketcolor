@@ -1,13 +1,16 @@
 {
-  "last_run": "2026-05-23T09:12:19Z",
+  "last_run": "2026-05-23T14:48:50Z",
   "stories": [
-    "Strait of Hormuz risk is bleeding into rates: inflation premia bid, global bonds softer",
-    "Oil holds a live geopolitical premium: Brent ~$104, WTI ~$97 (this morning)",
-    "U.S. equities: AI/semis keep leading\u2014momentum tape still intact",
-    "Concentration risk: AI\u2019s index-level grip keeps squeezing active managers",
-    "ALPHA (Options) \u2014 CSX: giant June 18 $48.50 call print (~45,000 contracts)",
-    "ALPHA (Options) \u2014 UAL: bullish mid-June call sweep as oil risk stays elevated",
-    "Crypto narrative shift: \u201cBTC as hedge\u201d takes a hit after reported billionaire selling"
+    "Russia: Novorossiysk Black Sea oil port hit; facilities reported on fire after drone attack (fresh weekend escalation)",
+    "Turkey: political shock raises capital-outflow risk; local markets flagged for renewed stress",
+    "US equities: \u201crocky patch\u201d risk as yields perk up and earnings tail off (positioning risk into month-end)",
+    "China property: stabilization signs, but ~90 million empty homes overhang remains the big drag",
+    "Middle East: cease-fire proposal gets positive signals, but key details still unresolved",
+    "Crypto: Bitcoin stabilizes near ~$77k after liquidation wave; ~$75k is the line traders are watching",
+    "US equity narrative: JPMorgan-linked case for S&P 500 at 9,000 by mid-next year raises the bar for inflation/rates",
+    "ALPHA \u2014 CSX options: a single 45,000-lot dominates June 18 $48.50 calls (timing: 2:23pm ET)",
+    "ALPHA \u2014 Boeing (BA) options: May 29, 2026 $220 calls flagged in a sweep (617 contracts split across 6 trades)",
+    "Wildcard \u2014 Market breadth: S&P Equal Weight Index (SPXEW) breaks out to fresh all-time highs"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,6 +1,14 @@
 {
-  "last_run": "2026-05-24T22:32:26Z",
-  "stories": [],
+  "last_run": "2026-05-25T11:09:09Z",
+  "stories": [
+    "Rates repricing: Treasuries begin to price a potential 2026 hike (\u201cWarsh era\u201d risk)",
+    "China FX: PBOC fixes stronger\u2014but still above estimates (managed depreciation signal)",
+    "Geopolitics swing factor: Trump says Iran peace deal \u201clargely negotiated,\u201d Hormuz reopening in view",
+    "Russia\u2013Ukraine escalation: Kyiv hit by massive missile/drone attack including \u201cOreshnik\u201d",
+    "US real estate megadeal: Equity Residential + AvalonBay agree all-stock merger (~$69B EV)",
+    "EU gas live tape: Dutch TTF prints \u20ac43.15/MWh (macro input for Europe margins)",
+    "Policy/flow wildcard: Bloomberg spotlights Trump\u2019s \u201c3,711 trades\u201d disclosure\u2014automation/indexing signatures"
+  ],
   "tickers": [],
   "alpha_tickers": []
 }

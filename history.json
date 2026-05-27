@@ -1,13 +1,18 @@
 {
-  "last_run": "2026-05-27T10:49:09Z",
+  "last_run": "2026-05-27T16:44:25Z",
   "stories": [
-    "U.S. index momentum still intact: S&P 500 + Nasdaq print fresh intraday records",
-    "Asia diverges: Japan at record highs while the region trades mixed on Iran risk",
-    "AI trade extends into memory: re-rating accelerates across the memory-chip complex",
-    "UK rates reprice: gilts rally off extremes as political heat cools; GBP underperforms",
-    "Options alpha (Industrials): $240 strike whale activity flagged in BE / Firefly Aerospace list",
-    "Options alpha (China internet): BABA bullish call transfer \u2014 Jun 18, 2026 $130C",
-    "Wildcard: BCA turns more bearish\u2014warns global stock outlook is \u201cpoor\u201d on inflation risk"
+    "Executive summary (16:43 UTC):",
+    "Europe: ECB\u2019s Schnabel flags \u201celevated\u201d correction risk as stocks sit at records",
+    "US setup: Reuters says equities could hit a rocky patch as catalysts fade and yields perk up",
+    "US premarket: S&P 500 futures grind higher on AI bid + lower oil + easing yields",
+    "Rates pulse: US 10-year eases to ~4.47%, but \u201chigh enough\u201d to keep valuations rate-sensitive",
+    "Fed path risk: April minutes keep \u201cfurther firming\u201d on the table if inflation won\u2019t bend",
+    "Commodities/geopolitics: Gold still ~15% below the conflict start as US\u2013Iran talk optimism trims tail risk",
+    "Single-stock shock (idiosyncratic risk): Verra Mobility (VRRM) collapses ~50% after Avis termination notice",
+    "Options alpha: CRH sees extreme put-skew into June 18 (\u224820:1 puts over calls) around ~$47",
+    "put-over-call activity (~20:1)",
+    "Insider cluster (signal): Celsius (CELH) insiders buy in size around $29\u2013$30",
+    "UK macro wild card: CPI still above target (3.3% y/y as of March 2026), complicating \u201ceasy cuts\u201d narratives"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,12 +1,23 @@
 {
-  "last_run": "2026-05-28T10:47:07Z",
+  "last_run": "2026-05-28T17:02:16Z",
   "stories": [
-    "Software dispersion hits after-hours: Zscaler guidance shock vs. Salesforce \u201cbeat + lighter outlook\u201d",
-    "ECB\u2019s Schnabel stays hawkish: \u201cJune hike still warranted\u201d even if geopolitics cools",
-    "China policy pulse: PBOC reportedly urged banks to boost May lending as weakness persists",
-    "Options alpha: RDW sees a bullish call transfer \u2014 288x Aug 21, 2026 $27 calls (~$155.5K premium)",
-    "Insider cluster signal: Celsius (CELH) director bought 8,400 shares around $29.73 (Form 4)"
+    "Energy shock back on the tape: crude >$91 + Europe gas spikes on supply fear",
+    "US equities: AI-beta still steering the bus; megacap concentration reinforced",
+    "Rates check: UST 10Y ~4.50% keeps financial conditions tight",
+    "Europe policy backdrop: ECB framed as cautious with energy-risk in focus",
+    "Gaza ceasefire talks: tone improving, terms still contested (tail-risk not gone)",
+    "Sentiment/positioning: the rally keeps climbing a \u201cwall of worry\u201d",
+    "Consumer tape pulse: Kohl\u2019s pops >15% on improving sales-trend commentary",
+    "Options alpha: $APGE sees concentrated put-selling in Jul-17 $70 line",
+    "Insider alpha: $CELH shows a cluster of open-market buys near ~$29",
+    "Wildcard (policy-to-single-stock transmission): drone funding talks ignite $UMAC"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "APGE",
+    "CELH"
+  ],
+  "alpha_tickers": [
+    "APGE",
+    "CELH"
+  ]
 }

@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-06-01T18:47:21Z",
+  "last_run": "2026-06-01T23:16:47Z",
   "stories": [
-    "Executive summary (18:45 UTC):"
+    "Executive summary:",
+    "Rates regime check: BlackRock warns \u201chedges not hedging\u201d as long bonds sell off",
+    "FX lens: dollar recovery faces a key technical test as yields and geopolitics tug in opposite directions",
+    "Next macro catalyst: ISM Manufacturing PMI expected at 52.6\u2014soft-landing conviction gets tested",
+    "Alphabet equity overhang hits tape: mixed shelf filed for up to $80B",
+    "OTEX options flow: extreme call skew targets Jun 18 $27.50 (fresh positioning signal)",
+    "Market micro/sentiment: S&P\u2019s 9-week win streak faces a \u201cweek-10 break\u201d setup\u2014AVGO + NFP are the tripwires",
+    "Crypto risk appetite check: Bitcoin slides to ~2-month lows near $71.5K on ETF outflows + liquidations"
   ],
-  "tickers": [
-    "UAL",
-    "USO",
-    "XLE"
-  ],
-  "alpha_tickers": [
-    "UAL",
-    "USO",
-    "XLE"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

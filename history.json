@@ -1,11 +1,16 @@
 {
-  "last_run": "2026-06-02T11:16:00Z",
+  "last_run": "2026-06-02T17:32:00Z",
   "stories": [
-    "Next macro tripwire: US jobs report \u2014 the week-ahead catalyst for yields and equity multiple risk",
-    "Market-structure shock: prominent short seller Andrew Left found guilty of securities fraud",
-    "Unusual options: OTEX sees extreme call skew \u2014 Jun 18 \\$27.50 calls dominate (fresh positioning)",
-    "Insider signal: Sysco (SYY) director John M. Hinshaw buys ~\\$1.0M stock in open market",
-    "Wildcard (equity supply / risk appetite): BlackRock flags SpaceX exploring a potentially record-sized listing"
+    "U.S. labor demand re-tightening signal: April JOLTS openings jump to 7.6M",
+    "U.S. equities: Russell 2000 + Nasdaq leadership as risk appetite improves",
+    "FX pressure point: USD/JPY pushes back toward 160, intervention risk back in focus",
+    "Macro + commodities tail risk: BlackRock flags a Strait of Hormuz disruption scenario",
+    "Biotech risk-off pocket: Abivax sinks ~28% on cancer disclosures in UC trial",
+    "Europe: STOXX 600 higher with tech support ahead of Eurozone inflation data",
+    "Rates catalyst ahead: jobs report framed as the next big test for \u201csoaring stocks\u201d",
+    "ALPHA (options): OTEX call skew explodes \u2014 Jun 18 $27.50C volume 9,535 vs OI 262",
+    "ALPHA (whales): \u201cBE\u201d flagged in multi-fill whale options trade \u2014 551 contracts, ~$333.6K premium",
+    "Russia operational risk: Putin orders officials to keep key services running amid mobile internet shutdowns"
   ],
   "tickers": [],
   "alpha_tickers": []

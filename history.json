@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-06-02T17:32:00Z",
+  "last_run": "2026-06-02T23:23:06Z",
   "stories": [
-    "U.S. labor demand re-tightening signal: April JOLTS openings jump to 7.6M",
-    "U.S. equities: Russell 2000 + Nasdaq leadership as risk appetite improves",
-    "FX pressure point: USD/JPY pushes back toward 160, intervention risk back in focus",
-    "Macro + commodities tail risk: BlackRock flags a Strait of Hormuz disruption scenario",
-    "Biotech risk-off pocket: Abivax sinks ~28% on cancer disclosures in UC trial",
-    "Europe: STOXX 600 higher with tech support ahead of Eurozone inflation data",
-    "Rates catalyst ahead: jobs report framed as the next big test for \u201csoaring stocks\u201d",
-    "ALPHA (options): OTEX call skew explodes \u2014 Jun 18 $27.50C volume 9,535 vs OI 262",
-    "ALPHA (whales): \u201cBE\u201d flagged in multi-fill whale options trade \u2014 551 contracts, ~$333.6K premium",
-    "Russia operational risk: Putin orders officials to keep key services running amid mobile internet shutdowns"
+    "U.S. equities: another record close as AI/chip momentum keeps the bid",
+    "Crypto shock absorber: BTC slides to ~$67K as liquidations top ~$1.23B (24h)",
+    "HPE: earnings beat + guidance reset sparks a sharp re-rating",
+    "Dollar General: defensive/value retail wakes up as FY2026 outlook rises",
+    "Russia\u2013Ukraine: strikes broaden with energy logistics still a prime target",
+    "Russia domestic operational risk: continuity orders amid mobile internet shutdowns",
+    "BABA options tape: $40 calls see sweep flow as volume spikes vs OI",
+    "JCI unusual calls: multi-print fill points to institution-sized execution",
+    "India risk lens: Wipro volatility framed as \u201celection jitters\u201d (confirmed by Reuters)"
   ],
   "tickers": [],
   "alpha_tickers": []

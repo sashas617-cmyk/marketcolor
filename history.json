@@ -1,22 +1,18 @@
 {
-  "last_run": "2026-06-03T18:11:25Z",
+  "last_run": "2026-06-03T23:20:34Z",
   "stories": [
-    "Executive summary (18:09 UTC):",
-    "Risk-off tape: U.S.\u2013Iran clashes keep oil bid, push yields up, and pressure equities",
-    "Trade policy shock: White House floats new tariff bands (10%+ cited) into the open",
-    "Macro print: ISM Services jumps to 54.5, but employment stays contractionary at 47.9",
-    "Private markets liquidity alarm: Partners Group gates redemptions after requests breach 5% of NAV",
-    "Crypto risk-off accelerates: BTC slides toward $66K as liquidations hit ~$1.65B",
-    "Central bank week setup: ECB (June 11) messaging, BOJ normalization path, and today\u2019s BoC MPR",
-    "Deal/IPO tape: SpaceX targets a fixed $135 IPO roadshow price at ~$1.75T valuation (source)",
-    "ALPHA (options): $BABA \u201cwhale\u201d print concentrated at the $40 strike",
-    "ALPHA (insider): Qualys CEO sells 13,200 shares in the low-$110s (10b5-1)",
-    "Wildcard (positioning/market structure): Leveraged ETF assets double in ~2 months as the AI trade crowds"
+    "After-hours: U.S. futures lean lower as Broadcom cools chip sentiment",
+    "Fed Beige Book: employment steady, but inflation re-accelerates via energy pass-through",
+    "Crude: WTI extends to ~>$95 as Middle East risk premium rebuilds",
+    "Rates: U.S. 10-year pushes up to ~4.46% on inflation re-pricing",
+    "Cash equities: S&P 500 win streak snaps as oil/yields squeeze risk appetite",
+    "Europe/FX regime shift: ECB flags fragmentation risk + central-bank gold bid",
+    "Crypto: Bitcoin breaks below $70k as liquidations hit and ETF outflows persist",
+    "ALPHA: Taseko Mines (TGB) sees extreme call skew in Jan 2027 $15 calls",
+    "call-heavy flow (~300:1 calls/puts)",
+    "ALPHA: Rocket Lab (RKLB) unusual call sweep into Jul 17, 2026 \u2014 sentiment classification looks messy",
+    "Wildcard (after-hours tape): HPE pops on raised guidance while Palo Alto slips despite a higher outlook"
   ],
-  "tickers": [
-    "BABA"
-  ],
-  "alpha_tickers": [
-    "BABA"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

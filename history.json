@@ -1,16 +1,22 @@
 {
-  "last_run": "2026-06-02T23:23:06Z",
+  "last_run": "2026-06-03T11:59:12Z",
   "stories": [
-    "U.S. equities: another record close as AI/chip momentum keeps the bid",
-    "Crypto shock absorber: BTC slides to ~$67K as liquidations top ~$1.23B (24h)",
-    "HPE: earnings beat + guidance reset sparks a sharp re-rating",
-    "Dollar General: defensive/value retail wakes up as FY2026 outlook rises",
-    "Russia\u2013Ukraine: strikes broaden with energy logistics still a prime target",
-    "Russia domestic operational risk: continuity orders amid mobile internet shutdowns",
-    "BABA options tape: $40 calls see sweep flow as volume spikes vs OI",
-    "JCI unusual calls: multi-print fill points to institution-sized execution",
-    "India risk lens: Wipro volatility framed as \u201celection jitters\u201d (confirmed by Reuters)"
+    "US\u2013EU trade shock: \u201c15\u201320% minimum tariff\u201d talk hits EUR and EU export exposure",
+    "ECB: June hike priced as \u201cdone deal,\u201d September also likely as growth gets marked down",
+    "Japan rates risk: pressure on BoJ to publish a credible \u201cnormalization roadmap\u201d post-hike",
+    "Geopolitics is the near-term gate: traders fixated on fragile US\u2013Iran negotiations (energy/rates lever)",
+    "US equity leadership: AI infrastructure still driving index-level flow (Marvell, HPE in focus)",
+    "UK assets: services PMI revised up but still contractionary; \u201cpolitical risk premium\u201d back in the tape",
+    "Europe data check: eurozone PMI revisions can\u2019t hide contraction; inflation signals still \u201cuncomfortable\u201d",
+    "ALPHA (options): Taseko Mines ($TGB) sees extreme upside positioning in Jan 2027 $15 calls",
+    "~300:1 calls-over-puts",
+    "ALPHA (verified social flow): TSLA \u201cthree rapid-fire sweeps\u201d \u2014 Jul 17 $430 calls, $14.17M premium",
+    "Wildcard (market structure): Polymarket executes its first block trade as prediction markets court Wall Street"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "TGB"
+  ],
+  "alpha_tickers": [
+    "TGB"
+  ]
 }

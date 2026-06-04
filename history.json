@@ -1,17 +1,16 @@
 {
-  "last_run": "2026-06-03T23:20:34Z",
+  "last_run": "2026-06-04T10:36:15Z",
   "stories": [
-    "After-hours: U.S. futures lean lower as Broadcom cools chip sentiment",
-    "Fed Beige Book: employment steady, but inflation re-accelerates via energy pass-through",
-    "Crude: WTI extends to ~>$95 as Middle East risk premium rebuilds",
-    "Rates: U.S. 10-year pushes up to ~4.46% on inflation re-pricing",
-    "Cash equities: S&P 500 win streak snaps as oil/yields squeeze risk appetite",
-    "Europe/FX regime shift: ECB flags fragmentation risk + central-bank gold bid",
-    "Crypto: Bitcoin breaks below $70k as liquidations hit and ETF outflows persist",
-    "ALPHA: Taseko Mines (TGB) sees extreme call skew in Jan 2027 $15 calls",
-    "call-heavy flow (~300:1 calls/puts)",
-    "ALPHA: Rocket Lab (RKLB) unusual call sweep into Jul 17, 2026 \u2014 sentiment classification looks messy",
-    "Wildcard (after-hours tape): HPE pops on raised guidance while Palo Alto slips despite a higher outlook"
+    "Executive summary (10:35 UTC):",
+    "Iran/Israel: ceasefire \u201cfragility\u201d keeps oil + geopolitics premium elevated into Europe",
+    "ECB day: June hike framed as a \u201cdone deal\u201d; September hike odds rising as growth outlook softens",
+    "Fed path: futures-implied policy probabilities remain the fastest driver of USD + front-end swings",
+    "Volatility risk: strategists warn \u201cunder-hedged\u201d positioning can turn any catalyst into a sharp vol spike",
+    "Asia risk signal (last few hours): Japan\u2019s Nikkei prints a record high",
+    "Ukraine expands deep-strike campaign: reported drones hit a St. Petersburg oil terminal",
+    "KMI options anomaly: 2,400 calls vs 23 OI (V/OI ~104) in the Jun 26, 2026 $33 strike",
+    "TSLA \u201crapid-fire\u201d sweep cluster: July 17, 2026 $430 calls \u2014 6,560 contracts, ~$14.17M premium",
+    "Wildcard factor watch: Nvidia CPU narrative + China EV focus keeps leadership/rotation risk high"
   ],
   "tickers": [],
   "alpha_tickers": []

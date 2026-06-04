@@ -1,15 +1,18 @@
 {
-  "last_run": "2026-06-04T16:36:38Z",
+  "last_run": "2026-06-04T22:54:57Z",
   "stories": [
-    "Treasuries: convexity hedging risk is back on the radar as a volatility amplifier",
-    "Premarket/early tape: risk-off tone tied to Iran-war concerns + rate pressure",
-    "Japan/FX macro: BOJ hike probabilities watched as a global rates/flow trigger",
-    "Consumer/retail dispersion stays high: Petco guidance miss; Five Below sells off on \u201cquality\u201d questions; Lululemon looms",
-    "Labor-market microdata: posted wage growth looks cooler (composition matters for inflation pricing)",
-    "OPTIONS ALPHA: Taseko Mines (TGB) sees heavy long-dated call concentration",
-    "OPTIONS ALPHA: Rocket Lab (RKLB) \u201cbearish call sweep\u201d flagged into Jul 17, 2026 expiry",
-    "Wildcard risk: \u201cvolatility complacency\u201d narrative resurfaces (low hedging + low correlations)"
+    "Lululemon: headline beat, guidance miss \u2014 after-hours repricing of premium growth",
+    "U.S. labor cooling signal: May job-cut announcements rise to 97,006; tech still leads",
+    "Japan rates/FX risk: IMF monitor flags markets increasingly pricing a BOJ hike at the June meeting",
+    "Crude eases: WTI slips toward ~$93 on Israel\u2013Lebanon ceasefire renewal headlines",
+    "Gold regime check: ETF flows \u201cfrom flood to trickle\u201d as spot tries to rebound toward ~$4,500",
+    "Unusual options: Millrose Properties (MRP) shows extreme call skew into Jun 18 $30 calls",
+    "~100:1 call-over-put",
+    "Insider accumulation watch: Expand Energy (EXE) shows repeat open-market buying signals",
+    "Wildcard risk: volatility-spike setup as optimism rises and downside hedging demand fades"
   ],
-  "tickers": [],
+  "tickers": [
+    "LULU"
+  ],
   "alpha_tickers": []
 }

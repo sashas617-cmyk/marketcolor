@@ -1,16 +1,14 @@
 {
-  "last_run": "2026-06-04T10:36:15Z",
+  "last_run": "2026-06-04T16:36:38Z",
   "stories": [
-    "Executive summary (10:35 UTC):",
-    "Iran/Israel: ceasefire \u201cfragility\u201d keeps oil + geopolitics premium elevated into Europe",
-    "ECB day: June hike framed as a \u201cdone deal\u201d; September hike odds rising as growth outlook softens",
-    "Fed path: futures-implied policy probabilities remain the fastest driver of USD + front-end swings",
-    "Volatility risk: strategists warn \u201cunder-hedged\u201d positioning can turn any catalyst into a sharp vol spike",
-    "Asia risk signal (last few hours): Japan\u2019s Nikkei prints a record high",
-    "Ukraine expands deep-strike campaign: reported drones hit a St. Petersburg oil terminal",
-    "KMI options anomaly: 2,400 calls vs 23 OI (V/OI ~104) in the Jun 26, 2026 $33 strike",
-    "TSLA \u201crapid-fire\u201d sweep cluster: July 17, 2026 $430 calls \u2014 6,560 contracts, ~$14.17M premium",
-    "Wildcard factor watch: Nvidia CPU narrative + China EV focus keeps leadership/rotation risk high"
+    "Treasuries: convexity hedging risk is back on the radar as a volatility amplifier",
+    "Premarket/early tape: risk-off tone tied to Iran-war concerns + rate pressure",
+    "Japan/FX macro: BOJ hike probabilities watched as a global rates/flow trigger",
+    "Consumer/retail dispersion stays high: Petco guidance miss; Five Below sells off on \u201cquality\u201d questions; Lululemon looms",
+    "Labor-market microdata: posted wage growth looks cooler (composition matters for inflation pricing)",
+    "OPTIONS ALPHA: Taseko Mines (TGB) sees heavy long-dated call concentration",
+    "OPTIONS ALPHA: Rocket Lab (RKLB) \u201cbearish call sweep\u201d flagged into Jul 17, 2026 expiry",
+    "Wildcard risk: \u201cvolatility complacency\u201d narrative resurfaces (low hedging + low correlations)"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,23 +1,16 @@
 {
-  "last_run": "2026-06-06T09:21:30Z",
+  "last_run": "2026-06-06T14:50:04Z",
   "stories": [
-    "Rates shock lingers: yields stay elevated, Fed-cut timing pushed out",
-    "AI/semis unwind deepens: \u201cAI trade\u201d breaks down as chips shed >$1T market cap",
-    "Policy optionality jumps: Trump administration and OpenAI reportedly discuss a U.S. government stake",
-    "Oil slides in the last hours: crude down ~3% to ~$90.20/bbl",
-    "Gold steadies: geopolitics vs. higher real yields remains a tug-of-war",
-    "Ukraine expands drone strikes: reported hits on oil depot and port infrastructure",
-    "Israel\u2013Lebanon tensions: Hezbollah rejects new ceasefire; Israel says it won\u2019t withdraw troops",
-    "Tariff \u201cstack\u201d still bites: U.S.\u2013China overlapping duties remain a margins/inflation swing factor",
-    "Crypto deleveraging tell: Bitcoin flushes sub-$60k, ~$1.6B liquidations, then rebounds >$61k",
-    "China\u2013Taiwan: reported ADIZ incursions lower vs prior peaks (tactical shift, not \u201call clear\u201d)"
+    "Mega-cap tech supply shock: Alphabet\u2019s ~$80B\u2013$85B equity raise is now a real overhang (confirmed)",
+    "Frontier-AI policy risk jumps: Trump administration and OpenAI reportedly discuss a U.S. government stake",
+    "Private markets liquidity warning: Partners Group caps redemptions, raising contagion concern",
+    "FX flashpoint: Japan reiterates readiness for \u201cdecisive action\u201d as USD/JPY hovers near 160",
+    "Middle East escalation premium: U.S. readies draft U.N./IAEA condemnation of Iran; Lebanon cease-fire track stalls",
+    "Energy & havens: Oman export-terminal disruption is a reminder how thin the logistics margin is; gold remains headline-driven",
+    "Unusual options (CARR): 6,861 puts trade (~11x avg); dominant print = sale of 6,699 Jul 10 $57 puts @ $0.44",
+    "Vol setup (OPEN): IV Rank ~59% with elevated options interest as the stock whipsaws",
+    "Black Sea risk is creeping higher: drone incident near Romania\u2019s Constanta + attack near Crimea"
   ],
-  "tickers": [
-    "HD",
-    "NKE"
-  ],
-  "alpha_tickers": [
-    "HD",
-    "NKE"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

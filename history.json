@@ -1,14 +1,16 @@
 {
-  "last_run": "2026-06-07T09:58:52Z",
+  "last_run": "2026-06-07T14:59:04Z",
   "stories": [
-    "Equity tape: AI-linked names sell off as leadership rotates",
-    "Asia FX: central banks face a three-way bind (growth vs inflation vs currency defense)",
-    "Black Sea security risk: drone incident near Romania\u2019s Constanta port oil infrastructure",
-    "Middle East: Gaza strike kills at least seven as Cairo talks restart",
-    "Commodities: coal at a 19\u2011month high while Brent slips toward the low\u2011$90s",
-    "Derivatives stress: crypto liquidations top ~$1.8B in 24 hours",
-    "Dilution shock: Nyxoah (NYXH) -52% after a massive underwritten offering",
-    "FX reserves & geopolitics: ECB highlights RMB reserve share stuck near ~2%"
+    "Macro/rates: Strong U.S. jobs impulse extends the \u201ccuts further out\u201d narrative into the new week",
+    "Oil supply: OPEC+ set to proceed with another July quota hike despite Hormuz-driven volatility",
+    "Energy logistics: Hormuz is \u201ceffectively closed\u201d commercially\u2014transits ~11% of normal, war-risk premiums ~8\u00d7",
+    "Diplomacy: US\u2013Iran ceasefire/nuclear talks put Hormuz navigation and sanctions directly on the table",
+    "Middle East risk: Gaza fatalities return as Cairo talks restart to shore up a strained ceasefire",
+    "Europe tail-risk: Zaporizhzhia nuclear plant power-supply risk rises amid drone activity claims",
+    "AI policy shock potential: Trump administration and OpenAI reportedly discuss a possible U.S. government stake",
+    "Crypto stress signal: Bitcoin tests ~$60\u201361k as ETF outflows and liquidations drive deleveraging",
+    "Crowded-momentum unwind: Space retail favorites slip as the \u201cSpaceX \u2192 S&P 500 passive bid\u201d catalyst fades",
+    "FX/rates (Asia): Policymakers face a growth vs inflation vs currency-defense trap\u2014volatility risk into Monday"
   ],
   "tickers": [],
   "alpha_tickers": []

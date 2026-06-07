@@ -1,22 +1,15 @@
 {
-  "last_run": "2026-06-06T22:37:38Z",
+  "last_run": "2026-06-07T09:58:52Z",
   "stories": [
-    "Executive summary:",
-    "Private credit stress goes public: Partners Group caps redemptions, volatility spills into private equity",
-    "Mega-cap supply overhang (confirmed): Alphabet\u2019s equity raise is now ~\\$85B",
-    "Policy/AI regime shift risk: Trump administration and OpenAI reportedly discuss a U.S. government stake",
-    "Ukraine: Russia launches one of the biggest drone/missile attacks on Kyiv in months",
-    "Black Sea spillover: marine drone self-detonates at Romania\u2019s Constanta port near oil infrastructure",
-    "Israel\u2013Lebanon: ceasefire extension terms emerge, but Hezbollah rejection keeps escalation risk priced",
-    "Options alpha \u2014 $CARR: put volume explodes; dominant print looks like a new put-write",
-    "Insider alpha \u2014 $DNUT: director Bernardo Hees buys a large block cluster (Form 4)"
+    "Equity tape: AI-linked names sell off as leadership rotates",
+    "Asia FX: central banks face a three-way bind (growth vs inflation vs currency defense)",
+    "Black Sea security risk: drone incident near Romania\u2019s Constanta port oil infrastructure",
+    "Middle East: Gaza strike kills at least seven as Cairo talks restart",
+    "Commodities: coal at a 19\u2011month high while Brent slips toward the low\u2011$90s",
+    "Derivatives stress: crypto liquidations top ~$1.8B in 24 hours",
+    "Dilution shock: Nyxoah (NYXH) -52% after a massive underwritten offering",
+    "FX reserves & geopolitics: ECB highlights RMB reserve share stuck near ~2%"
   ],
-  "tickers": [
-    "CARR",
-    "DNUT"
-  ],
-  "alpha_tickers": [
-    "CARR",
-    "DNUT"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

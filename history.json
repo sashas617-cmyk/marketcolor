@@ -1,15 +1,13 @@
 {
-  "last_run": "2026-06-08T16:55:43Z",
+  "last_run": "2026-06-08T22:58:34Z",
   "stories": [
-    "Executive summary:",
-    "Rates check: 10Y Treasury ~4.47% is the input that matters for mortgages",
-    "Europe risk-off: STOXX 600 hits a two-week low; Italy banks diverge on M&A",
-    "Asia tech beta soft: SoftBank -6% as regional tech selling accelerates",
-    "Strategist reset: Citi lifts S&P 500 target to 8,100 (AI earnings durability thesis)",
-    "ECB communications in focus: Schnabel remarks watched for persistence and stance nuance",
-    "MRVL flow catalyst: Marvell surges ~10% as S&P 500 inclusion clock starts (effective June 22)",
-    "Insider signal: DNUT director-linked entity buys ~630k shares (~$3.29\u2013$3.44)",
-    "Wildcard (EM risk proxy): India traders flag Nifty 17,000 as the line\u2014break risks 16,700\u201316,800"
+    "Rates macro: \u201chigher for longer\u201d narrative hardens as oil risk premium stacks on top of strong-jobs inflation fears.",
+    "Asia risk-off signal: South Korea\u2019s Kospi dumps more than 8% in a broad regional selloff.",
+    "US consumer warning shot: Lululemon sinks ~10% on a guidance cut despite a narrow beat.",
+    "Crypto tightening shock: Bitcoin drawdown deepens amid ETF outflows and ~$1.8B liquidation flush.",
+    "ALPHA: DNUT director-linked entity aggressively buys the dip\u2014~630k shares across four days (~$2.1M).",
+    "ALPHA: LODE CEO buys stock in the open market at ~$3.975 as insiders add around the margin.",
+    "Wildcard (next-session catalyst setup): futures firm into a catalyst-heavy earnings week with Oracle in focus."
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,16 +1,14 @@
 {
-  "last_run": "2026-06-09T16:13:11Z",
+  "last_run": "2026-06-09T23:00:46Z",
   "stories": [
-    "Executive summary (16:11 UTC):",
-    "Equity factor rotation: the \u201cAI/chip trade\u201d is losing momentum as investors rotate away from semis.",
-    "Rates flow: foreign demand steadies at US Treasury auctions (a key support as issuance stays heavy).",
-    "Fed policy risk: officials still open to more firming if inflation stays persistently above 2%.",
-    "Commodities/geopolitics: crude oil is pulling back as the war-risk premium eases\u2014but cross-asset sensitivity remains high.",
-    "Asia risk pulse: mainland China rebounded while Hong Kong lagged\u2014signaling uneven risk appetite.",
-    "Earnings/catalyst: SailPoint (SAIL) beats\u2014security/software read-through in play today.",
-    "Unusual options (IT): AAOI sees high-strike whale activity (today\u2019s session).",
-    "Insider accumulation signal: Krispy Kreme (DNUT) director Bernardo Hees adds shares (Form 4 referenced).",
-    "Wildcard: SpaceX mega-IPO timing/valuation debate is back\u2014watch liquidity and \u201ccircular\u201d Big Tech flows."
+    "Japan macro/FX: BoJ decision risk is now a \u201cjump risk\u201d event for USD/JPY",
+    "Commodities: Brent resets lower despite elevated geopolitical noise",
+    "Rates signal via gold: market pricing shifts toward \u201chigher-for-longer\u201d",
+    "Europe policy pressure: banks flag a \u20ac1.4T annual investment gap",
+    "AI + markets: Bloomberg says an $18B hedge fund is shipping \u201cAI analyst bots\u201d at scale",
+    "ALPHA \u2014 Unusual options: Kimco (KIM) call skew goes extreme into Jul 17",
+    "ALPHA \u2014 Index-flow catalyst: Marvell (MRVL) jumps on S&P 500 inclusion; semis catch a bid",
+    "Wildcard (tactical) \u2014 \u201cTech is broken\u201d risk: sell-side technicals + CTA/gamma chatter converge"
   ],
   "tickers": [],
   "alpha_tickers": []

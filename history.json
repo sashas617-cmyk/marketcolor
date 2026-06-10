@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-06-10T10:50:54Z",
+  "last_run": "2026-06-10T16:45:59Z",
   "stories": [
-    "US equities: \u201cTech is still broken\u201d as traders key off last Friday\u2019s lows",
-    "Macro: global relief rally meets its next gate\u2014US CPI",
-    "Europe rates: euro-zone yields steady as the market games an ECB move under energy-driven inflation risk",
-    "Energy: crude slides to a 7-week low as Iran/Israel de-escalation headlines unwind the risk premium",
-    "Geopolitics \u2192 supply chains: Red Sea shipping risk is back on desks (and oil may react more \u201cthis time\u201d)",
-    "SpaceX: governance + market-structure risk enters the mainstream as IPO/secondary gravity grows",
-    "Flows: retail is parking cash in money-market funds\u2014risk aversion is showing up in allocation, not just prices",
-    "ALPHA (AI infrastructure): Meta signs first India AI data center deal with Reliance \u2014 168MW is a real capex signal",
-    "ALPHA (options): Citigroup shows heavy $40-strike tape into Sep 18, 2026",
-    "Wildcard (crypto/risk beta): BTC bounce framed as range trade, not a trend restart"
+    "Executive summary (16:43 UTC):",
+    "Geopolitics back on desks: Trump threats toward Iran revive tail-risk pricing",
+    "ECB in focus: market braced for a 25bp hike as energy pushes inflation back up",
+    "US rates catalyst: Treasury auctions are the next near-term volatility node",
+    "Asia risk-on pulse: regional tech rebounds as AI bid returns",
+    "UK supply reality check: \u00a39B gilt sale clears at a near-record yield",
+    "Hormuz microstructure (tradable signal): real-time shipping disruptions + war-risk costs",
+    "Refined-products risk: reports of a drone strike on Russia\u2019s Samara refinery",
+    "Europe policy wildcard: \u20ac1.4T annual investment gap becomes a bank-regulation flashpoint"
   ],
   "tickers": [],
   "alpha_tickers": []

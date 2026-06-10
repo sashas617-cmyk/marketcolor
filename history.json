@@ -1,15 +1,11 @@
 {
-  "last_run": "2026-06-10T16:45:59Z",
+  "last_run": "2026-06-10T23:09:32Z",
   "stories": [
-    "Executive summary (16:43 UTC):",
-    "Geopolitics back on desks: Trump threats toward Iran revive tail-risk pricing",
-    "ECB in focus: market braced for a 25bp hike as energy pushes inflation back up",
-    "US rates catalyst: Treasury auctions are the next near-term volatility node",
-    "Asia risk-on pulse: regional tech rebounds as AI bid returns",
-    "UK supply reality check: \u00a39B gilt sale clears at a near-record yield",
-    "Hormuz microstructure (tradable signal): real-time shipping disruptions + war-risk costs",
-    "Refined-products risk: reports of a drone strike on Russia\u2019s Samara refinery",
-    "Europe policy wildcard: \u20ac1.4T annual investment gap becomes a bank-regulation flashpoint"
+    "Macro setup: light data now, CPI later = higher beta to small surprises",
+    "Europe fintech risk: ECB moved to rein in Revolut over oversight \u201cdeficiencies\u201d",
+    "Alpha (options): 3M (MMM) sees heavy near-dated put flow into June 12",
+    "Alpha (flows): BTC pressured as spot ETF outflows persist",
+    "Wildcard: Consumer tape check\u2014Chewy pops while Casey\u2019s grinds higher"
   ],
   "tickers": [],
   "alpha_tickers": []

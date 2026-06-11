@@ -1,13 +1,15 @@
 {
-  "last_run": "2026-06-11T17:02:03Z",
+  "last_run": "2026-06-11T23:11:18Z",
   "stories": [
-    "ECB delivers a hawkish surprise: +25 bps to 2.25% (first hike in ~3 years) on energy-shock inflation risk",
-    "SpaceX IPO is effectively \u201cT-0\u201d: pricing set at $135; Nasdaq debut slated for June 12 (tomorrow)",
-    "UK rates repricing: \u201cnext move up\u201d risk returns as war-driven energy inflation hits the BoE calculus",
-    "Crypto stays risk-off: Bitcoin slides to ~61.7k as ETF outflows dominate the narrative",
-    "Options alpha: 3M (MMM) hit with a near-dated put burst into June 12",
-    "Options alpha: Rocket Lab (RKLB) short-dated upside flow\u2014June 18 $55 calls dominate tape",
-    "Wildcard (positioning/sentiment): Citi raises S&P 500 year-end target to 8,100 on earnings + AI \u201csupercycle\u201d"
+    "Executive summary:",
+    "Geopolitics de-escalation hit the tape late: \u201cIran strikes called off\u201d = risk-on pop, crude slides",
+    "Long-end supply/term premium in focus: Treasury sold $22B of 30-year bonds",
+    "Single-name gravity check: Oracle slide kept the tape from going \u201cstraight-line risk-on\u201d",
+    "Allocator playbook shift: CalPERS pushes \u201ctotal portfolio\u201d investing",
+    "Capital markets theme: FT flags \u201cAI IPO/issuance floodgates\u201d risk to multiples outside mega-cap",
+    "Options alpha (industrial/mega-cap): 3M (MMM) saw a sharp put burst into near-dated strikes",
+    "Insider buy (microcap software): Yext (YEXT) director Seth Waugh bought 133,000 shares (~$3.746 avg)",
+    "Wildcard (sentiment/momentum): StockTwits shows geopolitics-driven \u201cwhipsaw\u201d chatter concentrating in high-beta tickers"
   ],
   "tickers": [],
   "alpha_tickers": []

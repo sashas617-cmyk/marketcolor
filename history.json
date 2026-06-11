@@ -1,16 +1,13 @@
 {
-  "last_run": "2026-06-11T11:21:51Z",
+  "last_run": "2026-06-11T17:02:03Z",
   "stories": [
-    "Gulf escalation: U.S. reports another round of strikes vs Iran; risk assets whipsaw, energy/defense bid holds",
-    "Rates/FX: yields grind higher into a potentially hawkish ECB; EUR stays heavy",
-    "Oil: Brent holds in the low-$90s as geopolitical premium fights increasingly bearish positioning",
-    "European natural gas: \u20ac50/MWh becomes the new stress marker on LNG route/supply anxiety",
-    "Regulators: increasingly autonomous AI flagged as a potential systemic financial risk amplifier",
-    "Positioning signal: retail is hiding in money-market funds as volatility rises",
-    "China fixed income: \u201cJapanisation\u201d talk spreads as weakness broadens across bond segments",
-    "Options alpha: 3M (MMM) sees outsized near-dated put demand into June 12",
-    "Options alpha (Industrials): Caterpillar (CAT) call block at extreme strike; other names flagged (BE, RKLB)",
-    "Crypto wildcard: Bitcoin breaks below ~$63k as macro + geopolitics hit, with \u201cflow\u201d still the story"
+    "ECB delivers a hawkish surprise: +25 bps to 2.25% (first hike in ~3 years) on energy-shock inflation risk",
+    "SpaceX IPO is effectively \u201cT-0\u201d: pricing set at $135; Nasdaq debut slated for June 12 (tomorrow)",
+    "UK rates repricing: \u201cnext move up\u201d risk returns as war-driven energy inflation hits the BoE calculus",
+    "Crypto stays risk-off: Bitcoin slides to ~61.7k as ETF outflows dominate the narrative",
+    "Options alpha: 3M (MMM) hit with a near-dated put burst into June 12",
+    "Options alpha: Rocket Lab (RKLB) short-dated upside flow\u2014June 18 $55 calls dominate tape",
+    "Wildcard (positioning/sentiment): Citi raises S&P 500 year-end target to 8,100 on earnings + AI \u201csupercycle\u201d"
   ],
   "tickers": [],
   "alpha_tickers": []

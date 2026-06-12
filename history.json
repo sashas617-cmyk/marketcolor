@@ -1,15 +1,17 @@
 {
-  "last_run": "2026-06-11T23:11:18Z",
+  "last_run": "2026-06-12T11:02:56Z",
   "stories": [
     "Executive summary:",
-    "Geopolitics de-escalation hit the tape late: \u201cIran strikes called off\u201d = risk-on pop, crude slides",
-    "Long-end supply/term premium in focus: Treasury sold $22B of 30-year bonds",
-    "Single-name gravity check: Oracle slide kept the tape from going \u201cstraight-line risk-on\u201d",
-    "Allocator playbook shift: CalPERS pushes \u201ctotal portfolio\u201d investing",
-    "Capital markets theme: FT flags \u201cAI IPO/issuance floodgates\u201d risk to multiples outside mega-cap",
-    "Options alpha (industrial/mega-cap): 3M (MMM) saw a sharp put burst into near-dated strikes",
-    "Insider buy (microcap software): Yext (YEXT) director Seth Waugh bought 133,000 shares (~$3.746 avg)",
-    "Wildcard (sentiment/momentum): StockTwits shows geopolitics-driven \u201cwhipsaw\u201d chatter concentrating in high-beta tickers"
+    "SpaceX mega-IPO hits today: $135 IPO price, ~$1.8T implied value; gray-market indications >+35%",
+    "Geopolitics \u2192 macro: risk-on bid builds as Iran war \u201cde-escalation\u201d headlines circulate; crude slides",
+    "ECB pivot: +25 bps to 2.25% (first hike in ~3 years); Lagarde leans on inflation and energy-war spillovers",
+    "U.S. rates pulse: 10-year yield eases to ~4.46% as risk/inflation expectations recalibrate",
+    "Asia follow-through: Korea\u2019s Kospi rips ~8%, broad regional risk-on reinforces global beta",
+    "FX/crypto cross-asset setup: DXY retests a long-term trendline; Bitcoin traders watching for a macro tell",
+    "Trade/FX policy risk back on the radar: scrutiny of China\u2019s state-bank-managed RMB band",
+    "Options alpha (megacap): MSFT Nov 15 $580 calls spike to ~122x Vol/OI",
+    "Whale tape (industrials): ADP $190 strike options block (~25 contracts; ~$99.5K premium received)",
+    "Wildcard (industrial policy): \u201cProject Vault\u201d spotlights U.S. critical-minerals stockpiling push"
   ],
   "tickers": [],
   "alpha_tickers": []

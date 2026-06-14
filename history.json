@@ -1,14 +1,16 @@
 {
-  "last_run": "2026-06-14T15:18:23Z",
+  "last_run": "2026-06-14T22:43:23Z",
   "stories": [
-    "Strait of Hormuz: real-time disruption risk stays elevated (hourly dashboard update)",
-    "Ukraine\u2013Russia: renewed drone strikes hit refineries/petrochemicals (energy risk-premium stays sticky)",
-    "Taiwan Strait: China monitors Dutch frigate transit (defense/semis geopolitics back in focus)",
-    "Bank of Japan signal: real rates still extremely low; tightening bias remains live",
-    "Crypto tape: Bitcoin advances with \u201crisk-on\u201d tone; Trump \u2018deal\u2019 chatter cited",
-    "Private credit: \u201cturmoil\u201d narrative resurfaces as retail investors look for exits",
-    "DELL insider selling flagged: entities sold around $420.22\u2013$430.07 (Form 4 recap)"
+    "Macro tape: \u201crisk-on with hedging\u201d into the open",
+    "Private credit stress: retail investors \u201ceyeing the exits\u201d",
+    "Global macro calendar risk: first Warsh messaging + China activity data",
+    "US policy spillover: grad students face higher private-loan costs after federal cuts",
+    "Equity microstructure catalyst: SpaceX ($SPCX) IPO becomes a new liquidity magnet"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "SPCX"
+  ],
+  "alpha_tickers": [
+    "SPCX"
+  ]
 }

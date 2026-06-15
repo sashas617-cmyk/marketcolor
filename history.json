@@ -1,16 +1,17 @@
 {
-  "last_run": "2026-06-14T22:43:23Z",
+  "last_run": "2026-06-15T13:45:42Z",
   "stories": [
-    "Macro tape: \u201crisk-on with hedging\u201d into the open",
-    "Private credit stress: retail investors \u201ceyeing the exits\u201d",
-    "Global macro calendar risk: first Warsh messaging + China activity data",
-    "US policy spillover: grad students face higher private-loan costs after federal cuts",
-    "Equity microstructure catalyst: SpaceX ($SPCX) IPO becomes a new liquidity magnet"
+    "Executive summary:",
+    "Trade-policy shock risk back on: Trump threatens 100% wine tariffs if France keeps its tech sales tax",
+    "ECB tightens again: deposit rate raised to 2.25% on inflation-risk framing linked to energy geopolitics",
+    "US inflation pulse: wholesale inflation (PPI) jumps sharply as energy shock lifts costs",
+    "Single-stock gravity: SpaceX extends post-IPO surge; valuation chatter above $2T keeps momentum bid concentrated",
+    "Central bank week-ahead: Fed tone-risk + BOE expected hold at 3.75% (plus rising BoJ event risk in the background)",
+    "China payments/FX: Beijing-backed cross-border currency platform reportedly supported by multiple regional central banks",
+    "Alpha (insider buy): YEXT director Seth H. Waugh buys 133,000 shares around $3.746 (open market)",
+    "Alpha (insider-sales overhang): DELL sales disclosed in the ~$420\u2013$430 range\u2014level to watch for supply near highs",
+    "Wildcard: Gold gives back some safe-haven bid as geopolitics cool; next leg tied to USD + real rates"
   ],
-  "tickers": [
-    "SPCX"
-  ],
-  "alpha_tickers": [
-    "SPCX"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

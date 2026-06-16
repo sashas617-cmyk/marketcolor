@@ -1,16 +1,11 @@
 {
-  "last_run": "2026-06-15T23:27:21Z",
+  "last_run": "2026-06-16T12:06:27Z",
   "stories": [
-    "Geopolitics shock absorber: U.S.\u2013Iran deal signals Strait of Hormuz reopening; oil tail-risk premium unwinds",
-    "Tape check into the close: indexes push higher, but breadth stays narrow (mega-caps lead; equal-weight lags)",
-    "Fed week takes center stage: traders now price policy-path risk, not war risk",
-    "Global central-bank and macro calendar widens: BOE hold expected; BOJ signals + China credit in focus",
-    "Real-rate pulse: 5-year TIPS yield is the key cross-asset input into the meeting",
-    "Gold refuses to \u201crisk-off fade\u201d: spot still cited near ~$4,348/oz",
-    "Rotation watch: bank-stock momentum building even as tech dominates the index",
-    "Actionable flow: DASH $155 puts \u2014 1,000 contracts, Jul 17, 2026 expiry; \u201cbullish\u201d tag on a put print (~$510k premium)",
-    "Positioning tells you the volatility regime: SPX dealer snapshot flags negative-gamma conditions into event risk",
-    "Crypto: bitcoin \u201ctreasury\u201d model faces an earnings-cycle reality check; BTC downside path chatter is now being validated by major outlets"
+    "ECB hawkishness persists: \u201cneeds to do more\u201d keeps EU rates risk skewed upward",
+    "Tape check: U.S.-Iran deal headline cools risk premium; futures steady after Dow record",
+    "AMZN options: $155 strike whale-sized print (~$510k premium) with OI mismatch suggests fresh positioning",
+    "AMD unusual calls: ~1,624 contracts split across 5 fills; ~$91/contract with low prior OI",
+    "SpaceX momentum spillover: \u201c>50% in three sessions\u201d chatter intensifies"
   ],
   "tickers": [],
   "alpha_tickers": []

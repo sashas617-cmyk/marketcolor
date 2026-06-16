@@ -1,21 +1,14 @@
 {
-  "last_run": "2026-06-16T18:10:18Z",
+  "last_run": "2026-06-16T23:05:34Z",
   "stories": [
-    "U.S. equities: rotation day\u2014banks/industrials up, tech/telecom lag (factor churn, not a clean index tape).",
-    "SpaceX \u201cSPCX\u201d extends the melt-up: >50% in three sessions (IPO repricing + options fuel risk-on).",
-    "Oil: Hormuz \u201creopening\u201d narrative isn\u2019t a full all-clear\u2014vol stays bid.",
-    "Rates (fresh): U.S. Treasury 20-year auction clears at 4.927%\u2014better digestion than feared.",
-    "FX: USD soft near 10-day lows, but USD/JPY remains glued near 160\u2014intervention gap-risk stays live.",
-    "Europe: ECB expected to hold\u2014messaging remains \u201cdata-dependent\u201d (wages/HICP/transmission).",
-    "Crypto: cooling tape\u2014open interest down, liquidations up, ETF flow tone turns mixed.",
-    "Insider buy (energy): Expand Energy (EXE) interim CEO buys stock\u2014adds to already-large stake.",
-    "Insider buy (micro-cap/CEF signal): Royce Micro-Cap Trust (RMT) president buys 3,600 shares at $14.12.",
-    "Gold: central banks repatriate bullion\u2014geopolitics is reshaping reserve behavior."
+    "Fed week: Chair Warsh\u2019s first meeting lands amid geopolitics + reopening-risk repricing",
+    "U.S. equities diverge into the Fed: Dow prints records while Nasdaq/Russell cool",
+    "EIA STEO: demand expectations recalibrated as balances shift",
+    "Official-sector bid stays firm: central banks keep buying gold (WGC)",
+    "Single-name momentum watch: SpaceX-linked \u201cstock\u201d extends melt-up (>50% in 3 sessions)",
+    "Options positioning (Tech): Benzinga flags unusual AMD call activity",
+    "Crypto plumbing stress: $120.2M USDT routed through Monero; ~$72M reportedly frozen"
   ],
-  "tickers": [
-    "RMT"
-  ],
-  "alpha_tickers": [
-    "RMT"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

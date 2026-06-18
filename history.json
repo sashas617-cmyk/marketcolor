@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-06-18T16:43:36Z",
+  "last_run": "2026-06-18T23:24:05Z",
   "stories": [
-    "Fed day hangover: \u201cno easing bias\u201d read keeps volatility elevated",
-    "Inflation pulse: wholesale prices surprise higher, reinforcing restrictive-rate path",
-    "Oil shock reversal: Brent breaks below ~$78 on Iran-deal de-risking\u2014but shipping isn\u2019t fully \u201cnormal\u201d yet",
-    "Japan FX tail-risk: yen still near multi-decade lows even as Middle East risk cools",
-    "China FX/CB signal: yuan slips to a one-week low; offshore CNY push continues",
-    "UK front-end reprices: 2-year gilt yields down ~20 bps in a week; sterling soft",
-    "Earnings/tape mover: Accenture -16% on guidance cut despite cyber deal blitz",
-    "Alpha (convert mechanics): PTCT\u2019s $500M 0% converts priced with $107.48 conversion\u2014watch hedge pressure",
-    "Alpha (options flow): ALLY call volume explodes vs OI\u2014fresh upside positioning flagged",
-    "Wildcard (flows/product): Morningstar wealth unit partners with Apollo/Franklin/JPMAM to blend public + private exposure"
+    "Accenture -19%: a high-signal hit to the \u201cservices vs AI\u201d narrative",
+    "Oil de-risks: Brent slides toward ~$78 as U.S.-Iran interim peace takes effect",
+    "Rates reassert: yields rise on hawkish Fed tone (Warsh debut) even as geopolitics eases",
+    "Russia-Ukraine: Ukraine strikes a Moscow oil refinery again\u2014energy security risk stays live",
+    "Grain supply-chain risk: Russia\u2019s attacks threaten Ukraine exports (hit cited up to one-third)",
+    "Institutional allocation signal: CalPERS CIO pushes \u201ctotal portfolio\u201d investing",
+    "SRPT options: fresh upside positioning piles into Jul 17 $20 calls",
+    "AAOI whale flow: bearish put sweep flagged at $100 strike (Jul 2 expiry)",
+    "Wildcard sentiment tell: IPO cohort back to ~breakeven"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,17 +1,16 @@
 {
-  "last_run": "2026-06-18T11:08:31Z",
+  "last_run": "2026-06-18T16:43:36Z",
   "stories": [
-    "Executive summary:",
-    "Fed raises the bar for risk: steady rates, but dots turn hawkish (cuts vanish, hike risk appears).",
-    "Geopolitics: U.S.-Iran interim peace signed, but Hormuz normalization still not \u201cdone.\u201d",
-    "JPY tail-risk rises: Japan says it can act \u201cany time\u201d as yen weakness tests tolerance.",
-    "China policy signal in real time: PBOC midpoint eyed near 6.7752 (Reuters estimate).",
-    "BoE decision risk today: hold at 3.75% expected, but vote split/guidance can move GBP fast.",
-    "Europe rotation intact: banks extend rally to post-2008 highs on firmer rate expectations.",
-    "Asia risk-on marker: Korea\u2019s Kospi pushes above 9,000 for the first time.",
-    "Insider buy (ADSK): Autodesk CEO Andrew Anagnost bought 2,460 shares ~ $202.66.",
-    "Unusual options (ALLY): call volume burst with V/OI ~195 (7,786 contracts vs ~40 OI).",
-    "Wildcard EM risk: Indonesia \u201cEM darling\u201d thesis pressured by state intervention + potential index-status questions."
+    "Fed day hangover: \u201cno easing bias\u201d read keeps volatility elevated",
+    "Inflation pulse: wholesale prices surprise higher, reinforcing restrictive-rate path",
+    "Oil shock reversal: Brent breaks below ~$78 on Iran-deal de-risking\u2014but shipping isn\u2019t fully \u201cnormal\u201d yet",
+    "Japan FX tail-risk: yen still near multi-decade lows even as Middle East risk cools",
+    "China FX/CB signal: yuan slips to a one-week low; offshore CNY push continues",
+    "UK front-end reprices: 2-year gilt yields down ~20 bps in a week; sterling soft",
+    "Earnings/tape mover: Accenture -16% on guidance cut despite cyber deal blitz",
+    "Alpha (convert mechanics): PTCT\u2019s $500M 0% converts priced with $107.48 conversion\u2014watch hedge pressure",
+    "Alpha (options flow): ALLY call volume explodes vs OI\u2014fresh upside positioning flagged",
+    "Wildcard (flows/product): Morningstar wealth unit partners with Apollo/Franklin/JPMAM to blend public + private exposure"
   ],
   "tickers": [],
   "alpha_tickers": []

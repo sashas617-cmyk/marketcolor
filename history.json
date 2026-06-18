@@ -1,12 +1,17 @@
 {
-  "last_run": "2026-06-17T22:59:06Z",
+  "last_run": "2026-06-18T11:08:31Z",
   "stories": [
-    "Treasury demand check: $13B 20-year auction clears at 4.927% with solid 2.75x bid-to-cover",
-    "SpaceX options: first-week frenzy turns into a volatility magnet for thematic/retail risk appetite",
-    "Central banks keep buying gold (WGC): geopolitics + policy uncertainty become reserve drivers",
-    "India risk sentiment: Nifty extends losses for a third session as \u201ctechnical breakdown\u201d chatter grows",
-    "Options \u201cwhale\u201d tape in Financials: $1,300 strike line sees 8,254 contracts vs 1,716 OI (Benzinga)",
-    "Biotech risk pocket: uniQure (QURE) spikes as FDA tone read as more constructive for gene therapy"
+    "Executive summary:",
+    "Fed raises the bar for risk: steady rates, but dots turn hawkish (cuts vanish, hike risk appears).",
+    "Geopolitics: U.S.-Iran interim peace signed, but Hormuz normalization still not \u201cdone.\u201d",
+    "JPY tail-risk rises: Japan says it can act \u201cany time\u201d as yen weakness tests tolerance.",
+    "China policy signal in real time: PBOC midpoint eyed near 6.7752 (Reuters estimate).",
+    "BoE decision risk today: hold at 3.75% expected, but vote split/guidance can move GBP fast.",
+    "Europe rotation intact: banks extend rally to post-2008 highs on firmer rate expectations.",
+    "Asia risk-on marker: Korea\u2019s Kospi pushes above 9,000 for the first time.",
+    "Insider buy (ADSK): Autodesk CEO Andrew Anagnost bought 2,460 shares ~ $202.66.",
+    "Unusual options (ALLY): call volume burst with V/OI ~195 (7,786 contracts vs ~40 OI).",
+    "Wildcard EM risk: Indonesia \u201cEM darling\u201d thesis pressured by state intervention + potential index-status questions."
   ],
   "tickers": [],
   "alpha_tickers": []

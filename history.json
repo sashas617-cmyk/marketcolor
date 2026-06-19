@@ -1,15 +1,17 @@
 {
-  "last_run": "2026-06-18T23:24:05Z",
+  "last_run": "2026-06-19T11:16:07Z",
   "stories": [
-    "Accenture -19%: a high-signal hit to the \u201cservices vs AI\u201d narrative",
-    "Oil de-risks: Brent slides toward ~$78 as U.S.-Iran interim peace takes effect",
-    "Rates reassert: yields rise on hawkish Fed tone (Warsh debut) even as geopolitics eases",
-    "Russia-Ukraine: Ukraine strikes a Moscow oil refinery again\u2014energy security risk stays live",
-    "Grain supply-chain risk: Russia\u2019s attacks threaten Ukraine exports (hit cited up to one-third)",
-    "Institutional allocation signal: CalPERS CIO pushes \u201ctotal portfolio\u201d investing",
-    "SRPT options: fresh upside positioning piles into Jul 17 $20 calls",
-    "AAOI whale flow: bearish put sweep flagged at $100 strike (Jul 2 expiry)",
-    "Wildcard sentiment tell: IPO cohort back to ~breakeven"
+    "Executive summary (11:14 UTC):",
+    "Strait of Hormuz: tankers restart limited transits; oil risk premium cools",
+    "Fed (Warsh era): rates held; tone read as hawkish\u2014real yields/FCI back in focus",
+    "UK macro + politics: May borrowing overshoots; retail sales beat\u2014gilts push higher",
+    "Eurozone rates: 10-year yields grind higher on hawkish ECB comms + geopolitics",
+    "Asia risk stays bid: South Korea extends record run; semis at new highs",
+    "India rolls over: IT leads selloff as Accenture guidance cut-through hits outsourcing",
+    "Index inclusion risk: Indonesia reclassification chatter revives \u201cforced flow\u201d tail",
+    "Options microstructure (Consumer Discretionary): AMZN/BABA-linked call burst\u2014133,962 contracts",
+    "Insider signal (Fintech): Fiserv CFO buys ~$0.5M in stock in open market",
+    "Wildcard (Europe financials): bank-rule simplification push claims ~\u20ac2T lending upside"
   ],
   "tickers": [],
   "alpha_tickers": []

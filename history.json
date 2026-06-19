@@ -1,17 +1,13 @@
 {
-  "last_run": "2026-06-19T11:16:07Z",
+  "last_run": "2026-06-19T16:19:07Z",
   "stories": [
-    "Executive summary (11:14 UTC):",
-    "Strait of Hormuz: tankers restart limited transits; oil risk premium cools",
-    "Fed (Warsh era): rates held; tone read as hawkish\u2014real yields/FCI back in focus",
-    "UK macro + politics: May borrowing overshoots; retail sales beat\u2014gilts push higher",
-    "Eurozone rates: 10-year yields grind higher on hawkish ECB comms + geopolitics",
-    "Asia risk stays bid: South Korea extends record run; semis at new highs",
-    "India rolls over: IT leads selloff as Accenture guidance cut-through hits outsourcing",
-    "Index inclusion risk: Indonesia reclassification chatter revives \u201cforced flow\u201d tail",
-    "Options microstructure (Consumer Discretionary): AMZN/BABA-linked call burst\u2014133,962 contracts",
-    "Insider signal (Fintech): Fiserv CFO buys ~$0.5M in stock in open market",
-    "Wildcard (Europe financials): bank-rule simplification push claims ~\u20ac2T lending upside"
+    "ECB\u2019s Lane: Europe faces a \u201cmid-sized\u201d inflation shock; markets price 1\u20132 more hikes (next move seen by October)",
+    "Levant escalation tail risk: Reuters strike imagery flags renewed Israel\u2013Lebanon tension",
+    "Indonesia EM-status risk: index provider warns of potential downgrade to \u201cfrontier market\u201d",
+    "Europe gas supply support: Equinor to invest ~4B NOK in Troll subsea development",
+    "Options alpha (Block / XYZ): five unusually active near-dated contracts light up (\u2264 ~15 days to expiry)",
+    "Insider alpha (SAGT): CEO Ng Chen Lok buys 1.5M shares at $1.04 (~$1.56M), taking direct stake to 8.45M",
+    "UK fiscal/politics back in the gilt risk premium: May borrowing jumps above forecasts"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,20 +1,20 @@
 {
-  "last_run": "2026-06-20T10:01:43Z",
+  "last_run": "2026-06-20T15:18:11Z",
   "stories": [
-    "Executive summary (09:59 UTC):",
-    "Hormuz reopening trade: tanker traffic rises, but \u201cnormal\u201d may take months",
-    "Israel\u2013Lebanon ceasefire stress-test: reported strikes and fatalities in south Lebanon",
-    "U.S. rates check: geopolitics eases pressure, but Fed hike risk still hangs over housing",
-    "OPTIONS ALPHA: $QXO draws outsized call buying into July expiry",
-    "OPTIONS ALPHA: Consumer discretionary whale tape\u2014$AMZN / $BABA in focus",
-    "Wildcard (weekend tape): Crypto rebounds; product chatter adds fuel"
+    "ECB rate-path risk resurfaces: Wunsch keeps a hike \u201clive\u201d as soon as next month",
+    "US\u2013Iran negotiations: Switzerland talks framed around IAEA inspections + a 60-day window",
+    "Trade policy escalation (targeted): China tightens scrutiny on indium exports",
+    "EU policy catalyst: Commission draft aims to boost EU banks vs US peers",
+    "OPTIONS ALPHA: July 17 call crowding shows up in $UMC and $ASX",
+    "INSIDER ALPHA: $FISV gets a two-day insider-buy cluster near ~$49.5",
+    "Crypto risk-off pulse: Bitcoin breakdown triggers ~$177M in long liquidations"
   ],
   "tickers": [
-    "BABA",
-    "QXO"
+    "FISV",
+    "UMC"
   ],
   "alpha_tickers": [
-    "BABA",
-    "QXO"
+    "FISV",
+    "UMC"
   ]
 }

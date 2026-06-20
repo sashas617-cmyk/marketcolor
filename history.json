@@ -1,12 +1,20 @@
 {
-  "last_run": "2026-06-19T22:33:33Z",
+  "last_run": "2026-06-20T10:01:43Z",
   "stories": [
-    "ECB: Wunsch re-opens near-term hike risk (as soon as next month)",
-    "Accenture stumbles: bookings slip, FY26 growth guide cut \u2014 \u201cAI consulting\u201d gets stress-tested",
-    "Insider cluster at Fiserv ($FISV): CFO buys 10,060 shares around $49.70",
-    "Options tape: Applied Optoelectronics ($AAOI) sees bearish put sweep into early July",
-    "Crypto: EU reopens MiCA rulebook as crypto ETFs see reported $102M outflows"
+    "Executive summary (09:59 UTC):",
+    "Hormuz reopening trade: tanker traffic rises, but \u201cnormal\u201d may take months",
+    "Israel\u2013Lebanon ceasefire stress-test: reported strikes and fatalities in south Lebanon",
+    "U.S. rates check: geopolitics eases pressure, but Fed hike risk still hangs over housing",
+    "OPTIONS ALPHA: $QXO draws outsized call buying into July expiry",
+    "OPTIONS ALPHA: Consumer discretionary whale tape\u2014$AMZN / $BABA in focus",
+    "Wildcard (weekend tape): Crypto rebounds; product chatter adds fuel"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "BABA",
+    "QXO"
+  ],
+  "alpha_tickers": [
+    "BABA",
+    "QXO"
+  ]
 }

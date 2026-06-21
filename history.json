@@ -1,23 +1,17 @@
 {
-  "last_run": "2026-06-20T22:42:18Z",
+  "last_run": "2026-06-21T10:33:16Z",
   "stories": [
-    "US equities snap back: Nasdaq nearly +2% as semis lead the rebound",
-    "\u201cDifferent Fed\u201d risk: traders reprice the new chair\u2019s reaction function",
-    "Strait of Hormuz: tanker traffic reportedly jumps after US\u2013Iran deal opens the lane",
-    "Ukraine expands deep strikes: drones hit Russia\u2019s Tyumen refining facilities",
-    "China tightens the screws on critical metals: indium export scrutiny steps up",
-    "Retail speculation back on the radar: \u201clottery-like\u201d meme stocks/options theme resurfaces",
-    "Gold narrative cools: Goldman cuts year-end target to $4,900/oz (from $5,400)",
-    "Options alpha (semis): $ASX sees standout call activity into Jul 17 expiry",
-    "Options alpha (spec): $QXO draws heavy speculative call buying into Jul 17",
-    "Crypto risk pulse: ~$361M in longs liquidated over 24 hours"
+    "Hormuz shock: commercial transits reportedly near-zero, war-risk cover repriced higher (live)",
+    "Zaporizhzhia nuclear plant hit: drone strikes reported on transport workshop",
+    "Taiwan flags escalation risk: five days of combat readiness drills",
+    "Macro pulse: \u201cFed turns hawkish,\u201d China demand soft, SNB keeps zero but talks CHF selling",
+    "US equities: Nasdaq-led rally extends as semis stay in charge",
+    "Ukraine confirms deep strike risk: drones hit Russia\u2019s Tyumen refining facilities (~2,000km+)",
+    "Cross-asset tell: AI capex narrative pushes tech investors back to the bond market",
+    "Edge (battlefield logistics): ISW flags fire at fuel & gas storage site in Crimea (geolocated)",
+    "Edge (crypto positioning): BTC/ETH ETF flows subdued with reported outflows into the holiday",
+    "Wildcard (Europe policy catalyst): Spain weighs financial aid for struggling solar industry"
   ],
-  "tickers": [
-    "ASX",
-    "QXO"
-  ],
-  "alpha_tickers": [
-    "ASX",
-    "QXO"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

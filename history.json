@@ -1,17 +1,20 @@
 {
-  "last_run": "2026-06-23T16:00:18Z",
+  "last_run": "2026-06-23T23:28:06Z",
   "stories": [
-    "Global tape: yields down, but \u201cone more hike\u201d fear keeps pressuring growth/tech",
-    "Asia: AI/chip unwind accelerates; Korea hits circuit-breaker conditions",
-    "Japan: Nikkei snaps its run\u2014rate/tech sensitivity back in the spotlight",
-    "Geopolitics: U.S.\u2013Iran de-escalation headlines fade the oil risk premium",
-    "FX: USD stays bid; AUD breaks below 0.7000 on Fed repricing",
-    "Commodities: gold/silver soften as hawkishness trumps geopolitics",
-    "Primary markets: Nikkei flags potential record ~$75B offering\u2014\u201crace to list\u201d risk",
-    "ALPHA (Insider): ConnectM (CNTM) sees a massive ~$40.9M two-day insider buy cluster",
-    "ALPHA (Options): Micron (MU) earnings\u2014options imply ~14% move",
-    "Wildcard: Europe heat extremes\u2014power/energy inflation risk creeping back"
+    "Chip-led risk-off: SOX hit hard as the memory unwind goes global",
+    "Korea\u2019s AI/memory positioning marker: SK Hynix jumps past Samsung in market value",
+    "Hormuz chokepoint: live shipping + insurance conditions stay front and center",
+    "Black Sea escalation: commercial shipping attack raises war-risk premium",
+    "Japan rates: BOJ bond-buying stance remains a global duration swing factor",
+    "Japan FX: yen intervention risk keeps USDJPY as a volatility tripwire",
+    "Single-name heat check: $MU dumped (~13%) right into earnings risk",
+    "High-beta risk appetite shock: SpaceX reversal wipes ~\\$400bn in market value",
+    "Wildcard (macro tail-risk): Iran talks back in the pricing loop via crude \u2192 inflation \u2192 rates"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "MU"
+  ],
+  "alpha_tickers": [
+    "MU"
+  ]
 }

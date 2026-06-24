@@ -1,20 +1,21 @@
 {
-  "last_run": "2026-06-23T23:28:06Z",
+  "last_run": "2026-06-24T10:16:52Z",
   "stories": [
-    "Chip-led risk-off: SOX hit hard as the memory unwind goes global",
-    "Korea\u2019s AI/memory positioning marker: SK Hynix jumps past Samsung in market value",
-    "Hormuz chokepoint: live shipping + insurance conditions stay front and center",
-    "Black Sea escalation: commercial shipping attack raises war-risk premium",
-    "Japan rates: BOJ bond-buying stance remains a global duration swing factor",
-    "Japan FX: yen intervention risk keeps USDJPY as a volatility tripwire",
-    "Single-name heat check: $MU dumped (~13%) right into earnings risk",
-    "High-beta risk appetite shock: SpaceX reversal wipes ~\\$400bn in market value",
-    "Wildcard (macro tail-risk): Iran talks back in the pricing loop via crude \u2192 inflation \u2192 rates"
+    "Rates narrative: \u201cbond market leads the way\u201d Warsh chatter collides with higher year-end hike odds",
+    "Germany macro pulse improves: Ifo Business Climate ticks up to 85.6",
+    "Ukraine-Russia: energy infrastructure strikes keep risk premium alive even as Putin signals talks",
+    "Korea equity leadership flip: SK Hynix overtakes Samsung in market value",
+    "Retail risk appetite is flashing again: Bloomberg calls meme/options behavior \u201clottery-like\u201d",
+    "Unusual options: $JCI sees extreme put skew\u20144,020-lot Aug 21 $120 puts at ~$1.36",
+    "Whale flow: $HOOD long-dated upside shows up\u2014Jan 21, 2028 $100 calls (10 contracts), ~$40k premium",
+    "Market structure: Cboe moves into prediction markets (\u201cCboe Predicts\u201d) riding the 0DTE wave"
   ],
   "tickers": [
-    "MU"
+    "HOOD",
+    "JCI"
   ],
   "alpha_tickers": [
-    "MU"
+    "HOOD",
+    "JCI"
   ]
 }

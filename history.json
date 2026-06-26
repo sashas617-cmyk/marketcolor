@@ -1,14 +1,24 @@
 {
-  "last_run": "2026-06-25T23:07:48Z",
+  "last_run": "2026-06-26T10:23:26Z",
   "stories": [
-    "Executive summary:",
-    "Rates check: U.S. 5-year auction clears at 4.200% with solid cover",
-    "Fed path stays hawkish-conditional: \u201cmore firming possible\u201d if inflation sticks",
-    "Russia supply risk: oil output falls a sixth month amid Ukrainian strike pressure",
-    "Trade-policy overhang: Asia still buying U.S. exposure despite Trump tariff rhetoric",
-    "Tech options \u201cwhale\u201d print: $140 strike block (~$3.9M premium) flagged (TSM referenced)",
-    "Wildcard (single-name but information-rich): WMG sees massive far-dated put block\u2014reported as \u201csold\u201d"
+    "Eurozone rates: yields sit near ~3\u2011month lows as growth worries cool the ECB path",
+    "FX risk-off: AUD/USD hits weakest since early April as USD demand returns",
+    "UK politics \u2192 GBP drag: sterling trades heavy on \u201cleadership vacuum\u201d chatter",
+    "U.S. inflation sensitivity stays elevated: \u201chot\u201d core PCE narrative keeps Fed-rate risk in play",
+    "Semis: Micron \u201cblowout\u201d keeps chip momentum central to mega-cap positioning",
+    "Crypto risk-off: BTC breaks below $60k; ETH loses $1.6k; XRP tests $1",
+    "Single-name options edge: $COMP shows ~15:1 calls-to-puts; Jul 17 $12 calls targeted",
+    "Verified social-to-mainstream crossover: $QCOM \u201cworst month in 7 years\u201d + AI linkage headlines",
+    "Wildcard (flow): \u201cwhale\u201d IT options prints flagged \u2014 incl. $TSM $140 strike (~$3.9M premium)"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "COMP",
+    "QCOM",
+    "TSM"
+  ],
+  "alpha_tickers": [
+    "COMP",
+    "QCOM",
+    "TSM"
+  ]
 }

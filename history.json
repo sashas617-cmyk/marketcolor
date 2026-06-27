@@ -1,18 +1,23 @@
 {
-  "last_run": "2026-06-27T14:51:04Z",
+  "last_run": "2026-06-27T22:43:22Z",
   "stories": [
-    "Executive summary (as of Sat, Jun 27, 2026 14:49 UTC):",
-    "Strait of Hormuz: vessel strike keeps an oil/shipping risk premium bid into the weekend",
-    "Micron\u2019s blowout beat: memory/AI compute sentiment gets a jolt",
-    "Oracle\u2019s capitulation week: markets are stress-testing \u201cAI financing\u201d narratives",
-    "EU/Brussels trade-policy shock watch: move to keep a \u201cvaluable metal\u201d at home",
-    "Germany regulatory headline risk: BaFin flags potentially omitted info tied to Zalando\u2013About You",
-    "USPS to Congress: business model \u201cbroken\u201d \u2014 policy/funding/contractor read-through",
-    "Gold stays pressured: hawkish Fed tone + stronger USD remain the headwind",
-    "Insider overhang (YOU): Clear Secure CEO reports ~$11.3M in sales (10b5-1 plan flagged)",
-    "Microcap float/ownership shock (ADTX): 10% holder exits entirely at ~$0.02",
-    "Crypto as the weekend risk gauge: Bitcoin hits ~$58,000; short-squeeze talk rises"
+    "Oil: risk premium fades despite fresh Gulf of Oman incident \u2014 WTI slips below $70",
+    "FX/Metals: hawkish Fed tone keeps USD firm; gold logs another weekly loss",
+    "Europe trade policy shock-watch: Brussels weighs keeping a \u201cvaluable metal\u201d supply at home",
+    "Geopolitics: Ukraine deep-drone campaign expands \u2014 escalation risk rises",
+    "Asia risk pulse: Korea tech shock \u2014 KOSPI flagged down ~10% led by memory heavyweights",
+    "US equities: \u201cAI stocks melt down again\u201d becomes the dominant tape",
+    "Speculation regime check: \u201clottery-like\u201d meme/options activity is back in focus",
+    "ALPHA (unusual options): $RYAM Sep 18 $10 calls explode \u2014 3,019 volume vs 171 OI",
+    "ALPHA (whale flow): $AMZN sees bearish put sweep \u2014 Jan 15, 2027 $180 strike (34 contracts)",
+    "Wildcard (weekend risk gauge): Bitcoin can\u2019t reclaim ~$60k amid persistent ETF withdrawals"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "AMZN",
+    "RYAM"
+  ],
+  "alpha_tickers": [
+    "AMZN",
+    "RYAM"
+  ]
 }

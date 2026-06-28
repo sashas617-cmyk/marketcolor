@@ -1,28 +1,17 @@
 {
-  "last_run": "2026-06-28T14:59:09Z",
+  "last_run": "2026-06-28T22:38:03Z",
   "stories": [
-    "Hormuz \u201csafe route\u201d hit: supply-chain risk jumps as drones strike designated corridor",
-    "Trade-policy clock: Section 122 tariff relief expiry (July 24) becomes a front-run catalyst",
-    "Ukraine expands deep-strike campaign: drones hit Russian refineries (refined-product tail risk)",
-    "US equities: Wall Street extends slide\u2014software-led rebound fails, drawdown hits 5 sessions",
-    "Rates + geopolitics: \u201chawkish hold\u201d + Iran turmoil forces H2 2026 re-positioning",
-    "Gold can\u2019t catch a bid: hawkish Fed tone + firmer USD outweighs geopolitics (for now)",
-    "Alpha lens: Freight shock hedge basket\u2014shipping/logistics equities back on the radar",
-    "Alpha lens: July 24 tariff catalyst\u2014margin risk watchlist for import-heavy retailers",
-    "Wildcard: The market is pricing \u201clogistics disruption\u201d more than \u201coil shock\u201d\u2014don\u2019t miss the signal"
+    "Oil shock premium unwinds: Brent slips back below ~$75 as Hormuz disruption fears ease",
+    "Sunday-night futures driver: AI/tech weakness still sets the index-level risk map",
+    "Breadth check: small-caps \u201cholding their own\u201d despite mega-cap dominance",
+    "BIS warning shot: geopolitics = a more volatile regime with more frequent supply shocks",
+    "Macro snapshot: U.S. spending firmer; extreme heat/drought risk highlighted as an inflation vector",
+    "Tech regulation/trade risk: Apple fights a ~$500m mobile-protocol patent bill at the UK Supreme Court",
+    "Crypto structure: BTC absorbing near ~$58k\u2013$59.75k, but key repair zones still overhead",
+    "ALPHA (holder supply): Devon-linked entity sells ~$52.7M of WaterBridge (WBI) \u2014 potential overhang signal",
+    "ALPHA (high-beta equity sentiment): Intuitive Machines (LUNR) CTO sold 150,000 shares (~$3.28M) at ~\\$21.87",
+    "Wildcard: \u201clottery-like\u201d meme stocks/options vibe returns\u2014retail speculation is back in pockets"
   ],
-  "tickers": [
-    "COST",
-    "DAC",
-    "HD",
-    "MATX",
-    "TGT"
-  ],
-  "alpha_tickers": [
-    "COST",
-    "DAC",
-    "HD",
-    "MATX",
-    "TGT"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

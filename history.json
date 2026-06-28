@@ -1,26 +1,28 @@
 {
-  "last_run": "2026-06-28T09:55:51Z",
+  "last_run": "2026-06-28T14:59:09Z",
   "stories": [
-    "Executive summary (Sun, Jun 28, 2026 \u2014 09:54 UTC):",
-    "U.S. hits Iran: escalation risk jumps after ship attack near Hormuz",
-    "Crude positioning: \u201cone-directional sell tape\u201d as traders price Hormuz risk back out",
-    "Europe heat wave: markets refocus on adaptation costs + growth drag",
-    "U.S. demand pulse: spending resilience complicates the \u201cslowdown\u201d narrative",
-    "China policy watch: \u201cincremental fiscal traction\u201d is building, not booming",
-    "Japan/BoJ: officials highlight AI as a tailwind\u2014signal for JPY/rates sensitivity",
-    "Inflation wildcard: heat/drought increasingly framed as a price-risk factor",
-    "Export-controls shockwatch: FT says Apple ($AAPL) explores buying memory from a blacklisted China supplier",
-    "Telecom IP reset risk: licensing fight over mobile protocols could reprice royalty economics",
-    "Credit regime shift: private credit and public markets blur as firms target liquidity-stressed borrowers"
+    "Hormuz \u201csafe route\u201d hit: supply-chain risk jumps as drones strike designated corridor",
+    "Trade-policy clock: Section 122 tariff relief expiry (July 24) becomes a front-run catalyst",
+    "Ukraine expands deep-strike campaign: drones hit Russian refineries (refined-product tail risk)",
+    "US equities: Wall Street extends slide\u2014software-led rebound fails, drawdown hits 5 sessions",
+    "Rates + geopolitics: \u201chawkish hold\u201d + Iran turmoil forces H2 2026 re-positioning",
+    "Gold can\u2019t catch a bid: hawkish Fed tone + firmer USD outweighs geopolitics (for now)",
+    "Alpha lens: Freight shock hedge basket\u2014shipping/logistics equities back on the radar",
+    "Alpha lens: July 24 tariff catalyst\u2014margin risk watchlist for import-heavy retailers",
+    "Wildcard: The market is pricing \u201clogistics disruption\u201d more than \u201coil shock\u201d\u2014don\u2019t miss the signal"
   ],
   "tickers": [
-    "APO",
-    "KKR",
-    "NOK"
+    "COST",
+    "DAC",
+    "HD",
+    "MATX",
+    "TGT"
   ],
   "alpha_tickers": [
-    "APO",
-    "KKR",
-    "NOK"
+    "COST",
+    "DAC",
+    "HD",
+    "MATX",
+    "TGT"
   ]
 }

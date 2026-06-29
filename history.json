@@ -1,13 +1,15 @@
 {
-  "last_run": "2026-06-29T16:49:27Z",
+  "last_run": "2026-06-29T22:43:49Z",
   "stories": [
-    "Daily Market Pulse \u2014 Mon, 29 Jun 2026 (16:48 UTC)",
-    "4\ufe0f\u20e3 Base-case Fed path: another hold expected at 3.50%\u20133.75%",
-    "6\ufe0f\u20e3 Risk assets are trading a two-factor model: tech beta vs. policy timing",
-    "7\ufe0f\u20e3 Policy credibility watch: markets want clarity on \u201chow long restrictive stays restrictive\u201d",
-    "8\ufe0f\u20e3 \u26a1 Alpha check (options/flows): not available in the provided intelligence pack",
-    "9\ufe0f\u20e3 \u26a1 Alpha check (insiders/corporate catalysts): not available in the provided intelligence pack",
-    "\ud83d\udd1f \u2605 Wildcard: the \u201chold\u201d is priced \u2014 the risk is an expectations shock"
+    "Short week, big macro: June US jobs report becomes the fulcrum for rates + equity vol",
+    "Index inclusion catalyst: SpaceX set to enter the Nasdaq-100 (mechanical flows in focus)",
+    "Oil chokepoint risk premium stays sticky: EIA sees Hormuz shipments resuming in 3Q26, normalizing only in early 2027",
+    "Geopolitics: Iran signals no imminent US talks despite delegations heading to Qatar (tail-risk still live)",
+    "Europe/ECB tone: Lagarde says Europe is becoming more resilient to shocks",
+    "Earnings pressure point: Nike heads into results with the bar low",
+    "Unusual options (INTC): near-dated $130 calls flagged \u201cbearish\u201d into July 2 expiry",
+    "Crypto flows diverge: \u201cHYPE\u201d ETFs +$111M while BTC/ETH funds shed >$2B; large institutional transfer chatter",
+    "Telecom stress: VZ / T / TMUS simultaneously at multi-year lows (broad sector de-rating)"
   ],
   "tickers": [],
   "alpha_tickers": []

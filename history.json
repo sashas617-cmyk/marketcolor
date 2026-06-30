@@ -1,15 +1,17 @@
 {
-  "last_run": "2026-06-30T15:39:32Z",
+  "last_run": "2026-06-30T22:52:05Z",
   "stories": [
-    "US equities: Small caps just logged their best first half in 35 years \u2014 rotation signal with positioning bite",
-    "Tech tape: Strong first half, but AI capex is creating winners/losers inside mega-cap",
-    "Euro disinflation pulse: Germany June preliminary CPI undershot (2.3% y/y vs 2.6% expected)",
-    "Energy & geopolitics: Oil stays headline\u2011driven on the US\u2013Iran ceasefire framework + OPEC+ supply decisions",
-    "Logistics tail-risk: Strait of Hormuz live tracker keeps insurance/shipping risk in focus",
-    "Semis: Regulation + geopolitics remain the event-risk premium (enforcement/compliance risk)",
-    "Unusual options (INTC): bearish\u2011tagged call sweep at $130 strike, Jul 2, 2026 expiry (100 contracts)",
-    "Insider supply (CNXN): Chairman sold 14,000 shares (~$998,000)",
-    "Private markets warning: FT flags weak returns could trigger a pullback in tech funding"
+    "Quarter-end squeeze: U.S. stocks close out the strongest quarter since 2020; Dow hits another record",
+    "Fed comms regime change: Chair Warsh \u201cpivots away from forward guidance\u201d",
+    "Inflation pulse check: Cleveland Fed refreshes near-term inflation nowcasts",
+    "Rates reality check: TreasuryDirect posts latest auction results",
+    "Market-structure risk: NY Fed warns liquidity fades as specific Treasury issues \u201cage\u201d",
+    "Energy shock framework: EIA base case keeps Hormuz effectively closed near term",
+    "After-hours earnings mover: Constellation Brands (STZ) jumps on fiscal Q1 beat",
+    "Options alpha: Hasbro (HAS) flashes extreme near-dated put skew into July",
+    "~6:1 puts over calls",
+    "Options alpha (update): Intel (INTC) \u201cbearish\u201d call sweep flagged at $130 into July 2",
+    "Wildcard (payments shock): \u201cX Money\u201d details tighten the competitive screws on PYPL/XYZ + neobanks"
   ],
   "tickers": [],
   "alpha_tickers": []

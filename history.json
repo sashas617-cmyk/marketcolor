@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-06-30T10:27:24Z",
+  "last_run": "2026-06-30T15:39:32Z",
   "stories": [
-    "Europe opens risk-on: broad-based gains across bourses",
-    "Fed communication risk: Chair Kevin Warsh back in focus",
-    "Macro pressure point: payrolls week + vol hovering near a trigger level",
-    "FX: GBP pushes higher as USD softness persists; BoE pricing questioned",
-    "Space/M&A shockwave: Rocket Lab agrees to buy Iridium; consolidation trade ignites",
-    "Crypto beta hit: spot Bitcoin ETFs log ~$1.79B weekly outflows (institutional de-risking)",
-    "ALPHA (INTC): near-dated \u201cbearish\u201d $130 call sweep into July 2 expiry",
-    "ALPHA (GO): insider buying is clustering around ~$9.4\u2013$9.5",
-    "Wildcard: European gas prices turn up again on LNG disruption concerns (Middle East spillover)"
+    "US equities: Small caps just logged their best first half in 35 years \u2014 rotation signal with positioning bite",
+    "Tech tape: Strong first half, but AI capex is creating winners/losers inside mega-cap",
+    "Euro disinflation pulse: Germany June preliminary CPI undershot (2.3% y/y vs 2.6% expected)",
+    "Energy & geopolitics: Oil stays headline\u2011driven on the US\u2013Iran ceasefire framework + OPEC+ supply decisions",
+    "Logistics tail-risk: Strait of Hormuz live tracker keeps insurance/shipping risk in focus",
+    "Semis: Regulation + geopolitics remain the event-risk premium (enforcement/compliance risk)",
+    "Unusual options (INTC): bearish\u2011tagged call sweep at $130 strike, Jul 2, 2026 expiry (100 contracts)",
+    "Insider supply (CNXN): Chairman sold 14,000 shares (~$998,000)",
+    "Private markets warning: FT flags weak returns could trigger a pullback in tech funding"
   ],
   "tickers": [],
   "alpha_tickers": []

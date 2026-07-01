@@ -1,21 +1,16 @@
 {
-  "last_run": "2026-07-01T10:41:45Z",
+  "last_run": "2026-07-01T15:53:12Z",
   "stories": [
-    "Trade policy shock in Europe: EU duty-free steel import quotas cut ~47% effective today (July 1)",
-    "Europe energy risk re-appears: gas storage reportedly lowest in 15 years into refill season",
-    "Options alpha: Hasbro ($HAS) shows extreme near-dated downside positioning into the earnings window",
-    "heavy put skew (~6:1 puts over calls)",
-    "Options alpha: Semi/IT tape shows \u201ccall-writing\u201d vibes \u2014 large call print split-filled with big existing OI",
-    "Wildcard (payments/fintech): Musk\u2019s \u201cX Money\u201d details add narrative pressure on $PYPL / $XYZ"
+    "Daily Market Pulse \u2014 Wed, Jul 01, 2026 (15:51 UTC)",
+    "Fed\u2019s Warsh keeps July wide open: \u201cinflation still too high\u201d",
+    "Eurozone inflation cools more than expected (June): headline 2.8%, core 2.4%",
+    "Oil tail-risk back on the tape: EIA models Hormuz disruption with Brent \u2248 $105 (Jun/Jul)",
+    "China macro next: Caixin Manufacturing PMI is the near-term Asia risk catalyst",
+    "UK: defense spending boost lifts the sector\u2014but gilts are watching the fiscal math",
+    "Earnings tape: Nike ($NKE) hit on \u201cGreater China\u201d weakness",
+    "Earnings tape: Constellation Brands ($STZ) beats, supports \u201cdefensive growth\u201d positioning",
+    "Wildcard (flow/vol): Hasbro options skew flashes downside\u2014~6:1 puts over calls into Jul 17"
   ],
-  "tickers": [
-    "HAS",
-    "PYPL",
-    "SNDK"
-  ],
-  "alpha_tickers": [
-    "HAS",
-    "PYPL",
-    "SNDK"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

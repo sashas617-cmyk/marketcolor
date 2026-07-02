@@ -1,14 +1,17 @@
 {
-  "last_run": "2026-07-02T15:33:01Z",
+  "last_run": "2026-07-02T22:38:51Z",
   "stories": [
-    "Asia risk-off shock: South Korea stocks crash (Kospi -7.89%, Kosdaq -6.74%)\u2014semis/cyclicals in the blast radius",
-    "FX shock risk: USD/JPY drops ~0.5% on suspected Japanese intervention\u2014carry trade two-way volatility rises",
-    "Oil keeps sliding: crude around ~$67.64/bbl, down ~29.6% in a month\u2014macro + energy credit implications",
-    "Private credit warning signal: visible BDCs \u201cturned unprofitable\u201d as values fall and costs rise (Reuters analysis)",
-    "Europe risk appetite check: defense IPO pipeline hit as KNDS postpones listing",
-    "Options tape (ORCL): Oct 16, 2026 $160 calls \u2014 28 contracts, ~$77.4K premium credit; flagged \u201cbearish\u201d",
-    "Options tape (ZIM): Jan 21, 2028 $30 puts \u2014 50 contracts, ~$31.5K credit; OI context suggests positioning, not noise",
-    "Wildcard single-name flow grenade: SpaceX volatility mechanics\u2014Nasdaq-100 inclusion (July 7) vs potential lock-up supply later in July/Aug"
+    "Executive summary (as of 22:37 UTC):",
+    "US close: Dow prints a new record while Nasdaq slides on TSLA + chip weakness",
+    "US macro/Fed: softer jobs tone pushes rate-path sensitivity; Warsh is the next catalyst",
+    "Geopolitics: US\u2013Iran talks stall; Hormuz remains the \u201ctail-risk\u201d premium in crude",
+    "Europe macro: DAX firmer as Eurozone inflation cools (cuts narrative supported)",
+    "Europe defense risk appetite: KNDS postpones IPO amid sector volatility",
+    "Asia: chip-led sell-off weighs on regional equities ahead of US macro clarity",
+    "Private credit pulse: Goldman fund shows moderated liquidity pressure (Q2 repurchases ~3.24%)",
+    "Options alpha: ABX sees extreme call skew\u2014~18:1 calls vs puts, focused on Jul 17 $12.50 calls",
+    "Options alpha: ZIM long-dated \u201cbullish put\u201d transfer\u2014Jan 21, 2028 $30 strike (50 contracts; ~$31.5K premium)",
+    "Gold \u201cmacro map\u201d: World Gold Council frames the next move around rates + geopolitics; cites $4,100/oz baseline"
   ],
   "tickers": [],
   "alpha_tickers": []

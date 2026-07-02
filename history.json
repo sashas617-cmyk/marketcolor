@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-07-01T22:48:43Z",
+  "last_run": "2026-07-02T09:54:09Z",
   "stories": [
-    "Fed: Warsh keeps the inflation fight front-and-center; yields firm as hike odds linger",
-    "Oil: WTI slides to ~\\$68\u2014down ~27% in a month, hitting energy beta and reworking the inflation impulse",
-    "US equities: AI dispersion spikes\u2014Meta rips while memory names slide; Nvidia pressured",
-    "Geopolitics: Hormuz \u201cpause\u201d talk lifts hope, but Iran non-confirmation keeps tail-risk priced",
-    "Russia/Ukraine energy: renewed strike on Ufa refinery; Russia acknowledges fuel deficits",
-    "Crypto: Citi cuts BTC/ETH targets as ETF flow momentum fades",
-    "Asia microstructure: a Hong Kong SK Hynix-linked leveraged product is now big enough to move the stock",
-    "Options alpha (ORCL): bearish-labeled call flow\u2014Oct 16, 2026 \\$160 calls, 28 contracts (~\\$77.4K)",
-    "Options alpha (ZIM): \u201cbullish put\u201d positioning\u2014Jan 21, 2028 \\$30 puts, 50 contracts (~\\$31.5K)",
-    "Wildcard (cross-asset hedge lens): WGC flags gold could push toward ~\\$4,100 on rates + geopolitics"
+    "EU tariff shockwatch: Trump said to push a 15%\u201320% minimum tariff on all EU goods; EURUSD slips",
+    "Korea breaks hard: KOSPI -7.89%, KOSDAQ -6.74% with semis leading (contagion risk to global tech)",
+    "Fed\u2019s Warsh keeps \u201chigher-for-longer\u201d in play: inflation \u2018too high,\u2019 no forward guidance",
+    "Eurozone inflation softer: headline CPI seen ~2.8% vs 3.0% consensus (rate-cut path back in focus)",
+    "Oil stays headline-sensitive: U.S.\u2013Iran uncertainty keeps supply-risk bid alive",
+    "Bitcoin bounce, but flows still a problem: ETF outflows + compressed vol = breakout risk",
+    "Options tape (ORCL): \u201cbearish\u201d call print flagged \u2014 Oct 16, 2026 $160 calls, 28 contracts (~$77.4K)",
+    "Options structure (ZIM): long-dated \u201cbullish put\u201d transfer \u2014 Jan 21, 2028 $30 puts, 50 contracts (~$31.5K)",
+    "Europe risk appetite check: defense IPO pipeline hit as KNDS postpones planned listing"
   ],
   "tickers": [],
   "alpha_tickers": []

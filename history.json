@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-07-03T15:19:42Z",
+  "last_run": "2026-07-03T22:34:03Z",
   "stories": [
-    "Executive summary (15:18 UTC):",
-    "U.S. labor shock still driving today\u2019s pricing: payrolls +57k, jobless rate 4.2% (participation fell)",
-    "Europe leads again: Stoxx 600 near a 52-week high as flows rotate out of U.S. tech",
-    "U.S. tape: Dow prints fresh records while Nasdaq lags\u2014Tesla and semis still heavy",
-    "Fed Chair Kevin Warsh: inflation still \u201ctoo high,\u201d no pre-commitment on July",
-    "ECB: Lagarde defends June hike; French politics adds headline volatility risk for EU rates/banks",
-    "Crypto squeezes risk-on: ~$600M in short liquidations over 24 hours",
-    "\u201cTrump Accounts\u201d launch July 4: default flows into SPDR\u2019s SPYM with additional ETF line-up disclosed",
-    "Options edge: MSFT put line prints with volume 1,559 vs open interest 20 (V/OI ~78)",
-    "Defense/IPO calendar risk: KNDS postpones Paris/Frankfurt listing amid defense-stock volatility"
+    "Macro repricing persists: gold heads for its first weekly gain in a month as Fed hike bets cool",
+    "Fed messaging update: Chair Kevin Warsh acknowledges moderating inflation expectations\u2014still \u201cinflation-first\u201d",
+    "Europe: Stoxx 600 hits a 52-week high as defensives lead (utilities out front)",
+    "FX tail-risk: USD/JPY in the ~161 zone keeps the \u201cintervention window\u201d wide open in thin liquidity",
+    "Energy macro signal: crude near ~$68.74 after a ~26% one-month drawdown, but Hormuz risk keeps tails alive",
+    "Crypto flow catalyst: spot Bitcoin ETFs take in ~$221M, snapping a 10-day outflow streak",
+    "AI-infra supply overhang: CoreWeave (CRWV) CEO/President sold ~$37.7M of Class A stock (June 30 Form 4)",
+    "Unusual options: FuelCell Energy (FCEL) saw a bullish call transfer \u2014 450x Aug 21, 2026 $30C (~$256.5K premium)",
+    "Wildcard (risk marker): Semis flashing technical damage \u2014 SOX breaks prior uptrend/20-day support"
   ],
   "tickers": [],
   "alpha_tickers": []

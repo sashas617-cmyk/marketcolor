@@ -1,17 +1,16 @@
 {
-  "last_run": "2026-07-02T22:38:51Z",
+  "last_run": "2026-07-03T09:53:39Z",
   "stories": [
-    "Executive summary (as of 22:37 UTC):",
-    "US close: Dow prints a new record while Nasdaq slides on TSLA + chip weakness",
-    "US macro/Fed: softer jobs tone pushes rate-path sensitivity; Warsh is the next catalyst",
-    "Geopolitics: US\u2013Iran talks stall; Hormuz remains the \u201ctail-risk\u201d premium in crude",
-    "Europe macro: DAX firmer as Eurozone inflation cools (cuts narrative supported)",
-    "Europe defense risk appetite: KNDS postpones IPO amid sector volatility",
-    "Asia: chip-led sell-off weighs on regional equities ahead of US macro clarity",
-    "Private credit pulse: Goldman fund shows moderated liquidity pressure (Q2 repurchases ~3.24%)",
-    "Options alpha: ABX sees extreme call skew\u2014~18:1 calls vs puts, focused on Jul 17 $12.50 calls",
-    "Options alpha: ZIM long-dated \u201cbullish put\u201d transfer\u2014Jan 21, 2028 $30 strike (50 contracts; ~$31.5K premium)",
-    "Gold \u201cmacro map\u201d: World Gold Council frames the next move around rates + geopolitics; cites $4,100/oz baseline"
+    "Asia: risk rebound is uneven after the chip-led drawdown\u2014Japan steadies, Korea stays twitchy",
+    "Europe: stocks push deeper into record territory as \u201ccooler U.S. data\u201d extends the rally",
+    "U.S. setup: softer hiring signal trims hike odds\u2014but equity leadership remains rotation-heavy and messy",
+    "Trade-policy overhang: Trump move to unwind/alter a major trade deal revives tariff + supply-chain tail risk",
+    "AI economics watch: Big Tech capex anxiety rises as AI usage pricing reportedly drifts lower",
+    "Governance/regulatory shock risk: OpenAI reportedly weighs offering the Trump administration a 5% stake",
+    "Commodities cross-asset: gold steadies on Fed credibility; oil eases as Hormuz shipping/oil dynamics cool inflation tail-risk",
+    "Options alpha (MSFT): extreme put volume vs open interest hits the tape (V/OI ~78)",
+    "Technical/positioning alpha: SOX breaks short-term trend support\u2014fast-money hedging risk rises (confirmed by CNBC)",
+    "Europe payments \u201cstrategic risk\u201d theme: renewed push to reduce reliance on U.S.-centric rails"
   ],
   "tickers": [],
   "alpha_tickers": []

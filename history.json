@@ -1,21 +1,12 @@
 {
-  "last_run": "2026-07-04T09:16:15Z",
+  "last_run": "2026-07-04T15:27:57Z",
   "stories": [
-    "North America trade shock: US won\u2019t renew the Mexico/Canada trade framework",
-    "Rates fulcrum: Fed path repricing back in focus via CME FedWatch (real-time)",
-    "Equities: Europe at a 52-week high, but the \u201cwho\u2019s leading\u201d matters (defensives)",
-    "Energy/inflation impulse: crude inventories drop to the lowest since March 2025",
-    "UK macro: services sector contracts amid war disruption + heatwave effects",
-    "Private credit stress marker: Blue Owl hit with $4.7bn in redemption requests",
-    "EM risk premia: total return swaps flagged as a transparency problem in sovereign debt",
-    "Strategic stake (auto/EV): Volkswagen bought ~62M Rivian shares at $15.90; stake ~16%",
-    "Options tape (single-name vol): BB call sweep flagged bearish; heavy strike activity (7,738 contracts)",
-    "Asia pulse: global board shows notable South Korea strength (KOSPI surge)"
+    "The tell: utilities lead while investors keep rotating away from volatile tech",
+    "Gold pullback watch: next upside trigger list is geopolitics + recession fear + USD turn + CB bids",
+    "Edge (refined products): Russia fuel shortages remain \u201cmanageable,\u201d but policy options are shrinking",
+    "Edge (macro narrative risk): markets leaning on Iran\u2013U.S. peace talks may be underpricing setback risk",
+    "Wildcard: the \u201cgood news\u201d in oil is fighting the \u201cbad news\u201d in geopolitics\u2014watch which wins Monday"
   ],
-  "tickers": [
-    "RIVN"
-  ],
-  "alpha_tickers": [
-    "RIVN"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

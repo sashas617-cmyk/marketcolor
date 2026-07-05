@@ -1,15 +1,12 @@
 {
-  "last_run": "2026-07-05T09:36:49Z",
-  "stories": [
-    "Executive summary:",
-    "U.S.\u2013Iran: White House touts indirect negotiation progress; Iran enters second day of funeral",
-    "Hormuz policy risk morphs: Iran says it will \u201cdefinitely\u201d charge Strait of Hormuz fees",
-    "Ukraine strikes Russian energy logistics: major St. Petersburg oil terminal/port hit; Russia claims 500+ drones/missiles",
-    "Maritime security premium lingers: Crisis Group links Chem Pluto tanker strike to Iran (Iran denies)",
-    "Trade policy risk back on the tape: report says Trump wants to ditch his signature trade deal",
-    "Insider sentiment datapoint: Ambarella (AMBA) insider sold nearly $1M (~$88.84/share)",
-    "Wildcard: \u201clottery-like\u201d meme stocks/options behavior is resurfacing (gamma risk rising)"
+  "last_run": "2026-07-05T14:52:18Z",
+  "stories": [],
+  "tickers": [
+    "INSW",
+    "TNK"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "alpha_tickers": [
+    "INSW",
+    "TNK"
+  ]
 }

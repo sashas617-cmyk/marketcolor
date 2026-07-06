@@ -1,17 +1,11 @@
 {
-  "last_run": "2026-07-05T22:32:21Z",
+  "last_run": "2026-07-06T11:25:51Z",
   "stories": [
-    "Executive summary (Sun, Jul 05, 2026 \u2014 22:31 UTC):",
-    "US futures: steady tone, but \u201cvol risk\u201d is the tell into Fed minutes",
-    "Crude breaks key support: Brent/WTI below ~$70 keeps downside skew alive",
-    "Middle East \u201clive\u201d risk remains bid (Gaza/Iran/Lebanon): tail-risk stays priced",
-    "Ukraine-Russia: renewed drone activity + NATO signaling keeps Europe risk premium in play",
-    "FX: USD/JPY \u201con edge\u201d as BOJ intervention risk meets incoming Japan data",
-    "US rates/housing: mortgage & refi activity still stuck\u2014market wants a deeper 10Y drop",
-    "Crypto: fast \u201cprice discovery\u201d continues as liquidations + institutional narratives drive tape",
-    "ALPHA (AI/IPO complex): CoreWeave CEO sold ~$37.7M \u2014 context matters (10b5-1/taxes)",
-    "ALPHA (short-dated upside punts): Jul 10 \u201clottery\u201d calls active across STLA/CHWY/AVGO/PYPL/WMT",
-    "Wildcard (macro hedge check): Gold steady after jobs miss as focus shifts back to inflation path"
+    "Oil stays heavy: WTI near ~$68 as markets price more supply (OPEC+ + improving conditions)",
+    "JPY back on intervention watch: USD/JPY sensitive to rates + long-end JGB supply",
+    "ETN: Unusual bullish options activity flagged amid electrification/AI capex narrative",
+    "CBRL: Short-interest/borrow/flow focus intensifies (watch for squeeze conditions)",
+    "Geopolitics wildcard: Ukrainian drones reportedly hit port/oil infrastructure near St. Petersburg"
   ],
   "tickers": [],
   "alpha_tickers": []

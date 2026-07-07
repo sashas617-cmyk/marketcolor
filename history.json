@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-07-07T15:50:27Z",
+  "last_run": "2026-07-07T22:38:36Z",
   "stories": [
-    "US tape: rotation is the trade (healthcare + financials bid, prior leaders fade)",
-    "Semiconductors: chip-equipment valuation unwind deepens; Applied Materials slides",
-    "Europe: equities hover near record highs as yields frame the risk budget",
-    "Trade policy tail risk: talk of a 15%\u201320% minimum tariff on EU goods hits FX",
-    "Geopolitics/shipping: Maersk to send first cargo through Suez since the Iran war",
-    "Fed messaging: Waller backs the new chair\u2019s push to revamp Fed communications",
-    "Commodities/FX: OPEC+ output-hike narrative weighs on oil; dollar firms",
-    "Insider signal: Grocery Outlet officer buys 5,000 shares at $9.50",
-    "Retail momentum/technicals: Opendoor (OPEN) pressing a $5 breakout attempt",
-    "US housing tone: more agents describe a \u201cbalanced\u201d market (survey signal)"
+    "Rates: U.S. Treasury\u2019s $69B 3-year clears at 4.179% with a negative tail",
+    "U.S. equities: financials extend record behavior, signaling broader leadership",
+    "Crypto beta back on: Bitcoin rebounds above $64K as SEC adds 2026 agenda items",
+    "Speculation regime check: Bloomberg flags \u201clottery-like\u201d meme-stock/options behavior returning",
+    "Single-stock dispersion stays elevated: CNBC flags AXT, Dell, Broadcom, O\u2019Reilly among movers",
+    "Options alpha: Ares (ARES) sees extreme call skew into Aug 21 $150 calls",
+    "~100:1 calls-over-puts",
+    "Options alpha: Rivian (RIVN) bearish put sweep hits near-dated Jul 10 $16.50 strike",
+    "Wildcard: AI-infra sentiment watch\u2014Astera Labs (ALAB) chairman sells ~$60.5M via 10b5-1"
   ],
   "tickers": [],
   "alpha_tickers": []

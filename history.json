@@ -1,22 +1,17 @@
 {
-  "last_run": "2026-07-08T09:24:31Z",
+  "last_run": "2026-07-08T15:32:23Z",
   "stories": [
-    "Geopolitics re-enters the tape: U.S.\u2013Iran flare-up lifts oil, hits European risk",
-    "Rates supply risk: 3-year then 10-year U.S. auctions can move yields (and equity duration)",
-    "ECB signal: Panetta pushes back on \u201cpreset\u201d cuts\u2014policy flexibility back in focus",
-    "China FX policy-signal watch: PBOC fixing eyed near 6.8018 per USD",
-    "Japan\u2019s \u201cline in the sand\u201d clarified: record \u00a511.73T spent defending JPY",
-    "Asia risk rebound: Hang Seng +~2.4% as chips + AI lead; semis catalysts queue up",
-    "Options alpha: $ARES sees extreme upside targeting Aug 21 $150 calls",
-    "Options alpha: $JNJ prints unusual OTM downside\u2014Jul 17 $252.50 puts",
-    "Wildcard: SpaceX initiation wave intensifies\u2014price targets/theme framing now driving comps"
+    "Daily Market Pulse \u2014 Wed, Jul 08, 2026 (15:28 UTC)",
+    "Middle East risk premium re-accelerates: Trump says Iran ceasefire is \u201cover\u201d",
+    "U.S. equities: modestly lower close, with \u201cnarrow leadership\u201d warning signs",
+    "ECB messaging adds a second rates/FX catalyst: inflation risks \u201cnot fully resolved\u201d",
+    "Macro regime risk: policy unpredictability increasingly treated as a baseline market variable",
+    "Industrial metals check: copper pulls back ~7% from June highs (still up YTD)",
+    "China FX: offshore yuan holds near 6.8000 as PBOC pushes Hong Kong offshore-hub plan",
+    "Premarket tape: \u201coil-up\u201d dispersion\u2014energy bid while fuel-sensitive names soften",
+    "Insider sell pressure (thin liquidity risk): Butterfly Network ($BFLY) exec sold ~399K shares (~$1.89M)",
+    "Index classification risk: S&P Dow Jones follows MSCI putting a Southeast Asian market on \u201cfrontier\u201d watch"
   ],
-  "tickers": [
-    "ARES",
-    "JNJ"
-  ],
-  "alpha_tickers": [
-    "ARES",
-    "JNJ"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

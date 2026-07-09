@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-07-09T16:08:28Z",
+  "last_run": "2026-07-09T22:51:52Z",
   "stories": [
-    "Middle East escalation: U.S. launches new airstrikes on Iran; Tehran retaliates toward Gulf states",
-    "Gulf spillover risk: retaliation \u201ctoward Gulf states\u201d raises infrastructure + shipping disruption probabilities",
-    "Macro transmission: geopolitical risk premium = higher energy + stickier inflation (bad mix for duration)",
-    "U.S. labor market (fresh print): initial jobless claims 215K vs 218K est; continuing claims 1.814M",
-    "Rates path: stronger claims reinforces \u201chigher-for-longer,\u201d limiting the market\u2019s ability to fade energy-driven inflation",
-    "Gold macro: market pricing implies \u22651 Fed hike by end-2026",
-    "China official-sector gold demand: biggest monthly jump in reserves in ~2.5 years",
-    "Edge (rates positioning): end\u20112026 curve now embeds an extra hike\u2014watch front-end \u201chawkish repricing\u201d risk",
-    "Edge (gold regime shift): official buying + geopolitics can overpower \u201chawkish Fed\u201d periods",
-    "Wildcard: \u201cGeopolitics as structural inflation driver\u201d is no longer theoretical\u2014today\u2019s tape is the proof"
+    "Daily Market Pulse \u2014 Thu, Jul 09, 2026 (22:50 UTC)",
+    "Rates: solid 10-year auction tone near ~4.58% keeps \u201cCPI is the catalyst\u201d framing intact",
+    "AI memory capex escalates: Micron boosts U.S. investment plan to $250B; expectations stay extreme across the complex",
+    "Credit tape: Amazon\u2019s ~$25B multi-tranche bond deal widens the conversation on AI-era funding capacity",
+    "Gold macro regime check: market prices \u22651 Fed hike by end-2026 while China accelerates official buying",
+    "Policy/regulation overhang: prediction markets hit fresh \u201cinsider trading risk\u201d headlines",
+    "RUN options shock: Sunrun sees call volume explode (~138,874 calls; ~+478% vs typical)",
+    "ASC flow: ~100:1 calls-over-puts; fresh build in Jul 17 $17.50 calls (vol ~3,036 vs OI ~800)",
+    "Crypto cross-current: Bitcoin ETF outflows return while Ether funds extend inflow streak; BTC ~above $63K"
   ],
   "tickers": [],
   "alpha_tickers": []

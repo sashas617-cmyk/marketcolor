@@ -1,10 +1,22 @@
 {
-  "last_run": "2026-07-10T15:38:32Z",
-  "stories": [],
+  "last_run": "2026-07-10T22:35:11Z",
+  "stories": [
+    "Middle East risk re-ignites: ceasefire deterioration + renewed strikes + Hormuz traffic drops again",
+    "Black Sea logistics risk: navigation shifts + attacks disrupt shipping/grain flows",
+    "Fed reaction-function repricing: \u201cprice stability\u201d pivot under new Chair Kevin Warsh",
+    "Treasury supply digestion: July auctions show strong end-user/indirect demand",
+    "Oil sells off despite geopolitics: WTI slips on supply surprises + steady Russian exports",
+    "Crypto beta stabilizer: spot Bitcoin ETFs snap a 10-day outflow streak",
+    "US equities: positioning shifts into earnings (banks in focus) as prior leaders cool",
+    "ALPHA: Sunrun ($RUN) call volume \u201ctsunami\u201d \u2014 138,874 calls traded (+478% vs typical)",
+    "ALPHA: La\u2011Z\u2011Boy ($LZB) options skew goes extreme \u2014 ~100:1 calls/puts; Jul 17 $40 calls light up",
+    "100:1 call-over-put",
+    "Wildcard (AI infrastructure): Cerebras spikes on Flex manufacturing deal; targets up to 200MW EU capacity by late 2027"
+  ],
   "tickers": [
-    "UPS"
+    "RUN"
   ],
   "alpha_tickers": [
-    "UPS"
+    "RUN"
   ]
 }

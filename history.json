@@ -1,24 +1,10 @@
 {
-  "last_run": "2026-07-10T10:19:24Z",
-  "stories": [
-    "Daily Market Pulse \u2014 Fri, Jul 10, 2026 (10:17 UTC)",
-    "Hormuz disruption becomes the macro shock: shipping \u201cnear standstill,\u201d oil risk premium holds into the weekend",
-    "Euro rates whip: German 10Y on track for biggest weekly rise in >1 month as oil-driven inflation fears seep in",
-    "Fed process risk rises: Chair Warsh launches 5 monetary-policy review task forces (comms + balance sheet + frameworks)",
-    "ECB hawkishness stays in the tape: inflation seen above 2% into H1 2027 vs market pricing",
-    "Semis/AI sentiment test: South Korean memory-chip \u201clinchpin\u201d sets $149 IPO price; demand reported 7x+",
-    "Prediction markets move from niche to policy problem: insider-trading concerns go mainstream",
-    "Crypto risk-off into the weekend: BTC hit by ETF outflows + leverage flush while ETH holds up \u0646\u0633\u0628\u064a\u0627\u064b",
-    "ALPHA (Options): $LZB extreme near-dated upside \u2014 Jul 17 $40 calls targeted (2,238 vol vs 165 OI)",
-    "ALPHA (Options): $IONS downside demand spikes \u2014 10,371 puts traded (+606% vs avg)",
-    "Wildcard: Retail/speculation pulse stays hot \u2014 \u201clottery-like\u201d meme-stock + options behavior persists"
-  ],
+  "last_run": "2026-07-10T15:38:32Z",
+  "stories": [],
   "tickers": [
-    "IONS",
-    "LZB"
+    "UPS"
   ],
   "alpha_tickers": [
-    "IONS",
-    "LZB"
+    "UPS"
   ]
 }

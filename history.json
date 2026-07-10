@@ -1,16 +1,24 @@
 {
-  "last_run": "2026-07-09T22:51:52Z",
+  "last_run": "2026-07-10T10:19:24Z",
   "stories": [
-    "Daily Market Pulse \u2014 Thu, Jul 09, 2026 (22:50 UTC)",
-    "Rates: solid 10-year auction tone near ~4.58% keeps \u201cCPI is the catalyst\u201d framing intact",
-    "AI memory capex escalates: Micron boosts U.S. investment plan to $250B; expectations stay extreme across the complex",
-    "Credit tape: Amazon\u2019s ~$25B multi-tranche bond deal widens the conversation on AI-era funding capacity",
-    "Gold macro regime check: market prices \u22651 Fed hike by end-2026 while China accelerates official buying",
-    "Policy/regulation overhang: prediction markets hit fresh \u201cinsider trading risk\u201d headlines",
-    "RUN options shock: Sunrun sees call volume explode (~138,874 calls; ~+478% vs typical)",
-    "ASC flow: ~100:1 calls-over-puts; fresh build in Jul 17 $17.50 calls (vol ~3,036 vs OI ~800)",
-    "Crypto cross-current: Bitcoin ETF outflows return while Ether funds extend inflow streak; BTC ~above $63K"
+    "Daily Market Pulse \u2014 Fri, Jul 10, 2026 (10:17 UTC)",
+    "Hormuz disruption becomes the macro shock: shipping \u201cnear standstill,\u201d oil risk premium holds into the weekend",
+    "Euro rates whip: German 10Y on track for biggest weekly rise in >1 month as oil-driven inflation fears seep in",
+    "Fed process risk rises: Chair Warsh launches 5 monetary-policy review task forces (comms + balance sheet + frameworks)",
+    "ECB hawkishness stays in the tape: inflation seen above 2% into H1 2027 vs market pricing",
+    "Semis/AI sentiment test: South Korean memory-chip \u201clinchpin\u201d sets $149 IPO price; demand reported 7x+",
+    "Prediction markets move from niche to policy problem: insider-trading concerns go mainstream",
+    "Crypto risk-off into the weekend: BTC hit by ETF outflows + leverage flush while ETH holds up \u0646\u0633\u0628\u064a\u0627\u064b",
+    "ALPHA (Options): $LZB extreme near-dated upside \u2014 Jul 17 $40 calls targeted (2,238 vol vs 165 OI)",
+    "ALPHA (Options): $IONS downside demand spikes \u2014 10,371 puts traded (+606% vs avg)",
+    "Wildcard: Retail/speculation pulse stays hot \u2014 \u201clottery-like\u201d meme-stock + options behavior persists"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "IONS",
+    "LZB"
+  ],
+  "alpha_tickers": [
+    "IONS",
+    "LZB"
+  ]
 }

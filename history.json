@@ -1,16 +1,22 @@
 {
-  "last_run": "2026-07-11T08:50:40Z",
+  "last_run": "2026-07-11T14:27:46Z",
   "stories": [
-    "Volatility looks relaxed despite the headlines: VIX cited at 15.33",
-    "Rates narrative rotates with crude: inflation impulse vs growth drag is back in play",
-    "FX focus: oil is re-shaping USD expectations (terms-of-trade + risk premia channel)",
-    "Reuters: Iran war risk stays front-and-center as a persistent tail risk to supply routes",
-    "Strait of Hormuz risk premium hits real-economy plumbing: ship war-risk insurance jumps to 2%\u20136%",
-    "Ukraine escalates structurally: Zelensky creates \u201clong-range impact\u201d command to sustain strikes on Russian energy",
-    "Alpha/edge: Convert the insurance headline into dollars\u2014this is a tradable cost wedge for physical flows",
-    "Alpha/edge: Insurance capacity is becoming part of the \u201cchokepoint\u201d\u2014not just geography",
-    "Wildcard: Two-front energy geopolitics (Hormuz + Russian infrastructure) keeps the global risk premium sticky into Monday"
+    "Executive summary (Sat, Jul 11 \u2014 14:25 UTC):",
+    "Oil risk premium is back: tanker attacks + U.S. revokes Iran sales authorization",
+    "Rates/commodities regime watch: Bloomberg flags repricing after a more inflation-focused Fed chair",
+    "U.S. equity leadership shift: semis soften while breadth/rotation expands beyond chips",
+    "Catalyst calendar: U.S. tape heads into earnings/data with a \u201cslower tape, higher sensitivity\u201d setup",
+    "Crypto: BTC holds up even as ETF flows flip negative again",
+    "Global macro baseline refresh: World Bank 2026 outlook re-anchors growth/inflation risk framing",
+    "ALPHA \u2014 Insider signal in uranium/critical minerals: $UUUU director buys stock in the open market",
+    "Wildcard \u2014 Gold\u2019s push-pull: central-bank bid vs real-rates/geopolitics narrative"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "JOBY",
+    "UUUU"
+  ],
+  "alpha_tickers": [
+    "JOBY",
+    "UUUU"
+  ]
 }

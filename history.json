@@ -1,22 +1,15 @@
 {
-  "last_run": "2026-07-11T14:27:46Z",
+  "last_run": "2026-07-11T22:15:10Z",
   "stories": [
-    "Executive summary (Sat, Jul 11 \u2014 14:25 UTC):",
-    "Oil risk premium is back: tanker attacks + U.S. revokes Iran sales authorization",
-    "Rates/commodities regime watch: Bloomberg flags repricing after a more inflation-focused Fed chair",
-    "U.S. equity leadership shift: semis soften while breadth/rotation expands beyond chips",
-    "Catalyst calendar: U.S. tape heads into earnings/data with a \u201cslower tape, higher sensitivity\u201d setup",
-    "Crypto: BTC holds up even as ETF flows flip negative again",
-    "Global macro baseline refresh: World Bank 2026 outlook re-anchors growth/inflation risk framing",
-    "ALPHA \u2014 Insider signal in uranium/critical minerals: $UUUU director buys stock in the open market",
-    "Wildcard \u2014 Gold\u2019s push-pull: central-bank bid vs real-rates/geopolitics narrative"
+    "Commodities \u201crate-path\u201d repricing: traders pivot after new Fed-chair confirmation",
+    "U.S. equity internals: breadth improves (but tape may stay \u201csluggish\u201d)",
+    "Next-session dispersion watch: Delta, Circle, Intel among names in focus",
+    "Wildcard \u2014 Nasdaq delisting clock: Pitanium (PTNM) faces a hard timeline"
   ],
   "tickers": [
-    "JOBY",
-    "UUUU"
+    "QXO"
   ],
   "alpha_tickers": [
-    "JOBY",
-    "UUUU"
+    "QXO"
   ]
 }

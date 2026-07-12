@@ -1,15 +1,20 @@
 {
-  "last_run": "2026-07-11T22:15:10Z",
+  "last_run": "2026-07-12T09:17:55Z",
   "stories": [
-    "Commodities \u201crate-path\u201d repricing: traders pivot after new Fed-chair confirmation",
-    "U.S. equity internals: breadth improves (but tape may stay \u201csluggish\u201d)",
-    "Next-session dispersion watch: Delta, Circle, Intel among names in focus",
-    "Wildcard \u2014 Nasdaq delisting clock: Pitanium (PTNM) faces a hard timeline"
+    "Rotation watch: semiconductor softness framed as *market broadening*, not necessarily \u201crisk-off\u201d",
+    "Mega-deal reopens the IPO/ADR conversation: SK Hynix ADRs pop ~12.8% after a $26.5B U.S. listing",
+    "Crude: tanker traffic + supply-interruption risk keep a floor under prices",
+    "Rates narrative creeping back in: renewed Fed hike speculation shows up in risk pricing",
+    "Alpha (single-name setup): $DAL flagged on the premarket movers list\u2014watch airlines/travel beta into the open",
+    "Alpha (single-name setup): $INTC on the movers list as the \u201csemi rotation\u201d debate heats up",
+    "Wildcard: \u201cCircle\u201d on the movers list is a live tell for crypto-adjacent equity sentiment"
   ],
   "tickers": [
-    "QXO"
+    "DAL",
+    "INTC"
   ],
   "alpha_tickers": [
-    "QXO"
+    "DAL",
+    "INTC"
   ]
 }

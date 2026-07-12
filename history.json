@@ -1,21 +1,6 @@
 {
-  "last_run": "2026-07-12T14:43:59Z",
-  "stories": [
-    "Hormuz risk premium stays embedded: Brent ends the week ~mid-$70s as shipping security becomes the swing factor",
-    "US equities: AI-led resilience, but intraday \u201coil/geopolitics\u201d volatility is driving a defensive rotation",
-    "Crypto risk-on bounce, but flows aren\u2019t confirming: BTC ~ $64k as spot ETF outflows resume",
-    "Russia\u2013Ukraine: intensified long-range strikes hit energy/transport nodes\u2014tail risk to regional fuel logistics",
-    "Fed signal: Chair Kevin Warsh launches task forces to review monetary policy + communications",
-    "FX positioning check: Deutsche Bank says yield differentials still dominate headline-driven trading",
-    "ALPHA \u2014 $MRNA: call volume spike with a notable near-dated call-spread footprint",
-    "ALPHA \u2014 $UUUU: insider-buy cluster (director + CEO) with disclosed sizes/prices"
-  ],
-  "tickers": [
-    "MRNA",
-    "UUUU"
-  ],
-  "alpha_tickers": [
-    "MRNA",
-    "UUUU"
-  ]
+  "last_run": "2026-07-12T22:16:47Z",
+  "stories": [],
+  "tickers": [],
+  "alpha_tickers": []
 }

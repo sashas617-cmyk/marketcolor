@@ -1,20 +1,18 @@
 {
-  "last_run": "2026-07-13T10:19:51Z",
+  "last_run": "2026-07-13T15:49:18Z",
   "stories": [
-    "Iran oil trade squeeze: US revokes a license; tanker-attack reports add compliance + shipping risk",
-    "Eurozone bonds sell off: yields hit multi-week highs on Hormuz-driven inflation fears",
-    "Macro cross-asset regime check: \u201cgood for dollar, bad for bonds\u201d back in focus",
-    "Sea of Azov shipping suspended: logistics shock risk (not just energy) in the Black Sea theater",
-    "AI trade: corporate commentary keeps \u201cnext phase\u201d capex/buildout narrative alive (watch mega-cap AI proxies)",
-    "Market structure edge: AI boom is minting new billionaires\u2014concentration risk is the portfolio risk",
-    "Retail risk appetite still live: meme stocks + \u201clottery-like\u201d short-dated options as a volatility accelerant"
+    "Daily Market Pulse \u2014 Mon, Jul 13, 2026 (15:48 UTC)",
+    "Hormuz shock premium back on: WTI > $75 as tanker traffic slows after renewed U.S.\u2013Iran strikes",
+    "U.S. rates holding pattern (for now): 2Y ~4.221%, 30Y ~5.075% into inflation prints",
+    "Fed headline risk set for Tue/Wed: Chair Kevin Warsh testimony becomes the week\u2019s policy catalyst",
+    "Bank earnings \u201cvol week\u201d starts tomorrow: JPM, BAC, GS, C, WFC Tuesday; MS Wednesday",
+    "India macro surprise: June CPI accelerates to 4.38%, above forecasts",
+    "China FX signal: PBOC sets USD/CNY fixing at 6.7972 (weaker than ~6.7850 est.)",
+    "Europe duration stays under pressure: euro yields near multiweek highs; Schnabel in focus",
+    "Mega IPO flow event: SK Hynix ADRs (SKHYV) extend post-debut strength after record $26.5B U.S. listing",
+    "Crypto security hit: Injective (INJ) slides after SDK supply-chain compromise tied to wallet-key theft",
+    "UST market-structure watch: new instrument aimed at lowering hedge-fund \u2018basis trade\u2019 costs"
   ],
-  "tickers": [
-    "AVGO",
-    "MSFT"
-  ],
-  "alpha_tickers": [
-    "AVGO",
-    "MSFT"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

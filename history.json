@@ -1,17 +1,14 @@
 {
-  "last_run": "2026-07-13T15:49:18Z",
+  "last_run": "2026-07-13T22:34:24Z",
   "stories": [
-    "Daily Market Pulse \u2014 Mon, Jul 13, 2026 (15:48 UTC)",
-    "Hormuz shock premium back on: WTI > $75 as tanker traffic slows after renewed U.S.\u2013Iran strikes",
-    "U.S. rates holding pattern (for now): 2Y ~4.221%, 30Y ~5.075% into inflation prints",
-    "Fed headline risk set for Tue/Wed: Chair Kevin Warsh testimony becomes the week\u2019s policy catalyst",
-    "Bank earnings \u201cvol week\u201d starts tomorrow: JPM, BAC, GS, C, WFC Tuesday; MS Wednesday",
-    "India macro surprise: June CPI accelerates to 4.38%, above forecasts",
-    "China FX signal: PBOC sets USD/CNY fixing at 6.7972 (weaker than ~6.7850 est.)",
-    "Europe duration stays under pressure: euro yields near multiweek highs; Schnabel in focus",
-    "Mega IPO flow event: SK Hynix ADRs (SKHYV) extend post-debut strength after record $26.5B U.S. listing",
-    "Crypto security hit: Injective (INJ) slides after SDK supply-chain compromise tied to wallet-key theft",
-    "UST market-structure watch: new instrument aimed at lowering hedge-fund \u2018basis trade\u2019 costs"
+    "Executive summary (22:32 UTC):",
+    "Rates re-pricing watch: the 10Y/2Y curve is the live dashboard for \u201chigher-for-longer\u201d vs growth fears",
+    "Retail speculation temperature check: Bloomberg flags \u201clottery-like\u201d meme stocks/options activity",
+    "Banks + deal tape: big U.S. banks get a boost from large-deal revival\u2014while Gulf hub rivalry complicates regional strategy",
+    "Options alpha: Permian Resources ($PR) sees extreme downside skew in Jan 2027 $20 puts",
+    "50:1 puts over calls",
+    "Crypto beta breaks lower: Bitcoin (BTC) slips below $63,000 into macro/earnings week",
+    "Wildcard (market-structure): Kalshi launches \u201cPro\u201d tooling for active multi-market traders"
   ],
   "tickers": [],
   "alpha_tickers": []

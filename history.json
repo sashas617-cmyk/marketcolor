@@ -1,6 +1,20 @@
 {
-  "last_run": "2026-07-12T22:16:47Z",
-  "stories": [],
-  "tickers": [],
-  "alpha_tickers": []
+  "last_run": "2026-07-13T10:19:51Z",
+  "stories": [
+    "Iran oil trade squeeze: US revokes a license; tanker-attack reports add compliance + shipping risk",
+    "Eurozone bonds sell off: yields hit multi-week highs on Hormuz-driven inflation fears",
+    "Macro cross-asset regime check: \u201cgood for dollar, bad for bonds\u201d back in focus",
+    "Sea of Azov shipping suspended: logistics shock risk (not just energy) in the Black Sea theater",
+    "AI trade: corporate commentary keeps \u201cnext phase\u201d capex/buildout narrative alive (watch mega-cap AI proxies)",
+    "Market structure edge: AI boom is minting new billionaires\u2014concentration risk is the portfolio risk",
+    "Retail risk appetite still live: meme stocks + \u201clottery-like\u201d short-dated options as a volatility accelerant"
+  ],
+  "tickers": [
+    "AVGO",
+    "MSFT"
+  ],
+  "alpha_tickers": [
+    "AVGO",
+    "MSFT"
+  ]
 }

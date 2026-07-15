@@ -1,23 +1,14 @@
 {
-  "last_run": "2026-07-15T09:08:40Z",
+  "last_run": "2026-07-15T15:01:00Z",
   "stories": [
-    "US CPI shock-soft on the month: headline -0.4% m/m; core flat \u2014 rates repricing risk is immediate",
-    "Fed Chair Kevin Warsh in Congress: the hike odds are still \u201clive,\u201d so guidance tone matters",
-    "Geopolitics back in the driver\u2019s seat: Brent +~4% pre-open, metals firmer \u2014 inflation hedges bid",
-    "Big-bank earnings reinforce \u201csoft-landing\u201d narrative: deal revival + AI efficiency, no loud credit stress",
-    "China macro pulse: Q2 GDP slows, but June activity beats \u2014 mixed signal for global cyclicals",
-    "UK front-end shock: 2Y gilt yields +~10 bps to ~4.452% (two-month high)",
-    "Semis remain the high-beta fault line: SOXX rebound, but realized vol near highest since May 2020",
-    "Options alpha \u2014 $BMO: call-heavy flow targets upside into year-end (Dec 18 $190 calls)",
-    "Options alpha \u2014 $CC (Chemours): call volume explodes to 50,718 contracts (+892% vs typical)",
-    "Euro-periphery risk check: Italy\u2019s BTP-Bund spread steady near mid-70s; 10Y ~3.86%"
+    "Asia risk-off: South Korea equities drop >5% as AI/semicap selloff transmits",
+    "Big-bank earnings tone: Citi beats; JPM talks AI-driven workforce change; GS flags SpaceX IPO fee pool",
+    "China FX policy signal: PBOC says the market should play a key role in the yuan rate",
+    "Europe policy caution: central bank chief won\u2019t declare \u201cmission accomplished\u201d despite lower inflation",
+    "$PYPL takeover chatter: rumored Stripe + Advent deal talk at \u201cover $53B\u201d",
+    "$BIDU options: call volume spikes to 25,740 contracts (~+25% vs average)",
+    "USD/JPY: surge persists with BOJ intervention threat still in play (optionality stays bid)"
   ],
-  "tickers": [
-    "BMO",
-    "CC"
-  ],
-  "alpha_tickers": [
-    "BMO",
-    "CC"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

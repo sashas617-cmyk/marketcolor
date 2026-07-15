@@ -1,17 +1,23 @@
 {
-  "last_run": "2026-07-14T22:45:28Z",
+  "last_run": "2026-07-15T09:08:40Z",
   "stories": [
-    "Oil shock re-enters the tape: WTI briefly >$80 on U.S.\u2013Iran escalation + Hormuz control fight",
-    "Big-bank earnings keep financials in play: \u201cAI efficiency\u201d + dealmaking pickup dominate calls",
-    "IBM detonates legacy-tech sentiment: stock collapses ~25% after Q2 preannouncement/profit warning",
-    "Macro positioning focus: June 2026 inflation component detail circulates ahead of the next catalyst window",
-    "FX: USD/JPY holds at highs\u2014rate-gap support intact, but intervention risk is the real tail",
-    "China policy signal: PBOC sets a floor on re-discount rates\u2014targeted support, not a \u201cbig-bang\u201d easing pivot",
-    "Semis regain footing but vol regime is the story: SOXX rebounds hard; realized vol at highest since 2020",
-    "Options alpha (BMO): fresh upside bet\u2014Dec 18 $190 calls trade 1,663 contracts vs OI 11",
-    "Crypto flow risk: U.S. moves ~$297M seized BTC/ETH to Coinbase Prime; BTC still sub-$63K",
-    "Wildcard risk check: BofA warns positioning is \u201ctoo bullish\u201d into summer\u2014downside asymmetry rising"
+    "US CPI shock-soft on the month: headline -0.4% m/m; core flat \u2014 rates repricing risk is immediate",
+    "Fed Chair Kevin Warsh in Congress: the hike odds are still \u201clive,\u201d so guidance tone matters",
+    "Geopolitics back in the driver\u2019s seat: Brent +~4% pre-open, metals firmer \u2014 inflation hedges bid",
+    "Big-bank earnings reinforce \u201csoft-landing\u201d narrative: deal revival + AI efficiency, no loud credit stress",
+    "China macro pulse: Q2 GDP slows, but June activity beats \u2014 mixed signal for global cyclicals",
+    "UK front-end shock: 2Y gilt yields +~10 bps to ~4.452% (two-month high)",
+    "Semis remain the high-beta fault line: SOXX rebound, but realized vol near highest since May 2020",
+    "Options alpha \u2014 $BMO: call-heavy flow targets upside into year-end (Dec 18 $190 calls)",
+    "Options alpha \u2014 $CC (Chemours): call volume explodes to 50,718 contracts (+892% vs typical)",
+    "Euro-periphery risk check: Italy\u2019s BTP-Bund spread steady near mid-70s; 10Y ~3.86%"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "BMO",
+    "CC"
+  ],
+  "alpha_tickers": [
+    "BMO",
+    "CC"
+  ]
 }

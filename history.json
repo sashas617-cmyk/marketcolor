@@ -1,20 +1,23 @@
 {
-  "last_run": "2026-07-16T09:11:12Z",
+  "last_run": "2026-07-16T15:13:23Z",
   "stories": [
-    "Fed Chair Kevin Warsh after CPI: 3.5% YoY cool-down, but energy could re-ignite the problem",
-    "Fed Beige Book: activity improving, inflation tone better \u2014 fuel-cost uncertainty is the caveat",
-    "Market structure watch: Korean levered ETFs flagged as a potential global vol transmission channel",
-    "Asia tape splits: Japan softer, Hong Kong firmer; India holds key levels",
-    "ALPHA: $MMM near-dated upside pile-in \u2014 Jul 17 $170 calls",
-    "ALPHA: $DLO call volume shock \u2014 25,648 calls (~+292% vs typical)",
-    "Wildcard: \u201clottery-like\u201d meme-stock/options behavior resurfaces \u2014 watch single-name vol"
+    "Geopolitics: U.S.\u2013Iran strikes raise shipping/supply disruption risk",
+    "U.S. macro \u201cdata dump\u201d leans growth-positive: retail sales up modestly; claims still contained",
+    "Europe rates: euro zone yields rise; German\u2013U.S. 10Y spread tightens toward a one-month low",
+    "Central-bank path gets messier: \u201cresilient growth\u201d meets an energy shock",
+    "Sector rotation risk: energy tailwind vs. duration pressure on higher rates/oil",
+    "Alpha/levels: Energy breakout is the live \u201cmacro trigger\u201d \u2014 track $USO and $BNO vs. $80/$85",
+    "Alpha/relative rates: Transatlantic spread compression hits \u201cEUR hedge math\u201d \u2014 watch $FXE vs. $UUP",
+    "Wildcard: AI optimism is colliding with geopolitics \u2014 \u201cgood earnings\u201d may not be enough if energy stays bid"
   ],
   "tickers": [
-    "DLO",
-    "MMM"
+    "BNO",
+    "FXE",
+    "USO"
   ],
   "alpha_tickers": [
-    "DLO",
-    "MMM"
+    "BNO",
+    "FXE",
+    "USO"
   ]
 }

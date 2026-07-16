@@ -1,13 +1,20 @@
 {
-  "last_run": "2026-07-15T22:41:35Z",
+  "last_run": "2026-07-16T09:11:12Z",
   "stories": [
-    "Hormuz escalation keeps crude elevated: WTI ~",
-    "Big-bank earnings tape sets the tone: JPM\u2019s AI cost narrative, Citi\u2019s \u201cnuanced\u201d growth, GS leans into mega-deal/IPO fee pools",
-    "Single-name shock in industrials: Pentair hit by guidance cut + CFO resignation headline risk",
-    "NVDA options: whale-size turnover in a single strike with OI/volume dislocation",
-    "PayPal reprices on renewed takeover chatter: reported ~",
-    "Wildcard: SpaceX trades below its IPO reference price for the first time\u2014new-issue sentiment cracks"
+    "Fed Chair Kevin Warsh after CPI: 3.5% YoY cool-down, but energy could re-ignite the problem",
+    "Fed Beige Book: activity improving, inflation tone better \u2014 fuel-cost uncertainty is the caveat",
+    "Market structure watch: Korean levered ETFs flagged as a potential global vol transmission channel",
+    "Asia tape splits: Japan softer, Hong Kong firmer; India holds key levels",
+    "ALPHA: $MMM near-dated upside pile-in \u2014 Jul 17 $170 calls",
+    "ALPHA: $DLO call volume shock \u2014 25,648 calls (~+292% vs typical)",
+    "Wildcard: \u201clottery-like\u201d meme-stock/options behavior resurfaces \u2014 watch single-name vol"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "DLO",
+    "MMM"
+  ],
+  "alpha_tickers": [
+    "DLO",
+    "MMM"
+  ]
 }

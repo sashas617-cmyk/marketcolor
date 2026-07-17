@@ -1,17 +1,13 @@
 {
-  "last_run": "2026-07-17T09:05:11Z",
+  "last_run": "2026-07-17T14:56:18Z",
   "stories": [
-    "Executive Summary (09:04 UTC):",
-    "Oil shock premium back: Brent jumps above $85 on deepening US\u2013Iran conflict / Hormuz risk",
-    "ECB setup: pause next week, but economists still see a \u201cfinal hike\u201d in September",
-    "Italy risk check: BTP\u2013Bund spread opens wider (~81 bps), Italy 10Y ~3.94%",
-    "Macro tape: higher oil + higher Treasury yields pressure equities; US retail sales miss adds growth friction",
-    "Policy shock: EU tightens Russia LNG rules\u2014EU-based firms barred from reselling Russian LNG next year (Reuters)",
-    "European gas stays elevated: near ~15-week highs as Middle East risk premium persists",
-    "Earnings gut-check: Netflix slides after-hours on \u201cmixed\u201d Q2 (Comm Services sentiment)",
-    "ALPHA (options): SpaceX (SPCX) bearish 1D put sweep \u2014 165x $130 strike expiring Jul-17",
-    "ALPHA (single-name semicap): ASE Technology (ASX) call volume spikes to 45,037 (+~681%)",
-    "Wildcard: \u201clottery-like\u201d meme stocks/options speculation is back in the narrative (vol/gamma risk)"
+    "Premarket: memory/chip rout deepens; DRAM ETF extends weekly drawdown",
+    "ECB debate: inflation upside-risk vs \u201cweak-but-resilient\u201d growth",
+    "Italy risk check: BTP\u2013Bund spread nudges wider amid volatility",
+    "LNG setup: Asia/Europe winter competition could re-tighten energy margins",
+    "SPCX: bearish same-day protection shows up\u2014$130 put sweep into expiry",
+    "CFG: call flow explodes\u2014Aug \u201926 $75 calls dominate blocks",
+    "Wildcard (mega-cap tech risk): Oracle debt/leverage narrative is back in the crosshairs"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,13 +1,14 @@
 {
-  "last_run": "2026-07-17T14:56:18Z",
+  "last_run": "2026-07-17T22:24:31Z",
   "stories": [
-    "Premarket: memory/chip rout deepens; DRAM ETF extends weekly drawdown",
-    "ECB debate: inflation upside-risk vs \u201cweak-but-resilient\u201d growth",
-    "Italy risk check: BTP\u2013Bund spread nudges wider amid volatility",
-    "LNG setup: Asia/Europe winter competition could re-tighten energy margins",
-    "SPCX: bearish same-day protection shows up\u2014$130 put sweep into expiry",
-    "CFG: call flow explodes\u2014Aug \u201926 $75 calls dominate blocks",
-    "Wildcard (mega-cap tech risk): Oracle debt/leverage narrative is back in the crosshairs"
+    "Executive summary:",
+    "Oil shock: Brent jumps ~4.6% and settles near $88 after Kuwait says Iran hit a desalination/power facility.",
+    "Rates & havens: Treasury yields dip while gold heads for a sharp weekly loss.",
+    "Ukraine escalation vector: Kyiv reportedly \u2018cuts off\u2019 Crimea from Russia, triggering an energy crisis on the peninsula.",
+    "FX check: USD/JPY consolidates below 162.83; 159.84 flagged as key support.",
+    "Credit-risk hedge: BKLN sees a put spike to 10,085 contracts (+107% vs typical volume).",
+    "Single-name near-expiry hedge: SPCX July 17 $130 put sweep (165 contracts, 1 day to expiry).",
+    "Volatility tell into earnings: CNBC flags an \u2018obscure\u2019 measure implying a Magnificent Seven earnings breakout."
   ],
   "tickers": [],
   "alpha_tickers": []

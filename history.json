@@ -1,16 +1,17 @@
 {
-  "last_run": "2026-07-16T22:37:57Z",
+  "last_run": "2026-07-17T09:05:11Z",
   "stories": [
-    "Executive summary (22:34 UTC):",
-    "U.S. equity tape: Nasdaq underperforms as investors de-risk mega-cap tech leadership",
-    "Semis/AI selloff despite TSMC strength: market is trading capex/demand durability, not beats",
-    "Macro tape turns fragile: a downside inflation surprise helps futures\u2014until energy pass-through reasserts",
-    "Single-name leadership damage: Alphabet + chips highlighted as key index drags",
-    "Cross-asset setup: inflation relief vs geopolitics = two-way risk in rates and USD hedges",
-    "Global macro lens: energy-importer risk rises as crude volatility tightens financial conditions abroad",
-    "Alpha/edge (positioning tell): \u201cGood news isn\u2019t good enough\u201d in semis\u2014watch the *post-beat* reaction function",
-    "Alpha/edge (tactical pairs): energy shock vs duration shock is back\u2014relative-value matters more than direction",
-    "Wildcard: the market is re-entering a \u201cheadline liquidity\u201d regime\u2014expect air pockets around geopolitical flashes"
+    "Executive Summary (09:04 UTC):",
+    "Oil shock premium back: Brent jumps above $85 on deepening US\u2013Iran conflict / Hormuz risk",
+    "ECB setup: pause next week, but economists still see a \u201cfinal hike\u201d in September",
+    "Italy risk check: BTP\u2013Bund spread opens wider (~81 bps), Italy 10Y ~3.94%",
+    "Macro tape: higher oil + higher Treasury yields pressure equities; US retail sales miss adds growth friction",
+    "Policy shock: EU tightens Russia LNG rules\u2014EU-based firms barred from reselling Russian LNG next year (Reuters)",
+    "European gas stays elevated: near ~15-week highs as Middle East risk premium persists",
+    "Earnings gut-check: Netflix slides after-hours on \u201cmixed\u201d Q2 (Comm Services sentiment)",
+    "ALPHA (options): SpaceX (SPCX) bearish 1D put sweep \u2014 165x $130 strike expiring Jul-17",
+    "ALPHA (single-name semicap): ASE Technology (ASX) call volume spikes to 45,037 (+~681%)",
+    "Wildcard: \u201clottery-like\u201d meme stocks/options speculation is back in the narrative (vol/gamma risk)"
   ],
   "tickers": [],
   "alpha_tickers": []

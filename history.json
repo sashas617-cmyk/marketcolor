@@ -1,15 +1,13 @@
 {
-  "last_run": "2026-07-19T14:34:27Z",
+  "last_run": "2026-07-19T22:25:40Z",
   "stories": [
-    "Hormuz tail-risk jumps: U.S. naval blockade + Iran-linked ship attacks keep oil/shipping risk premia elevated",
-    "Russia\u2013Ukraine escalation: major missile strike on Kyiv/Kharkiv + drone hits on Russian oil/logistics keep security/energy risk bid",
-    "U.S. macro narrative check: \u201cbest month since 2020\u201d vs. rising talk of underlying fragility",
-    "U.S. equities: tech-led softness vs. rotation/breadth narrative (factor whipsaw risk into Monday)",
-    "Big Tech AI capex under scrutiny: investors push on payback periods (repricing risk across AI complex)",
-    "Boeing: FAA restores delegated certification authority (potential delivery/production de-risking)",
-    "ETN options: call volume explodes (40,955 contracts, +648% vs avg); Jul 17, 2026 $180 calls show standout IV",
-    "NYT options: massive put-diagonal flow (\u224890,000+)\u2014sold Sep 18 \u201926 $75 puts, bought Dec 18 \u201926 $67 puts; V/OI spike reported",
-    "Crypto risk barometer: Bitcoin slides back near $63k as Nasdaq/semiconductor pressure bleeds into high-beta"
+    "Oil shock bid: WTI spikes toward ~$82 on U.S.\u2013Iran escalation/supply-disruption fear",
+    "Rates regime still two-sided: markets lean to \u22651 Fed hike by end-2026",
+    "FX tail-risk rises: Japan threatens \u201cdecisive action\u201d as yen stays near ~4-decade lows",
+    "Spec heat check: \u201clottery-like\u201d meme stocks/options appetite persists",
+    "Boeing catalyst: FAA restores Boeing\u2019s ability to sign off 737 MAX + 787 airworthiness certificates",
+    "$ETN unusual options: call volume explodes to ~40,955 contracts (+648% vs avg)",
+    "Crypto risk barometer: Bitcoin key support framed near ~$64k; liquidation risk elevated"
   ],
   "tickers": [],
   "alpha_tickers": []

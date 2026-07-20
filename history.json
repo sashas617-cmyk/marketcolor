@@ -1,17 +1,14 @@
 {
-  "last_run": "2026-07-20T15:20:20Z",
+  "last_run": "2026-07-20T22:34:40Z",
   "stories": [
-    "Daily Market Pulse \u2014 Mon, Jul 20, 2026 (15:19 UTC)",
-    "Oil shock: Brent cracks $90 as U.S.\u2013Iran conflict escalates, Hormuz risk premium jumps",
-    "ECB week: energy-driven inflation risk back on the table; guidance/tone is the trade (Sep hike pricing sensitive)",
-    "Europe geopolitics: Russia\u2019s large ballistic-missile salvo keeps tail-risk elevated",
-    "Macro framing: BlackRock flags an energy-shock impulse of ~+0.8pp inflation, ~-0.4% GDP (2026)",
-    "Cross-asset tell: gold isn\u2019t getting a classic safe-haven bid as rates expectations dominate",
-    "China tech: Moonshot\u2019s \u201cKimi K3\u201d surprise re-ignites AI positioning battles",
-    "Catalyst stack this week: ECB + mega-cap earnings (Alphabet, Tesla) = volatility setup",
-    "AI-beta under pressure: semis lead downside as inflation/geopolitics hit duration",
-    "Crypto flows turn: Bitcoin ETFs see ~$273M of inflows over two weeks (modest, but a regime change from outflows)",
-    "Policy wildcard: IRS still lacks clear guidance on prediction-market taxation"
+    "Executive summary:",
+    "Cash stays parked: money market funds remain the default \u201crisk-free\u201d trade",
+    "Long bond won\u2019t rally: 30-year Treasury yield holds ~5.06%",
+    "Real rates punch higher: 30-year TIPS yield hits highest since 2010 reintroduction",
+    "Curve messaging: market keeps a non-trivial \u201crate hike tail-risk\u201d on the table",
+    "Rates alpha: \u201c5%+ long bond\u201d keeps duration pain trade alive (TLT/EDV pressure)",
+    "Policy-risk alpha: Europe\u2019s payments pivot is a watch item for V/MA and EU processors",
+    "Wildcard: the market is drifting toward a \u201cstagflation-scared\u201d playbook (oil up + real yields up)"
   ],
   "tickers": [],
   "alpha_tickers": []

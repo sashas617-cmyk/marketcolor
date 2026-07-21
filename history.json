@@ -1,14 +1,16 @@
 {
-  "last_run": "2026-07-20T22:34:40Z",
+  "last_run": "2026-07-21T09:26:09Z",
   "stories": [
-    "Executive summary:",
-    "Cash stays parked: money market funds remain the default \u201crisk-free\u201d trade",
-    "Long bond won\u2019t rally: 30-year Treasury yield holds ~5.06%",
-    "Real rates punch higher: 30-year TIPS yield hits highest since 2010 reintroduction",
-    "Curve messaging: market keeps a non-trivial \u201crate hike tail-risk\u201d on the table",
-    "Rates alpha: \u201c5%+ long bond\u201d keeps duration pain trade alive (TLT/EDV pressure)",
-    "Policy-risk alpha: Europe\u2019s payments pivot is a watch item for V/MA and EU processors",
-    "Wildcard: the market is drifting toward a \u201cstagflation-scared\u201d playbook (oil up + real yields up)"
+    "Geopolitics risk-premium: US equity futures bounce as Iran headlines hit",
+    "Rates/Fed: Warsh\u2019s \u201cfirst big move\u201d is being read as stealth tightening (unverified social buzz)",
+    "US tape: indexes slip as the chip rebound attempt fails",
+    "Earnings-season reality check: early S&P 500 EPS growth is distorted",
+    "FX (Europe): EUR/USD presses resistance with the ECB looming",
+    "FX (China/Asia): USD/CNH stays rangebound as the PBoC fixing anchors moves",
+    "Commodities: heatwave/weather shocks are back as an inflation tail-risk",
+    "Defense-tech crossover: Archer Aviation rips ~20% on military craft reveal with Anduril",
+    "Crypto/regulatory edge: Brazil launches tokenization task force (60-day deadline)",
+    "Europe payments sovereignty: policy push to loosen America\u2019s grip on payment rails"
   ],
   "tickers": [],
   "alpha_tickers": []

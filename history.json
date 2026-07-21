@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-07-21T09:26:09Z",
+  "last_run": "2026-07-21T15:13:21Z",
   "stories": [
-    "Geopolitics risk-premium: US equity futures bounce as Iran headlines hit",
-    "Rates/Fed: Warsh\u2019s \u201cfirst big move\u201d is being read as stealth tightening (unverified social buzz)",
-    "US tape: indexes slip as the chip rebound attempt fails",
-    "Earnings-season reality check: early S&P 500 EPS growth is distorted",
-    "FX (Europe): EUR/USD presses resistance with the ECB looming",
-    "FX (China/Asia): USD/CNH stays rangebound as the PBoC fixing anchors moves",
-    "Commodities: heatwave/weather shocks are back as an inflation tail-risk",
-    "Defense-tech crossover: Archer Aviation rips ~20% on military craft reveal with Anduril",
-    "Crypto/regulatory edge: Brazil launches tokenization task force (60-day deadline)",
-    "Europe payments sovereignty: policy push to loosen America\u2019s grip on payment rails"
+    "Executive summary (15:11 UTC):",
+    "Geopolitics: Hormuz incidents raise disruption odds (energy + freight premium stays bid)",
+    "Crude oil: the chokepoint math is what matters (supply shock convexity)",
+    "LNG: Europe/Asia gas risk is underpriced if shipping lane uncertainty persists",
+    "Freight: rerouting risk hits vessel supply (time-at-sea is the hidden shortage)",
+    "Marine insurance: \u201cwar-risk\u201d repricing can become the binding constraint",
+    "FX: classic risk-off mapping\u2014USD/CHF bid, EM + high beta pressured",
+    "Rates + inflation: energy shock risk lifts breakevens, complicates \u201ccuts\u201d narratives",
+    "Costs transmission trade: the \u201call-in delivered barrel\u201d can jump on logistics alone",
+    "Wildcard: \u201cchokepoint stacking\u201d is the real macro tail\u2014correlations can snap"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,14 +1,16 @@
 {
-  "last_run": "2026-07-22T15:13:59Z",
+  "last_run": "2026-07-22T22:36:59Z",
   "stories": [
-    "Inflation risk channels: \u201cenergy up\u201d feeds \u201crates up\u201d",
-    "Geopolitics: Hormuz tail risk is the market\u2019s convexity trigger",
-    "Rates x equities: higher energy amplifies the \u201csticky inflation\u201d narrative",
-    "Cross-asset watch: FX sensitivity rises (importers vs producers)",
-    "Second-order effects: freight/insurance risk can spill into supply chains",
-    "Alpha lens: the \u201coil up / rates up\u201d pair trade pressure point is long-duration tech",
-    "Alpha lens: watch for renewed \u201cenergy as hedge\u201d flows into liquid bellwethers",
-    "Wildcard: today\u2019s core regime signal is \u201cmacro back in charge\u201d"
+    "US equities: mixed/flat close as energy costs + earnings tape cap risk appetite",
+    "Crude as the pressure point: higher oil keeps \u201csticky inflation\u201d fears in play",
+    "Rates reassert control: Treasury yields rise into the close",
+    "Fed pricing: traders reprice hike odds ahead of next week\u2019s FOMC",
+    "Equity factor lens: \u201chigh-multiple/long-duration\u201d is the first-order casualty of higher yields",
+    "Earnings season ramps: stock-by-stock volatility rises even if the index looks calm",
+    "Financial conditions: \u201coil up + yields up\u201d tightens the macro vise",
+    "Alpha slot (data-limited): no verified single-name flow/insider/positioning signals provided in today\u2019s feed",
+    "Alpha slot (data-limited): no quantified cross-asset dislocations (FX/credit/vol) cited in the provided sources",
+    "Wildcard: tonight\u2019s regime signal is the market re-centering on policy risk, not just earnings"
   ],
   "tickers": [],
   "alpha_tickers": []

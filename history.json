@@ -1,10 +1,13 @@
 {
-  "last_run": "2026-07-21T22:30:03Z",
+  "last_run": "2026-07-22T09:24:37Z",
   "stories": [
-    "AI policy catalyst: Altman to brief US officials on the next wave of frontier models",
-    "Oil reprices \u201cchokepoint stacking\u201d risk: dual disruption scenario enters the barrel",
-    "CVS: massive, near-dated upside call positioning hits the tape (Jul 24 $112C)",
-    "SentinelOne (S): options activity surges with calls dominating (volatility bid)"
+    "Japan: BOJ reportedly open to a faster hiking pace as yen weakness lifts inflation risk",
+    "China FX signal: PBoC sets a weaker-than-expected USD/CNY fix at 6.7933 and adds liquidity",
+    "Europe: ECB expected to hold this week, but \u201cSeptember hike risk\u201d remains live via energy",
+    "\u201cDimon trade\u201d: Jamie Dimon\u2019s bearish Treasury-bond stance becomes a positioning theme",
+    "ALPHA \u2014 CVS options: outsized near-dated upside bet in Jul 24 $112 calls",
+    "~13:1 calls over puts",
+    "ALPHA \u2014 SentinelOne (S) options surge: call flow dominates (~22,287 calls vs 978 puts)"
   ],
   "tickers": [],
   "alpha_tickers": []

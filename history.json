@@ -1,14 +1,15 @@
 {
-  "last_run": "2026-07-23T22:32:53Z",
+  "last_run": "2026-07-24T09:16:46Z",
   "stories": [
-    "Executive summary:",
-    "New U.S. tariff regime lands: 10%\u201312.5% duties on ~60 partners, effective just after midnight.",
-    "Mega-cap unwind accelerates: \u201cMagnificent 7\u201d shed ~$767B as AI capex tolerance tightens.",
-    "Intel prints a clean beat: EPS $0.42 vs $0.21 est.; rev $16.1B vs $15.2B est.",
-    "ECB: July \u201cpatience,\u201d but September hike risk re-enters pricing on energy upside.",
-    "ALPHA (WDAY): Near-dated downside hedge lights up \u2014 ~5,700 Jul-24 125/120 put spreads bought.",
-    "ALPHA (NVDA): Unusual upside convexity \u2014 ~$235 strike calls surge (~5,800 contracts), Aug 3 expiry.",
-    "Wildcard (Crypto microstructure): BitMEX token crashes ~90% amid regulatory/legislative overhang."
+    "New U.S. tariff regime is live (effective just after midnight ET): 10%\u201312.5% band on ~60 partners",
+    "Energy risk premium persists: oil stays a macro driver as conflict risk remains elevated",
+    "Rates pressure remains the cleanest macro headwind: U.S. 10Y ~4.71%",
+    "ECB path repriced: ~70% odds of a September hike as oil re-injects inflation risk",
+    "UK tape improves: July activity returns to growth",
+    "Intel earnings quality check: big non-GAAP beat (EPS $0.42 vs $0.21; rev $16.1B)",
+    "ALPHA (MU): extreme-strike, 1D-to-expiry call sweep flagged \u2014 $1,000 strike, Jul 24 expiry",
+    "ALPHA (QS): call volume spike \u2014 73,091 calls traded (+63% vs typical)",
+    "Wildcard: U.S. Treasury publishes FX/macro policies report on major trading partners"
   ],
   "tickers": [],
   "alpha_tickers": []

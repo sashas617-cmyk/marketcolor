@@ -1,15 +1,16 @@
 {
-  "last_run": "2026-07-24T09:16:46Z",
+  "last_run": "2026-07-24T15:04:54Z",
   "stories": [
-    "New U.S. tariff regime is live (effective just after midnight ET): 10%\u201312.5% band on ~60 partners",
-    "Energy risk premium persists: oil stays a macro driver as conflict risk remains elevated",
-    "Rates pressure remains the cleanest macro headwind: U.S. 10Y ~4.71%",
-    "ECB path repriced: ~70% odds of a September hike as oil re-injects inflation risk",
-    "UK tape improves: July activity returns to growth",
-    "Intel earnings quality check: big non-GAAP beat (EPS $0.42 vs $0.21; rev $16.1B)",
-    "ALPHA (MU): extreme-strike, 1D-to-expiry call sweep flagged \u2014 $1,000 strike, Jul 24 expiry",
-    "ALPHA (QS): call volume spike \u2014 73,091 calls traded (+63% vs typical)",
-    "Wildcard: U.S. Treasury publishes FX/macro policies report on major trading partners"
+    "Executive summary (15:03 UTC):",
+    "Crude shock: Brent back above $100 as Hormuz + Red Sea risks compound",
+    "Trade policy shock back on the front page: new U.S. tariffs (India 10%, China 12.5%)",
+    "Rates selloff extends: Treasury yields push to new YTD highs (~+5 bps across the curve)",
+    "U.S. equity technical damage: S&P 500 breaks below its 50-day moving average",
+    "AI capex anxiety hits mega-caps: hyperscalers slide after Alphabet lifts spending outlook",
+    "Europe/FX: ECB holds; EUR/USD trades near key levels (around 1.1385)",
+    "Asia risk barometer: South Korea\u2019s Kospi jumps 4.4% led by Samsung + SK Hynix",
+    "ALPHA \u2014 Micron (MU): extreme-strike, 1D call sweep flagged ($1,000 strike, Jul 24 expiry)",
+    "ALPHA \u2014 Crypto positioning: Spot Bitcoin ETFs -$225.18M outflow vs ETH ETFs +$26.32M inflow"
   ],
   "tickers": [],
   "alpha_tickers": []

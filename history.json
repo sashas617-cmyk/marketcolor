@@ -1,14 +1,16 @@
 {
-  "last_run": "2026-07-25T09:00:32Z",
+  "last_run": "2026-07-25T14:43:34Z",
   "stories": [
-    "US trade-policy shock continues to pressure yields: new global tariff band goes live",
-    "China liquidity impulse: PBOC delivers biggest MLF net add in five months",
-    "US single-name volatility in focus into earnings: INTC/ORCL/AXP lead \u201cmover\u201d watch; AMD momentum still sticky",
-    "Russia-Ukraine: strikes keep hitting gas/energy + civilian infrastructure\u2014Europe energy/security tail risk remains live",
-    "China-Taiwan: ISW flags heightened PRC activity plus coordinated info ops\u2014risk premium persists in Asia supply chains",
-    "NVDA near-dated options: bearish-labeled call sweep into same-day expiry",
-    "RIVN long-dated bearish options print: $18 strike, March 2027",
-    "Wildcard: \u201clottery-like\u201d meme-stock/options behavior is back on desks\u2014watch vol, not just spot"
+    "Middle East: Saudi strikes Houthis after Red Sea tanker attacks\u2014shipping/energy risk premium back on the tape",
+    "US trade policy: USTR action implies a new 10% Section 301 tariff floor on Taiwan (scope/exemptions now the market question)",
+    "Fed week setup: energy disruption risk muddies the inflation glidepath and can whipsaw front-end rates",
+    "China macro: H2 growth seen slowing as Beijing avoids broad new stimulus\u2014bearish for China-beta cyclicals",
+    "Ukraine: reported daytime ballistic missile strike hits Kyiv arms exhibition area\u2014Europe tail risk stays live",
+    "Gold: holds the $4,000 level as tariffs + inflation uncertainty keep safe-haven demand firm",
+    "Crypto: spot Bitcoin ETF outflows reported at $225M as broader weakness persists into the weekend",
+    "ALPHA (single-name vol): NVDA near-dated $410 strike flow looks like call-writing/hedge into July 31 expiry",
+    "ALPHA (long-dated positioning): RIVN $18 strike, Mar 19 2027\u2014400-contract \u201cbearish\u201d call flow flagged",
+    "Wildcard (Asia tail-risk): Taiwan Strait live-fire activity highlighted amid broader PRC coastal moves"
   ],
   "tickers": [],
   "alpha_tickers": []

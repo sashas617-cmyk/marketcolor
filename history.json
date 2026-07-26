@@ -1,20 +1,23 @@
 {
-  "last_run": "2026-07-26T09:10:02Z",
+  "last_run": "2026-07-26T14:43:26Z",
   "stories": [
-    "Oil shock risk back on top: Brent flagged above $100 after tanker-strike reports near Saudi Arabia",
-    "US equities: semis + geopolitics keep index-level upside capped ahead of next week\u2019s Fed",
-    "Trade policy escalation: US \u201cforced-labor\u201d global tariff move draws partner rebukes (retaliation risk rising)",
-    "Taiwan: renewed PLA aircraft/vessel activity keeps blockade/supply-line tail risk in play",
-    "Russia\u2013Ukraine: deadly strikes + continued pressure on fuel/refining remains an inflation-risk transmission channel",
-    "Israel\u2013Gaza/Lebanon: kinetic risk persists despite ceasefire-framework talk (risk premium stays elevated)",
-    "ALPHA: Eaton ($ETN) unusual options \u2014 call volume surged to ~40,955 contracts (+648% vs avg)",
-    "ALPHA: Direxion Financial Bull 3x ($FAS) hit by unusually large put buying \u2014 ~6,686 puts in one session",
-    "Wildcard: Crypto \u2014 Bitcoin steady near ~$64.4k as ETF outflows accelerate (~$465M cited)"
+    "Oil risk premium snaps back: Brent briefly >$100 as cease-fire frays",
+    "Red Sea shock transmission: war-risk insurance premiums jump to ~0.75%",
+    "Taiwan Strait pressure stays on: fresh PLA air + naval activity reported",
+    "US equities: chips cap risk appetite as index gains stall",
+    "Rates: Fed bias still hawkish-leaning keeping front-end volatility elevated",
+    "Trade policy overhang: next Trump tariff moves back in focus",
+    "Crypto catalyst delayed: Senate likely misses market-structure bill deadline",
+    "ALPHA \u2014 $ETN unusual call surge: 40,955 calls traded (+648% vs avg)",
+    "ALPHA \u2014 $SPY positioning map: notable \u201cwalls\u201d at $550 put / $750 call (7\u201360 DTE)",
+    "Wildcard \u2014 \u201cTrump Trade\u201d unwind: crowded post-election basket reportedly turning into a loser"
   ],
   "tickers": [
-    "FAS"
+    "ETN",
+    "SPY"
   ],
   "alpha_tickers": [
-    "FAS"
+    "ETN",
+    "SPY"
   ]
 }

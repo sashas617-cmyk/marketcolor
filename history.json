@@ -1,6 +1,20 @@
 {
-  "last_run": "2026-07-25T22:28:10Z",
-  "stories": [],
-  "tickers": [],
-  "alpha_tickers": []
+  "last_run": "2026-07-26T09:10:02Z",
+  "stories": [
+    "Oil shock risk back on top: Brent flagged above $100 after tanker-strike reports near Saudi Arabia",
+    "US equities: semis + geopolitics keep index-level upside capped ahead of next week\u2019s Fed",
+    "Trade policy escalation: US \u201cforced-labor\u201d global tariff move draws partner rebukes (retaliation risk rising)",
+    "Taiwan: renewed PLA aircraft/vessel activity keeps blockade/supply-line tail risk in play",
+    "Russia\u2013Ukraine: deadly strikes + continued pressure on fuel/refining remains an inflation-risk transmission channel",
+    "Israel\u2013Gaza/Lebanon: kinetic risk persists despite ceasefire-framework talk (risk premium stays elevated)",
+    "ALPHA: Eaton ($ETN) unusual options \u2014 call volume surged to ~40,955 contracts (+648% vs avg)",
+    "ALPHA: Direxion Financial Bull 3x ($FAS) hit by unusually large put buying \u2014 ~6,686 puts in one session",
+    "Wildcard: Crypto \u2014 Bitcoin steady near ~$64.4k as ETF outflows accelerate (~$465M cited)"
+  ],
+  "tickers": [
+    "FAS"
+  ],
+  "alpha_tickers": [
+    "FAS"
+  ]
 }

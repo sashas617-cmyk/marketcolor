@@ -1,20 +1,17 @@
 {
-  "last_run": "2026-07-26T22:36:08Z",
+  "last_run": "2026-07-27T10:41:24Z",
   "stories": [
-    "Risk-on bounce into Monday: U.S. equity futures firm as U.S.-Iran de-escalation signals hit",
-    "Trade policy overhang returns: tariff risk back on the tape as an inflation/margins shock",
-    "FX volatility tripwire: USD/JPY remains the cross-asset \u201calarm bell\u201d with intervention risk in the background",
-    "Earnings catalyst stack: Alphabet, Tesla + regional banks set up dispersion/rotation risk",
-    "Liquidity feedback loop: FT flags equity rally + institutional inflows pushing global AUM up >$400B",
-    "Energy premium stays sticky: crude\u2019s geopolitical bid remains elevated even as near-term escalation risk ebbs",
-    "ALPHA: Crypto leverage just got washed \u2014 $82M in BTC longs liquidated in 24h (>$150M total)",
-    "ALPHA: $ZS options pricing looks complacent \u2014 IV Rank ~15% signals cheap(er) volatility vs its own history",
-    "Wildcard: Retail \u201clottery behavior\u201d resurfaces\u2014meme-stocks + 0DTE-style risk-taking back in focus"
+    "Executive summary:",
+    "Black Sea risk back in focus: new wave of reported strikes on ports/shipping lanes.",
+    "Fed decision week: \u201chold\u201d is base case, but the market is still pricing guidance risk (September hike not ruled out).",
+    "Trade policy shock channel returns: renewed tariff escalation risk hits the inflation/margins playbook.",
+    "U.S. equities: chip-led weakness remains the tape\u2019s pressure point after a choppy week.",
+    "Japan: BOJ expected to hold Friday, but hawkish communication risk stays elevated as the yen remains weak.",
+    "China: PBOC sets a firmer fix and drains liquidity\u2014policy tone stays \u201cmanaged,\u201d not \u201cpanic.\u201d",
+    "WBD: CEO David Zaslav disclosed a ~$59.5M stock sale; flagged as plan-driven (10b5-1).",
+    "SNEX: Rule 144 filing flags a planned 45,000-share sale (incremental supply to monitor).",
+    "Europe wildcard: Germany\u2019s Ifo cuts the 2027 growth forecast\u2014Europe stays stuck in \u201clow growth\u201d optics into the Fed."
   ],
-  "tickers": [
-    "ZS"
-  ],
-  "alpha_tickers": [
-    "ZS"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

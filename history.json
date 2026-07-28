@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-07-27T22:38:19Z",
+  "last_run": "2026-07-28T09:33:31Z",
   "stories": [
-    "Crude shock reversal: Brent dumps back to ~$90 as war premium compresses (but doesn\u2019t vanish)",
-    "US equity tape: software holds up while semis slide; Nvidia hit reopens \u201cAI circular financing\u201d debate",
-    "Macro setup: markets brace for the Fed with oil falling and tech catalysts stacked",
-    "Shipping cost risk: Marsh warns war-risk marine insurance \u2018feedback loop is broken\u2019 in Red Sea/Hormuz",
-    "FX lens: Goldman points to Asian currencies positioned to benefit from the AI cycle",
-    "Microstructure: Bloomberg flags \u2018lottery-like\u2019 meme/options behavior\u2014single-name vol risk rises",
-    "Earnings read-through: Cadence raises guidance on AI-driven demand (EDA resilience signal)",
-    "ALPHA (Options): UBER unusual put volume ahead of Aug. 5 earnings\u2014strikes ~18% below spot",
-    "ALPHA (Options): QCOM whale print\u2014Jan 15, 2027 $195 call (100 contracts, ~$134K) tagged \u201cbearish\u201d",
-    "Wildcard: DJT volatility back on the screen as monetization headlines collide with retail momentum (confirmed)"
+    "Asia risk-off: Korea shockwave hits global tech/chips; U.S. futures softer",
+    "Europe opens flat: tech weakness offsets earnings winners; oil drop helps consumers",
+    "Oil shock lower: WTI dives ~8.7% to ~$82.62 as \u201cwar premium\u201d deflates",
+    "New supply tail risk: Russia Black Sea export terminal reportedly effectively offline after drones",
+    "FX pre-Fed: EUR/USD edges up as safe-haven USD bid eases; GDP/PCE in focus",
+    "BoE watch: \u201chold\u201d expected, but QT/bond-sales messaging is the real market risk",
+    "Crypto deleveraging flare-up: Bitcoin back under $64k; ~$100M liquidated in ~1 hour",
+    "ALPHA: CNP options skew explodes (~100:1 calls over puts) into today\u2019s earnings",
+    "ALPHA (confirmed social): DJT trending again as monetization headline drives narrative flow",
+    "Wildcard: Tech leadership fracture deepens\u2014software holds up while semis lag"
   ],
   "tickers": [],
   "alpha_tickers": []

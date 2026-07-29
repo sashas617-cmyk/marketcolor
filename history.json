@@ -1,18 +1,17 @@
 {
-  "last_run": "2026-07-29T09:36:23Z",
+  "last_run": "2026-07-29T15:17:27Z",
   "stories": [
-    "Executive summary (09:34 UTC):",
-    "FOMC day: FedWatch pricing is steering positioning into a higher-volatility decision window",
-    "Asia risk shock: Korea\u2019s KOSPI plunge trips market-wide circuit breakers (contagion risk to global semis/EM flows)",
-    "Geopolitics/energy: Middle East \u201cdecision window\u201d keeps an oil risk premium embedded",
-    "Europe open: equities grind higher as earnings resilience offsets tech/bank drag",
-    "Italy rates: BTP\u2013Bund spread backs up after \u20ac5.5B auction\u2014periphery risk premium reappears",
-    "US equity tape: rotation bid (health care/financials) while tech/chips lag\u2014index muted, dispersion high",
-    "FX setup: EURUSD firms as USD demand eases into the Fed (bigger post-FOMC move risk)",
-    "ALPHA (options): long-dated whale flow flags asymmetric positioning in AI/cloud + EV",
-    "ALPHA (options): SELLAS Life Sciences (SLS) call volume explodes\u2014catalyst/flow-driven volatility risk",
-    "Wildcard: market internals look \u201cspeculative but fragile\u201d\u2014calls > puts (>2:1) even as new 52-week lows expand (MP, NNE)",
-    "calls outpacing puts by more than 2:1"
+    "Executive summary:",
+    "Fed decision imminent: \u201chike vs. hold\u201d is the whole tape right now",
+    "Energy risk premium re-prices fast: crude snaps back above ~$81",
+    "Asia risk-off pocket: KOSPI -7.84% triggers a brief trading suspension",
+    "AI mega-cap catalyst: the market is leaning risk-off into \u201ccapex credibility\u201d earnings",
+    "Apple spotlight: Tim Cook\u2019s last earnings call lands with AAPL at record levels",
+    "Cyclicals gut-check: Corning guidance shock hits, chip weakness drags MU/INTC",
+    "Policy uncertainty premium: Bloomberg flags growth-risk volatility as Trump signals more aggressive moves",
+    "ALPHA (Options): Rivian (RIVN) long-dated bullish call sweep",
+    "ALPHA (Options): Gartner (IT) unusual call activity\u2014size split across 3 fills",
+    "Wildcard: Crypto-equity beta flares\u2014Strategy (MSTR) pops after \u201cno Bitcoin was sold\u201d"
   ],
   "tickers": [],
   "alpha_tickers": []

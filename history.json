@@ -1,14 +1,17 @@
 {
-  "last_run": "2026-07-30T09:28:29Z",
+  "last_run": "2026-07-30T15:19:41Z",
   "stories": [
-    "Iran risk re-enters pricing: Strait of Hormuz flows hit a post-conflict high",
-    "After-hours earnings whip the tape: Microsoft, Meta, Starbucks lead moves; Reality Labs loss stands out",
-    "Today\u2019s setup is catalyst-stacked: AAPL/AMZN earnings + inflation data + the rates/oil link",
-    "Bank of England preview: expected hold, but oil/wages/QT are the real variables for gilts and GBP",
-    "Europe holds together: Shell earnings strength offsets Fed ambiguity and geopolitics overhang",
-    "ALPHA (single-name options): RH bearish call sweep with \u201cfresh\u201d positioning signal",
-    "ALPHA (front-week gamma): RKT call sweep into near-expiry",
-    "Wildcard (macro-regime hedge): Singapore expands gold market infrastructure amid politicized reserves"
+    "Executive summary:",
+    "U.S. macro hit: GDP undershoots, claims drift up, and inflation \u201ccools\u201d \u2014 but timing on cuts stays fragile",
+    "Fed hold remains the macro gravity well: yields jump, risk assets whipsaw, and dispersion spikes",
+    "AI trade fractures Big Tech: Microsoft rips while Meta sells off on capex + Reality Labs drag",
+    "Next mega catalyst: Apple + Amazon report after the bell \u2014 margins vs cloud/AI capex in the crosshairs",
+    "Geopolitics back in the inflation trade: U.S.\u2013Iran tensions flare and oil spikes",
+    "FX repricing: EUR/USD bounces as oil revives ECB \u201cSeptember hike\u201d odds",
+    "Europe tape steadies: stocks grind higher as earnings offset Fed + geopolitics overhang",
+    "Single-name flow (RKT): near-dated bullish call sweep into July 31 expiry",
+    "AI-infra supply signal (CRWV): CEO stock sale under 10b5-1 plan highlights post-IPO overhang risk",
+    "Asia risk pulse: South Korea circuit breakers spotlight semiconductor stress and contagion risk"
   ],
   "tickers": [],
   "alpha_tickers": []

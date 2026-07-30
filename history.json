@@ -1,17 +1,17 @@
 {
-  "last_run": "2026-07-30T15:19:41Z",
+  "last_run": "2026-07-30T22:50:26Z",
   "stories": [
     "Executive summary:",
-    "U.S. macro hit: GDP undershoots, claims drift up, and inflation \u201ccools\u201d \u2014 but timing on cuts stays fragile",
-    "Fed hold remains the macro gravity well: yields jump, risk assets whipsaw, and dispersion spikes",
-    "AI trade fractures Big Tech: Microsoft rips while Meta sells off on capex + Reality Labs drag",
-    "Next mega catalyst: Apple + Amazon report after the bell \u2014 margins vs cloud/AI capex in the crosshairs",
-    "Geopolitics back in the inflation trade: U.S.\u2013Iran tensions flare and oil spikes",
-    "FX repricing: EUR/USD bounces as oil revives ECB \u201cSeptember hike\u201d odds",
-    "Europe tape steadies: stocks grind higher as earnings offset Fed + geopolitics overhang",
-    "Single-name flow (RKT): near-dated bullish call sweep into July 31 expiry",
-    "AI-infra supply signal (CRWV): CEO stock sale under 10b5-1 plan highlights post-IPO overhang risk",
-    "Asia risk pulse: South Korea circuit breakers spotlight semiconductor stress and contagion risk"
+    "Rates: long-end Treasuries stay heavy, \u201chigher-for-longer\u201d back in the driver\u2019s seat",
+    "Mega-cap AI trade splits: Microsoft rips, Meta dumps as capex ROI gets repriced",
+    "Crude holds a geopolitics premium: WTI mid-$80s, Brent near $90 keeps inflation beta bid",
+    "Gold/silver pinned: firm USD + rising yields is a tough setup for real-asset hedges",
+    "Crypto: Bitcoin steadies as ETF flows flip positive; ETH lags in a rotation signal",
+    "Overnight global tape: Asia bounces selectively as rotation narratives churn",
+    "U.S. equity internals: breadth stays dispersion-heavy (PYPL/CTAS up, some semis slide)",
+    "Options alpha (MSFT): unusually heavy tape \u2014 30,844 contracts traded vs 8,449 OI",
+    "Options alpha (AMZN): bullish call sweep \u2014 $240 strike, 1D expiry (Jul 31), 100 contracts",
+    "Wildcard (retail/market focus): Apple print spotlights iPhone demand re-acceleration"
   ],
   "tickers": [],
   "alpha_tickers": []

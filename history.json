@@ -1,14 +1,23 @@
 {
-  "last_run": "2026-07-31T22:38:13Z",
+  "last_run": "2026-08-01T09:04:10Z",
   "stories": [
-    "Rates reprice hawkish risk: 10-year jumps toward ~4.71% as oil firms and Fed hike talk persists.",
-    "Big Tech earnings dispersion widens: Apple -~9% on guidance/services nerves while Amazon supports indexes.",
-    "Japan FX shock is real: intervention confirmed; estimated size ~\u00a58.45T (~$53B) with USD/JPY air pockets.",
-    "Oil holds a geopolitical/risk-premium bid: WTI stays above ~$84 on \u201cRussia deadline\u201d headlines + OPEC+ expectations.",
-    "Forced-deleveraging watch: Aschenbrenner\u2019s fund reportedly unwinds *all* public equities (idiosyncratic supply for crowded AI).",
-    "ALPHA \u2014 NVDA: bullish $200",
-    "ALPHA \u2014 MSFT: near-dated bullish call sweep at $460 (Jul 31 expiry) + unusual single-series volume concentration."
+    "US macro: \u201crates-on-hold\u201d Fed meets a market still pushing long-end yields higher",
+    "Cross-asset setup: stocks rebound, but duration risk is the constraint",
+    "Geopolitics \u2192 commodities: Iran war risk stays front-and-center for oil and global risk premia (live)",
+    "Global trade shock channel: Red Sea war-risk area widens, insurance/freight costs rise",
+    "Chokepoint tail-risk goes \u201cdashboardable\u201d: Strait of Hormuz monitoring flags heightened sensitivity",
+    "Europe/energy: Ukraine-linked strikes raise refining + Black Sea security risk (product spreads watch)",
+    "FX/Asia: BOJ holds, yen strengthens; geopolitics adds a volatility impulse",
+    "ALPHA (Options): $INBK call volume detonates into a single expiry (Aug 21, 2026)",
+    "ALPHA (0DTE gamma): $NVDA bullish call sweep targets $200 strike (same-day expiry)",
+    "Wildcard (Crypto): \u201cAugust pullback\u201d hedging demand builds; $60,000 BTC downside in focus"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "INBK",
+    "NVDA"
+  ],
+  "alpha_tickers": [
+    "INBK",
+    "NVDA"
+  ]
 }

@@ -1,23 +1,15 @@
 {
-  "last_run": "2026-08-01T09:04:10Z",
+  "last_run": "2026-08-01T14:41:14Z",
   "stories": [
-    "US macro: \u201crates-on-hold\u201d Fed meets a market still pushing long-end yields higher",
-    "Cross-asset setup: stocks rebound, but duration risk is the constraint",
-    "Geopolitics \u2192 commodities: Iran war risk stays front-and-center for oil and global risk premia (live)",
-    "Global trade shock channel: Red Sea war-risk area widens, insurance/freight costs rise",
-    "Chokepoint tail-risk goes \u201cdashboardable\u201d: Strait of Hormuz monitoring flags heightened sensitivity",
-    "Europe/energy: Ukraine-linked strikes raise refining + Black Sea security risk (product spreads watch)",
-    "FX/Asia: BOJ holds, yen strengthens; geopolitics adds a volatility impulse",
-    "ALPHA (Options): $INBK call volume detonates into a single expiry (Aug 21, 2026)",
-    "ALPHA (0DTE gamma): $NVDA bullish call sweep targets $200 strike (same-day expiry)",
-    "Wildcard (Crypto): \u201cAugust pullback\u201d hedging demand builds; $60,000 BTC downside in focus"
+    "U.S. inflation: Fed\u2019s preferred gauge cooled in June, but markets question durability",
+    "Japan FX: officials shift toward \u201canti-speculator\u201d tactics\u2014USDJPY vol risk",
+    "Gaza talks: Israel conditions any pullback on \u201cgenuine\u201d Hamas disarmament\u2014ceasefire path still fragile",
+    "Russia-Ukraine: overnight strikes reportedly damage Kyiv infrastructure\u2014tail-risk remains live",
+    "Equity tape: tech-led risk rebound continues\u2014but leadership concentration risk stays the tell",
+    "Unusual options: GDX call volume spikes to 175,602 contracts (~35% above average)",
+    "Earnings dispersion signal: PYPL/CTAS strength vs. semi weakness; next up GOOGL/TSLA",
+    "Wildcard: \u201cPrivate-to-public\u201d narrative resurfaces\u2014SpaceX IPO chatter as sentiment accelerant"
   ],
-  "tickers": [
-    "INBK",
-    "NVDA"
-  ],
-  "alpha_tickers": [
-    "INBK",
-    "NVDA"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

@@ -1,21 +1,17 @@
 {
-  "last_run": "2026-08-02T14:42:52Z",
+  "last_run": "2026-08-02T22:29:17Z",
   "stories": [
-    "Hormuz: markets react to \u201cdeal\u201d chatter that could reopen the strait (tail-risk throttle for crude + global risk)",
-    "Red Sea: renewed maritime threats + tanker incident keep shipping disruption bid alive",
-    "Global central banks: holds continue, but hawkish dissent grows as energy costs bite",
-    "US inflation pulse: the Fed\u2019s preferred gauge cooled in June\u2014risk is that it doesn\u2019t last",
-    "Ukraine: major missile/drone barrage on Kyiv refocuses attention on air-defense constraints",
-    "Gaza: ceasefire/disarmament headlines remain fragile as strikes continue",
-    "Gold: pullback to ~$4,043/oz, but still +~20% YoY keeps hedge demand in the mix",
-    "Options alpha (gold miners): \u201ccall surge\u201d in $GDX masks heavy near-dated call selling at a key strike",
-    "Crypto edge: Coldcard exploit narrative\u2014594 BTC drained in ~25 minutes; watch exchange inflows as a near-term supply tell",
-    "Wildcard (energy equities): Wood Mackenzie pegs 2026 upstream FCF at ~$495B if Brent averages ~$90"
+    "FX/Policy: U.S. Treasury flags possible JPY intervention; banks told to be \u201cready.\u201d",
+    "Commodities: Crude sells off hard after OPEC+ agrees another supply hike.",
+    "Geopolitics: Iran escalation fears cool as Trump comments dial down near-term risk.",
+    "Rates: Long-end Treasury yields surge on term-premium\u201410Y \u201cbreakout\u201d risk flagged.",
+    "U.S. macro: CNN flags June PCE cooling\u2014durability still questioned.",
+    "Global central banks: Holds dominate, but \u201chigher-for-longer\u201d pressure remains via energy costs.",
+    "India week-ahead: RBI decision + PMI prints + FII flows\u2014crude is the swing factor for INR.",
+    "Edge (JPY playbook): Intervention risk concentrates around Tokyo liquidity\u2014don\u2019t ignore the \u201cgap\u201d setup.",
+    "Edge (rates expression): A term-premium-led selloff targets long duration first\u2014watch the long-bond complex.",
+    "Wildcard (cross-asset): Oil down while long-end yields push up = a messy mix for \u201csoft-landing\u201d consensus."
   ],
-  "tickers": [
-    "GDX"
-  ],
-  "alpha_tickers": [
-    "GDX"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

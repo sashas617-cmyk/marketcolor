@@ -1,15 +1,21 @@
 {
-  "last_run": "2026-08-02T09:06:54Z",
+  "last_run": "2026-08-02T14:42:52Z",
   "stories": [
-    "Strait of Hormuz risk stays \u201clive\u201d: U.S. pushes reopening as drone/tanker incidents flare",
-    "USD/JPY gap risk: Reuters-sourced report says U.S. Treasury told banks to \u201cstand ready\u201d",
-    "U.S. inflation pulse: Fed\u2019s preferred gauge cooled in June\u2014but \u201csticky\u201d risk remains",
-    "Middle East escalation risk: Israel strikes Gaza despite ceasefire/disarmament framework headlines",
-    "Equity de-risking backdrop: Nasdaq July drawdown + Korea\u2019s KOSPI \u201cone-third\u201d slide are now confirmed",
-    "Options edge (gold miners): GDX saw 175,602 call contracts bought Friday (+35% vs avg 129,858)",
-    "Options edge (crypto proxy + megacap): MSTR V/OI ratio flagged at 347.8; AAPL also drew outsized bets",
-    "Wildcard (crypto tape): Bitcoin holds the monthly gain, but desks are bracing for a \u201cchoppy August\u201d"
+    "Hormuz: markets react to \u201cdeal\u201d chatter that could reopen the strait (tail-risk throttle for crude + global risk)",
+    "Red Sea: renewed maritime threats + tanker incident keep shipping disruption bid alive",
+    "Global central banks: holds continue, but hawkish dissent grows as energy costs bite",
+    "US inflation pulse: the Fed\u2019s preferred gauge cooled in June\u2014risk is that it doesn\u2019t last",
+    "Ukraine: major missile/drone barrage on Kyiv refocuses attention on air-defense constraints",
+    "Gaza: ceasefire/disarmament headlines remain fragile as strikes continue",
+    "Gold: pullback to ~$4,043/oz, but still +~20% YoY keeps hedge demand in the mix",
+    "Options alpha (gold miners): \u201ccall surge\u201d in $GDX masks heavy near-dated call selling at a key strike",
+    "Crypto edge: Coldcard exploit narrative\u2014594 BTC drained in ~25 minutes; watch exchange inflows as a near-term supply tell",
+    "Wildcard (energy equities): Wood Mackenzie pegs 2026 upstream FCF at ~$495B if Brent averages ~$90"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "GDX"
+  ],
+  "alpha_tickers": [
+    "GDX"
+  ]
 }

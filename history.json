@@ -1,16 +1,19 @@
 {
-  "last_run": "2026-08-04T15:37:12Z",
+  "last_run": "2026-08-04T22:37:47Z",
   "stories": [
-    "Macro upside surprise: ISM Manufacturing jumps to 55.6, employment improves",
-    "Inflation pulse cools: Fed\u2019s preferred gauge for June reinforces disinflation (with caveats)",
-    "Geopolitics de-risk: Trump calls off planned strikes on Iran; oil sells off",
-    "FX shockwatch: yen strength accelerates as intervention risk returns",
-    "Earnings mover: Snap spikes on beat + upbeat forecast, refocusing the digital ad complex",
-    "Crypto market structure: Hashdex to close a US spot Bitcoin ETF as flows concentrate into IBIT",
-    "Options alpha: MSFT sees unusual call volume in Oct 16, 2026 expiry (upside positioning)",
-    "Options alpha: REGN downside hedge shows up in long-dated Jan 2027 $840 puts (~$94.1K)",
-    "Wildcard (big-picture): BlackRock warns of structurally higher yields + accelerating AI capex"
+    "Rates breathe: US 10-year yield eases to ~4.64% (duration pressure cools, but backdrop still tight)",
+    "Middle East risk premium recalibrates: Qatar signals US\u2013Iran diplomacy still active (oil remains headline-sensitive)",
+    "Options alpha: $TSLA (headline grouped with AMZN) \u2014 $330 strike whale print, 750 contracts, ~$1.8M premium received",
+    "Options alpha: $PLTR \u2014 heavy OI strike sees fresh flow (near-dated call activity)",
+    "Wildcard (market internals): options tape turns defensive despite index highs (puts > calls; breadth warning)",
+    "puts outnumbering calls ~3:2"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "PLTR",
+    "TSLA"
+  ],
+  "alpha_tickers": [
+    "PLTR",
+    "TSLA"
+  ]
 }

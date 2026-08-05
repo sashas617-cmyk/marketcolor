@@ -1,19 +1,13 @@
 {
-  "last_run": "2026-08-04T22:37:47Z",
+  "last_run": "2026-08-05T09:34:22Z",
   "stories": [
-    "Rates breathe: US 10-year yield eases to ~4.64% (duration pressure cools, but backdrop still tight)",
-    "Middle East risk premium recalibrates: Qatar signals US\u2013Iran diplomacy still active (oil remains headline-sensitive)",
-    "Options alpha: $TSLA (headline grouped with AMZN) \u2014 $330 strike whale print, 750 contracts, ~$1.8M premium received",
-    "Options alpha: $PLTR \u2014 heavy OI strike sees fresh flow (near-dated call activity)",
-    "Wildcard (market internals): options tape turns defensive despite index highs (puts > calls; breadth warning)",
-    "puts outnumbering calls ~3:2"
+    "Executive summary (09:32 UTC):",
+    "Ukraine escalation: Russian ballistic missile strike on Kyiv kills at least 14 (officials)",
+    "Crude check: WTI ~\\$75.40/bbl \u2014 down today, but still up ~10% over a month",
+    "ALPHA: India expiry-day vol trade shows \u201cabnormal pattern\u201d as the new NSE closing auction hits microstructure",
+    "ALPHA: Industrials options \u201cwhale\u201d print \u2014 Caterpillar (CAT) flagged at \\$1,360 strike (5 contracts; ~\\$38.8K premium)",
+    "Wildcard (sentiment/positioning): Michael Burry warns of a \u201cmajor top\u201d and a potential \u201c1987-type\u201d fall"
   ],
-  "tickers": [
-    "PLTR",
-    "TSLA"
-  ],
-  "alpha_tickers": [
-    "PLTR",
-    "TSLA"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

@@ -1,12 +1,15 @@
 {
-  "last_run": "2026-08-05T09:34:22Z",
+  "last_run": "2026-08-05T15:23:07Z",
   "stories": [
-    "Executive summary (09:32 UTC):",
-    "Ukraine escalation: Russian ballistic missile strike on Kyiv kills at least 14 (officials)",
-    "Crude check: WTI ~\\$75.40/bbl \u2014 down today, but still up ~10% over a month",
-    "ALPHA: India expiry-day vol trade shows \u201cabnormal pattern\u201d as the new NSE closing auction hits microstructure",
-    "ALPHA: Industrials options \u201cwhale\u201d print \u2014 Caterpillar (CAT) flagged at \\$1,360 strike (5 contracts; ~\\$38.8K premium)",
-    "Wildcard (sentiment/positioning): Michael Burry warns of a \u201cmajor top\u201d and a potential \u201c1987-type\u201d fall"
+    "Disney beats: parks + streaming strength keeps \u201cmega-cap quality\u201d in favor",
+    "Crude remains headline-driven: inventories + Hormuz/conflict premium are the swing factors",
+    "Global equities bid: Japan rips, Europe points higher",
+    "India: RBI holds repo at 5.25% and stays \u201cwait-and-watch\u201d",
+    "Brazil: market positioned for a Selic cut to 14%",
+    "TSLA options: $330 strike whale print flags a potential \u201cmagnet\u201d level",
+    "PLTR options: near-term bearish sweep + extreme strikes keep catalyst-risk elevated",
+    "Wildcard (positioning check): options tape skews defensive despite the headline rally",
+    "puts outnumbering calls ~3:2"
   ],
   "tickers": [],
   "alpha_tickers": []

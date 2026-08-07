@@ -1,14 +1,14 @@
 {
-  "last_run": "2026-08-07T08:14:51Z",
+  "last_run": "2026-08-07T14:21:49Z",
   "stories": [
-    "NFP day: markets stay defensive; semis lead sensitivity into 12:30 UTC",
-    "China signals depreciation tolerance: PBOC sets weaker midpoint and adds liquidity",
-    "Energy-supply tail risk: Ukraine targets Russian refining capacity",
-    "Europe macro input: industrial production hits the tape (+0.4% QoQ, -0.6% YoY)",
-    "Credit supply theme: issuance tracking toward records despite \u201cdeath of ESG\u201d talk",
-    "Options edge: NVDA bearish put sweep shows institutional downside interest",
-    "Insider/flow tell: Figma CTO sells $6.55M under pre-set 10b5-1 plan",
-    "Wildcard (market internals): options tape balanced, breadth still healthy (151 new highs)"
+    "US labor shock: July payrolls contract; unemployment dips on lower participation (Fed September repricing risk)",
+    "Canada\u2019s labor market outperforms: +75,000 jobs; unemployment falls to ~two-year low",
+    "China trade beat: surplus widens to ~$112.5B as exports/imports surge",
+    "FX tail-risk: \u201cweaponized yen\u201d narrative grows as intervention talk rises (USD/JPY volatility catalyst)",
+    "Tape check: US stocks grind toward a second straight weekly gain led by Nasdaq\u2014while semis wobble into macro",
+    "Options alpha (semis): NVDA sees bearish put sweep \u2014 149 contracts, $170 strike, Jan 15, 2027 expiry",
+    "Insider/positioning tell: Figma (FIG) CTO sold 261,301 shares (~$6.55M) at ~$25.07 under a 10b5-1 plan",
+    "Wildcard (AI pricing): DeepSeek-style pricing pressure is becoming a real margin narrative across the AI stack"
   ],
   "tickers": [],
   "alpha_tickers": []

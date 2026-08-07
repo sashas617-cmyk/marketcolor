@@ -1,14 +1,16 @@
 {
-  "last_run": "2026-08-07T14:21:49Z",
+  "last_run": "2026-08-07T22:10:14Z",
   "stories": [
-    "US labor shock: July payrolls contract; unemployment dips on lower participation (Fed September repricing risk)",
-    "Canada\u2019s labor market outperforms: +75,000 jobs; unemployment falls to ~two-year low",
-    "China trade beat: surplus widens to ~$112.5B as exports/imports surge",
-    "FX tail-risk: \u201cweaponized yen\u201d narrative grows as intervention talk rises (USD/JPY volatility catalyst)",
-    "Tape check: US stocks grind toward a second straight weekly gain led by Nasdaq\u2014while semis wobble into macro",
-    "Options alpha (semis): NVDA sees bearish put sweep \u2014 149 contracts, $170 strike, Jan 15, 2027 expiry",
-    "Insider/positioning tell: Figma (FIG) CTO sold 261,301 shares (~$6.55M) at ~$25.07 under a 10b5-1 plan",
-    "Wildcard (AI pricing): DeepSeek-style pricing pressure is becoming a real margin narrative across the AI stack"
+    "Executive summary:",
+    "FX shock: USD/JPY drops ~1% as markets reprice the Fed path",
+    "Rates narrative: Fed-expectations repricing is now the driver, not just a side effect",
+    "Crypto flows turn: BlackRock crypto ETFs flip to major Q2 redemptions (SEC filings)",
+    "Crypto microstructure risk: redemptions can squeeze basis/arb liquidity",
+    "Geopolitics: Israel\u2013Lebanon front strains ceasefire as fatalities resume",
+    "Industrial policy / supply chain: India\u2019s electronics push accelerates the China+1 shift",
+    "Single-name shock with sector read-through: Fiserv (FI) -12% on guide cut",
+    "Industrial leadership tell: Boeing (BA) tracking best week since early April",
+    "Wildcard (cross-asset setup): \u201crisk-premium unwind\u201d vs \u201cescalation relapse\u201d is the weekend gap risk"
   ],
   "tickers": [],
   "alpha_tickers": []

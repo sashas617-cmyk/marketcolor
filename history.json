@@ -1,12 +1,21 @@
 {
-  "last_run": "2026-08-08T13:53:58Z",
-  "stories": [],
+  "last_run": "2026-08-08T21:56:57Z",
+  "stories": [
+    "Market structure: Record options week is amplifying the S&P 500 move",
+    "Shipping/energy tail-risk spikes: IMO pauses Hormuz escort operations after attack report",
+    "FX regime warning: \u201cWeaponized yen\u201d narrative after rare coordinated U.S.-Japan action",
+    "Berkshire headlines: Housing bet via Taylor Morrison + Alphabet disclosure read-through",
+    "Asia geopolitics: Taiwan president oversees coastal strike drill during annual war games",
+    "Middle East headline risk stays live: Israel conveys concerns to the U.S.",
+    "Commodities: Gold supported by China institutional positioning + ongoing central bank bid",
+    "Unusual options alpha: The RealReal ($REAL) sees outsized call flow in Nov 2026 $15s",
+    "Crypto policy catalyst fades (for now): BTC ~",
+    "Crypto infrastructure risk: Lightning payment server exploit triggers BTCPay/LND mitigation guidance"
+  ],
   "tickers": [
-    "NVDA",
     "REAL"
   ],
   "alpha_tickers": [
-    "NVDA",
     "REAL"
   ]
 }

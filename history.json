@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-08-07T22:10:14Z",
+  "last_run": "2026-08-08T07:46:16Z",
   "stories": [
-    "Executive summary:",
-    "FX shock: USD/JPY drops ~1% as markets reprice the Fed path",
-    "Rates narrative: Fed-expectations repricing is now the driver, not just a side effect",
-    "Crypto flows turn: BlackRock crypto ETFs flip to major Q2 redemptions (SEC filings)",
-    "Crypto microstructure risk: redemptions can squeeze basis/arb liquidity",
-    "Geopolitics: Israel\u2013Lebanon front strains ceasefire as fatalities resume",
-    "Industrial policy / supply chain: India\u2019s electronics push accelerates the China+1 shift",
-    "Single-name shock with sector read-through: Fiserv (FI) -12% on guide cut",
-    "Industrial leadership tell: Boeing (BA) tracking best week since early April",
-    "Wildcard (cross-asset setup): \u201crisk-premium unwind\u201d vs \u201cescalation relapse\u201d is the weekend gap risk"
+    "Rates/FX: Front-end rally + softer USD as Japan keeps intervention threat live",
+    "U.S. trade policy: Senate passes sweeping Russia/Iran sanctions bill with secondary-tariff teeth",
+    "Middle East: Israel\u2013Hezbollah flashpoint still active despite \u201cprogress\u201d messaging",
+    "Ukraine: Fresh drone strikes around Kyiv underscore ongoing escalation risk",
+    "Commodities: WTI holds around $77 as geopolitics keeps a floor under crude",
+    "Fed/politics: White House letter to Gov. Lisa Cook raises governance/independence overhang",
+    "U.S. equities (industrials tell): Boeing tracks best week since early April",
+    "ALPHA (REAL): Unusual call activity \u2014 Nov 20, 2026 $15 calls bought in size",
+    "ALPHA (NVDA): 0DTE $222.50 put sweep flagged as \u201cbullish\u201d \u2014 likely hedging/gamma mechanics",
+    "Wildcard (single-name / liquidity): SpaceX rips after first earnings report with unlock dynamics in focus"
   ],
   "tickers": [],
   "alpha_tickers": []

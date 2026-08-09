@@ -1,22 +1,18 @@
 {
-  "last_run": "2026-08-09T13:57:53Z",
+  "last_run": "2026-08-09T21:59:50Z",
   "stories": [
-    "Geopolitics: U.S.-Iran war drags on, keeping tail-risk elevated",
-    "Oil: Citi lifts Q3 Brent forecast to $80 (from $75)",
-    "Brazil: central bank cuts 25 bps again (4th straight), dodges forward guidance",
-    "Gold stays supported: China institutional longs + ongoing central-bank buying",
-    "U.S. equity tape: consolidation as earnings volatility collides with macro risk",
-    "Morgan Stanley via Reuters: semiconductor weakness may be a \u201cbroadening\u201d tell",
-    "Alpha/Edge: Broadening watchlist (tickers) \u2014 \u201cAI without semis\u201d rotation map",
-    "Alpha/Edge: Brazil risk expressions (tickers) \u2014 \u201ccuts continue, but volatility stays\u201d",
-    "Wildcard: \u201cStagflation tails\u201d re-enter the chat (gold bid + oil risk + softer labor)"
+    "Executive summary:",
+    "U.S. equities: options flow is now the story behind the index tape (dealer gamma risk into Monday).",
+    "Middle East: Hormuz tail-risk stays elevated after fresh tanker/missile headlines and renewed backchannel messaging.",
+    "Rates: \u201cterm premium / auction digestion\u201d is back in the driver\u2019s seat (watch the 10-year).",
+    "Trade policy: U.S. ramps enforcement targeting Chinese-linked solar supply chains (sector volatility risk).",
+    "Ukraine: intensified overnight strikes re-add escalation premium as air-defense constraints bite.",
+    "FX/BoJ: USD/JPY remains the focal macro trade as markets \u201clean\u201d against Japan policy\u2014intervention risk stays asymmetric.",
+    "Macro: U.S. employment declines unexpectedly; Brazil eases again\u2014rates expectations are the swing factor into Monday.",
+    "Single-name momentum: MasterBeef Group (MB) flagged in scanners after a +253.4% gap on 15.2M shares (halts/liquidity risk).",
+    "Crypto flows: spot BTC/ETH ETFs post ~$1.1B best inflow week since April; ETH derivatives leverage quietly rebuilds.",
+    "Asia equities: Bloomberg flags a structural bid from domestic savers reshaping liquidity/volatility regimes."
   ],
-  "tickers": [
-    "AMZN",
-    "GOOGL"
-  ],
-  "alpha_tickers": [
-    "AMZN",
-    "GOOGL"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

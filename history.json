@@ -1,14 +1,22 @@
 {
-  "last_run": "2026-08-09T07:48:04Z",
+  "last_run": "2026-08-09T13:57:53Z",
   "stories": [
-    "Strait of Hormuz tail-risk: ADNOC tanker reported targeted as Iran-linked talks continue (overnight)",
-    "Oil call: Citi lifts Q3 Brent to",
-    "Russia-Ukraine: ISW flags ongoing missile/drone strike tempo; geopolitics stays a risk overlay",
-    "Crypto compliance shock: U.S. sanctions",
-    "JPY volatility spike: yen surges on suspected intervention;",
-    "Crypto derivatives squeeze: Bitcoin leads",
-    "Berkshire \u201cbig housing bet\u201d chatter: Taylor Morrison deal talk; Alphabet purchase buzz"
+    "Geopolitics: U.S.-Iran war drags on, keeping tail-risk elevated",
+    "Oil: Citi lifts Q3 Brent forecast to $80 (from $75)",
+    "Brazil: central bank cuts 25 bps again (4th straight), dodges forward guidance",
+    "Gold stays supported: China institutional longs + ongoing central-bank buying",
+    "U.S. equity tape: consolidation as earnings volatility collides with macro risk",
+    "Morgan Stanley via Reuters: semiconductor weakness may be a \u201cbroadening\u201d tell",
+    "Alpha/Edge: Broadening watchlist (tickers) \u2014 \u201cAI without semis\u201d rotation map",
+    "Alpha/Edge: Brazil risk expressions (tickers) \u2014 \u201ccuts continue, but volatility stays\u201d",
+    "Wildcard: \u201cStagflation tails\u201d re-enter the chat (gold bid + oil risk + softer labor)"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "AMZN",
+    "GOOGL"
+  ],
+  "alpha_tickers": [
+    "AMZN",
+    "GOOGL"
+  ]
 }

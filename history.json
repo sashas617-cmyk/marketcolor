@@ -1,21 +1,14 @@
 {
-  "last_run": "2026-08-08T21:56:57Z",
+  "last_run": "2026-08-09T07:48:04Z",
   "stories": [
-    "Market structure: Record options week is amplifying the S&P 500 move",
-    "Shipping/energy tail-risk spikes: IMO pauses Hormuz escort operations after attack report",
-    "FX regime warning: \u201cWeaponized yen\u201d narrative after rare coordinated U.S.-Japan action",
-    "Berkshire headlines: Housing bet via Taylor Morrison + Alphabet disclosure read-through",
-    "Asia geopolitics: Taiwan president oversees coastal strike drill during annual war games",
-    "Middle East headline risk stays live: Israel conveys concerns to the U.S.",
-    "Commodities: Gold supported by China institutional positioning + ongoing central bank bid",
-    "Unusual options alpha: The RealReal ($REAL) sees outsized call flow in Nov 2026 $15s",
-    "Crypto policy catalyst fades (for now): BTC ~",
-    "Crypto infrastructure risk: Lightning payment server exploit triggers BTCPay/LND mitigation guidance"
+    "Strait of Hormuz tail-risk: ADNOC tanker reported targeted as Iran-linked talks continue (overnight)",
+    "Oil call: Citi lifts Q3 Brent to",
+    "Russia-Ukraine: ISW flags ongoing missile/drone strike tempo; geopolitics stays a risk overlay",
+    "Crypto compliance shock: U.S. sanctions",
+    "JPY volatility spike: yen surges on suspected intervention;",
+    "Crypto derivatives squeeze: Bitcoin leads",
+    "Berkshire \u201cbig housing bet\u201d chatter: Taylor Morrison deal talk; Alphabet purchase buzz"
   ],
-  "tickers": [
-    "REAL"
-  ],
-  "alpha_tickers": [
-    "REAL"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

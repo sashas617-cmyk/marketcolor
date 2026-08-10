@@ -1,15 +1,14 @@
 {
-  "last_run": "2026-08-10T14:33:25Z",
+  "last_run": "2026-08-10T22:07:38Z",
   "stories": [
-    "Rates: Treasury bid deepens into CPI, with 10Y gravitating to ~4.60%",
-    "US equities: choppy open, index-level stalemate",
-    "Small-caps take the lead: Russell 2000 +~1.10%",
-    "Dow lag: \u201cquality/mega\u201d isn\u2019t the only game today",
-    "Nasdaq soft even as yields fall: a tell on crowded growth exposure",
-    "Macro sequencing: jobs miss hands the baton to CPI",
-    "Actionable factor move: small-cap beta is the live \u201crisk-on\u201d expression",
-    "Rates pulse as portfolio hedge signal: 10Y ~4.60% is the fulcrum",
-    "Wildcard: \u201cgood bad news\u201d is back\u2014but it\u2019s fragile"
+    "Equity leadership watch: semi weakness flagged as a potential broadening signal",
+    "Earnings tape stays bid: upside surprises still running hot vs expectations",
+    "China financials catalyst: Guotai Haitong HK shares spike ~26% on privatization proposal",
+    "Russia\u2013Ukraine escalation risk: report says Ukrainian drone strike kills 13 in Russia",
+    "Structural flow story: Bloomberg flags Asia\u2019s savers shifting into equities",
+    "$ERO options anomaly: call volume explodes to 25,264 contracts (+656% vs avg)",
+    "$QCOM long-dated overwrite/transfer: Jan 15, 2027 $195 calls \u2014 100 contracts, ~$134K premium",
+    "Wildcard (retail risk appetite): microcap momentum goes vertical \u2014 SCKT +569%, JWEL +159% (confirmed)"
   ],
   "tickers": [],
   "alpha_tickers": []

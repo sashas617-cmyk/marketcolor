@@ -1,16 +1,22 @@
 {
-  "last_run": "2026-08-11T08:05:18Z",
+  "last_run": "2026-08-11T14:26:36Z",
   "stories": [
-    "Executive summary:",
-    "Rates focus: Treasury supply is looming while BlackRock warns of structural upward pressure on yields (and bigger 2026 AI capex).",
-    "Oil shock: OPEC+ production hike pushed Brent",
-    "U.S. energy-security datapoint: Strategic Petroleum Reserve fell",
-    "Asia risk-on: regional equities broadly higher; Japan leads on AI/semis as near-term Fed-hike expectations ease.",
-    "China financials catalyst: Guotai Haitong\u2019s HK-listed shares spiked on a proposal to take an offshore unit private.",
-    "Options alpha ($VNET): fresh, heavy long-dated call positioning\u2014",
-    "Options alpha ($AMZN): bearish put sweep printed at",
-    "Wildcard (tape/technicals): Berkshire \u201cbreakout\u201d is becoming a widely shared positioning narrative."
+    "Rates pressure builds: U.S. 10-year yield ticks up to ~4.73%",
+    "Macro setup: CPI is the next cross-asset trigger after weak jobs data (plus auctions ahead)",
+    "Oil extends its rally: Brent back above the mid-$80s on persistent Hormuz/Iran risk",
+    "FX (unverified social buzz): Yen weakness reasserts\u2014USD/JPY presses ~158.9",
+    "AI capex financing shockwave: Nvidia links with Wall Street on a $500B data-center/AI funding push",
+    "Asia check: session mixed\u2014Korea firmer while China/HK lag",
+    "Options alpha: $VNET sees fresh, heavy far-dated upside\u2014Mar 2027 $12 calls trade 12,639 vs 0 OI",
+    "Options alpha: $XYL call volume surges\u20146,132 calls (~+408% vs typical day)",
+    "Europe: the equity rally is broadening on earnings optimism"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "VNET",
+    "XYL"
+  ],
+  "alpha_tickers": [
+    "VNET",
+    "XYL"
+  ]
 }

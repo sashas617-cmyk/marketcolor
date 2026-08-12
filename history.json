@@ -1,14 +1,15 @@
 {
-  "last_run": "2026-08-11T22:13:58Z",
+  "last_run": "2026-08-12T08:16:34Z",
   "stories": [
-    "Rates: 10-year Treasury yield holds in the mid-4% range, keeping duration pressure on",
-    "AI infrastructure: Nvidia-linked $500B financing push pulls credit + capex into the AI trade",
-    "Semis supply shock: Intel announces a $15B stock offering",
-    "FX: Yen slides back toward 160 per dollar, reviving intervention risk premium",
-    "Europe: Stoxx Europe 600 Q2 profit growth seen around ~22%",
-    "Options alpha: Hertz (HTZ) bullish call sweep targets Aug 21 $2.50",
-    "Options alpha: CoreWeave (CRWV) bearish put position\u2014Sep 18 $90 (~$54.5K premium)",
-    "Wildcard (trade/commodities): Copper flows shift as US tariff risk looms; China July imports -11.5% YoY"
+    "Daily Market Pulse \u2014 Wed, Aug 12, 2026 (08:14 UTC)",
+    "Strait of Hormuz: live traffic ambiguity keeps the crude risk premium bid",
+    "Russia\u2013Ukraine: reported drone strikes hit Novorossiysk/Crimea logistics\u2014Black Sea risk back on screen",
+    "Gold: China accumulation + ETF inflows reinforce \u201cstructural bid\u201d amid volatility hedging",
+    "FX focus: EUR/USD pinned to CPI trigger, with 1.1680 framed as the key technical inflection",
+    "CoreWeave earnings aftershock: $2.58B revenue (+112% YoY) + raised guidance keeps AI-infra beta alive",
+    "HTZ: bullish call sweep targets Aug 21 $2.50 as squeeze dynamics stay in play",
+    "EQT: put volume jumps to 29,416 contracts (+96% vs avg) as traders hedge gas/energy volatility",
+    "US housing policy risk: institutional homebuying-ban debate resurfaces, pressuring SFR/REIT narrative"
   ],
   "tickers": [],
   "alpha_tickers": []

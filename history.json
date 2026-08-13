@@ -1,21 +1,14 @@
 {
-  "last_run": "2026-08-13T14:33:10Z",
+  "last_run": "2026-08-13T22:12:45Z",
   "stories": [
-    "U.S. equity tape: futures higher, risk-on tone\u2014leadership still narrow in mega-cap tech",
-    "Rates are the swing factor: 10-year auction prints \u201chighest yields since the financial crisis\u201d",
-    "Fed baseline hardens: policy held at 3.50%\u20133.75% again, with notable dissents",
-    "Earnings (networking/AI infra check): Cisco beats, but the stock drops\u2014guidance is the catalyst",
-    "Geopolitics back in the inflation conversation: Hormuz risk reintroduces a Brent-to-$100 tail",
-    "Europe energy: TTF gas spikes ahead of winter on supply/storage risk",
-    "China liquidity pulse: PBOC runs zero reverse repos for a 3rd straight day",
-    "Unusual options (ticker): Blue Owl Capital ($OWL) sees call volume explode to 903,378 contracts",
-    "Insider/positioning (ticker): Grab ($GRAB) CEO sold 400,000 shares at ~$3.62 under a 10b5-1 plan",
-    "Wildcard (crypto/credit crossover): Metaplanet launches \u201cBitBonds\u201d with a $1.3M unsecured bond sale"
+    "FX focus: Goldman says Japan\u2019s ~$1T reserves leave room for more yen-buying intervention",
+    "Middle East energy tail risk stays live: Strait of Hormuz \u201cnot open/control\u201d rhetoric in focus",
+    "AI/tech governance risk: OpenAI revenue chief Dresser exits amid senior churn",
+    "Asia structural bid: retail/saver participation reshapes local equity regimes",
+    "Options alpha: CAVA sees heavy downside positioning\u201415,877 puts (8x average), Oct 16 \u201926 $70 put most active",
+    "Insider tape: Intuitive Machines (LUNR) director/10% owner Kamal Ghaffarian sells ~$4.3M stock",
+    "Wildcard tape dislocations: XHG +523% and BCPC -86% premarket (halt/corporate-action risk)"
   ],
-  "tickers": [
-    "OWL"
-  ],
-  "alpha_tickers": [
-    "OWL"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

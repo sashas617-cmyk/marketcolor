@@ -1,14 +1,21 @@
 {
-  "last_run": "2026-08-13T08:20:49Z",
+  "last_run": "2026-08-13T14:33:10Z",
   "stories": [
-    "Rates: \u201chigher-for-longer\u201d angst cools at the margin, but the next repricing catalyst matters",
-    "UK preliminary GDP: Q2 growth meets expectations, but the monthly details are softer",
-    "FX: GBP reaction muted\u2014sterling needs a cleaner catalyst than \u201cin-line\u201d GDP",
-    "JPY: intervention narrative shifts to alleged U.S. participation\u2014durability questioned",
-    "Alpha/edge: USD/JPY becomes a \u201ccredibility trade,\u201d not just a macro trade",
-    "Alpha/edge: UK \u201csoft monthly\u201d detail keeps BoE-sensitive trades asymmetrically exposed",
-    "Wildcard: Central-bank communication risk is rising across regions\u2014even as inflation prints behave"
+    "U.S. equity tape: futures higher, risk-on tone\u2014leadership still narrow in mega-cap tech",
+    "Rates are the swing factor: 10-year auction prints \u201chighest yields since the financial crisis\u201d",
+    "Fed baseline hardens: policy held at 3.50%\u20133.75% again, with notable dissents",
+    "Earnings (networking/AI infra check): Cisco beats, but the stock drops\u2014guidance is the catalyst",
+    "Geopolitics back in the inflation conversation: Hormuz risk reintroduces a Brent-to-$100 tail",
+    "Europe energy: TTF gas spikes ahead of winter on supply/storage risk",
+    "China liquidity pulse: PBOC runs zero reverse repos for a 3rd straight day",
+    "Unusual options (ticker): Blue Owl Capital ($OWL) sees call volume explode to 903,378 contracts",
+    "Insider/positioning (ticker): Grab ($GRAB) CEO sold 400,000 shares at ~$3.62 under a 10b5-1 plan",
+    "Wildcard (crypto/credit crossover): Metaplanet launches \u201cBitBonds\u201d with a $1.3M unsecured bond sale"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "OWL"
+  ],
+  "alpha_tickers": [
+    "OWL"
+  ]
 }

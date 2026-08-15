@@ -1,17 +1,16 @@
 {
-  "last_run": "2026-08-14T21:54:54Z",
+  "last_run": "2026-08-15T07:24:21Z",
   "stories": [
-    "Executive summary (21:54 UTC):",
-    "US equities rip into the close: large caps + small caps both at fresh records",
-    "Rates: Treasury yields inch higher even after a retail-sales miss",
-    "Geopolitics: US keeps blockade pressure on Iran; shipping risk premium stays alive",
-    "Oil: Brent holds around ~$87.5 as traders weigh geopolitics vs. demand",
-    "FX: Dollar weakness debate heats up; USDJPY 160 remains the tripwire",
-    "Crypto: Bitcoin heavy near ~$65k as reported ETF outflows pressure the bid",
-    "Asia setup: risk-on tone expected as \u201ccooling inflation\u201d narrative supports tech",
-    "Alpha (options/flows): TPG flagged for dividend-capture style exercise activity (~$1.08M)",
-    "Alpha (options/energy): ExxonMobil (XOM) call volume surges (~280,373 calls; +277% vs typical)",
-    "Wildcard hedge check: Gold chops lower as higher yields cap the geopolitical bid"
+    "Executive summary:",
+    "Strait of Hormuz: fresh attack headlines keep the shipping/energy risk premium elevated into the weekend",
+    "Oil\u2019s supply narrative flips (again): U.S.-Iran talks end with Tehran citing export waivers",
+    "U.S. equities: S&P 500 prints fresh intraday highs as inflation data meets sector rotation",
+    "China/HK risk appetite softens: Hang Seng -1.10% as offshore investors trim exposure",
+    "Russia-Ukraine: strikes on rail and port facilities keep logistics disruption risk elevated",
+    "Crypto tone into the weekend: CoinDesk flags a cross-asset \u201cfear fading\u201d backdrop",
+    "UMAC momentum + options: shares +24.6% to $33.95 with call-heavy upside targeting $35/$40",
+    "TPG options flow looks mechanical (dividend-capture): deep ITM calls imply ~1.83M shares exercised into ex-date",
+    "DIOD convert: $325M 2031 notes + capped calls + up to $35M stock repurchase = potential technical cross-currents"
   ],
   "tickers": [],
   "alpha_tickers": []

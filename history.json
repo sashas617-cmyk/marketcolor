@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-08-16T07:25:39Z",
+  "last_run": "2026-08-16T13:39:55Z",
   "stories": [
-    "Strait of Hormuz: disruption risk escalates; war-risk insurance now the price-setter for near-term crude + freight",
-    "Bab al-Mandeb / Red Sea: deadly shipping incident reinforces \u201cchokepoints are tradeable\u201d",
-    "Ukraine-Russia: Kyiv hit after targeting Russian satellite network\u2014escalation spills into space/cyber",
-    "Taiwan Strait: latest ADIZ readout shows 11 PLA aircraft + 8 PLAN vessels; median-line crossings",
-    "Strategic risk / arms-control: U.S. leads 41 nations demanding 24-hour prelaunch missile warnings",
-    "Europe macro: extreme heat flagged as an economic drag (power, productivity, food)",
-    "Asia equities: domestic-investor wave reduces foreign-flow dependence\u2014but changes volatility regimes",
-    "ALPHA (Semis): Intel (INTC) \u2014 Oct $110 call sweep flagged; ~2,074 contracts vs OI ~24,212",
-    "ALPHA (Transports): UPS \u2014 call volume ~74,917 contracts (~+200% vs avg ~24,960)",
-    "Wildcard (U.S. inflation micro): \u201cAI boom\u201d pressure shows up in San Francisco housing again"
+    "Middle East shipping: Hormuz transits stay depressed as Red Sea disruption worsens (risk premium sticks)",
+    "Russia refined-products supply shock: Ukraine drone campaign reportedly drives July refining to a 24-year low",
+    "Oil level check (live macro input): WTI referenced around ~$82/bbl, up ~33% YoY",
+    "Gaza track: Hamas delegation meets Egypt intelligence chief in Cairo (ceasefire volatility catalyst)",
+    "Rates/macro: higher yields are lifting fiscal carry costs, but \u201cacute\u201d credit stress still limited (for now)",
+    "Asia equities regime shift: domestic-investor wave reduces reliance on foreign flows (new volatility drivers)",
+    "Crypto as a live risk barometer: Bitcoin holds above ~$63k as ETF inflows stay strong",
+    "SBUX options pulse: call volume spikes to 40,915 contracts (~+59% vs avg 25,712)",
+    "Market structure: Cboe extends single\u2011stock options trading to 7:30am ET (starts Mon, Aug 17) for ~20 top names incl. Mag 7",
+    "AI mega-theme (policy risk rising): Bloomberg flags AI boom minting new billionaires\u2014alongside tax/regulatory frictions"
   ],
   "tickers": [],
   "alpha_tickers": []

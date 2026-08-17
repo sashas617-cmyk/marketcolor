@@ -1,11 +1,13 @@
 {
-  "last_run": "2026-08-17T07:45:41Z",
+  "last_run": "2026-08-17T14:04:05Z",
   "stories": [
-    "Asia risk tone firms: Japan GDP beats at a 1.1% annual pace",
-    "Europe opens split: DAX hits a record while STOXX 600 slips",
-    "India liquidity signal: RBI ends special FX swap facility early after $52.3B inflows",
-    "SPX positioning: dealer gamma flagged net long (+$102.3B), \u201cMax Pain\u201d pegged at 7360",
-    "US equity close set the positioning tone: tech weighed, Meta supported indices"
+    "Consumer tape: \u201cbig-box + home improvement\u201d earnings are the week\u2019s center of gravity",
+    "Rates: long-end Treasuries in focus as the 30-year yield dips but stays \u201crestrictive\u201d",
+    "Macro implication: energy-driven inflation tail-risk is re-widening",
+    "Europe: natural gas extends rally as EU storage sits at an unusually low ~59%",
+    "Catalyst map (actionable): retail bellwethers WMT / TGT / LOW / HD are the week\u2019s \u201csingle-factor\u201d trade",
+    "Duration pressure point (actionable): keep one eye on ~5.2445% in the 30-year",
+    "Wildcard: the \u201cstagflation-lite\u201d setup is back\u2014high long-end yields + rising energy risk premia"
   ],
   "tickers": [],
   "alpha_tickers": []

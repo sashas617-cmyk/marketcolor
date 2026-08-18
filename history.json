@@ -1,16 +1,17 @@
 {
-  "last_run": "2026-08-17T21:51:17Z",
+  "last_run": "2026-08-18T07:31:32Z",
   "stories": [
-    "Rates: 30Y blows through 5.31% (19-year high), tightening impulse hits everything long-duration",
-    "Risk-off: U.S. stocks \u201ctake the brunt\u201d as global market value losses hit the trillions",
-    "Geopolitics/energy: Strait of Hormuz disruption persists; Trump rhetoric targets Oman",
-    "Next catalysts: FOMC minutes (Wed) + Walmart-led retail earnings (Thu) are the reset window",
-    "Asia: domestic savers rotate into equities, reshaping local market structure",
-    "AI/semis: valuation anxiety rises\u2014guidance sensitivity is the trade",
-    "Crypto (Europe): MiCA enforcement goes public as Bitpanda fined \u20ac70,000; \u201cwhale accumulation\u201d narrative persists",
-    "ALPHA (Energy): Valero (VLO) sees a major put-volume spike\u201423,642 puts (\u2248179% above avg)",
-    "ALPHA (Mega-cap hedging): Amazon (AMZN) flagged for bearish put sweep\u2014$180 strike, Jan 15, 2027, 34 contracts",
-    "Wildcard (Event risk): prediction markets imply ~25% odds of Paramount bidding for Warner Bros. Discovery"
+    "Executive summary:",
+    "Geopolitics tail-risk back on the tape: Hormuz access becomes the new inflation chokepoint",
+    "Japan rates shock tightens global financial conditions: 10Y JGB ~2.93% (\u224830-year high)",
+    "U.S. rates stress signal: higher yields blamed on deficits/supply + policy uncertainty",
+    "Europe: bond yields hover near ~15-year highs as Middle East conflict revives energy-inflation fears",
+    "China FX: yuan momentum cools as PBOC midpoint guidance slows",
+    "Gold stays bid on geopolitics + sticky official demand: China +20 tonnes in July",
+    "U.S. session setup: stocks flat while yields + oil rise into retailers + Fed minutes; semis still doing the heavy lifting",
+    "ALPHA \u2014 Refiners hedge demand spikes: Valero (VLO) sees 23,642 puts traded (+179% vs avg)",
+    "ALPHA \u2014 AMZN whale print: Sep 18, 2026 $100 strike, 60 contracts; ~$94.8K premium to writers",
+    "Wildcard \u2014 Event risk/M&A: prediction markets price ~1-in-4 odds Paramount\u2013WBD deal fails"
   ],
   "tickers": [],
   "alpha_tickers": []

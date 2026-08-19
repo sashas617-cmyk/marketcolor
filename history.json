@@ -1,15 +1,14 @@
 {
-  "last_run": "2026-08-19T13:54:03Z",
+  "last_run": "2026-08-19T21:52:45Z",
   "stories": [
-    "Executive summary:",
-    "UK inflation surprise: CPI accelerates to 2.9% YoY; core stays sticky at 2.6%",
-    "China property still a drag: new home prices flat in July",
-    "Asia semis try to find a floor: SK Hynix announces a massive $29B buyback",
-    "DM policy divergence risk: Sweden\u2019s Riksbank still won\u2019t rule out a 2026 hike",
-    "Macro tail risk watch: El Ni\u00f1o could erase ~$1T from global growth in year one",
-    "Insider signal (regional banks): Origin Bancorp (OBK) director buys 3,700 shares",
-    "Unusual options: Tripadvisor (TRIP) sees heavy long-dated put flow",
-    "Wildcard geopolitics: Gaza ceasefire diplomacy aims to prevent an unraveling"
+    "Trade shock risk: U.S.\u2013Canada tariff headlines return with broad sector exposure",
+    "Volatility regime check: VIX lifts off 2026 lows as chips stay under pressure",
+    "Europe risk: ECB-linked warning flags boom-bust dynamics as a stability problem",
+    "China payments rails: e-CNY ecosystem expands as more banks join the CBDC network",
+    "Earnings (Tech/Capex read-through): Keysight beats expectations, shares higher",
+    "Whale flow (BE): long-dated bullish call trade hits the tape",
+    "Whale flow (MSTR): \u201cbullish\u201d put transfer suggests structured upside/carry positioning",
+    "Crypto risk-on squeeze: $1.44B in short liquidations turbocharges the rebound"
   ],
   "tickers": [],
   "alpha_tickers": []

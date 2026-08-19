@@ -1,13 +1,23 @@
 {
-  "last_run": "2026-08-18T21:48:18Z",
+  "last_run": "2026-08-19T07:42:10Z",
   "stories": [
-    "Oil risk premium holds: reports of slower tanker traffic through the Strait of Hormuz keep crude bid.",
-    "Asia: domestic savers are increasingly price-setting local equities \u2014 supportive on the way up, a liquidity variable on the way down.",
-    "Earnings tape: Fabrinet beats with record results but sells off \u2014 optics/semis sentiment hit via expectations reset.",
-    "Unusual options (TRIP): heavy long-dated put flow flags a bearish/hedge posture into 2028.",
-    "Insider signal (INTC): CEO Lip-Bu Tan buys 105,263 shares at $95 (~$10.0M) via family trust.",
-    "Volatility check: VIX is still low, but today\u2019s pop hints at hedging demand waking up as rates stay tight."
+    "Executive summary (07:41 UTC):",
+    "Equity discount-rate pressure: duration is the first domino (growth/tech most sensitive)",
+    "Financial conditions tighten in real time: the bond move is doing central banks\u2019 work for them",
+    "Curve message: this is term-premium/fiscal risk, not just \u201cone more hike\u201d pricing",
+    "FX spillover risk: yield differentials can force faster positioning shifts",
+    "Oil remains firm: WTI ~mid-$80s keeps energy inflation risk in the narrative",
+    "Stagflation framing returns: \u201crates up + oil up\u201d is the toughest mix for broad beta",
+    "Alpha (macro expression): duration hedges back in play via liquid rate proxies (TLT/EDV/IEF)",
+    "Alpha (inflation shock absorber): energy beta stays the cleanest offset (XLE/OIH/USO vs consumer beta)",
+    "Wildcard: cross-asset risk is the correlation flip\u2014watch for a fast volatility repricing if bonds keep sliding"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "EDV",
+    "OIH"
+  ],
+  "alpha_tickers": [
+    "EDV",
+    "OIH"
+  ]
 }

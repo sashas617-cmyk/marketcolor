@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-08-20T07:35:37Z",
+  "last_run": "2026-08-20T13:57:01Z",
   "stories": [
-    "FOMC minutes: July reaction function matters again as rate-vol drives cross-asset",
-    "U.S. equities: tech drag persists, while Meta props up index-level performance",
-    "Overnight macro driver: ceasefire breakdown keeps oil bid; rotation favors energy over chips (social \u2192 desk color)",
-    "Ukraine escalation: reports of a major Kyiv barrage raise risk-premium across FX/energy/grains",
-    "Black Sea grain shock: Odesa export disruption threatens a physical supply squeeze",
-    "Europe: natural gas extends rally, re-pressurizing inflation and industrial margins",
-    "ALPHA (Options): Lowe\u2019s (LOW) sees a put surge\u201414,293 contracts, ~10\u00d7 normal (Schwab)",
-    "ALPHA (Options): TJX put volume spikes to ~19,984 vs ~7,428 typical (+169%)",
-    "Wildcard: \u201cTariff turnaround\u201d becomes a live macro narrative again (inflation + supply chain beta)"
+    "Fed minutes stay hawkish: officials flagged potential need to hike if inflation doesn\u2019t cool",
+    "U.S. equity tape: slightly lower with tech drag; mega-cap support (Meta) limits downside",
+    "Walmart prints: beat/raised guide, but decelerating sales growth hits the stock premarket",
+    "UK inflation surprise to the upside: CPI 2.9% YoY (July) vs 2.6% prior",
+    "Europe energy shock watch: TTF gas ~\u20ac63.7/MWh, roughly doubled YTD",
+    "EIA STEO: oil disruptions seen lingering (~0.6 mb/d) through end-2027",
+    "Crypto/options heat: Hyperliquid call burst after Trump regulatory comments",
+    "Insider signal in energy services: TechnipFMC (FTI) director buys ~\\$500k stock (non\u201110b5\u20111)",
+    "Wildcard: AI positioning narrative shifts\u2014Anthropic overtakes OpenAI as \u201chottest\u201d upstart (sentiment signal)"
   ],
   "tickers": [],
   "alpha_tickers": []

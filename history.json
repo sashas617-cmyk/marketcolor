@@ -1,14 +1,15 @@
 {
-  "last_run": "2026-08-19T21:52:45Z",
+  "last_run": "2026-08-20T07:35:37Z",
   "stories": [
-    "Trade shock risk: U.S.\u2013Canada tariff headlines return with broad sector exposure",
-    "Volatility regime check: VIX lifts off 2026 lows as chips stay under pressure",
-    "Europe risk: ECB-linked warning flags boom-bust dynamics as a stability problem",
-    "China payments rails: e-CNY ecosystem expands as more banks join the CBDC network",
-    "Earnings (Tech/Capex read-through): Keysight beats expectations, shares higher",
-    "Whale flow (BE): long-dated bullish call trade hits the tape",
-    "Whale flow (MSTR): \u201cbullish\u201d put transfer suggests structured upside/carry positioning",
-    "Crypto risk-on squeeze: $1.44B in short liquidations turbocharges the rebound"
+    "FOMC minutes: July reaction function matters again as rate-vol drives cross-asset",
+    "U.S. equities: tech drag persists, while Meta props up index-level performance",
+    "Overnight macro driver: ceasefire breakdown keeps oil bid; rotation favors energy over chips (social \u2192 desk color)",
+    "Ukraine escalation: reports of a major Kyiv barrage raise risk-premium across FX/energy/grains",
+    "Black Sea grain shock: Odesa export disruption threatens a physical supply squeeze",
+    "Europe: natural gas extends rally, re-pressurizing inflation and industrial margins",
+    "ALPHA (Options): Lowe\u2019s (LOW) sees a put surge\u201414,293 contracts, ~10\u00d7 normal (Schwab)",
+    "ALPHA (Options): TJX put volume spikes to ~19,984 vs ~7,428 typical (+169%)",
+    "Wildcard: \u201cTariff turnaround\u201d becomes a live macro narrative again (inflation + supply chain beta)"
   ],
   "tickers": [],
   "alpha_tickers": []

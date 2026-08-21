@@ -1,11 +1,21 @@
 {
-  "last_run": "2026-08-20T21:57:55Z",
+  "last_run": "2026-08-21T07:38:20Z",
   "stories": [
-    "Executive summary:",
-    "U.S. equities: modestly lower close as tech weighs; Meta cushions the tape",
-    "Hyperliquid options: October $8 calls traded 2,575 vs 67 OI (fresh risk-on punt)",
-    "Wildcard: AVGO options flagged as unusual\u2014possible positioning ahead of a catalyst"
+    "U.S. rates: long-end pressure returns despite Treasury buybacks, re-tightening the equity setup",
+    "China FX: PBOC sets a weaker-than-expected fix to slow yuan gains",
+    "France macro (just out): Manufacturing PMI jumps above expectations to 51.5",
+    "UK macro (early release): Retail Sales -0.5% MoM in July, consumer stays soft",
+    "Asia tape: index-level calm masks risk-off pockets\u2014Kosdaq -4.73%",
+    "Commodities: gold holds up while oil extends gains on sanctions expectations",
+    "Geopolitics: Ukraine event cadence stays elevated, keeping tail-risk bid alive",
+    "Options (single-name): 100,000-contract put roll extends hedge window into November",
+    "Amer Sports ($AS): post-earnings bullish positioning\u20147,500 Dec $45 call sweep",
+    "Wildcard (structural): \u201cAsia\u2019s savers\u201d reallocating toward equities could reshape local volatility"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "AS"
+  ],
+  "alpha_tickers": [
+    "AS"
+  ]
 }

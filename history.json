@@ -1,17 +1,12 @@
 {
-  "last_run": "2026-08-21T13:55:34Z",
+  "last_run": "2026-08-21T22:03:01Z",
   "stories": [
-    "Executive summary (Aug 21, 2026 \u2014 13:54 UTC):",
-    "US rates: term premium repricing re-tightens financial conditions (again)",
-    "Eurozone macro: activity accelerates\u2014PMI at fastest pace since November",
-    "Energy/inflation: Brent hovers near $94 on persistent US\u2013Iran disruption",
-    "US policy: SEC drops proposed \u201cRegulation Crypto\u201d framework\u2014near-term catalyst",
-    "US consumer tape: Walmart beats revenue, nudges FY adjusted EPS guidance up",
-    "Asia flows: households rotating into equities\u2014structural liquidity tailwind",
-    "Event risk next week: Jackson Hole + Nvidia earnings set the tone for \u201crates vs AI\u201d",
-    "ALPHA (crypto options): Hyperliquid (HYPE) sees extreme Oct $8 call burst vs tiny prior OI",
-    "ALPHA (equity options): Bloom Energy (BE) flagged\u2014Jan 15, 2027 $220 calls in a bullish whale alert",
-    "Wildcard (vol regime): Hudson River posts $11.4bn trading windfall amid AI-factor swings + war volatility"
+    "Dalio goes public: bonds look worse; gold/bitcoin look better\u2014cross-asset positioning risk",
+    "Tape check into the close: US equities slightly lower; tech is the weight",
+    "Macro narrative shift: from \u201cheadline shrug\u201d to \u201crates impulse\u201d (tightening via the bond market)",
+    "Actionable cross-asset proxy: \u201cduration vs hard assets\u201d pairs are back in play (TLT/IEF vs GLD/IBIT)",
+    "\u201cBond market distress\u201d headline risk: positioning/hedging can migrate from rates into equity vol",
+    "Wildcard: Treasury buybacks\u2014supportive for liquidity, but politically/market-sensitive if read as \u201cfinancial engineering\u201d"
   ],
   "tickers": [],
   "alpha_tickers": []

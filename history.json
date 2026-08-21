@@ -1,21 +1,18 @@
 {
-  "last_run": "2026-08-21T07:38:20Z",
+  "last_run": "2026-08-21T13:55:34Z",
   "stories": [
-    "U.S. rates: long-end pressure returns despite Treasury buybacks, re-tightening the equity setup",
-    "China FX: PBOC sets a weaker-than-expected fix to slow yuan gains",
-    "France macro (just out): Manufacturing PMI jumps above expectations to 51.5",
-    "UK macro (early release): Retail Sales -0.5% MoM in July, consumer stays soft",
-    "Asia tape: index-level calm masks risk-off pockets\u2014Kosdaq -4.73%",
-    "Commodities: gold holds up while oil extends gains on sanctions expectations",
-    "Geopolitics: Ukraine event cadence stays elevated, keeping tail-risk bid alive",
-    "Options (single-name): 100,000-contract put roll extends hedge window into November",
-    "Amer Sports ($AS): post-earnings bullish positioning\u20147,500 Dec $45 call sweep",
-    "Wildcard (structural): \u201cAsia\u2019s savers\u201d reallocating toward equities could reshape local volatility"
+    "Executive summary (Aug 21, 2026 \u2014 13:54 UTC):",
+    "US rates: term premium repricing re-tightens financial conditions (again)",
+    "Eurozone macro: activity accelerates\u2014PMI at fastest pace since November",
+    "Energy/inflation: Brent hovers near $94 on persistent US\u2013Iran disruption",
+    "US policy: SEC drops proposed \u201cRegulation Crypto\u201d framework\u2014near-term catalyst",
+    "US consumer tape: Walmart beats revenue, nudges FY adjusted EPS guidance up",
+    "Asia flows: households rotating into equities\u2014structural liquidity tailwind",
+    "Event risk next week: Jackson Hole + Nvidia earnings set the tone for \u201crates vs AI\u201d",
+    "ALPHA (crypto options): Hyperliquid (HYPE) sees extreme Oct $8 call burst vs tiny prior OI",
+    "ALPHA (equity options): Bloom Energy (BE) flagged\u2014Jan 15, 2027 $220 calls in a bullish whale alert",
+    "Wildcard (vol regime): Hudson River posts $11.4bn trading windfall amid AI-factor swings + war volatility"
   ],
-  "tickers": [
-    "AS"
-  ],
-  "alpha_tickers": [
-    "AS"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

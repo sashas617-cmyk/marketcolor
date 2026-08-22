@@ -1,13 +1,8 @@
 {
-  "last_run": "2026-08-21T22:03:01Z",
-  "stories": [
-    "Dalio goes public: bonds look worse; gold/bitcoin look better\u2014cross-asset positioning risk",
-    "Tape check into the close: US equities slightly lower; tech is the weight",
-    "Macro narrative shift: from \u201cheadline shrug\u201d to \u201crates impulse\u201d (tightening via the bond market)",
-    "Actionable cross-asset proxy: \u201cduration vs hard assets\u201d pairs are back in play (TLT/IEF vs GLD/IBIT)",
-    "\u201cBond market distress\u201d headline risk: positioning/hedging can migrate from rates into equity vol",
-    "Wildcard: Treasury buybacks\u2014supportive for liquidity, but politically/market-sensitive if read as \u201cfinancial engineering\u201d"
+  "last_run": "2026-08-22T07:30:39Z",
+  "stories": [],
+  "tickers": [
+    "PCG"
   ],
-  "tickers": [],
   "alpha_tickers": []
 }

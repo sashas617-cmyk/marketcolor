@@ -1,24 +1,17 @@
 {
-  "last_run": "2026-08-22T21:47:20Z",
+  "last_run": "2026-08-23T07:27:43Z",
   "stories": [
-    "Rates shock: global bond yields are surging again, tightening financial conditions",
-    "US policy credibility: Bessent\u2019s \u201cbond gambit\u201d is spooking the long end",
-    "US fiscal overhang: national debt hits the $40 trillion milestone",
-    "Deleveraging tell: Citadel buys stocks from a margin-called hedge fund",
-    "Geopolitics (energy chokepoint): Strait of Hormuz risk remains live",
-    "Ukraine escalation: heavy drone activity and infrastructure targeting continues",
-    "Crypto volatility event: Bitcoin\u2019s sharp move has analysts split",
-    "Options alpha \u2014 $CG: extreme downside hedge shows up in size",
-    "~100:1 puts-over-calls",
-    "Options alpha \u2014 $MSFT: large same-day expiry call flow at a key strike",
-    "Asia flows: households piling into equities is reshaping local market structure"
+    "Executive summary (07:25 UTC, Sun Aug 23):",
+    "Fed catalyst: Chair Warsh\u2019s first Jackson Hole keynote is now the main \u201crates/FX vol\u201d event risk",
+    "Cross-asset hedge bid: gold spikes to fresh record highs near ~$4,600",
+    "Oil tail-risk stays live: Hormuz transit + insurance dislocations being monitored hour-by-hour",
+    "Europe energy policy shock: EU reportedly tightens Russian LNG restrictions for next year",
+    "Russia\u2013Ukraine escalation: heavy cross-attacks and broader-strike warnings lift geopolitical risk premia",
+    "China policy support: Beijing signals deeper fiscal\u2013financial coordination to stabilize investment/demand",
+    "US equities tone into the week: tech weakness offset by Meta strength; indexes finish modestly lower",
+    "Crowding alert (ag): managed money corn positioning hits 250,505 contracts net long",
+    "Single-name volatility check: Micron (MU) retail buzz is real\u2014price print around ~$965 confirmed"
   ],
-  "tickers": [
-    "CG",
-    "MSFT"
-  ],
-  "alpha_tickers": [
-    "CG",
-    "MSFT"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

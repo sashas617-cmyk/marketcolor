@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-08-23T21:46:32Z",
+  "last_run": "2026-08-24T08:02:41Z",
   "stories": [
-    "Technicals: \u201cmost overbought\u201d screen flashes even as the S&P posts a losing week",
-    "Trade shock: talks reportedly collapse, reopening the door to new tariffs",
-    "Geopolitics: Iran pushes back ahead of tougher U.S. sanctions\u2014energy risk premium in play",
-    "Macro catalyst: Fed Chair Kevin Warsh\u2019s first Jackson Hole speech looms (Aug 27\u201329)",
-    "FX macro: DXY sits near key support as traders wait on Fed minutes; Europe inflation expectations watched",
-    "Cross-border finance: U.S. buyers snapping up Europe\u2019s asset managers at the fastest pace in decades",
-    "Crypto tape: Bitcoin cools back near $77K after failing at ~$80K; ETFs still show a bid",
-    "Leverage check: liquidation cluster flagged around 04:00 UTC (BTC ~$28.9M, ETH ~$32.8M)",
-    "Wildcard (positioning): SPX dealer gamma/greeks maps are in focus into key catalysts"
+    "Global risk tone fades into Monday: U.S. futures slip after two straight weekly Dow declines",
+    "Single-stock gravity: Nvidia results are the week\u2019s key equity catalyst for AI-beta",
+    "Crude retraces ~1%: profit-taking hits oil as traders await Iran-sanctions details",
+    "Geopolitics (separate from price): Iran-sanctions headline risk stays \u201clive\u201d for supply tails",
+    "Europe rates stress: rising sovereign yields + credibility fears push pricing toward a hawkish ECB",
+    "Policy path repricing: \u201cnon-trivial odds\u201d of Fed *and* ECB hikes by mid-September",
+    "Alpha/positioning (event-risk basket): NVDA week + rate pressure = index hedging hotspots",
+    "Alpha/FX lens: hawkish-ECB risk + hike-resumption chatter puts EUR/USD rate spreads back in play into mid-Sept",
+    "Wildcard (cross-asset): the \u201cbad mix\u201d risk\u2014higher yields + energy tail-risk\u2014keeps volatility bid under the surface"
   ],
   "tickers": [],
   "alpha_tickers": []

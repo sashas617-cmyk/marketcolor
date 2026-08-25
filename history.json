@@ -1,6 +1,16 @@
 {
-  "last_run": "2026-08-25T07:38:31Z",
-  "stories": [],
+  "last_run": "2026-08-25T13:58:13Z",
+  "stories": [
+    "Red Sea security shock: Houthis report attack on a Saudi oil tanker",
+    "Hormuz disruption remains \u201clive\u201d: traffic/insurance metrics stay in the driver\u2019s seat (confirmed)",
+    "Euro sovereign risk repriced: France\u2013Italy spread compression flags shifting fiscal confidence",
+    "Italy financials catalyst: Monte dei Paschi launches ~\u20ac34B all-share bids for Banco BPM and Banca Generali",
+    "Gold tug-of-war: September hike odds vs geopolitics hedging",
+    "Citi ($C): ~$223.8M after-hours block + unusual options flow reshapes near-term dealer positioning",
+    "GLD: monster options print\u2014~116,000 Sep 18 420 calls sold (confirmed)",
+    "XYL ($XYL): extreme call imbalance into Sep 18\u2014blocks at 120/130 strikes look like fresh positioning",
+    "90:1 call-over-put"
+  ],
   "tickers": [],
   "alpha_tickers": []
 }

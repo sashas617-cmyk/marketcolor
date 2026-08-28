@@ -1,16 +1,13 @@
 {
-  "last_run": "2026-08-27T22:57:28Z",
+  "last_run": "2026-08-28T05:39:35Z",
   "stories": [
-    "Nvidia resets the tape: AI earnings momentum back in control (and the next platform narrative expands)",
-    "Bonds remain the swing factor: long-end yield pressure keeps duration as the key headwind",
-    "Semis \u201cexpectations problem\u201d: Marvell sells off even on strong prints/guidance",
-    "Consumer warning flag: Dick\u2019s Sporting Goods cuts the full-year outlook",
-    "Crude backs off: WTI slides toward the low-$80s as risk premium eases at the margin",
-    "Crypto risk bid persists: Bitcoin holds above ~$79K on steady spot-ETF demand",
-    "Ukraine war: economic drag + escalation risk via infrastructure targeting",
-    "LCID front-week call burst: Aug 28 $5.50 calls dominate with \u201cnew positioning\u201d characteristics",
-    "Institutional-style unusual options: NFLX / HONA / MSFT spike on Vol/OI metrics",
-    "Policy overhang: effective U.S. tariff rate cited near multi-decade highs under Trump 2.0"
+    "China FX: PBoC fixing in focus as the anchor for USD/CNY expectations",
+    "Japan inflation: Tokyo CPI steady; \u201ccore ex fresh food & energy\u201d ~1.9% keeps BoJ optionality alive",
+    "Asia equities: mixed tape with clear dispersion across countries and factors",
+    "Unusual options (LCID): front-week call skew spikes into today\u2019s expiry",
+    "~7:1 calls vs puts",
+    "Insider activity (DASH): COO sells stock after option exercise under 10b5-1 plan",
+    "Earnings tape reminder: \u201cgood isn\u2019t always good enough\u201d in AI/semis"
   ],
   "tickers": [],
   "alpha_tickers": []

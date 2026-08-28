@@ -1,14 +1,24 @@
 {
-  "last_run": "2026-08-28T05:39:35Z",
+  "last_run": "2026-08-28T19:12:16Z",
   "stories": [
-    "China FX: PBoC fixing in focus as the anchor for USD/CNY expectations",
-    "Japan inflation: Tokyo CPI steady; \u201ccore ex fresh food & energy\u201d ~1.9% keeps BoJ optionality alive",
-    "Asia equities: mixed tape with clear dispersion across countries and factors",
-    "Unusual options (LCID): front-week call skew spikes into today\u2019s expiry",
-    "~7:1 calls vs puts",
-    "Insider activity (DASH): COO sells stock after option exercise under 10b5-1 plan",
-    "Earnings tape reminder: \u201cgood isn\u2019t always good enough\u201d in AI/semis"
+    "Fed (Jackson Hole): Warsh reiterates the 2% target\u2014and signals no hurry to declare victory",
+    "Rates: US 10Y pushes up to ~4.73%\u2014long-end pressure remains the shock absorber",
+    "Curve/term-premium impulse: \u201chigher yields\u201d becomes the tightening mechanism even without hikes",
+    "US index tape: S&P 500 futures steady as rate headwinds offset AI momentum",
+    "Nasdaq cools: gives back part of Nvidia-led strength",
+    "Cross-asset linkage: duration-sensitive equities and credit stay chained to long-end volatility",
+    "Tradeable duration proxies back in focus: $TLT / $IEF as the cleanest expression of the 4.7%+ 10Y regime",
+    "Single-name beta check: $NVDA increasingly trades as a rate-sensitive momentum barometer",
+    "Wildcard: Jackson Hole \u201csticky inflation\u201d framing keeps the market\u2019s base case pinned to restrictive policy"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "IEF",
+    "NVDA",
+    "TLT"
+  ],
+  "alpha_tickers": [
+    "IEF",
+    "NVDA",
+    "TLT"
+  ]
 }

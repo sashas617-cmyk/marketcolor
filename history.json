@@ -1,17 +1,14 @@
 {
-  "last_run": "2026-08-29T17:07:04Z",
+  "last_run": "2026-08-29T23:30:25Z",
   "stories": [
-    "Executive summary (Sat, Aug 29 \u2014 17:05 UTC):",
-    "Fed: Warsh doubles down on price stability, warns markets are in a \u201chall of mirrors\u201d with Fed guidance",
-    "US trade policy: Trump frames tariffs as multi-trillion revenue tool; Supreme Court legality risk adds a major macro fork",
-    "Global rates: bond yields rising worldwide tightens financial conditions and threatens equity multiples (esp. tech)",
-    "Ukraine: reports of major strikes around Kyiv lift geopolitical risk premia (Europe risk assets/energy/defense)",
-    "Red Sea: Somali piracy surge adds another layer of shipping disruption risk (freight/insurance/inflation channel)",
-    "Oil: WTI eases to ~$83.44 but remains ~+30% YoY\u2014disinflation narrative stays fragile",
-    "Taiwan tail risk: Penghu islands harden posture for potential PLA first strike scenario",
-    "ALPHA \u2014 NVDA options: fresh positioning lights up the 257.50 strike with new OI creation",
-    "ALPHA \u2014 ESTC: ~+25% gap on earnings beat + FY27 guidance raise; AI narrative accelerating",
-    "Wildcard \u2014 Crypto: Bitcoin dumps ~$3K fast to ~79.5K with liquidation chatter; macro-rates linkage back in focus"
+    "US trade-policy \u201cbinary\u201d heads to the Supreme Court: tariffs vs. a $450B rebate",
+    "US equities: fragile index tape masked by mega-cap rotation",
+    "Energy shock risk: Ukraine drones hit Russia\u2019s Slavneft\u2011YANOS refinery",
+    "Europe structural flow story: pushing savers out of deposits and into equities",
+    "FX macro: the dollar\u2019s reserve share shows a \u201crecent pick-up\u201d",
+    "KR options: unusual call surge flags a catalyst window",
+    "NVDA options: fresh positioning hits $257.50 strike with \u201c0 OI prior\u201d",
+    "Crypto risk-off: Bitcoin breaks below ~$78k as \u201cyields = less liquidity\u201d returns"
   ],
   "tickers": [],
   "alpha_tickers": []

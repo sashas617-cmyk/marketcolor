@@ -1,18 +1,16 @@
 {
-  "last_run": "2026-08-28T23:02:47Z",
+  "last_run": "2026-08-29T03:16:43Z",
   "stories": [
-    "Executive summary:",
-    "Fed speak still the driver: Warsh\u2019s Jackson Hole inflation vigilance keeps risk-off pressure on equities",
-    "Inflation expectations check: 10-year breakevens remain the \u201ctell\u201d for real-yield risk",
-    "Oil rolls over: crude slides, threatening to snap a two-week winning streak",
-    "Semis reality check: Marvell sells off despite strong growth as valuation/deal read-through dominates",
-    "Single-name headline risk: PayPal flagged among the biggest movers after a report-driven selloff",
-    "Global cross-asset tape: rates sensitivity + leadership dispersion keeps correlation risk elevated",
-    "EM allocation risk: benchmarks increasingly concentrated in a few mega chip names",
-    "ALPHA (Options): LCID lights up with fresh call demand into today\u2019s expiry",
-    "~7:1 calls vs puts",
-    "ALPHA (Whale flow): TSLA-linked consumer discretionary print targets the $125 strike",
-    "Wildcard: Crypto keeps absorbing macro jitters\u2014BTC & ETH ETFs extend inflow streak to nine sessions"
+    "Fed: Warsh doubles down on inflation vigilance; commodities explicitly flagged into September",
+    "Global yields surge again: duration sensitivity re-enters the market\u2019s \u201ctop risk\u201d list",
+    "Commodities/inflation cross-currents: crude slips to ~$82.82 but volatility is the story",
+    "Strait of Hormuz: 6-month mark of blockade dynamics keeps an embedded energy/shipping risk premium",
+    "South China Sea incident risk back on the board: China\u2013Philippines trade accusations after vessel encounter",
+    "EM benchmark concentration jumps: performance increasingly \u201csemi beta\u201d (TSMC/Samsung/SK Hynix)",
+    "US single-name tape leadership remains jumpy: AMZN, MRVL, PYPL among biggest movers",
+    "Options flow (IT): NVDA sees a \u201cnew strike\u201d open\u2014$257.50 calls flagged with OI build",
+    "Positioning narrative (fiscal/rates): \u201cUS debt > $40T\u201d becomes a tradable term-premium storyline",
+    "Wildcard geopolitics: Ukraine strikes persist\u2014Russian drones hit Kyiv region for a second day"
   ],
   "tickers": [],
   "alpha_tickers": []

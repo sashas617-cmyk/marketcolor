@@ -1,19 +1,17 @@
 {
-  "last_run": "2026-08-31T14:42:02Z",
+  "last_run": "2026-08-31T19:34:51Z",
   "stories": [
-    "Geopolitical shock: U.S. strikes Iran rekindle Hormuz tail-risk pricing",
-    "Fed: Chair Warsh stays hawkish at Jackson Hole; hike probabilities reprice higher",
-    "Rates: Treasury yields rise on hawkish repricing, reviving duration pressure",
-    "FX: USD squeeze accelerates as Warsh-driven repricing lifts DXY into resistance",
-    "China macro: manufacturing improves but remains contractionary; services still soft",
-    "Actionable macro expression: energy beta is the cleanest \u201chere-and-now\u201d hedge",
-    "FX tactical pivot (liquid proxies): USD strength pressures Europe FX beta",
-    "Wildcard macro regime risk: \u201coil-up + yields-up\u201d is the bad mix for equities"
+    "Risk-off tape: U.S.\u2013Iran hostilities back in play, equities fade into the session",
+    "Rates shock continues: 10Y tests ~4.75% as \u201chigher-for-longer\u201d gets reloaded",
+    "FX pressure point: USD/JPY near 160 as \u201cintervention hopes\u201d cool",
+    "China growth pulse still soft: manufacturing improved but stayed <50; services weak",
+    "Europe set-up: Eurozone inflation week becomes the swing factor for ECB pricing",
+    "UK/G20: BoE\u2019s Bailey flags AI as a systemic financial risk vector",
+    "Mega-cap focus: Apple leadership transition goes live Sept. 1 (Cook \u2192 Ternus)",
+    "ALPHA (Options): TSLA flagged for bullish 0DTE call sweep at $365 into today\u2019s expiry",
+    "ALPHA (Options): HOOD \u201cbullish\u201d put transfer into Sept. 4 at $102",
+    "Wildcard: Crypto security risk reprices\u2014report says Anthropic model accelerated breaking a post-quantum signature candidate"
   ],
-  "tickers": [
-    "XOP"
-  ],
-  "alpha_tickers": [
-    "XOP"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

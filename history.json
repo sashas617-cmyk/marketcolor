@@ -1,17 +1,19 @@
 {
-  "last_run": "2026-08-30T23:42:11Z",
+  "last_run": "2026-08-31T14:42:02Z",
   "stories": [
-    "US rates: Warsh doubles down on inflation even as Treasury leans harder into the long end",
-    "Global yields surge: duration risk is back in the driver\u2019s seat for equity multiples",
-    "Macro pulse check: inflation still \u201cbubbling,\u201d but AI-linked trade/investment is propping up growth",
-    "Middle East tail risk: Hormuz escalation sensitivity rises (energy + defense beta)",
-    "Europe geopolitics: Russia threatens \u201cmass strikes\u201d on Ukraine energy infrastructure",
-    "Oil supply lever: OPEC+ seen raising output targets again from September",
-    "US regulation shock: appeals court rules against prediction markets (Supreme Court path likely)",
-    "KR options: unusual call buying spikes to 36,013 contracts (+168% vs avg 13,460)",
-    "SGI insider signal: CEO Scott Thompson buys 30,000 shares (~$1.9M) in open market",
-    "Crypto positioning: Bitcoin stalls under $80k\u2013$82k resistance with low-liquidity tape + ETF outflow overhang"
+    "Geopolitical shock: U.S. strikes Iran rekindle Hormuz tail-risk pricing",
+    "Fed: Chair Warsh stays hawkish at Jackson Hole; hike probabilities reprice higher",
+    "Rates: Treasury yields rise on hawkish repricing, reviving duration pressure",
+    "FX: USD squeeze accelerates as Warsh-driven repricing lifts DXY into resistance",
+    "China macro: manufacturing improves but remains contractionary; services still soft",
+    "Actionable macro expression: energy beta is the cleanest \u201chere-and-now\u201d hedge",
+    "FX tactical pivot (liquid proxies): USD strength pressures Europe FX beta",
+    "Wildcard macro regime risk: \u201coil-up + yields-up\u201d is the bad mix for equities"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "XOP"
+  ],
+  "alpha_tickers": [
+    "XOP"
+  ]
 }

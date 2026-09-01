@@ -1,17 +1,15 @@
 {
-  "last_run": "2026-09-01T17:20:17Z",
+  "last_run": "2026-09-01T23:55:26Z",
   "stories": [
-    "Japan shock: 10Y JGB yield near ~3% (highest since 1996) as yen weakens toward 160/$",
-    "Risk-off equities tape: crude + yields \u201cflex,\u201d bruising stocks into key U.S. data",
-    "Macro catalyst setup: JOLTS + ISM Manufacturing are the next \u201cpermission slip\u201d for the next leg",
-    "Actionable energy expression: Brent >$90 puts crude-linked vehicles back in play into next session",
-    "Japan risk hedge point: USD/JPY ~160 and 10Y JGB ~3% re-open \u201cintervention/tightening\u201d tail risk",
-    "Wildcard: financial conditions are tightening \u201cthe hard way\u201d (USD firm + yields up + oil up)"
+    "Long-end Treasuries reprice higher again: 30Y ~5.28% near cycle highs",
+    "Fed stays hawkish: Barr signals hikes still on the table if inflation doesn\u2019t cool",
+    "Euro area inflation surprise: August flash accelerates to 3.3%",
+    "Japan duration shock persists: 10Y JGB ~3% (highest since 1996)",
+    "Payrolls setup: prediction markets leaning toward a rebound in August job creation",
+    "Options alpha: TITN sees extreme call skew into Sep 18 $22.50 calls",
+    "Options alpha: TSLA 0DTE call sweep hits $365 strike (161 contracts, split across 12 fills)",
+    "China FX management: PBOC sets USD/CNY fix at 6.7828 vs higher market estimate"
   ],
-  "tickers": [
-    "USO"
-  ],
-  "alpha_tickers": [
-    "USO"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

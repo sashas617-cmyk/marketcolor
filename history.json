@@ -1,15 +1,17 @@
 {
-  "last_run": "2026-09-01T00:45:36Z",
+  "last_run": "2026-09-01T12:17:04Z",
   "stories": [
-    "Rates shock watch: global bond yields are surging (duration is the pressure point again)",
-    "Apple leadership catalyst goes live today: Tim Cook hands off CEO role to John Ternus (index-level implications)",
-    "FX pressure point: USD/JPY near 160 as report flags U.S. pressure on BOJ to hike\u2014intervention risk rises",
-    "Policy overhang: effective U.S. tariff rate estimated near ~27% (structural inflation + margin risk)",
-    "China pulse: manufacturing PMI contracts again\u2014AI-hardware demand shows relative resilience (dispersion trade)",
-    "Unusual options: Titan Machinery (TITN) sees fresh Sep upside positioning (Sep 18 $22.50 calls)",
-    "~19:1 calls-over-puts",
-    "Options whale scan lights up IT: unusual activity flagged in NVDA/MU complex (high turnover vs OI)",
-    "Crypto bid holds despite macro stress: Bitcoin ETF inflows extend to 8 sessions (~$2.8B); Ether ETFs ~+$1B"
+    "Executive summary (12:16 UTC):",
+    "Energy shock risk back on the tape: crude extends rally as Hormuz flows stay impaired",
+    "Eurozone inflation stays \u201ctoo warm\u201d for comfort: flash HICP 3.3% YoY (core 2.4%)",
+    "Black Sea logistics risk re-tightens: Russia hits Odesa port export infrastructure + Romania-border crossing",
+    "US risk tone deteriorates into the month turn: stock futures slide on oil + renewed hike fears",
+    "Rates shock watch (again): global bond yields jump, putting duration back in the crosshairs",
+    "China growth pulse remains soft: manufacturing PMI contracts for a second month",
+    "Options alpha: Titan Machinery ($TITN) sees fresh, skewed upside positioning into Sep 18",
+    "~19:1 calls over puts",
+    "Options alpha: Tesla ($TSLA) bullish call sweep into $365 (same-day expiry)",
+    "Wildcard (regulatory/financial stability): BoE\u2019s Bailey warns G20 on AI-linked systemic risk"
   ],
   "tickers": [],
   "alpha_tickers": []

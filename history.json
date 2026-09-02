@@ -1,15 +1,20 @@
 {
-  "last_run": "2026-09-01T23:55:26Z",
+  "last_run": "2026-09-02T11:53:24Z",
   "stories": [
-    "Long-end Treasuries reprice higher again: 30Y ~5.28% near cycle highs",
-    "Fed stays hawkish: Barr signals hikes still on the table if inflation doesn\u2019t cool",
-    "Euro area inflation surprise: August flash accelerates to 3.3%",
-    "Japan duration shock persists: 10Y JGB ~3% (highest since 1996)",
-    "Payrolls setup: prediction markets leaning toward a rebound in August job creation",
-    "Options alpha: TITN sees extreme call skew into Sep 18 $22.50 calls",
-    "Options alpha: TSLA 0DTE call sweep hits $365 strike (161 contracts, split across 12 fills)",
-    "China FX management: PBOC sets USD/CNY fix at 6.7828 vs higher market estimate"
+    "UK rates shock: 30Y gilt yields rip to the highest since 1998",
+    "U.S. premarket: Nasdaq futures lag, VIX higher as macro uncertainty builds",
+    "Europe open: DAX/CAC/FTSE indicated lower as higher yields + oil pressure risk appetite",
+    "Europe geopolitics: Germany formally points at Russia over Leipzig airport drone attack",
+    "Options alpha: $BILI sees a put pile-up\u2014Sep 18 $16 puts hit 8,486 contracts vs OI 1,603",
+    "Options + catalyst: $MDT call volume spikes to 33,681 (+140%) after earnings beat",
+    "Enterprise AI friction point: Anthropic changes data retention policy after customer pushback"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "BILI",
+    "MDT"
+  ],
+  "alpha_tickers": [
+    "BILI",
+    "MDT"
+  ]
 }

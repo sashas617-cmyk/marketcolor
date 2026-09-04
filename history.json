@@ -1,15 +1,20 @@
 {
-  "last_run": "2026-09-04T11:54:39Z",
+  "last_run": "2026-09-04T16:57:00Z",
   "stories": [
-    "Macro tape: yields dip, USD softens, JPY firms \u2014 markets brace for NFP",
-    "Eurozone: softer-than-feared inflation + unemployment uptick keeps ECB path in play; EUR/USD holds 1.1600+",
-    "UK rates: BoE\u2019s Bailey warns structural forces could keep debt and long-term yields higher",
-    "Ukraine war-risk premium: Russia claims overnight strikes on logistics, ports, and energy infrastructure",
-    "Europe equities: STOXX 600 cautious into U.S. jobs data; Volkswagen jumps on turnaround agreement",
-    "UNUSUAL OPTIONS \u2014 HOOD: same-week call burst centered on Sep 4 $120C as stock rips to ~$123",
-    "INSIDER CLUSTER \u2014 FTCI: multiple open-market buys total ~$634.7K; director purchases disclosed",
-    "Policy overhang: tracking estimates effective U.S. tariff rate surged (~27%) in Trump\u2019s second term\u2014macro input to inflation and margins"
+    "Executive summary:",
+    "Rates regime narrative: \u201chigher inflation / higher term premium\u201d is becoming the base case",
+    "Crude risk premium stays glued on: Brent near $96 with Hormuz tail-risk in the background",
+    "ECB setup: \u201chiking, not guiding\u201d raises EUR rates/FX vol into the decision",
+    "UK: markets keep a BoE hike on the table as shop-price inflation re-accelerates",
+    "Crypto risk appetite: ~$900M into BTC/ETH ETFs; BTC move tied to liquidation flow",
+    "ALPHA \u2014 $HOOD options: Sep-04 $120 calls see \u201cnew\u201d demand (volume dwarfs OI)"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "HOOD",
+    "SNXX"
+  ],
+  "alpha_tickers": [
+    "HOOD",
+    "SNXX"
+  ]
 }

@@ -1,6 +1,15 @@
 {
-  "last_run": "2026-09-03T23:27:08Z",
-  "stories": [],
+  "last_run": "2026-09-04T11:54:39Z",
+  "stories": [
+    "Macro tape: yields dip, USD softens, JPY firms \u2014 markets brace for NFP",
+    "Eurozone: softer-than-feared inflation + unemployment uptick keeps ECB path in play; EUR/USD holds 1.1600+",
+    "UK rates: BoE\u2019s Bailey warns structural forces could keep debt and long-term yields higher",
+    "Ukraine war-risk premium: Russia claims overnight strikes on logistics, ports, and energy infrastructure",
+    "Europe equities: STOXX 600 cautious into U.S. jobs data; Volkswagen jumps on turnaround agreement",
+    "UNUSUAL OPTIONS \u2014 HOOD: same-week call burst centered on Sep 4 $120C as stock rips to ~$123",
+    "INSIDER CLUSTER \u2014 FTCI: multiple open-market buys total ~$634.7K; director purchases disclosed",
+    "Policy overhang: tracking estimates effective U.S. tariff rate surged (~27%) in Trump\u2019s second term\u2014macro input to inflation and margins"
+  ],
   "tickers": [],
   "alpha_tickers": []
 }

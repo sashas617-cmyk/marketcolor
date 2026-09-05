@@ -1,21 +1,17 @@
 {
-  "last_run": "2026-09-04T23:10:30Z",
+  "last_run": "2026-09-05T11:04:20Z",
   "stories": [
-    "After-hours: Snowflake rips higher on beat + raised guide (growth/AI tape still has sponsors).",
-    "Rates late-day pivot: 10Y pulls back toward ~4.74% after Waller signals progress on inflation.",
-    "FX shock absorber flips: yen surges on rising BoJ hike bets + intervention chatter.",
-    "Energy inflation signal: diesel/refining cracks jump as middle-distillate tightness pushes Brent toward ~$95.",
-    "Geopolitics premium stays live: Hormuz / broader Middle East tensions keep markets on a knife edge.",
-    "Trade-policy overhang: Trump tariff regime faces legal scrutiny; \u201c~$450B consumer payments\u201d idea raises deficit/inflation questions.",
-    "Options alpha: Medtronic ($MDT) sees a standout call burst (+140% vs normal).",
-    "Insider/sentiment alpha: StubHub Holdings ($STUB) officer sells ~167k shares (~$1.1M) after major drawdown.",
-    "Crypto risk pulse: nearly $900M into BTC/ETH ETFs in a day as BTC trades near ~$81.5k."
+    "Macro shock: August jobs report re-prices \u201chigher for longer\u201d",
+    "Global rates: bond rout lifts the global \u201cprice of money\u201d",
+    "Trade/fiscal: Trump tariff regime faces Supreme Court risk + deficit twist",
+    "Fed tone + metals: gold rebounds above $4,400 as USD/yields ease",
+    "Energy/inflation: OPEC+ seen steady for October; Iraq exports up in August",
+    "Geopolitics (Middle East nuclear): draft move to refer Iran to UN Security Council",
+    "Geopolitics (Ukraine): drone strike reported in central Kyiv",
+    "ALPHA (insiders): FTC Solar shows a real cluster buy (~$634.69K; 8 purchases)",
+    "ALPHA (insiders): StubHub officer sells ~$1.1M after ~72% drawdown",
+    "Wildcard risk pulse: Bitcoin squeezes above $82K on forced liquidations"
   ],
-  "tickers": [
-    "MDT",
-    "SNOW"
-  ],
-  "alpha_tickers": [
-    "MDT"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

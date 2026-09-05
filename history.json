@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-09-05T16:03:37Z",
+  "last_run": "2026-09-05T23:12:57Z",
   "stories": [
-    "Executive Summary (16:02 UTC, Sat Sep 05, 2026)",
-    "AI megadeal: Nvidia to buy Hugging Face for $12.9B (platform power grab)",
-    "China macro pulse: private services PMI rebounds (easing near-term easing pressure)",
-    "China\u2019s structural drag back in focus: \u201c$22T\u201d property unwind still a macro overhang",
-    "Ukraine escalation risk: drone strike hits central Kyiv near SBU HQ area; \u22657 injured",
-    "Gaza: reported ceasefire-violation incident under IDF control (fragile de-escalation)",
-    "Crypto stays risk-on: Bitcoin back above ~$81K as rate-hike odds fade",
-    "Unusual options (ticker-specific): Perpetual Resources (PPTA) call volume ~38x normal",
-    "Real-time shipping/energy edge: Strait of Hormuz effectively closed to commercial traffic",
-    "Wildcard hedge signal: Gold holds a strong YoY uptrend despite a daily pullback"
+    "US labor data reset: August payrolls 162k + upward July revision lifts yields, revives hike odds",
+    "BREAKING geopolitical escalation: US strikes Iranian oil tankers after carrier is targeted",
+    "Red Sea risk rises: Houthis pushing toward control of a key strait",
+    "Europe energy inflation signal: crack spreads above $100/bbl",
+    "China FX watch: PBOC fixing guidance remains a policy signal (USD/CNY est. 6.7098)",
+    "Europe structural flow story: push to move household cash from deposits into equities",
+    "ALPHA (options): PPTA sees heavy long-dated call buying in Jan 2027 $35",
+    "ALPHA (options): SNXX (2\u00d7 long SNDK daily ETF) call volume spikes to 34,264 contracts",
+    "Wildcard (crypto risk pulse): BTC rips above $82,000, liquidations hit ~$568M"
   ],
   "tickers": [],
   "alpha_tickers": []

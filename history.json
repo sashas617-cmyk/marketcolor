@@ -1,16 +1,14 @@
 {
-  "last_run": "2026-09-05T23:12:57Z",
+  "last_run": "2026-09-06T11:28:59Z",
   "stories": [
-    "US labor data reset: August payrolls 162k + upward July revision lifts yields, revives hike odds",
-    "BREAKING geopolitical escalation: US strikes Iranian oil tankers after carrier is targeted",
-    "Red Sea risk rises: Houthis pushing toward control of a key strait",
-    "Europe energy inflation signal: crack spreads above $100/bbl",
-    "China FX watch: PBOC fixing guidance remains a policy signal (USD/CNY est. 6.7098)",
-    "Europe structural flow story: push to move household cash from deposits into equities",
-    "ALPHA (options): PPTA sees heavy long-dated call buying in Jan 2027 $35",
-    "ALPHA (options): SNXX (2\u00d7 long SNDK daily ETF) call volume spikes to 34,264 contracts",
-    "Wildcard (crypto risk pulse): BTC rips above $82,000, liquidations hit ~$568M"
+    "Taiwan flags renewed PLA activity: 20 Chinese aircraft sorties, 12 crossing the median line",
+    "Ukraine war: drone strike hits Russia\u2019s Nizhnekamsk petroleum hub; 13 killed, 78 injured",
+    "FTCI insider cluster buy: director Shaker Sadasivam buys ~140,666 shares across Aug 27\u201328 (open market)",
+    "Crypto deleveraging pulse: ~$280M BTC longs liquidated in a flush; trigger unclear",
+    "Asia economic-coercion playbook resurfaces: tourism curbs/seafood bans/rare-earth export restrictions tied to Japan\u2013Taiwan rhetoric"
   ],
-  "tickers": [],
+  "tickers": [
+    "TSLA"
+  ],
   "alpha_tickers": []
 }

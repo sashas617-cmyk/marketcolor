@@ -1,13 +1,15 @@
 {
-  "last_run": "2026-09-06T23:03:07Z",
+  "last_run": "2026-09-07T13:14:50Z",
   "stories": [
-    "US tariffs: Supreme Court risk moves from \u201cbackground\u201d to live macro catalyst",
-    "Fed: policy held at 3.50%\u20133.75% again, but \u201c3 dissenters\u201d keeps hawkish pressure in the pricing",
-    "China: Beijing readies ~\u00a340B financial-sector stimulus (banks/insurers + equity investment angle)",
-    "Strait of Hormuz disruption risk: ~20% of global oil/LNG chokepoint back in focus",
-    "Actionable energy tape: \u201cBrent $100\u201d is the line\u2014watch these liquid expressions for a breakout week",
-    "China financials \u201cpolicy put\u201d watchlist (tickers): stimulus targets the exact complex that\u2019s been uninvestable",
-    "Wildcard (cross-asset): \u201ctariffs + oil + (possible) $450B payout\u201d = inflation-risk premium back in charge"
+    "US risk tape: index ETFs drift lower as labor data re-anchors the Fed path into CPI",
+    "Macro setup: the next US CPI print is the trigger event for \u201chikes vs hold\u201d pricing",
+    "ECB week: a near-certain 25 bp hike is priced\u2014but guidance tone is the trade",
+    "Europe gas shock: TTF front-month spikes to ~\u20ac73.80 (highest since late 2023)",
+    "Ukraine conflict premium: reported drone attacks hit key Russian energy/logistics nodes",
+    "Global equities split: Asia-Pacific broadly higher while Europe chops",
+    "Crypto rails risk: ~$320M Liquid Network exploit triggers settlement/counterparty stress watch",
+    "Supply-chain edge: China rare-earth magnet exports to the US reportedly ~20% below the 2022\u201324 run-rate",
+    "Market plumbing (wildcard): beware \u201cindex\u201d prints that may be CFDs/perps, not cash benchmarks"
   ],
   "tickers": [],
   "alpha_tickers": []

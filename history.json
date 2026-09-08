@@ -1,8 +1,17 @@
 {
-  "last_run": "2026-09-07T23:43:31Z",
+  "last_run": "2026-09-08T11:55:34Z",
   "stories": [
-    "Executive summary:"
+    "Strait of Hormuz: traffic still severely impaired; war-risk insurance explodes",
+    "China demand signal: August imports miss estimates",
+    "China FX policy signal: PBOC fixes USD/CNY at 6.7804 vs 6.7104 estimate",
+    "UK labor snapshot: unemployment up; inactivity still elevated (~20.9%)",
+    "Tape/positioning: $BNC rips +59.7% on massive volume; shorts not extreme but present",
+    "Wildcard: Oracle earnings after the close\u2014mega-cap software sentiment check"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "BNC"
+  ],
+  "alpha_tickers": [
+    "BNC"
+  ]
 }

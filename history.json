@@ -1,17 +1,15 @@
 {
-  "last_run": "2026-09-08T11:55:34Z",
+  "last_run": "2026-09-08T17:15:06Z",
   "stories": [
-    "Strait of Hormuz: traffic still severely impaired; war-risk insurance explodes",
-    "China demand signal: August imports miss estimates",
-    "China FX policy signal: PBOC fixes USD/CNY at 6.7804 vs 6.7104 estimate",
-    "UK labor snapshot: unemployment up; inactivity still elevated (~20.9%)",
-    "Tape/positioning: $BNC rips +59.7% on massive volume; shorts not extreme but present",
-    "Wildcard: Oracle earnings after the close\u2014mega-cap software sentiment check"
+    "Oil stays elevated: Brent ~ $97.31 keeps inflation risk bid",
+    "China trade prints mixed: imports miss while exports accelerate; yuan steady",
+    "FX stasis ahead of event risk: EUR/USD range-bound into ECB + U.S. inflation",
+    "Crypto plumbing shock: Liquid Network halts transactions after ~$320M bitcoin exploit",
+    "Qualcomm\u2013Amazon AI deal structure: Amazon gets warrants tied to up to $4B of QCOM stock",
+    "Options tape (VFC): massive put volume tied to a dated diagonal roll (Sep 18, 2026 \u2192 Mar 19, 2027)",
+    "Options tape (ORBS): unusual call burst\u201415,160 contracts traded (~+74% vs typical)",
+    "Trade-policy escalation watch: report flags Canada tariff package (15%\u201350% on U.S. goods)"
   ],
-  "tickers": [
-    "BNC"
-  ],
-  "alpha_tickers": [
-    "BNC"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

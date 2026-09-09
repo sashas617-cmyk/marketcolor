@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-09-09T12:14:17Z",
+  "last_run": "2026-09-09T17:13:12Z",
   "stories": [
-    "Executive summary (12:13 UTC):",
-    "US equity tape: energy leadership vs. retail/travel/banks weakness as inflation risk gets re-priced",
-    "ECB decision imminent: bond selloff persists; Lagarde guidance is the real catalyst for EUR + peripherals",
-    "FX setup: EUR strength is increasingly \u201cpolicy-conditional\u201d \u2014 any cautious Lagarde tone risks fading EURUSD",
-    "Japan rates shock (overnight): 10Y JGB briefly >3% \u2014 global duration spillover risk is back",
-    "US policy path: markets price meaningful near-term Fed hike odds; CPI/PPI are the next \u201cmake-or-break\u201d catalysts",
-    "Trade policy escalation: Canada tariffs (15%\u201350%) on hundreds of US products now in effect \u2014 stagflation tail risk rises",
-    "TSCO options: Sep 11 $36 calls are the magnet \u2014 ~20:1 call/put skew on ~5\u00d7 normal volume",
-    "MNDY downside positioning: 5,450-lot block sold on Nov 20 $65 put at $2.42 (OI just 126)",
-    "AI/semis wildcard: Qualcomm\u2013Amazon custom AI chip deal includes warrants for AMZN to buy ~$4B of QCOM stock"
+    "Apple event risk-on/risk-off hinge: first foldable iPhone in focus (and pricing shock risk)",
+    "Brent punches above $100: inflation risk premium is back in the driver\u2019s seat",
+    "Rates re-tighten: US 10-year yield back above 4.8% (discount-rate pressure returns)",
+    "Treasury market microstructure: buyback \u201cwindow doubled\u201d flags long-end supply indigestion",
+    "JPY carry pressure: rising BoJ hike expectations threaten cross-asset de-risking mechanics",
+    "Geopolitical tail risk: Ukraine reportedly hits Russia\u2019s Ust-Luga oil export terminal; Kyiv struck again",
+    "UNUSUAL OPTIONS (VNET): call volume explodes to 23,406 contracts (+348% vs typical)",
+    "UNUSUAL OPTIONS (TSCO): ~20:1 calls vs puts, Sep 11 $36 calls are the magnet",
+    "Semis \u201cpause on heavy volume\u201d: NVDA and MU flat after-hours as macro becomes the trigger"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,18 +1,21 @@
 {
-  "last_run": "2026-09-10T17:01:40Z",
+  "last_run": "2026-09-10T23:21:04Z",
   "stories": [
-    "US labor market still tight at the margin: initial claims 206K vs 205K est.",
-    "Oil re-prices war risk: Brent settles above $101 on Hormuz disruption fears",
-    "Europe\u2019s gas shock accelerates: Dutch TTF up ~50% since August",
-    "FX stress point: yen carry trade pressure rises as BOJ hike expectations build",
-    "Single-name shock (medtech): $COO down ~15% premarket on guide cut",
-    "Market-structure signal: Nasdaq to invest $100M in crypto firm; tokenized stocks targeted for 2027",
-    "Wildcard catalyst: Oracle earnings as a live read-through on the AI trade"
+    "Oil shock: Brent/WTI rip back through $100 on renewed tanker/shipping attacks",
+    "Rates: US Treasury yields hit the highest since 2023 as oil lifts inflation fears; buyback headline didn\u2019t stop the selloff",
+    "US macro: August PPI +0.4% m/m (in line), but the mix keeps hike odds elevated",
+    "Europe: ECB hikes 25 bps, underscoring global tightening momentum",
+    "Trade policy risk: Copper rally faces reversal as White House rethinks refined-copper tariffs",
+    "FX/Asia: Yen strengthens on intervention risk; BoJ hike is \u201cpriced,\u201d so guidance becomes the catalyst",
+    "Earnings (after-hours): Oracle beats on earnings and revenue; shares move higher",
+    "Alpha (options): Macy\u2019s ($M) sees a 10,000-lot Jan 15, 2027 $23 call \u201ctransfer\u201d (~$2.0M premium)",
+    "Alpha (options): Whale-scan flags outsized IT options activity in $AAPL / $ZS\u2014volume dwarfs prior OI",
+    "Crypto (risk barometer): Bitcoin slides on oil/yields; ETF flows diverge\u2014and liquidation spike is confirmed"
   ],
   "tickers": [
-    "COO"
+    "AAPL"
   ],
   "alpha_tickers": [
-    "COO"
+    "AAPL"
   ]
 }

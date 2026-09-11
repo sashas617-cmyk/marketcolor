@@ -1,21 +1,15 @@
 {
-  "last_run": "2026-09-10T23:21:04Z",
+  "last_run": "2026-09-11T12:08:05Z",
   "stories": [
-    "Oil shock: Brent/WTI rip back through $100 on renewed tanker/shipping attacks",
-    "Rates: US Treasury yields hit the highest since 2023 as oil lifts inflation fears; buyback headline didn\u2019t stop the selloff",
-    "US macro: August PPI +0.4% m/m (in line), but the mix keeps hike odds elevated",
-    "Europe: ECB hikes 25 bps, underscoring global tightening momentum",
-    "Trade policy risk: Copper rally faces reversal as White House rethinks refined-copper tariffs",
-    "FX/Asia: Yen strengthens on intervention risk; BoJ hike is \u201cpriced,\u201d so guidance becomes the catalyst",
-    "Earnings (after-hours): Oracle beats on earnings and revenue; shares move higher",
-    "Alpha (options): Macy\u2019s ($M) sees a 10,000-lot Jan 15, 2027 $23 call \u201ctransfer\u201d (~$2.0M premium)",
-    "Alpha (options): Whale-scan flags outsized IT options activity in $AAPL / $ZS\u2014volume dwarfs prior OI",
-    "Crypto (risk barometer): Bitcoin slides on oil/yields; ETF flows diverge\u2014and liquidation spike is confirmed"
+    "Executive summary (12:06 UTC):",
+    "Europe: ECB-linked bond selloff deepens after Lagarde flags energy inflation risk",
+    "Japan: BOJ reportedly set to hike to 1.25% next week\u2014carry and JPY vol in focus",
+    "Strait of Hormuz: risk premium wobbles on Iran\u2013Gulf meeting chatter (headline-sensitive tape)",
+    "UK: growth/output beat lifts sterling; focus swings to CPI and rate path",
+    "Market structure/crypto: Nasdaq (\\$NDAQ) puts \\$100M into crypto firm; targets 2027 \u201ctokenized stocks\u201d",
+    "Unusual options: Uber (\\$UBER) sees 177,652 calls traded (+74% vs average)",
+    "China: Beijing signals broader yuan internationalization push (2026\u20132030)"
   ],
-  "tickers": [
-    "AAPL"
-  ],
-  "alpha_tickers": [
-    "AAPL"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

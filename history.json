@@ -1,17 +1,23 @@
 {
-  "last_run": "2026-09-11T23:28:25Z",
+  "last_run": "2026-09-12T11:29:51Z",
   "stories": [
-    "Executive summary:",
-    "US inflation re-ignites \u201chigher-for-longer\u201d: CPI drives a fresh rate-hike repricing",
-    "Hormuz risk premium jumps: IMO pauses escort operations after reported attack",
-    "Trade-policy overhang: Trump tariff strategy faces Supreme Court risk + $450B consumer idea",
-    "Japan risk-off: firmer yen + BoJ tightening expectations hit exporters",
-    "China signals financial-stability priority: RMB 360B recapitalization plan for state institutions",
-    "Black Sea escalation adds logistics/insurance risk: Russia claims strikes near Ukrainian ports",
-    "ALPHA (Options): Apple flow flags near-term hedging/overwriting into expiration",
-    "ALPHA (Options): Strive ($ASST) sees outsized call burst\u2014volatility risk elevated",
-    "Crypto stays fragile into macro-rate volatility: BTC hovers near $79k amid liquidations"
+    "Hormuz tail-risk spikes again: IMO pauses escort ops after reported attack",
+    "Red Sea escalation: Houthis seize island, raising Bab el\u2011Mandeb chokepoint risk",
+    "Cross-asset squeeze: oil near $108 as bond yields surge",
+    "US inflation surprise: August CPI +0.4% m/m, +3.4% y/y resets Fed path debate",
+    "China financial-stability pivot: RMB 360B fresh capital for state banks/institutions",
+    "Ukraine risk premia linger: strikes on industrial targets keep Europe on edge",
+    "Trade/tariff signal: US net duty collections rise as refunds fall (August)",
+    "ALPHA (Options): $SHOE sees heavy downside positioning\u2014Oct 16 \u201926 $17.50 puts dominate",
+    "ALPHA (Options): $ORCL call volume explodes to ~502,066 contracts (+49% vs avg)",
+    "Wildcard (Crypto/risk sentiment): ETH-led leverage washout\u2014~$311.76M shorts liquidated in 24h"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "ORCL",
+    "SHOE"
+  ],
+  "alpha_tickers": [
+    "ORCL",
+    "SHOE"
+  ]
 }

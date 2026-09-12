@@ -1,20 +1,22 @@
 {
-  "last_run": "2026-09-12T16:10:55Z",
+  "last_run": "2026-09-12T23:12:32Z",
   "stories": [
-    "Japan: BoJ tightening odds rise; markets now talk about rates trending toward ~1.5%",
-    "Ukraine/Black Sea: reports of deeper strikes and cargo-ship attacks lift shipping risk premia",
-    "US inflation/Fed path: CPI \u201cedges up,\u201d keeping next-week hike uncertainty alive",
-    "Healthcare/medtech focus: J&J\u2019s \u2018Ottava\u2019 surgical robot back in the spotlight",
-    "ALPHA: $ASST sees a sharp call-accumulation spike (~49,197 calls; +58% vs typical volume)",
-    "ALPHA: $AAPL \u201cbearish\u201d same-day call sweep flagged at the $335 strike (814 contracts, split across 9 fills)",
-    "Wildcard: Crypto snaps back\u2014BTC/ETH rebound as short liquidations spike"
+    "Daily Market Pulse \u2014 Sat, Sep 12, 2026 (23:10 UTC)",
+    "Bab el-Mandeb risk premium: Houthis consolidate control near the chokepoint (shipping/oil flow tail risk)",
+    "Headline volatility: reports Gulf ministers plan to meet Iranian counterparts; crude dips modestly",
+    "Ukraine escalation hits \u201creal economy\u201d assets: cargo vessels + steel plants reportedly struck",
+    "Oracle: Ellison adopts plan to sell up to ~$7.5B in stock (sentiment/supply overhang)",
+    "Europe: policy push to move households from deposits into equities (slow-burn flow catalyst)",
+    "ALPHA \u2014 $SHOE: heavy downside positioning clusters in Oct 16, 2026 $17.50 puts",
+    "ALPHA \u2014 $SLS: notable bearish put sweep, Oct 16, 2026 $7 strike (927 contracts)",
+    "Wildcard \u2014 Earnings \u201cAI complex\u201d tape-watch next: Dell, Broadcom, Snowflake on deck"
   ],
   "tickers": [
-    "AAPL",
-    "ASST"
+    "SHOE",
+    "SLS"
   ],
   "alpha_tickers": [
-    "AAPL",
-    "ASST"
+    "SHOE",
+    "SLS"
   ]
 }

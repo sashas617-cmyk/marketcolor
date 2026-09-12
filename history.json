@@ -1,23 +1,20 @@
 {
-  "last_run": "2026-09-12T11:29:51Z",
+  "last_run": "2026-09-12T16:10:55Z",
   "stories": [
-    "Hormuz tail-risk spikes again: IMO pauses escort ops after reported attack",
-    "Red Sea escalation: Houthis seize island, raising Bab el\u2011Mandeb chokepoint risk",
-    "Cross-asset squeeze: oil near $108 as bond yields surge",
-    "US inflation surprise: August CPI +0.4% m/m, +3.4% y/y resets Fed path debate",
-    "China financial-stability pivot: RMB 360B fresh capital for state banks/institutions",
-    "Ukraine risk premia linger: strikes on industrial targets keep Europe on edge",
-    "Trade/tariff signal: US net duty collections rise as refunds fall (August)",
-    "ALPHA (Options): $SHOE sees heavy downside positioning\u2014Oct 16 \u201926 $17.50 puts dominate",
-    "ALPHA (Options): $ORCL call volume explodes to ~502,066 contracts (+49% vs avg)",
-    "Wildcard (Crypto/risk sentiment): ETH-led leverage washout\u2014~$311.76M shorts liquidated in 24h"
+    "Japan: BoJ tightening odds rise; markets now talk about rates trending toward ~1.5%",
+    "Ukraine/Black Sea: reports of deeper strikes and cargo-ship attacks lift shipping risk premia",
+    "US inflation/Fed path: CPI \u201cedges up,\u201d keeping next-week hike uncertainty alive",
+    "Healthcare/medtech focus: J&J\u2019s \u2018Ottava\u2019 surgical robot back in the spotlight",
+    "ALPHA: $ASST sees a sharp call-accumulation spike (~49,197 calls; +58% vs typical volume)",
+    "ALPHA: $AAPL \u201cbearish\u201d same-day call sweep flagged at the $335 strike (814 contracts, split across 9 fills)",
+    "Wildcard: Crypto snaps back\u2014BTC/ETH rebound as short liquidations spike"
   ],
   "tickers": [
-    "ORCL",
-    "SHOE"
+    "AAPL",
+    "ASST"
   ],
   "alpha_tickers": [
-    "ORCL",
-    "SHOE"
+    "AAPL",
+    "ASST"
   ]
 }

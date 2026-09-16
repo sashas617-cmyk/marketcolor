@@ -1,21 +1,6 @@
 {
-  "last_run": "2026-09-15T23:38:09Z",
-  "stories": [
-    "Fed decision: 25bp is priced; the trade is the dots + tone as yields flirt with 5%",
-    "Oil spikes: Saudi East\u2013West pipeline outage after attacks puts shipping/infrastructure risk back on the tape",
-    "Tech risk cracks: \u201cAI-growth scare\u201d narrative hits duration and chips hardest (unverified social buzz)",
-    "US financials wobble: banks slide after BofA flags trading-revenue risk",
-    "China FX: PBoC sets a firmer yuan fixing ahead of the Trump\u2013Xi summit",
-    "Japan FX inflection: yen rally is at a \u201cmoment of truth\u201d with BOJ follow-through in doubt",
-    "Macro inflation impulse: commodities strengthen; futures imply ~80% odds of a December hike",
-    "Insider/major-holder bid: Cascade Investment ramps Republic Services (RSG) buying in size",
-    "Options shocker: $IE call volume explodes, concentrated in Oct 16, 2026 $12.50 calls",
-    "Crypto policy catalyst + flows: CLARITY Act progress improves tone as BTC ETF flows stay headline-sensitive"
-  ],
-  "tickers": [
-    "IE"
-  ],
-  "alpha_tickers": [
-    "IE"
-  ]
+  "last_run": "2026-09-16T12:24:07Z",
+  "stories": [],
+  "tickers": [],
+  "alpha_tickers": []
 }

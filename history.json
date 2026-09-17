@@ -1,15 +1,12 @@
 {
-  "last_run": "2026-09-16T23:46:36Z",
+  "last_run": "2026-09-17T12:22:34Z",
   "stories": [
-    "Executive summary:",
-    "Treasury market reprices: 10-year snaps back ~5%, front-end shifts higher",
-    "Europe: policy push to move household cash from deposits into equities",
-    "Macro regime: Fed + geopolitics keep cross-asset correlations elevated",
-    "Volatility signal: a head-scratching, deep ITM VIX put buy hit the tape",
-    "ALPHA \u2014 EQT: put volume spikes (23,008 puts), bearish skew jumps",
-    "ALPHA \u2014 WRBY: call skew targets Sep 18 $26 calls on ~10x volume",
-    "Wildcard \u2014 Fed \u201cdots\u201d/guidance optics: communication itself is becoming a rates catalyst"
+    "Executive summary (12:21 UTC):"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "META"
+  ],
+  "alpha_tickers": [
+    "META"
+  ]
 }

@@ -1,12 +1,13 @@
 {
-  "last_run": "2026-09-17T12:22:34Z",
+  "last_run": "2026-09-17T17:37:56Z",
   "stories": [
-    "Executive summary (12:21 UTC):"
+    "Executive summary:",
+    "ECB: Makhlouf says the ECB \u201ccan\u2019t rule out anything\u201d; EUR softens on renewed policy optionality",
+    "Italy budget chatter: deficit expectations risk widening BTP-Bund spreads",
+    "Risk mood improves: futures higher as \u201cAI trade\u201d re-energizes while oil slides ~3%",
+    "BBY options: call volume explodes to 65,723 contracts (+851% vs avg), signaling a catalyst hunt",
+    "Whale flow: financials options tape flags NU and Galaxy Digital; one put split into 51 fills (~$43.4K premium)"
   ],
-  "tickers": [
-    "META"
-  ],
-  "alpha_tickers": [
-    "META"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

@@ -1,21 +1,15 @@
 {
-  "last_run": "2026-09-19T11:45:01Z",
+  "last_run": "2026-09-19T16:23:34Z",
   "stories": [
-    "Oil shock: Saudi East\u2013West pipeline outage is still constraining export logistics; crude stays bid",
-    "Central banks: BOJ rate hike + rising yields are reintroducing global duration volatility",
-    "Trade-policy catalyst: markets watch Trump\u2013Xi summit risk for tariffs/export controls",
-    "US equities: stocks ended slightly lower as tech dragged; Meta helped limit downside",
-    "Crypto risk-on (live market): Bitcoin breaks higher above $80k on short liquidations",
-    "Options alpha: $LW saw extreme downside focus\u2014Oct 16 \u201926 $37.50 puts (~14k contracts) hit in blocks",
-    "Insider/positioning alpha: $STX CEO William D. Mosley reported selling 97,889 shares (~$75.58M); broader exec selling cited",
-    "Ukraine war: Russia launched 93 drones; long-range strike dynamics keep defense/energy risk premia supported"
+    "Hormuz logistics become the market\u2019s front-end oil risk: U.S. says it escorted \u201c~1B barrels\u201d out of the Strait",
+    "Rates are the dominant macro gravity: 10Y near ~5% after the Fed\u2019s first hike in 3 years",
+    "Tokenization narrative heats up: \u201ctokenized stocks\u201d framed as a market-structure shift",
+    "Derivatives positioning remains a live driver: triple witching + higher yields amplified tape volatility",
+    "High-beta leadership stays choppy: big single-name movers concentrated flows (NFLX, COIN, Sandisk, SpaceX)",
+    "Crypto leverage reset: BTC short liquidations dominate the last 24h flow",
+    "Insider/capital-structure signal: John Malone adds Liberty Latin America preferred (LILA prefs) at ~$20.43",
+    "Policy narrative watch: \u201cK-shaped economy is over\u201d claim draws political scrutiny (unverified social buzz)"
   ],
-  "tickers": [
-    "LW",
-    "STX"
-  ],
-  "alpha_tickers": [
-    "LW",
-    "STX"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

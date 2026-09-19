@@ -1,14 +1,16 @@
 {
-  "last_run": "2026-09-19T16:23:34Z",
+  "last_run": "2026-09-19T23:22:43Z",
   "stories": [
-    "Hormuz logistics become the market\u2019s front-end oil risk: U.S. says it escorted \u201c~1B barrels\u201d out of the Strait",
-    "Rates are the dominant macro gravity: 10Y near ~5% after the Fed\u2019s first hike in 3 years",
-    "Tokenization narrative heats up: \u201ctokenized stocks\u201d framed as a market-structure shift",
-    "Derivatives positioning remains a live driver: triple witching + higher yields amplified tape volatility",
-    "High-beta leadership stays choppy: big single-name movers concentrated flows (NFLX, COIN, Sandisk, SpaceX)",
-    "Crypto leverage reset: BTC short liquidations dominate the last 24h flow",
-    "Insider/capital-structure signal: John Malone adds Liberty Latin America preferred (LILA prefs) at ~$20.43",
-    "Policy narrative watch: \u201cK-shaped economy is over\u201d claim draws political scrutiny (unverified social buzz)"
+    "Middle East shipping risk spikes again: Hormuz attacks + U.S. escort posture keeps oil risk-premium elevated",
+    "Russia\u2013Ukraine escalation: civilian casualties + Black Sea vessel strikes raise shipping/insurance disruption risk",
+    "Rates/volatility: higher global yields + triple-witching positioning keeps intraday whipsaw risk high",
+    "U.S. equities: tech drag offsets Meta strength; indexes finish slightly lower (leadership breadth still mixed)",
+    "Commodities/FX: gold capped by stronger USD after the Fed\u2019s +25 bps and more-hikes guidance",
+    "Trade-policy tail risk: market sensitivity rising into a Trump\u2013Xi summit preview",
+    "U.S. crypto regulation: Senate blocks the CLARITY Act, re-injecting uncertainty into platform valuations",
+    "Options alpha (LW): heavy put skew tied to sold blocks in Oct $37.50 puts into earnings window",
+    "Options alpha (HOOD): \u201cbearish\u201d call sweep flagged in the front week at a high strike",
+    "Crypto tape: majors pop on short-liquidation dynamics; ETH also bid on tokenized-securities policy headlines"
   ],
   "tickers": [],
   "alpha_tickers": []

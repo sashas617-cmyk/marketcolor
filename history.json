@@ -1,16 +1,21 @@
 {
-  "last_run": "2026-09-18T23:29:08Z",
+  "last_run": "2026-09-19T11:45:01Z",
   "stories": [
-    "US equities: choppy tape into heavy options expiration as yields rise",
-    "Oil: volatility persists above $100 as Middle East disruption risk stays live",
-    "Gold: higher-rate gravity as BoE holds; BoJ hike expectations loom",
-    "Trade-risk watch: Trump\u2013Xi summit + PMI calendar back on the front burner",
-    "US policy-risk premium: \u201cFed independence\u201d becomes tradable again",
-    "Market structure: tokenized US stock trading framed as an emerging catalyst",
-    "Crypto positioning: $183M liquidations as shorts get squeezed",
-    "Options tape (Healthcare): unusual BMY positioning flagged",
-    "Wildcard (Single-name gravity): Eli Lilly bar raised as sell-side runs above guidance"
+    "Oil shock: Saudi East\u2013West pipeline outage is still constraining export logistics; crude stays bid",
+    "Central banks: BOJ rate hike + rising yields are reintroducing global duration volatility",
+    "Trade-policy catalyst: markets watch Trump\u2013Xi summit risk for tariffs/export controls",
+    "US equities: stocks ended slightly lower as tech dragged; Meta helped limit downside",
+    "Crypto risk-on (live market): Bitcoin breaks higher above $80k on short liquidations",
+    "Options alpha: $LW saw extreme downside focus\u2014Oct 16 \u201926 $37.50 puts (~14k contracts) hit in blocks",
+    "Insider/positioning alpha: $STX CEO William D. Mosley reported selling 97,889 shares (~$75.58M); broader exec selling cited",
+    "Ukraine war: Russia launched 93 drones; long-range strike dynamics keep defense/energy risk premia supported"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "LW",
+    "STX"
+  ],
+  "alpha_tickers": [
+    "LW",
+    "STX"
+  ]
 }

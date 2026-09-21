@@ -1,14 +1,16 @@
 {
-  "last_run": "2026-09-21T13:33:13Z",
+  "last_run": "2026-09-21T18:38:23Z",
   "stories": [
-    "Oil shock: crude slides on OPEC+ / slowdown fears / tariff overhang",
-    "Strait of Hormuz escalation: tanker hit by projectile (shipping/insurance risk back in play)",
-    "Ukraine\u2013Russia \u2018energy war\u2019 updates: oil infrastructure targeted; Ukraine fuel logistics hit",
-    "Trade-policy catalyst: markets brace for Thursday\u2019s Trump\u2013Xi meeting",
-    "Europe: yields ease as oil drops; Lagarde speech becomes the near-term rates compass",
-    "ALPHA (Options): Alphabet call volume elevated across both share classes into OpEx window",
-    "ALPHA (Options): WYNN call volume spikes as Macau softness meets geopolitical headline tape",
-    "Wildcard cross-asset: tech + crypto lead while long-duration bonds catch a bid"
+    "Rates/FX: Fed stays hawkish (+25bp), markets keep pricing another hike (~60%)\u2014USD firm, gold capped",
+    "Energy: WTI snaps back to ~$97.56 (-2.73%) as \u201crisk premium\u201d meets reality checks on flows",
+    "US equities: leadership broadens as semis soften\u2014rotation toward hyperscalers + cyclicals",
+    "Valuation risk: mega-cap swings revive \u201cbubble / sudden de-risking\u201d fears",
+    "FX: EUR/USD sitting on a key ~1.1450 pivot as Fed\u2013ECB divergence widens",
+    "Macro/politics: week-ahead packed\u2014global PMIs + multiple central banks, but Thursday\u2019s Trump\u2013Xi summit is the binary",
+    "UK macro: \u201chigher-for-longer\u201d positioning + BoE QT focus; energy-price tail risk returns",
+    "Crypto (flow/positioning): Bitcoin tags ~$85,000; ~$648M shorts liquidated",
+    "Single-name momentum: Intel pops on \u201cAI turnaround\u201d chatter + reported SK Hynix talks; Tigress PT lifted to $145",
+    "Wildcard systemic risk: BoE\u2019s Breeden warns the window is closing to prevent AI-driven market crashes"
   ],
   "tickers": [],
   "alpha_tickers": []

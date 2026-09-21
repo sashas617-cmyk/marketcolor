@@ -1,15 +1,14 @@
 {
-  "last_run": "2026-09-20T23:31:27Z",
+  "last_run": "2026-09-21T13:33:13Z",
   "stories": [
-    "Middle East risk premium spikes: U.S. issues travel warning as Iran tensions rise; Hormuz disruptions push Brent higher",
-    "Russia-Ukraine escalation: large Ukrainian drone wave hits Moscow region; refinery damage reported",
-    "OPEC+ politics: Iraq asks OPEC to lift its production baseline to 6 million bpd",
-    "Supply-side nuance: Big Oil output keeps rising even with leaner capex",
-    "U.S. equity tape: modest gains, but leadership shifts toward retail + real estate",
-    "India open setup: GIFT Nifty points to a moderate gap-up (~+150)",
-    "Crypto squeeze: Bitcoin reclaims $80k as ~$603M liquidations hit (~110k traders)",
-    "Options tape: Alphabet call volumes surge across both share classes (GOOG/GOOGL)",
-    "Wildcard (AI risk appetite): OpenAI explores funding at ~$1.2T valuation ahead of IPO (confirmed)"
+    "Oil shock: crude slides on OPEC+ / slowdown fears / tariff overhang",
+    "Strait of Hormuz escalation: tanker hit by projectile (shipping/insurance risk back in play)",
+    "Ukraine\u2013Russia \u2018energy war\u2019 updates: oil infrastructure targeted; Ukraine fuel logistics hit",
+    "Trade-policy catalyst: markets brace for Thursday\u2019s Trump\u2013Xi meeting",
+    "Europe: yields ease as oil drops; Lagarde speech becomes the near-term rates compass",
+    "ALPHA (Options): Alphabet call volume elevated across both share classes into OpEx window",
+    "ALPHA (Options): WYNN call volume spikes as Macau softness meets geopolitical headline tape",
+    "Wildcard cross-asset: tech + crypto lead while long-duration bonds catch a bid"
   ],
   "tickers": [],
   "alpha_tickers": []

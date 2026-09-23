@@ -1,11 +1,16 @@
 {
-  "last_run": "2026-09-22T23:43:10Z",
+  "last_run": "2026-09-23T12:27:05Z",
   "stories": [
-    "Asia open: China & Hong Kong tick higher, extending the regional risk-on tone",
-    "Unusual options (LUV): Sep 25 $44 calls see outsized call skew into a tight window",
-    "~25:1 calls vs puts",
-    "Insider tape (GME): Ryan Cohen buys ~$26.4M stock\u2014fresh fuel for retail/meme flows",
-    "IPO mood check: fragile tape as derailed offerings shake sentiment ahead of an AI-heavy pipeline (Anthropic focus)"
+    "Oil: mixed tape as U.S.\u2013Iran talks continue at the UN; risk premium stays embedded",
+    "Eurozone flash PMIs: surprise upturn, but cost pressures re-accelerate (stagflation-ish mix)",
+    "ECB signal watch: Nagel keeps the door open to \u201crestrictive policy\u201d",
+    "UK macro/rates: BoE details a long QT runway\u2014~\u00a346bn average annual balance-sheet reduction through 2034",
+    "U.S. rates: 2Y auction reportedly tails as indirect/foreign demand slides",
+    "UK supply: \u00a34.25bn 2036 gilt auction with a 25% post-auction option facility (PAOF)",
+    "Crypto: ~$1B in BTC short liquidations as Bitcoin holds above ~$86k; $90k back in play",
+    "Options alpha (XYZ / Block): extreme put volume vs OI screams \u201cnew risk being put on\u201d",
+    "Crypto microstructure edge: Kalshi perp volumes dominated by repeating \u201codd-lot\u201d sizes (e.g., $5,499)",
+    "Euro area sentiment check: consumer confidence slips to -16.5, breaking a 4-month improving streak"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,16 +1,17 @@
 {
-  "last_run": "2026-09-24T12:26:56Z",
+  "last_run": "2026-09-24T17:52:47Z",
   "stories": [
-    "Rates shock: U.S. 30-year yield hits 5.39% (22-year high) after hot PMI",
-    "Oil spike: Brent (UKOIL) surges as Middle East rhetoric hardens and Hormuz fears return",
-    "Geopolitics headline risk: Iran president delivers defiant UN message",
-    "Germany macro upside: Ifo Business Climate rises to 89.9 (beats)",
-    "UK growth pulse cools: September flash composite PMI slows to 51.7",
-    "Europe equities: DAX 40 down ~0.66% to 25,410.63 as yields bite",
-    "Crypto risk-off: Bitcoin rejected at $87,000; ~$237M liquidations",
-    "Earnings catalyst: Costco (COST) reports after the bell (consumer/staples read-through)",
-    "Near-term playbook: SPY open pinned to jobless claims + housing data + Fed speak (yields = main friction)",
-    "Wildcard: U.S.\u2013China headline risk \u2014 report flags Trump meeting Xi as yields push higher"
+    "Executive summary:",
+    "Rates shock persists: U.S. 10Y near ~5.11%, highest since 2007",
+    "Term-premium/long-end dominance: this is duration-led tightening, not just \u201cFed path\u201d",
+    "Policy pricing: \u201chigher-for-longer\u201d narrative stays sticky while 10s refuse to mean-revert",
+    "Equities: multiple compression risk remains highest in long-duration growth/tech",
+    "Credit: refinancing math worsens as 5%+ long yields reset \u201cnormal\u201d funding assumptions",
+    "FX: high U.S. long rates are a structural USD tailwind (and a headwind for EM carry)",
+    "Real assets: housing/REIT duration remains the pressure point while long rates stay pinned",
+    "Rates \u201clevel check\u201d (actionable): 5.10% is now the line\u2014watch for a breakout impulse above today\u2019s ~5.11% area",
+    "Cross-asset \u201cstress tell\u201d: if 10Y stays >5%, expect heavier systematic vol-control/risk-parity pressure",
+    "Wildcard: commodities vs real yields\u2014gold sensitivity rises as the market treats this as a real-yield regime"
   ],
   "tickers": [],
   "alpha_tickers": []

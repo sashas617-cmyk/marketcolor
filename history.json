@@ -1,17 +1,11 @@
 {
-  "last_run": "2026-09-24T17:52:47Z",
+  "last_run": "2026-09-25T00:00:08Z",
   "stories": [
-    "Executive summary:",
-    "Rates shock persists: U.S. 10Y near ~5.11%, highest since 2007",
-    "Term-premium/long-end dominance: this is duration-led tightening, not just \u201cFed path\u201d",
-    "Policy pricing: \u201chigher-for-longer\u201d narrative stays sticky while 10s refuse to mean-revert",
-    "Equities: multiple compression risk remains highest in long-duration growth/tech",
-    "Credit: refinancing math worsens as 5%+ long yields reset \u201cnormal\u201d funding assumptions",
-    "FX: high U.S. long rates are a structural USD tailwind (and a headwind for EM carry)",
-    "Real assets: housing/REIT duration remains the pressure point while long rates stay pinned",
-    "Rates \u201clevel check\u201d (actionable): 5.10% is now the line\u2014watch for a breakout impulse above today\u2019s ~5.11% area",
-    "Cross-asset \u201cstress tell\u201d: if 10Y stays >5%, expect heavier systematic vol-control/risk-parity pressure",
-    "Wildcard: commodities vs real yields\u2014gold sensitivity rises as the market treats this as a real-yield regime"
+    "Crude: physical tightness signals are flashing (inflation risk rises)",
+    "Fed-risk repricing: oil + bond vol keeps \u201chigher-for-longer\u201d sticky",
+    "Actionable inflation-hedge signal: \u201crecord physical premiums\u201d is not a paper-only move",
+    "Fragile positioning: headline sensitivity is high going into the next session",
+    "Wildcard: cross-asset feedback loop risk (oil \u2192 inflation \u2192 yields \u2192 equities)"
   ],
   "tickers": [],
   "alpha_tickers": []

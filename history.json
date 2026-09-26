@@ -1,17 +1,20 @@
 {
-  "last_run": "2026-09-26T17:10:35Z",
+  "last_run": "2026-09-26T23:48:33Z",
   "stories": [
-    "US equities: narrow, selective bid with QQQ fractionally leading as inflation is digested",
-    "Rates are back in charge: global sovereign sell-off pushes the \u201cglobal aggregate\u201d Treasury yield proxy to ~3.99%",
-    "US\u2013China: leadership talks still unclear, compounding volatility already being driven by the bond move",
-    "Iran/Strait of Hormuz: shipping security deteriorates after a reported attack; escorts reportedly paused",
-    "Red Sea/Houthi spillover: war-risk insurance premiums jump for Saudi-linked tankers docking at Yanbu",
-    "Ukraine war: Krasnodar declares emergency as strikes disrupt Azov\u2013Black Sea grain export logistics",
-    "Crypto risk sentiment: Liquid Network incident update points to ~3,400 BTC returned (~85% of the ~3,998.5 BTC withdrawn)",
-    "Insider signal (HHH): Executive Chairman Marc Grandisson bought 25,000 shares (~$1.6M) at ~$64.12 (WA price)",
-    "Accounting/catalyst risk (NGEN): NervGen to restate FY2025 (with 2024 comparatives); company says non-cash, no runway impact",
-    "Wildcard (microstructure/liquidity trap watch): STAK flagged -13.5% premarket as SEC tender-offer amendments hit EDGAR"
+    "Rates shock remains the tape: 10Y/30Y hit fresh cycle-high yields",
+    "Oil re-prices geopolitics: Iran/Hormuz escalation risk + OPEC+ pauses output adds; Brent/WTI divergence widens",
+    "Russia-Ukraine escalation shifts toward digital backbone: strikes reported on ISPs/datacentres",
+    "China policy pulse: 2026 Work Report leans into heavy fiscal support + large bond issuance",
+    "U.S. crypto regulation catalyst: Fed opens GENIUS Act stablecoin reserve/capital proposals for comment",
+    "Market structure watch: \u201c23-hour market\u201d push accelerates into Dec. 6 rollout",
+    "Options alpha: $BTG call flow spikes ~15x\u2014Oct 16, 2026 $5.50 calls bought aggressively",
+    "Crypto positioning reset: Bitcoin stalls near $84K as long liquidations spike (~$80M)",
+    "Wildcard: Tokenized equities narrative heats up\u2014Backpack targets \u201c10,000 tokenized stocks\u201d on Solana"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "BTG"
+  ],
+  "alpha_tickers": [
+    "BTG"
+  ]
 }

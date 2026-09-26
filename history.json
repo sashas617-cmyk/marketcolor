@@ -1,12 +1,16 @@
 {
-  "last_run": "2026-09-26T12:01:50Z",
+  "last_run": "2026-09-26T17:10:35Z",
   "stories": [
-    "China turns the policy dial: mortgage-rate cuts + 0.5pp RRR cut (~CNY1T liquidity)",
-    "U.S.\u2013China tariff relief report: ~$30B goods + China to buy U.S. coal in 2027\u20132028",
-    "FX/real-asset stress barometers: USD/JPY 159; gold near $4,275; oil still bid",
-    "Tape positioning: \u201cMagnificent Seven\u201d back to being the liquidity refuge; EU regulatory overhang in focus",
-    "$KLXE tightens 3Q26 outlook: revenue $180\u2013185M; EBITDA margin 13%\u201314%",
-    "Crypto risk appetite still \u201cgreedy\u201d: total market cap ~$2.98T with BTC/ETH slightly lower"
+    "US equities: narrow, selective bid with QQQ fractionally leading as inflation is digested",
+    "Rates are back in charge: global sovereign sell-off pushes the \u201cglobal aggregate\u201d Treasury yield proxy to ~3.99%",
+    "US\u2013China: leadership talks still unclear, compounding volatility already being driven by the bond move",
+    "Iran/Strait of Hormuz: shipping security deteriorates after a reported attack; escorts reportedly paused",
+    "Red Sea/Houthi spillover: war-risk insurance premiums jump for Saudi-linked tankers docking at Yanbu",
+    "Ukraine war: Krasnodar declares emergency as strikes disrupt Azov\u2013Black Sea grain export logistics",
+    "Crypto risk sentiment: Liquid Network incident update points to ~3,400 BTC returned (~85% of the ~3,998.5 BTC withdrawn)",
+    "Insider signal (HHH): Executive Chairman Marc Grandisson bought 25,000 shares (~$1.6M) at ~$64.12 (WA price)",
+    "Accounting/catalyst risk (NGEN): NervGen to restate FY2025 (with 2024 comparatives); company says non-cash, no runway impact",
+    "Wildcard (microstructure/liquidity trap watch): STAK flagged -13.5% premarket as SEC tender-offer amendments hit EDGAR"
   ],
   "tickers": [],
   "alpha_tickers": []

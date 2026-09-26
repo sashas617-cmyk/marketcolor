@@ -1,19 +1,15 @@
 {
-  "last_run": "2026-09-25T17:56:10Z",
+  "last_run": "2026-09-26T00:02:53Z",
   "stories": [
-    "Macro + headlines: bond selloff risk meets Trump\u2013Xi meeting uncertainty",
-    "Energy policy risk re-enters: Washington weighs a 90-day diesel export ban as oil/products whip",
-    "Middle East premium persists: Strait of Hormuz remains the market\u2019s geopolitics \u201ctripwire\u201d",
-    "Equity tape stays rate-sensitive: tech weighs, Meta strength cushions indexes; Europe sees Alten pop",
-    "UK inflation remains sticky: CPI 3.1% keeps BoE reaction function in play",
-    "Healthcare options tape: CDNA bullish call sweep flagged into Nov 20, 2026 expiry",
-    "Premarket anomaly watch: $STAK -13.5% on ~419k shares with no clear catalyst",
-    "Wildcard (single-name but macro-linked): Oracle slides after \u201cforce majeure\u201d tied to New Mexico data center project"
+    "Rates: Treasury yields stay elevated into the weekend after a volatile week",
+    "Trade-policy shock risk: \u201ctariffs are illegal\u201d narrative becomes a real market catalyst (confirmed)",
+    "Physical supply friction: Red Sea/Yanbu war-risk insurance spikes to ~3% of vessel value",
+    "Primary-market pulse: SEC-reported stats point to rising IPO activity/proceeds",
+    "Industrials forward signal: Toro frames a multi-year \u201cgrowth reset\u201d phase",
+    "Insider cluster at Howard Hughes: Executive Chairman buys ~$1.6M (HHH)",
+    "Rates-sensitive income signal: PIMCO Dynamic Income Fund director buys 5,700 shares (PDI)",
+    "Wildcard: Big analyst-call cluster fuels single-name momentum (AMD, 3M among highlights)"
   ],
-  "tickers": [
-    "STAK"
-  ],
-  "alpha_tickers": [
-    "STAK"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

@@ -1,16 +1,20 @@
 {
-  "last_run": "2026-09-27T12:37:46Z",
+  "last_run": "2026-09-27T17:48:27Z",
   "stories": [
-    "U.S. equities: steady, narrow gains as traders digest inflation signals; focus shifts to mega-cap earnings",
-    "Rates pressure is back: broad sovereign yields grind higher (tighter-conditions impulse)",
-    "Oil\u2019s push-pull: OPEC+ supply increases + softer China demand cap upside (even with ME risk premium)",
-    "LNG/gas: market could stay tight through next summer amid Gulf disruption risk",
-    "Russia energy-infrastructure risk: Ilsky refinery reportedly hit and set ablaze",
-    "South China Sea temperature rises: China conducts joint naval-air exercise near Scarborough Shoal",
-    "Crypto risk-off: ~$425M in futures liquidations as higher-rate fears hit alts (VET flagged)",
-    "Insider tape (CART): Instacart Chief Accounting Officer sells 3,017 shares after pullback",
-    "Taiwan risk stack: fresh PLA activity reported; U.S. politics may slow arms-delivery timelines"
+    "Europe preps for winter squeeze: EU pushes demand curbs as gas spike risk returns (>\u20ac100/MWh tail)",
+    "Rates tape: global sovereign yields higher \u2014 Bloomberg Global Aggregate Treasuries yield index +~8 bps to ~3.99%",
+    "U.S. equities: resilience continues, but leadership remains narrow (tech-heavy bid)",
+    "OPEC+ cohesion watch: Iraq denies it plans to leave OPEC amid quota tensions",
+    "Ukraine war: continued missile/drone strikes + Ukraine targets Russian oil infrastructure (energy-supply tail risk persists)",
+    "Israel\u2013Lebanon front: officials deny reports of Israeli withdrawal from occupied southern Lebanon",
+    "Maritime edge: Bab al\u2011Mandab traffic still impaired (~76% of pre-war) \u2014 Red Sea freight tail-risk remains",
+    "Single-name momentum (unverified social buzz): $VIAV breaks higher to ~$40.89 on defense/cybersecurity framing",
+    "Wildcard geopolitical overhang: Gaza death toll reported >74,000; ceasefire components still stalled"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "VIAV"
+  ],
+  "alpha_tickers": [
+    "VIAV"
+  ]
 }

@@ -1,17 +1,18 @@
 {
-  "last_run": "2026-09-28T00:03:15Z",
+  "last_run": "2026-09-28T14:49:47Z",
   "stories": [
-    "Middle East risk premium snaps back: Trump rejects Iran\u2019s Hormuz reopening proposal",
-    "Rates shockwatch: U.S. 10Y breaks above 5% (psych + positioning level)",
-    "Fed path reprices: October hike odds jump; tightening expectations extend into 2027",
-    "Saudi supply disruption scare: East\u2013West pipeline reportedly down",
-    "Energy tail scenarios re-enter: sell-side $120 oil talk returns amid tight diesel/crude balances",
-    "Macro/commodities setup: \u201cinflation + payrolls week\u201d with hawkish policy tone still in play",
-    "U.S. equities internals: indices hold up, but leadership remains narrow (QQQ-heavy)",
-    "\u201cThree clocks\u201d volatility after Trump\u2013Xi: headline timing is now part of the trade",
-    "JPY intervention isn\u2019t changing the trend: USD/JPY still ~160 without faster BoJ tightening",
-    "India trade-policy push: New Delhi accelerates diplomacy to expand overseas market access"
+    "right now (14:47 UTC)",
+    "Sector rotation: energy bid is the cleanest read-through from today\u2019s tape",
+    "Europe\u2019s message: \u201cbuy selectively,\u201d but remain headline- and rates-sensitive",
+    "Actionable relative-strength proxy (no tape details provided): $XLE vs $QQQ remains the day\u2019s tell",
+    "Wildcard: the market is trading \u201cheadline timing\u201d more than fundamentals today"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "QQQ",
+    "XLE"
+  ],
+  "alpha_tickers": [
+    "QQQ",
+    "XLE"
+  ]
 }

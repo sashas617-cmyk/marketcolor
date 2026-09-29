@@ -1,10 +1,17 @@
 {
-  "last_run": "2026-09-28T20:08:13Z",
+  "last_run": "2026-09-29T01:14:30Z",
   "stories": [
-    "Semis/datacenter buildout signal: GlobalFoundries catalysts in optical + Marvell-linked capacity",
-    "ALPHA: Unusual IT options flow flagged (SNOW, BBAI)",
-    "ALPHA: Insider buy\u2014Howard Hughes (HHH) chairman buys ~$1.6M stock",
-    "Wildcard: Bitcoin breaks below ~$82.7K as liquidations spike"
+    "Executive Summary (01:13 UTC):",
+    "Geopolitics re-escalates: Trump rejects Iran\u2019s Hormuz proposal, risk premium back on",
+    "Rates shock: higher Treasury yields tighten conditions into a catalyst-heavy week",
+    "Oil volatility: crude cools off intraday highs on reported incremental Saudi supply",
+    "Europe shows relative resilience: Stoxx 600 firmer, led by autos and retail",
+    "Asia divergence widens: Hang Seng up while China\u2019s CSI 300 sinks",
+    "Japan back on global-rates watch: yen intervention + BOJ tightening uncertainty",
+    "Enterprise AI arms race: Microsoft updates Copilot, framed vs Anthropic\u2019s Claude",
+    "ALPHA: GameStop insider buy\u2014Ryan Cohen adds ~1.15M shares (~$26.4M)",
+    "ALPHA: Whale options flow flagged in GOOGL + AST SpaceMobile (ASTS) at $75 strike",
+    "Wildcard: SpaceX \u201cGPU appetite\u201d emerges as a catalyst watch for AI compute supply chains"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-09-30T00:42:20Z",
+  "last_run": "2026-09-30T13:10:18Z",
   "stories": [
-    "Mortgage workflow shock: FHFA credit-scoring changes hit FICO\u2019s moat",
-    "Financials remain heavy: big asset managers slide as banks extend losing streaks",
-    "China macro inflection watch: official manufacturing PMI seen back above 50",
-    "FX: Yen intervention risk returns as Tokyo calls the JPY \u201cundervalued\u201d",
-    "AI/semi concentration persists: AMD briefly tags the $1T market-cap milestone",
-    "Options alpha \u2014 VFC: call-heavy surge targets Oct 16 $14.50 (fresh positioning)",
-    "24:1 calls vs puts",
-    "Options alpha \u2014 CNQ: 4,000-lot Oct 16 $44 put block bought (OI ~0 \u2192 new hedge/bear bet)",
-    "80:1 puts over calls",
-    "India risk-off signal: Nifty breaks below 22,900 (first time since early April)"
+    "Europe/US \u201cinflation day\u201d setup: markets braced for US prints with cross-asset rates sensitivity high",
+    "Crude stays headline-driven: Brent ~\\$103, WTI ~\\$89 with Hormuz risk premium still embedded",
+    "Trade policy shock risk: Beijing warns of retaliation if Europe tightens curbs on Chinese businesses",
+    "AI headline risk returns: OpenAI pauses a new product on safety concerns as Anthropic prospectus chatter circulates",
+    "FX/macro: stronger USD + Trump\u2013Xi meeting expectations become the global risk hinge",
+    "UK rates/FX: gilts stabilize, GBP drifts into Burnham speech\u2014but the USD remains the anchor",
+    "Event-driven: SANG spikes on a definitive takeout\u2014cash+stock terms and closing structure matter",
+    "Options tape (consumer): VFC sees \u201cnew positioning\u201d call burst into Oct 16 \\$14.50",
+    "Wildcard (US tape health): big financials still acting heavy into month-end"
   ],
   "tickers": [],
   "alpha_tickers": []

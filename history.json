@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-09-29T18:35:40Z",
+  "last_run": "2026-09-30T00:42:20Z",
   "stories": [
-    "Fed: Williams downshifts hike urgency, but keeps \u201cnot back to target until 2028\u201d in view",
-    "AI premium whipsaws the tape: Anthropic prospectus headlines + OpenAI pauses a product on safety",
-    "US equity internals flash defense: utilities bid while small caps lag",
-    "Front-end funding pulse: T-bill auctions show solid demand into quarter-end",
-    "FX: EUR/USD slides as broad USD strength tightens conditions",
-    "Energy at the pump stays a consumer/inflation problem: gas $4.465, diesel $6.382",
-    "Consumer/credit check-in: CarMax posts $7.9B in Q2 FY2027 revenue",
-    "Options alpha (consumer discretionary): TSLA flow flags a $30 strike print with premium received",
-    "Options alpha (tech): \u201cwhale alerts\u201d hit large-cap semis\u2014NVDA and AMD on the tape",
-    "Wildcard (risk appetite/financing window): IMMX raises $125M at $11 in an underwritten deal"
+    "Mortgage workflow shock: FHFA credit-scoring changes hit FICO\u2019s moat",
+    "Financials remain heavy: big asset managers slide as banks extend losing streaks",
+    "China macro inflection watch: official manufacturing PMI seen back above 50",
+    "FX: Yen intervention risk returns as Tokyo calls the JPY \u201cundervalued\u201d",
+    "AI/semi concentration persists: AMD briefly tags the $1T market-cap milestone",
+    "Options alpha \u2014 VFC: call-heavy surge targets Oct 16 $14.50 (fresh positioning)",
+    "24:1 calls vs puts",
+    "Options alpha \u2014 CNQ: 4,000-lot Oct 16 $44 put block bought (OI ~0 \u2192 new hedge/bear bet)",
+    "80:1 puts over calls",
+    "India risk-off signal: Nifty breaks below 22,900 (first time since early April)"
   ],
   "tickers": [],
   "alpha_tickers": []

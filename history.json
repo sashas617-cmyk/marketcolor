@@ -1,14 +1,22 @@
 {
-  "last_run": "2026-10-01T14:04:40Z",
+  "last_run": "2026-10-01T18:59:26Z",
   "stories": [
-    "U.S. labor market stays firm: initial jobless claims undershoot",
-    "UK gilt shock continues: yields at a 28-year peak hit equities",
-    "FX: CAD stays pinned near a two-month low as USD strength persists",
-    "Next U.S. macro catalyst: ISM Manufacturing PMI before Friday\u2019s jobs report",
-    "Options tape (Health Care): $33-strike whale block flagged with premium collected",
-    "(Unverified social buzz) StockTwits focus list rotates: ORCL, NKE, RKLB, ASTS, PSKY",
-    "Wildcard: Europe event-risk stack\u2014Swiss CPI, French budget, and heavy central-bank speak"
+    "Oil is the macro pressure valve again: WTI trades above ~$92 on Hormuz risk",
+    "U.S. ISM Manufacturing surprises to the upside: PMI 54.5, New Orders stronger",
+    "Labor still looks tight: initial jobless claims undershoot expectations",
+    "Earnings tape: Micron prints strong, but MU can\u2019t catch a bid",
+    "Europe macro setup: Eurozone flash CPI risk puts ECB path back in play",
+    "FX: USD stays firm into the next data batch as yields remain elevated",
+    "Options alpha: $RIO put volume spikes ~7x \u2014 flow clustered in Nov 20, 2026 $90 puts",
+    "Options alpha (Industrials): $GEV sees high-dollar put sweep \u2014 Jan 15, 2027 $1120 puts",
+    "Wildcard: Gold finds dip buyers near ~$4,139 even with yields elevated"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "GEV",
+    "RIO"
+  ],
+  "alpha_tickers": [
+    "GEV",
+    "RIO"
+  ]
 }

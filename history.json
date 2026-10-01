@@ -1,13 +1,20 @@
 {
-  "last_run": "2026-09-30T18:24:16Z",
+  "last_run": "2026-10-01T00:42:40Z",
   "stories": [
-    "ECB path repricing: TD sees one more 25 bp hike in December (deposit rate ~2.75%)",
-    "FX tape: DXY mildly pressured; GBP supported post-GDP; AUD lags on cooler CPI",
-    "US financials remain a drag: September drawdowns deepen in key index leaders",
-    "MSTR options tape: short-dated $155 calls (Oct 2) traded in size; premium skew suggests call-writing flow",
-    "Insider bid in Brazil banks: Bradesco exec Alexandre Panico buys ~$784k (preferred shares)",
-    "Wildcard geopolitics: Xi visit heavy on symbolism; limited movement on AI, trade, Taiwan, Iran"
+    "Treasury market structure risk: hedge funds now hold a record share of the ~$30T U.S. Treasury market",
+    "AI capex spillover: Synopsys\u2013Amazon sign a multi-year silicon IP agreement valued at >$1B",
+    "Europe closes weaker: higher oil + uncertainty around a potential U.S.\u2013Iran deal hit risk appetite",
+    "Semis sentiment pivot: Micron\u2019s quarter fuels \u201cAI-memory upcycle\u201d talk (confirmed by CNBC)",
+    "Options alpha (metals): $RIO sees elevated put flow\u2014Nov 20, 2026 $90 puts dominate (~3,504 contracts, ~7\u00d7 avg); large blocks reportedly sold ~\\$1.90 at the bid",
+    "Options alpha (high gamma): $TSLA bullish call sweep flagged at the $350 strike expiring *today* (154 contracts split across 9 fills)",
+    "Wildcard cross-asset tell: Gold extends gains toward ~$4,200/oz *despite* elevated Treasury yields"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "RIO",
+    "TSLA"
+  ],
+  "alpha_tickers": [
+    "RIO",
+    "TSLA"
+  ]
 }

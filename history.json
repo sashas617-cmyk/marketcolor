@@ -1,20 +1,14 @@
 {
-  "last_run": "2026-10-01T00:42:40Z",
+  "last_run": "2026-10-01T14:04:40Z",
   "stories": [
-    "Treasury market structure risk: hedge funds now hold a record share of the ~$30T U.S. Treasury market",
-    "AI capex spillover: Synopsys\u2013Amazon sign a multi-year silicon IP agreement valued at >$1B",
-    "Europe closes weaker: higher oil + uncertainty around a potential U.S.\u2013Iran deal hit risk appetite",
-    "Semis sentiment pivot: Micron\u2019s quarter fuels \u201cAI-memory upcycle\u201d talk (confirmed by CNBC)",
-    "Options alpha (metals): $RIO sees elevated put flow\u2014Nov 20, 2026 $90 puts dominate (~3,504 contracts, ~7\u00d7 avg); large blocks reportedly sold ~\\$1.90 at the bid",
-    "Options alpha (high gamma): $TSLA bullish call sweep flagged at the $350 strike expiring *today* (154 contracts split across 9 fills)",
-    "Wildcard cross-asset tell: Gold extends gains toward ~$4,200/oz *despite* elevated Treasury yields"
+    "U.S. labor market stays firm: initial jobless claims undershoot",
+    "UK gilt shock continues: yields at a 28-year peak hit equities",
+    "FX: CAD stays pinned near a two-month low as USD strength persists",
+    "Next U.S. macro catalyst: ISM Manufacturing PMI before Friday\u2019s jobs report",
+    "Options tape (Health Care): $33-strike whale block flagged with premium collected",
+    "(Unverified social buzz) StockTwits focus list rotates: ORCL, NKE, RKLB, ASTS, PSKY",
+    "Wildcard: Europe event-risk stack\u2014Swiss CPI, French budget, and heavy central-bank speak"
   ],
-  "tickers": [
-    "RIO",
-    "TSLA"
-  ],
-  "alpha_tickers": [
-    "RIO",
-    "TSLA"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

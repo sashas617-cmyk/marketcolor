@@ -1,16 +1,17 @@
 {
-  "last_run": "2026-10-02T18:25:36Z",
+  "last_run": "2026-10-03T01:01:27Z",
   "stories": [
-    "U.S. jobs shock resets the macro tape (last few hours): payrolls +29k, unemployment 4.2%",
-    "Rates: front-end easing expectations strengthened as duration caught a bid (data-driven move)",
-    "Equities: initial bid is supportive, but breadth/financials sensitivity matters",
-    "FX: USD direction now hinges on whether markets read this as \u201ccuts sooner\u201d or \u201crisk-off\u201d",
-    "Fed path: this report raises the odds that the next FOMC is about \u201cinsurance cuts\u201d",
-    "Credit: watch spreads\u2014if they don\u2019t widen, the equity rally can persist",
-    "Commodities: demand narrative vs weaker USD tug-of-war",
-    "Alpha check: options/flow intelligence not provided in today\u2019s feed",
-    "Alpha check: insider/positioning catalysts not provided in today\u2019s feed",
-    "Wildcard: \u201cbad news is good news\u201d only holds if the labor slowdown stays orderly"
+    "Executive summary:",
+    "U.S. jobs: September payrolls +29k; unemployment up to 4.2% with prior revisions lower \u2014 policy path repriced",
+    "U.S. long-end pressure: 10-year yields tagged the highest since 2002 \u2014 tightening impulse isn\u2019t gone",
+    "Europe catches the duration shock: European debt sells off as U.S. yields transmit tighter financial conditions",
+    "U.S. equities into the close: broad wobble with Dow drawdown while Nasdaq holds up better",
+    "FX diverges from DXY: USD/JPY snaps back after post-NFP dip \u2014 yen-specific pressure in focus",
+    "Crypto trades like a macro lever: Bitcoin reverses early gains as yields swing back higher",
+    "Housing/credit pulse: mortgage rates back above 7% (~7.28%) \u2014 affordability stays a headwind",
+    "Fiscal micro-impulse headline: reported $500 \u201crefund checks\u201d to nearly 1 million Americans (~$500M total)",
+    "Concentration risk trade map: \u201cNasdaq held up\u201d is your tell \u2014 index hedging focus shifts to mega-cap exposure",
+    "Wildcard: the real signal was the intraday *whipsaw* \u2014 macro isn\u2019t trending, it\u2019s mean-reverting"
   ],
   "tickers": [],
   "alpha_tickers": []

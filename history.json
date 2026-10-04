@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-10-04T00:00:33Z",
-  "stories": [
-    "Strait of Hormuz \u201ceffectively shut\u201d: commercial tanker transits collapse to ~1% of normal",
-    "Reuters: U.S.-Israel strikes on Iran framed as the biggest Middle East operation in decades",
-    "Ukraine: Russian drone/missile campaign intensifies; Kyiv infrastructure under heavier strain",
-    "IMF WEO: inflation easing globally, but U.S. inflation still above target; tariff risk flagged",
-    "Rates are the cross-asset pivot: TNX at ~5.342% cycle highs as labor revisions soften the edges",
-    "Equity leadership remains concentrated: Nvidia prints another record high amid valuation debate",
-    "ALPHA (Options): Novagold (NG) sees explosive call flow\u201410,000x Jan 2028 $7/$15 call vertical bought",
-    "ALPHA (Options): Weyerhaeuser (WY) long-dated upside flagged\u2014Apr 2027 $20 call hits extreme Vol/OI (\u226520)",
-    "Wildcard (Crypto structure): Robinhood to introduce 10x leverage on BTC/ETH after ~$478M liquidations"
+  "last_run": "2026-10-04T13:07:21Z",
+  "stories": [],
+  "tickers": [
+    "BABA",
+    "MPC",
+    "PSX",
+    "VLO"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "alpha_tickers": [
+    "BABA",
+    "MPC",
+    "PSX",
+    "VLO"
+  ]
 }

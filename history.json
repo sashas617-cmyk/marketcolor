@@ -1,20 +1,21 @@
 {
-  "last_run": "2026-10-05T00:05:27Z",
+  "last_run": "2026-10-05T15:27:09Z",
   "stories": [
-    "Inflation won\u2019t die: US CPI tracker holds at ~3.4% (Aug), keeping higher-for-longer alive",
-    "US housing financial conditions tighten: mortgage rates hit ~7.28%",
-    "Euro-zone bond rout: fragmentation risk spikes as French/Italian spreads jump",
-    "Middle East shipping shock stays live: Hormuz traffic remains constrained",
-    "AI complex bid returns: Broadcom leads semis into earnings-season positioning",
-    "BOJ watch: push for continued \u201cmoderate hikes\u201d keeps JPY/carry volatility in play",
-    "ALPHA (market internals): \u201crisk bid + vol up + yields up\u201d is an unstable mix",
-    "ALPHA (single-name microstructure): $AMOD flagged +~194% on massive unusual volume",
-    "Wildcard: Russia\u2011Ukraine aerial war intensifies with new infrastructure strike risk"
+    "US equities: \u201crate\u2011shock digestion\u201d after the weak jobs print \u2014 but duration is still the fulcrum",
+    "Rates: 10Y hovering near the highest since 2002; ISM services + Fed minutes are the next \u201crates path\u201d catalysts",
+    "Inflation path watch: consensus looks for core CPI to cool toward ~2.4% YoY (lowest since early 2021)",
+    "Oil is back to headline-driven volatility: China export halt vs. risk premium vs. financial conditions",
+    "FX shock absorber: USD/JPY carry\u2011trade unwind back in focus after the ~164 dislocation and intervention",
+    "Europe macro undercurrent: Bundesbank flags geopolitics reshaping policy \u2014 and renewed central\u2011bank interest in gold",
+    "Asia session recap: Japan led on AI/semis while holiday\u2011thinned regional liquidity amplified US\u2011rates sensitivity",
+    "ALPHA (index microstructure): SPX dealer gamma is still positive, but weakening \u2014 \u201cgamma flip\u201d flagged near 7,722.5",
+    "ALPHA (single\u2011name fundamental catalyst): $AMPX gets domestic pouch\u2011cell capacity via CAMINUS \u2014 volume production targeted for Q1\u201927",
+    "Wildcard (tape/flow): retail \u201cattention magnets\u201d are dominating intraday churn \u2014 TSLA/AVGO/NKE/ON in the spotlight"
   ],
   "tickers": [
-    "AMOD"
+    "AMPX"
   ],
   "alpha_tickers": [
-    "AMOD"
+    "AMPX"
   ]
 }

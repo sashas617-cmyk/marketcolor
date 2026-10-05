@@ -1,16 +1,20 @@
 {
-  "last_run": "2026-10-04T17:35:12Z",
+  "last_run": "2026-10-05T00:05:27Z",
   "stories": [
-    "Executive summary:",
-    "US Sept jobs shock: payrolls +29k vs +84k expected \u2014 growth scare catalyst into the open",
-    "Rates: the \u201cfront-end leads\u201d risk \u2014 watch for aggressive repricing of the next 1\u20133 Fed meetings",
-    "FX: USD downside risk if yield differentials compress (especially vs JPY/CHF and high carry pairs)",
-    "US equities: factor rotation risk \u2014 defensives/duration vs cyclicals/banks",
-    "Credit: spreads are the \u201cconfirm/deny\u201d mechanism for a growth scare",
-    "Commodities: oil vs gold split risk \u2014 growth scare vs real-rate impulse",
-    "Volatility: watch for a \u201crates-led vol\u201d spike bleeding into equities",
-    "Wildcard: \u201cbad jobs print\u201d \u2192 narrative risk of policy error vs fast-easing bets"
+    "Inflation won\u2019t die: US CPI tracker holds at ~3.4% (Aug), keeping higher-for-longer alive",
+    "US housing financial conditions tighten: mortgage rates hit ~7.28%",
+    "Euro-zone bond rout: fragmentation risk spikes as French/Italian spreads jump",
+    "Middle East shipping shock stays live: Hormuz traffic remains constrained",
+    "AI complex bid returns: Broadcom leads semis into earnings-season positioning",
+    "BOJ watch: push for continued \u201cmoderate hikes\u201d keeps JPY/carry volatility in play",
+    "ALPHA (market internals): \u201crisk bid + vol up + yields up\u201d is an unstable mix",
+    "ALPHA (single-name microstructure): $AMOD flagged +~194% on massive unusual volume",
+    "Wildcard: Russia\u2011Ukraine aerial war intensifies with new infrastructure strike risk"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "AMOD"
+  ],
+  "alpha_tickers": [
+    "AMOD"
+  ]
 }

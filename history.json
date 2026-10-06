@@ -1,17 +1,22 @@
 {
-  "last_run": "2026-10-06T01:52:00Z",
+  "last_run": "2026-10-06T13:55:10Z",
   "stories": [
-    "US equities: Nasdaq-heavy leadership holds up risk appetite even as rates stay restrictive",
-    "US banks: Wells Fargo upgrade sets up a \u201ccatch-up trade\u201d into the print",
-    "Japan policy risk (hours-old focus): Ueda/BoJ \u201cback-to-back October hike\u201d scenario back on the table",
-    "Crude: back toward ~$100 as OPEC+ holds quotas steady and disruption risk stays bid",
-    "Middle East shipping risk (live): Red Sea/Hormuz threats keep tanker risk premia elevated",
-    "Russia\u2013Ukraine: reported refinery damage + Black Sea disruption raises refined-product tail risk",
-    "US consumer/housing pinch point: mortgage rates flagged near ~7.28% as sensitivity rises",
-    "SPX microstructure (positioning): options \u201cwalls\u201d frame the near-term range",
-    "BX options: huge size hits ultra-cheap downside in the front expiry",
-    "Wildcard (single-name volatility): ALEC rips ~+50% on catalyst-driven attention"
+    "Rates are the macro center: US 10Y ~5.35% (highest since 2002) ahead of Fed minutes",
+    "Oil whipsaw: crude pressured by a G7 emergency release + Saudi pricing, while China export curbs keep product tight",
+    "Geopolitics risk premium: Strait of Hormuz incident cadence is rising (shipping/insurance knock-ons)",
+    "Europe policy tail risk: ECB QT \u201cpause\u201d chatter grows as spread stress becomes a front-burner issue",
+    "FX: GBP stays heavy as USD + US yields dominate despite a hawkish-leaning BoE tone",
+    "India risk-on: Nifty clears 22,700 as cyclicals lead a broad rebound (trade friction is the overhang)",
+    "Options alpha: $VIAV call burst concentrated in Oct 16, 2026 expiry (strikes 40 & 46)",
+    "Options alpha: $UAL sees 68,953 calls trade (~+268% vs typical volume)",
+    "Wildcard macro pinch: US mortgage rates ~7.28% keep housing affordability under pressure"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "UAL",
+    "VIAV"
+  ],
+  "alpha_tickers": [
+    "UAL",
+    "VIAV"
+  ]
 }

@@ -1,22 +1,15 @@
 {
-  "last_run": "2026-10-06T13:55:10Z",
+  "last_run": "2026-10-06T18:54:29Z",
   "stories": [
-    "Rates are the macro center: US 10Y ~5.35% (highest since 2002) ahead of Fed minutes",
-    "Oil whipsaw: crude pressured by a G7 emergency release + Saudi pricing, while China export curbs keep product tight",
-    "Geopolitics risk premium: Strait of Hormuz incident cadence is rising (shipping/insurance knock-ons)",
-    "Europe policy tail risk: ECB QT \u201cpause\u201d chatter grows as spread stress becomes a front-burner issue",
-    "FX: GBP stays heavy as USD + US yields dominate despite a hawkish-leaning BoE tone",
-    "India risk-on: Nifty clears 22,700 as cyclicals lead a broad rebound (trade friction is the overhang)",
-    "Options alpha: $VIAV call burst concentrated in Oct 16, 2026 expiry (strikes 40 & 46)",
-    "Options alpha: $UAL sees 68,953 calls trade (~+268% vs typical volume)",
-    "Wildcard macro pinch: US mortgage rates ~7.28% keep housing affordability under pressure"
+    "Rates check: 3Y Treasury auction clears at 4.932% with strong indirect demand",
+    "Trade policy: India exports jump despite Trump tariffs, shifting negotiating leverage",
+    "US fiscal/politics: CNN reports $500 \u201crefund checks\u201d to nearly 1M Americans",
+    "Gold extends drawdown: ~4,121/oz, down ~6.4% over the month",
+    "World Bank: stronger Asia growth outlook, but explicit warning on AI concentration risk",
+    "Options ALPHA: $2.1M UNM LEAPS call sweep signals long-dated bullish positioning",
+    "Market-structure ALPHA: S&P 500 concentration hits an extreme\u2014three names >21%",
+    "Crypto tape: BTC/ETH soften as liquidations skew long-heavy"
   ],
-  "tickers": [
-    "UAL",
-    "VIAV"
-  ],
-  "alpha_tickers": [
-    "UAL",
-    "VIAV"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

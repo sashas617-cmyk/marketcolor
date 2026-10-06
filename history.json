@@ -1,21 +1,17 @@
 {
-  "last_run": "2026-10-05T15:27:09Z",
+  "last_run": "2026-10-06T01:52:00Z",
   "stories": [
-    "US equities: \u201crate\u2011shock digestion\u201d after the weak jobs print \u2014 but duration is still the fulcrum",
-    "Rates: 10Y hovering near the highest since 2002; ISM services + Fed minutes are the next \u201crates path\u201d catalysts",
-    "Inflation path watch: consensus looks for core CPI to cool toward ~2.4% YoY (lowest since early 2021)",
-    "Oil is back to headline-driven volatility: China export halt vs. risk premium vs. financial conditions",
-    "FX shock absorber: USD/JPY carry\u2011trade unwind back in focus after the ~164 dislocation and intervention",
-    "Europe macro undercurrent: Bundesbank flags geopolitics reshaping policy \u2014 and renewed central\u2011bank interest in gold",
-    "Asia session recap: Japan led on AI/semis while holiday\u2011thinned regional liquidity amplified US\u2011rates sensitivity",
-    "ALPHA (index microstructure): SPX dealer gamma is still positive, but weakening \u2014 \u201cgamma flip\u201d flagged near 7,722.5",
-    "ALPHA (single\u2011name fundamental catalyst): $AMPX gets domestic pouch\u2011cell capacity via CAMINUS \u2014 volume production targeted for Q1\u201927",
-    "Wildcard (tape/flow): retail \u201cattention magnets\u201d are dominating intraday churn \u2014 TSLA/AVGO/NKE/ON in the spotlight"
+    "US equities: Nasdaq-heavy leadership holds up risk appetite even as rates stay restrictive",
+    "US banks: Wells Fargo upgrade sets up a \u201ccatch-up trade\u201d into the print",
+    "Japan policy risk (hours-old focus): Ueda/BoJ \u201cback-to-back October hike\u201d scenario back on the table",
+    "Crude: back toward ~$100 as OPEC+ holds quotas steady and disruption risk stays bid",
+    "Middle East shipping risk (live): Red Sea/Hormuz threats keep tanker risk premia elevated",
+    "Russia\u2013Ukraine: reported refinery damage + Black Sea disruption raises refined-product tail risk",
+    "US consumer/housing pinch point: mortgage rates flagged near ~7.28% as sensitivity rises",
+    "SPX microstructure (positioning): options \u201cwalls\u201d frame the near-term range",
+    "BX options: huge size hits ultra-cheap downside in the front expiry",
+    "Wildcard (single-name volatility): ALEC rips ~+50% on catalyst-driven attention"
   ],
-  "tickers": [
-    "AMPX"
-  ],
-  "alpha_tickers": [
-    "AMPX"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

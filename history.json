@@ -1,14 +1,15 @@
 {
-  "last_run": "2026-10-06T18:54:29Z",
+  "last_run": "2026-10-07T00:56:09Z",
   "stories": [
-    "Rates check: 3Y Treasury auction clears at 4.932% with strong indirect demand",
-    "Trade policy: India exports jump despite Trump tariffs, shifting negotiating leverage",
-    "US fiscal/politics: CNN reports $500 \u201crefund checks\u201d to nearly 1M Americans",
-    "Gold extends drawdown: ~4,121/oz, down ~6.4% over the month",
-    "World Bank: stronger Asia growth outlook, but explicit warning on AI concentration risk",
-    "Options ALPHA: $2.1M UNM LEAPS call sweep signals long-dated bullish positioning",
-    "Market-structure ALPHA: S&P 500 concentration hits an extreme\u2014three names >21%",
-    "Crypto tape: BTC/ETH soften as liquidations skew long-heavy"
+    "Executive Summary (00:54 UTC):",
+    "Near-term rates catalyst cluster: multiple Fed speakers + 3-year Treasury supply",
+    "FX: USD/JPY stays bid on yield support as BoJ path uncertainty lingers",
+    "Australia risk pulse: ASX pressured as oil/yields jump; materials weaken",
+    "Metals/trade: India steel pivots home as Europe/Britain tighten imports; China pricing bites",
+    "Geopolitics: Ukraine front-line risk + sanctions precedent remain macro inputs",
+    "Options (Industrials): Caterpillar ($CAT) long-dated \u201cbearish\u201d call print shows up",
+    "Insider supply (AI/tech adj.): Nebius Group ($NBIS) COO sells 500,000 shares under 10b5-1",
+    "Wildcard / market-structure shift: CoinDesk says 60+ U.S. stocks are headed onchain"
   ],
   "tickers": [],
   "alpha_tickers": []

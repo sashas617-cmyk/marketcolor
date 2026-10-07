@@ -1,15 +1,11 @@
 {
-  "last_run": "2026-10-07T00:56:09Z",
+  "last_run": "2026-10-07T14:12:14Z",
   "stories": [
-    "Executive Summary (00:54 UTC):",
-    "Near-term rates catalyst cluster: multiple Fed speakers + 3-year Treasury supply",
-    "FX: USD/JPY stays bid on yield support as BoJ path uncertainty lingers",
-    "Australia risk pulse: ASX pressured as oil/yields jump; materials weaken",
-    "Metals/trade: India steel pivots home as Europe/Britain tighten imports; China pricing bites",
-    "Geopolitics: Ukraine front-line risk + sanctions precedent remain macro inputs",
-    "Options (Industrials): Caterpillar ($CAT) long-dated \u201cbearish\u201d call print shows up",
-    "Insider supply (AI/tech adj.): Nebius Group ($NBIS) COO sells 500,000 shares under 10b5-1",
-    "Wildcard / market-structure shift: CoinDesk says 60+ U.S. stocks are headed onchain"
+    "Black Sea escalation: tanker attack off Sochi triggers major oil fire (per Russia)",
+    "U.S. housing headwind reasserts: mortgage rates hit 7.28%",
+    "CMCSA unusual options: ~$1.76M flow tied to rolling upside exposure (40 \u2192 46) for ~+$3.70 credit",
+    "BKNG long-dated \u201cbullish put\u201d print: Sep 17, 2027 expiry, $200 strike, 8 contracts (low OI context)",
+    "IMF WEO: disinflation continues, but U.S. path back to target seen slower; \u201ctech expectations\u201d repricing risk highlighted"
   ],
   "tickers": [],
   "alpha_tickers": []

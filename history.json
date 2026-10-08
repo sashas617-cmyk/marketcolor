@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-10-07T19:25:06Z",
+  "last_run": "2026-10-08T01:16:34Z",
   "stories": [
-    "Executive Summary (Oct 07, 2026 \u2014 19:24 UTC)",
-    "U.S. equities: record-high hangover as yields re-take control",
-    "Market internals flash fragility: breadth remains thin into event risk",
-    "ECB message: \u201cflexibility\u201d over preset path \u2014 EUR rates/FX remain headline-sensitive",
-    "China liquidity watch: PBOC \u201cpullback\u201d framed as a global credit-impulse headwind",
-    "Energy/geopolitics: Hormuz shipping disruption risk keeps an upside tail in crude & freight",
-    "MU options: far-OTM $350 strike whale print (OI rising)",
-    "SOFI options: large $25 strike call trade labeled bearish, long-dated expiry",
-    "U.S. politics/fiscal: $500 \u201crefund check\u201d narrative hits consumer tape (confirmed)"
+    "Middle East energy shock: Hormuz disruption risk premium returns as U.S. posture rises",
+    "Rates-led tape: higher yields lean on banks; mega-cap strength masks broader stress",
+    "China/PBOC: push toward a new benchmark to re-anchor rates amid bond rally + yuan weakness",
+    "Crypto risk-off accelerates: ~$650M liquidations fuel downside volatility",
+    "China equities: CICC flags a stronger A-share start post\u2013Golden Week (3 supports cited)",
+    "World Bank commodity outlook: 2026 view flips from -7% to +16%\u2014inflation tails re-widen",
+    "Options alpha (Financials): SOFI/STNE $25 strike sees outsized whale flow vs big existing OI",
+    "Options alpha (Semis): MU far-OTM $350 strike print; open interest jumps",
+    "Wildcard: Ukraine/Russia maritime risk\u2014sea-drone attacks spotlight \u201cshadow fleet\u201d vulnerability"
   ],
   "tickers": [],
   "alpha_tickers": []

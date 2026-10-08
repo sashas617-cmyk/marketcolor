@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-10-08T14:24:56Z",
+  "last_run": "2026-10-08T19:17:13Z",
   "stories": [
-    "Oil shock back on the tape: Brent reclaims $105+ on Middle East escalation + tanker-risk narrative",
-    "US duration remains the pressure point: 30Y yields hover near the highest since 2002",
-    "Fed backdrop stays hawkish: \u201cinflation elevated\u201d framing keeps a final 25bp hike in play",
-    "ECB accounts: upside inflation risks flagged; QE explicitly \u201clast resort\u201d as QT continues",
-    "Europe FX split-screen: EUR firms vs USD, but France fiscal risk + UK rate sensitivity cap optimism",
-    "US household stress vs fiscal offsets: mortgage rates ~7.28% as \u201c$500 refund checks\u201d headline hits",
-    "Gold tail-risk bid reinforced: LBMA chatter targets ~$5,013/oz in 12 months; official-sector demand noted",
-    "Options alpha (Semis): MU far-OTM $350 strike trade hits the tape (Nov 20, 2026 expiry)",
-    "Options alpha (Financials): SOFI $25 strike block (~1,654 contracts) with large existing OI",
-    "Wildcard (single-stock + positioning): PLTR leads premarket movers on Goldman upgrade; retail attention clusters in mega-cap tech/AI"
+    "Oil shock back on the tape: Iran-linked tanker attack risk + Brent > $100",
+    "U.S. duration gets a demand surprise: 10-year auction clears at 5.30% with dealers sidelined",
+    "U.S. equities: late-session drift lower as tech softens; Meta cushions",
+    "UK gilt stress: long-end yields spike toward multi-decade highs as fiscal credibility comes into focus",
+    "U.S. housing headwind intensifies: mortgage rates back around ~7.28%",
+    "China back from Golden Week: liquidity ops are the near-term tripwire",
+    "Trade geopolitics: India exports jump despite Trump tariffs, shifting leverage",
+    "Rate-volatility cross-asset tell: auction strength vs. mortgage pain (key tradables to track)",
+    "Wildcard (macro regime): BIS flags geopolitics reshaping growth, policy transmission, and gold\u2019s reserve role"
   ],
   "tickers": [],
   "alpha_tickers": []

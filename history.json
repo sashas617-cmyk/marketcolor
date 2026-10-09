@@ -1,14 +1,15 @@
 {
-  "last_run": "2026-10-09T01:38:47Z",
+  "last_run": "2026-10-09T14:06:25Z",
   "stories": [
-    "Rates vol remains the macro driver: options traders start \u201cbottom-calling\u201d bonds",
-    "AI/semis wobble spreads to Asia: U.S. chip selloff + renewed doubts on AI spend durability",
-    "China/HK risk stays heavy: Hang Seng Tech prints a two-year low",
-    "Tariffs aren\u2019t stopping flows: India exports surge despite Trump tariffs; Mexico still buys Chinese-brand cars",
-    "Geopolitics as macro regime shift: BIS flags fragmentation + gold\u2019s reserve role",
-    "NVDA flow watch: unusual activity at the $400 strike amid large existing OI",
-    "UPS downside hedge: large bearish put transfer in Sep 2027",
-    "Wildcard (China macro): housing downturn may be stabilizing over 1\u20132 years"
+    "U.S. labor shock hits the tape: payrolls +29,000, unemployment 4.2% \u2014 Fed expectations whipsaw",
+    "Oil risk premium re-ignites: Hormuz transit signals turn disruptive; Iran \u201cshadow fleet\u201d sanctions add friction",
+    "AI complex resets: Nvidia/Oracle/CoreWeave slide on OpenAI revenue-report ripple effects",
+    "U.S. equities stay heavy: attempted chip-led stabilization fails to broaden",
+    "Euro rates: Italy\u2019s BTP-Bund spread tightens to ~109 bps; focus on long-end yield pressure",
+    "UK gilt stress: borrowing costs elevated into the Oct. 28 budget \u2014 GBP correlation risk rising",
+    "NVDA options tape: $400 strike block flagged (~92 contracts; ~$69.4K premium) amid large existing OI",
+    "UPS long-dated downside demand: Sep 17, 2027 $80 puts (1,227 contracts; ~$676K premium)",
+    "(Wildcard) Premarket attention: SPCX pops on spectrum deal as Nasdaq futures chatter clusters in telecom/AI tickers"
   ],
   "tickers": [],
   "alpha_tickers": []

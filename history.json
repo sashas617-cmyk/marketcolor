@@ -1,15 +1,14 @@
 {
-  "last_run": "2026-10-08T19:17:13Z",
+  "last_run": "2026-10-09T01:38:47Z",
   "stories": [
-    "Oil shock back on the tape: Iran-linked tanker attack risk + Brent > $100",
-    "U.S. duration gets a demand surprise: 10-year auction clears at 5.30% with dealers sidelined",
-    "U.S. equities: late-session drift lower as tech softens; Meta cushions",
-    "UK gilt stress: long-end yields spike toward multi-decade highs as fiscal credibility comes into focus",
-    "U.S. housing headwind intensifies: mortgage rates back around ~7.28%",
-    "China back from Golden Week: liquidity ops are the near-term tripwire",
-    "Trade geopolitics: India exports jump despite Trump tariffs, shifting leverage",
-    "Rate-volatility cross-asset tell: auction strength vs. mortgage pain (key tradables to track)",
-    "Wildcard (macro regime): BIS flags geopolitics reshaping growth, policy transmission, and gold\u2019s reserve role"
+    "Rates vol remains the macro driver: options traders start \u201cbottom-calling\u201d bonds",
+    "AI/semis wobble spreads to Asia: U.S. chip selloff + renewed doubts on AI spend durability",
+    "China/HK risk stays heavy: Hang Seng Tech prints a two-year low",
+    "Tariffs aren\u2019t stopping flows: India exports surge despite Trump tariffs; Mexico still buys Chinese-brand cars",
+    "Geopolitics as macro regime shift: BIS flags fragmentation + gold\u2019s reserve role",
+    "NVDA flow watch: unusual activity at the $400 strike amid large existing OI",
+    "UPS downside hedge: large bearish put transfer in Sep 2027",
+    "Wildcard (China macro): housing downturn may be stabilizing over 1\u20132 years"
   ],
   "tickers": [],
   "alpha_tickers": []

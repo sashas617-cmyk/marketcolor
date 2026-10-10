@@ -1,16 +1,14 @@
 {
-  "last_run": "2026-10-09T18:47:23Z",
+  "last_run": "2026-10-10T01:07:30Z",
   "stories": [
-    "U.S. equities: choppy tape, tech a drag while Meta cushions indices",
-    "Rates pressure persists: long bond ~5.63% keeps duration on a tight leash",
-    "Energy shock watch: tracker claims Strait of Hormuz \u201ceffectively closed\u201d as Brent ~\\$103.50",
-    "Middle East geopolitics: Israel\u2013Lebanon talks weigh U.S.-backed transfer/withdrawal proposal",
-    "Ukraine\u2013Russia: strikes hit missile/fuel-linked infrastructure; Kyiv faces fresh drone pressure",
-    "Gold holds near \\$4,150: geopolitics supports, but yields/dollar remain crosswinds",
-    "AI/megacap sentiment: \u201cOpenAI revenue\u201d ripple still overhangs chips/AI-adjacent names",
-    "NVDA 0DTE call flow: 2,741x \\$230 calls (expiring today) split into 55 prints (~\\$76.7K premium)",
-    "TSLA 0DTE downside hedge/spec: 468x \\$382.50 puts (expiring today) swept in 4 prints",
-    "GME squeeze chatter returns: nearing a new 52-week high with heavy calls (confirmed)"
+    "Executive summary:",
+    "Rates back in focus: long-end yields firm, keeping duration a headwind",
+    "Telecom shock: Verizon hit with its worst day since 2002 on SpaceX wireless fears",
+    "Japan policy signal: BOJ urged to keep hiking (moderately) to address excessive yen weakness",
+    "China FX defense in real time: PBoC prints a stronger-than-expected USD/CNY fix",
+    "Options tape (NVDA): unusual 0DTE call burst flagged\u2014$230 strike at $28/contract, split across 55 prints",
+    "Options tape (TSLA): same-day bearish put sweep\u2014468x $382.50 puts expiring today, split into 4 trades",
+    "Crypto weekend risk: headline-driven bids collide with liquidation/cascade potential (BTC/ETH focus)"
   ],
   "tickers": [],
   "alpha_tickers": []

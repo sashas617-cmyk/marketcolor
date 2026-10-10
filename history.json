@@ -1,17 +1,14 @@
 {
-  "last_run": "2026-10-10T13:12:45Z",
+  "last_run": "2026-10-10T17:47:44Z",
   "stories": [
-    "Executive summary (Sat, Oct 10, 2026 \u2014 13:10 UTC):",
-    "CNBC: Trump\u2013Putin diesel supply \u201cdeal\u201d would be a refined-products regime change (sanctions, cracks, compliance risk)",
-    "Fed watch: St. Louis Fed President Musalem flags \u201cmore tightening\u201d risk to get inflation back to 2%",
-    "Bloomberg: Europe\u2019s political class bending to an \u201cunforgiving\u201d bond market \u2014 fiscal discretion shrinking",
-    "U.S. equities (Reuters): tech softness drags indexes modestly lower; Meta offsets some pressure \u2014 \u201cnarrow leadership\u201d tape persists",
-    "Semis/AI checkpoint: Micron earnings now the next major sentiment hinge (Reuters)",
-    "Crypto microstructure edge (CoinDesk): BTC/ETH liquidity has rebuilt one year after \u201c10/10\u201d crash; altcoin liquidity still deteriorating",
-    "Wildcard: \u201cInflation shock vs growth scare\u201d tug-of-war is back \u2014 oil-risk meets hawkish Fed"
+    "Rates warning: bond selloff risk + unstable stock/bond correlation = cross-asset vol",
+    "Taiwan Strait risk re-priced: U.S. calls Chinese actions \u201cdeeply destabilising\u201d",
+    "Fed path: Musalem keeps \u201cfurther tightening\u201d on the table\u2014real yields/gold sensitivity rises",
+    "Non-obvious war channel: repeated drone damage claims at Russian Yandex data centers",
+    "TSLA: 0DTE downside positioning flagged into today\u2019s expiry (pin/vol risk)",
+    "AERO: merger/unification goes from rumor to dated timeline\u2014token conversion terms published (social catalyst check)",
+    "Semis: Micron becomes the next AI-cycle checkpoint (memory pricing + capex read-through)"
   ],
-  "tickers": [
-    "MU"
-  ],
+  "tickers": [],
   "alpha_tickers": []
 }

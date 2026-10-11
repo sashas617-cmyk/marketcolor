@@ -1,15 +1,14 @@
 {
-  "last_run": "2026-10-11T00:26:10Z",
+  "last_run": "2026-10-11T13:43:31Z",
   "stories": [
-    "Energy/sanctions whiplash: Trump\u2013Putin diesel framework hits tape as Ukraine reportedly strikes Russian refining-linked infrastructure",
-    "Middle East shock: attack reported at Riyadh international airport; operations suspended",
-    "Trade tone divergence: Europe touts ~$4.5B \u201cimproved market access,\u201d Beijing sounds more muted",
-    "Taiwan risk premium debate: U.S. envoy says investors are \u201coverpricing\u201d conflict risk",
-    "Earnings setup: big banks report next week with \u201chigher-for-longer\u201d stress points in focus",
-    "Europe energy macro: gas prices reportedly staying contained despite LNG disruption headlines",
-    "Crypto deleveraging: Bitcoin slides toward ~$82.5K with ~$2.4B long liquidations; ETF outflows noted",
-    "Consumer mega-cap M&A optionality: Starbucks reportedly explored a Chipotle deal (SBUX/CMG)",
-    "Narrow risk-on pocket: AI/automation exposure outperforms with iShares A.I. Innovation & Tech Active ETF (BAI) +1.16%"
+    "Strait of Hormuz remains the market\u2019s core tail-risk: attacks + insurance premiums = real supply-chain tightening",
+    "Rates: the long end is still the equity regime-setter (duration sensitivity driving leadership)",
+    "China stimulus details sharpen: unused local-government bond quota \u201cunlocked\u201d at ~\u00a5550B (~$82B) for Q4",
+    "China FX signal: PBOC sets the strongest yuan fixing since 2023, highlighting FX as a policy channel",
+    "Ukraine/Black Sea: strike reports keep infrastructure risk elevated; grain shipping insurability deteriorates",
+    "Crypto stress pulse: ETH slides amid a reported ~$1.2B liquidation wave; ETF outflows extend pressure",
+    "BTC positioning: ~$272.4M options OI expiring with put/call ~1.77 as price tests ~80,400 amid ~ $730M ETF outflows",
+    "Taiwan risk \u201csentiment meter\u201d: prediction-market odds remain low, but reactive to fresh PLA/official-signal headlines (confirmed by Reuters)"
   ],
   "tickers": [],
   "alpha_tickers": []

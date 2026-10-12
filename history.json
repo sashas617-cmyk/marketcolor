@@ -1,6 +1,17 @@
 {
-  "last_run": "2026-10-11T18:01:26Z",
-  "stories": [],
+  "last_run": "2026-10-12T00:43:03Z",
+  "stories": [
+    "Oil risk premium re-inflates: Brent hovers near $105 on Saudi strikes + fresh Hormuz tanker headline",
+    "China tightens the FX narrative: PBOC sets strongest yuan fixing since 2023",
+    "U.S. equities end slightly lower: tech drags, Meta cushions index downside",
+    "Russia\u2013Ukraine headline risk: Trump claims an \u201cenergy ceasefire\u201d (details unclear)",
+    "Japan: weak-yen politics intensify\u2014rising odds of verbal intervention/policy signaling",
+    "Storm Isaias: outages and northward track raise near-term regional volatility",
+    "Semis spotlight: CNBC flags a China memory-chip maker with \u201cglobal potential\u201d",
+    "\u201cSpaceX\u201d equity proxy is real: SPCX +2.8% on high volume (confirmed by CNBC/Reuters)",
+    "DeFi \u201crevenue trade\u201d heats up: Hyperliquid reports $429M generated as HYPE tags $95 ATH",
+    "Monday setup: thin liquidity + light macro calendar shifts focus to technical acceptance levels"
+  ],
   "tickers": [],
   "alpha_tickers": []
 }

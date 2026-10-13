@@ -1,14 +1,16 @@
 {
-  "last_run": "2026-10-12T21:43:49Z",
+  "last_run": "2026-10-13T02:41:48Z",
   "stories": [
-    "Rates/liquidity: cash Treasury market closed = \u201cvolatility per unit of volume\u201d risk",
-    "Macro setup: CPI becomes the week\u2019s main cross-asset hinge",
-    "Earnings: big banks kick off the next leg of \u201csoft landing vs. credit cracks\u201d",
-    "Maritime chokepoint risk: Hormuz premium back on the tape",
-    "Trade policy: India\u2019s export resilience under Trump tariffs boosts negotiating leverage",
-    "Credit stress signal (Russia): Sberbank turns more cautious on 2026 lending growth",
-    "Iran risk: Khamenei funeral turnout framed as defiance\u2014keeps escalation premium alive",
-    "Wildcard: \u201crisk-off regime\u201d reinforced as U.S. stocks absorb outsized global value losses"
+    "Crude risk premium snaps back: oil jumps on Saudi attacks; OPEC talks demand rebound",
+    "Europe energy tail risk: Russia keeps striking Ukraine\u2019s energy facilities despite \u201cceasefire\u201d claim",
+    "Macro catalyst stack: CPI + big-bank earnings are the next volatility trigger",
+    "Trade policy reality-check: India exports surge despite steep Trump tariffs",
+    "FX in Asia: INR pops on RBI support; CNH firms on trade d\u00e9tente framing; USD/JPY stuck near 158",
+    "Rates expectations still doing the driving: gold tracks \u201cno hike now, maybe later\u201d pricing",
+    "Crypto market structure check: BTC/ETH liquidity rebuilt; altcoin liquidity remains the crack point",
+    "Alpha (Options): KDP dominated by a far-dated call sweep (new positioning)",
+    "Alpha (Options): AMZN \u201c$300 wall\u201d stays in play\u2014fresh trade into massive existing OI",
+    "Wildcard: IonQ deal risk\u2014pursuing Elisity acquisition up to $1.3B; stock slides"
   ],
   "tickers": [],
   "alpha_tickers": []

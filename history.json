@@ -1,25 +1,12 @@
 {
-  "last_run": "2026-10-14T12:36:36Z",
+  "last_run": "2026-10-14T17:57:40Z",
   "stories": [
-    "Strait of Hormuz incident: IRGC Navy claims a container ship sank south of the strait",
-    "Gulf shipping war-risk insurance: the \u201crepricing catalyst\u201d traders watch",
-    "Energy risk premium: Hormuz headlines can spill into crude, products, and LNG",
-    "Global logistics angle: container disruption risk (and \u201ctime-to-deliver\u201d shock) returns",
-    "Geopolitics \u201cheadline gravity\u201d: IRGC attribution puts escalation risk back on the tape",
-    "Ukraine: energy infrastructure hit again despite \u201cenergy ceasefire\u201d talk",
-    "Ukraine ops risk: Kyiv says Starlink limits are disrupting operations",
-    "Single-name focus: Starlink headline puts $TSLA back in the geopolitical crosshairs",
-    "Single-name watchlist: maritime risk headlines tend to re-rate tanker/container beta quickly",
-    "Wildcard: \u201cinfrastructure is the trade\u201d (chokepoints + power grids + satellites)"
+    "Trade policy watch: India exports rise despite U.S. tariff pressure\u2014leverage shifts",
+    "TSMC earnings ahead: options price a meaningful post-print move (AI demand in focus)",
+    "Insider buy (confirmed): Ryan Cohen buys ~$22.8M of GameStop in the open market",
+    "Unusual options: Green Plains (GPRE) sees lopsided calls into Oct 16 $15 strike",
+    "Wildcard: Catalyst stack ahead\u2014major bank/asset manager earnings + Fed Beige Book"
   ],
-  "tickers": [
-    "FRO",
-    "STNG",
-    "TSLA"
-  ],
-  "alpha_tickers": [
-    "FRO",
-    "STNG",
-    "TSLA"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

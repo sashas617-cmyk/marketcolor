@@ -1,14 +1,25 @@
 {
-  "last_run": "2026-10-14T00:29:22Z",
+  "last_run": "2026-10-14T12:36:36Z",
   "stories": [
-    "Executive summary:",
-    "Global memory/chip selloff: South Korea leads downside; weakness bleeds into U.S. semis (e.g., MU).",
-    "Japan rates/FX watch: BOJ should keep hiking at a \u201cmoderate pace\u201d to address excessive yen weakness (panel member).",
-    "U.S. tape: equities drift lower as tech softens, with Meta cushioning index downside\u2014breadth remains a problem.",
-    "Unusual options (GPRE): ~100:1 calls-over-puts as traders target Oct 16 $15 calls (fresh positioning).",
-    "Options flow (OKLO): institutional-style call LEAPS \u201csweeps\u201d flagged by flow tracker.",
-    "Ukraine war update: Zelensky says Russia ignored Trump ceasefire call; strikes on energy infrastructure continue."
+    "Strait of Hormuz incident: IRGC Navy claims a container ship sank south of the strait",
+    "Gulf shipping war-risk insurance: the \u201crepricing catalyst\u201d traders watch",
+    "Energy risk premium: Hormuz headlines can spill into crude, products, and LNG",
+    "Global logistics angle: container disruption risk (and \u201ctime-to-deliver\u201d shock) returns",
+    "Geopolitics \u201cheadline gravity\u201d: IRGC attribution puts escalation risk back on the tape",
+    "Ukraine: energy infrastructure hit again despite \u201cenergy ceasefire\u201d talk",
+    "Ukraine ops risk: Kyiv says Starlink limits are disrupting operations",
+    "Single-name focus: Starlink headline puts $TSLA back in the geopolitical crosshairs",
+    "Single-name watchlist: maritime risk headlines tend to re-rate tanker/container beta quickly",
+    "Wildcard: \u201cinfrastructure is the trade\u201d (chokepoints + power grids + satellites)"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "FRO",
+    "STNG",
+    "TSLA"
+  ],
+  "alpha_tickers": [
+    "FRO",
+    "STNG",
+    "TSLA"
+  ]
 }

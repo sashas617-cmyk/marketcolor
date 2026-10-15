@@ -1,15 +1,10 @@
 {
-  "last_run": "2026-10-15T00:03:24Z",
+  "last_run": "2026-10-15T12:18:55Z",
   "stories": [
-    "Executive summary:",
-    "Strait of Hormuz escalation: ship reported sunk; crude holds >$106 (confirmed by CNBC/Reuters)",
-    "AI/data-center unwind accelerates: Dell plunges; CoreWeave equity + debt hit on leverage/ROI doubts (into the U.S. close)",
-    "Semicap capex pulse: ASML Q3 prints; TSMC earnings are the next volatility catalyst (hours away)",
-    "Industrial policy / supply chain: GlobalFoundries tapped to operate two new New York fabs; Japan funding cited up to $21B",
-    "Rates & funding check (late New York): 10-year ~5.22% and bill demand \u201csteady\u201d at elevated front-end yields",
-    "NVDA unusual options: \u201cbullish\u201d put sweep into Oct 16 expiry (4,473 contracts at $222.50 strike)",
-    "IONQ prices a $2.0B equity-linked raise: 20.5M shares at $40 + 29.5M pre-funded warrants at $40 (warrants at $69.46)",
-    "Wildcard (private-market signal): Anduril employee tender offer reportedly implies ~$90B valuation"
+    "Asia tech risk-off: SK Hynix leads a sharp selloff",
+    "IEA: diesel constraints could persist into next year (inflation impulse stays sticky)",
+    "Actionable semi/memory read-through: SK Hynix shockwave",
+    "Wildcard: the \u201cAI is different\u201d narrative is now being priced like a normal cycle"
   ],
   "tickers": [],
   "alpha_tickers": []

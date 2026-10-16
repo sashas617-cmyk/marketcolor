@@ -1,13 +1,15 @@
 {
-  "last_run": "2026-10-16T12:03:35Z",
+  "last_run": "2026-10-16T17:22:29Z",
   "stories": [
-    "Executive summary (12:02 UTC):",
-    "4\ufe0f\u20e3 US equities: tech remains the pressure point; AI-adjacent names show air-pocket risk",
-    "5\ufe0f\u20e3 China FX signal: PBOC sets a slightly weaker fixing; USDCNH edges higher",
-    "7\ufe0f\u20e3 After-hours / next-session setup: IBKR and JBHT flagged among notable movers",
-    "8\ufe0f\u20e3 ALPHA \u2014 CCJ: 10,910-lot block in Nov 20 $90 puts (~$11.90) drives heavy put skew",
-    "9\ufe0f\u20e3 ALPHA \u2014 NVDA: $150 strike sees outsized turnover (7,865 contracts vs 1,089 OI prior)",
-    "\ud83d\udd1f Wildcard \u2014 Rates backdrop: \u201chigher-for-longer\u201d framing stays live with Fed range cited at 3.75%\u20134.00%"
+    "US equities: tech drags the tape, Meta offsets some of the damage (late US session)",
+    "Rates whipsaw: 10Y ripped to ~5.33% then snapped back to ~5.05%\u2014Fed risk back on the table",
+    "Europe: equities stabilize higher; USD set up for weekly loss as yields cool",
+    "Oil backs off: White House weighing easing restrictions tied to Russia \u201cshadow fleet\u201d tankers",
+    "US\u2013China financial diplomacy: Mastercard/Citigroup market-access issues raised in bilateral talks",
+    "ALPHA \u2014 TSLA: unusual call flow hits alongside the \u2018flying car\u2019 catalyst; stock jumps ~5% (confirmed)",
+    "ALPHA \u2014 CCJ: 10,910-lot Nov $90 put block prints at the bid (~$11.90) = put-writing tone, not panic-hedging",
+    "~8:1 puts-over-calls",
+    "Wildcard \u2014 Gold \u201cdecoupling\u201d persists: rallies despite high long-end yields as sovereign/haven demand dominates (confirmed)"
   ],
   "tickers": [],
   "alpha_tickers": []

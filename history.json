@@ -1,15 +1,17 @@
 {
-  "last_run": "2026-10-16T17:22:29Z",
+  "last_run": "2026-10-16T23:58:30Z",
   "stories": [
-    "US equities: tech drags the tape, Meta offsets some of the damage (late US session)",
-    "Rates whipsaw: 10Y ripped to ~5.33% then snapped back to ~5.05%\u2014Fed risk back on the table",
-    "Europe: equities stabilize higher; USD set up for weekly loss as yields cool",
-    "Oil backs off: White House weighing easing restrictions tied to Russia \u201cshadow fleet\u201d tankers",
-    "US\u2013China financial diplomacy: Mastercard/Citigroup market-access issues raised in bilateral talks",
-    "ALPHA \u2014 TSLA: unusual call flow hits alongside the \u2018flying car\u2019 catalyst; stock jumps ~5% (confirmed)",
-    "ALPHA \u2014 CCJ: 10,910-lot Nov $90 put block prints at the bid (~$11.90) = put-writing tone, not panic-hedging",
-    "~8:1 puts-over-calls",
-    "Wildcard \u2014 Gold \u201cdecoupling\u201d persists: rallies despite high long-end yields as sovereign/haven demand dominates (confirmed)"
+    "Daily Market Pulse \u2014 Fri, Oct 16, 2026 (23:57 UTC)",
+    "U.S. equities: chip/AI drawdown deepens into the close (worst streak since \u201908)",
+    "Oil: Brent still ~\\$105 as supply tightness + Iran-war overhang stay in the price",
+    "Crypto: deleveraging shock\u2014ETH-led liquidations approach \\$1B",
+    "Turkey: alleged stock-fixing scandal raises \u201cindex eligibility\u201d tail risk",
+    "Gold: \u201cdecoupling\u201d accelerates\u2014safe-haven/collateral bid drives spot above \\$4,180",
+    "AI power buildout: Venture Global targets 10 GW of gas-fired generation for data centers",
+    "FX: USDJPY softens on BoJ-related support for JPY + Fed-path uncertainty",
+    "Earnings (after the bell): Alcoa beats\u2014shares pop on EBITDA/EPS upside",
+    "Europe risk pricing: Italy spread tightens modestly\u2014BTP-Bund ~106 bps, 10Y BTP ~4.46%",
+    "Wildcard (flows): BTC ETFs flat while ETH ETFs bleed again\u2014\\$5M vs -\\$60M"
   ],
   "tickers": [],
   "alpha_tickers": []

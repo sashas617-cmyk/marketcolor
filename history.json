@@ -1,21 +1,14 @@
 {
-  "last_run": "2026-10-17T11:19:04Z",
+  "last_run": "2026-10-17T16:18:51Z",
   "stories": [
-    "Macro shock: U.S. producer prices jump, reigniting \u201chigher-for-longer\u201d anxiety",
-    "Oil rips again: crude trades ~\\$101.84 as the geopolitical risk premium rebuilds",
-    "U.S. equities: index-level damage contained, but AI/mega-cap tech pressure persists",
-    "Europe regulation risk: EU slaps AliExpress with record \u20ac550m fine",
-    "Ukraine escalation: large-scale Russian strikes hit civilian/critical infrastructure",
-    "Middle East read-through: Israel pulls back some troops as a gesture toward Lebanon",
-    "Crypto beta stays heavy: macro-driven selloff narrative + ~$1B liquidations cited",
-    "ALPHA: Options volume detonations \u2014 RYZ (~161.2x), HBT (~108.2x), FIZZ (~73.0x) vs 90-day avg",
-    "ALPHA: $NKE bearish call-sweep flagged \u2014 Jan 15, 2027 \\$100 calls, 560 contracts",
-    "Wildcard (positioning): \u201cBuy-the-dip\u201d chatter resurfaces in memory names (Micron + SanDisk)"
+    "Fed\u2019s Mary Daly: rates may still need to go higher (but \u201cno urgency\u201d this month)",
+    "Oil tightness escalates: Brent near ~$105 as geopolitics rebuild the risk premium",
+    "Precious metals extend breakout: gold at new highs; silver tests ~$63",
+    "IMF/World Bank meetings: AI optimism vs debt/FX stress and geopolitical fragmentation",
+    "Unusual options volume detonations: RYZ / HBT / FIZZ",
+    "FIG flow: \u201cbullish\u201d Jan 15, 2027 $25 put trade (~$37K premium)",
+    "Wildcard (EM flows risk): Turkey \u201cindex-risk\u201d headline on alleged stock-fixing scandal"
   ],
-  "tickers": [
-    "NKE"
-  ],
-  "alpha_tickers": [
-    "NKE"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

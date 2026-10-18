@@ -1,21 +1,14 @@
 {
-  "last_run": "2026-10-17T23:19:23Z",
+  "last_run": "2026-10-18T12:01:50Z",
   "stories": [
-    "Trade policy: India export resilience despite Trump tariffs shifts negotiating leverage",
-    "Energy shock risk: Iran says a supertanker hit a naval mine near Hormuz; crude spikes",
-    "China/Taiwan risk: Liaoning carrier crosses the first island chain amid multi-zone drills",
-    "China policy: PBOC signals support for offshore CNH market development + liquidity tools",
-    "EM benchmark risk: Turkey stock-fixing scandal raises index exclusion probability",
-    "Options edge: $SCHW shows heavy Dec 18, 2026 $30 put concentration (9,700+ contracts)",
-    "Whale flow: $QS Jan 15, 2027 $12 puts (97 contracts) flagged bearish",
-    "Space/AI risk-on pocket: Evercore raises SpaceX PT to $275 from $230 (retail attention catalyst)"
+    "Daily Market Pulse \u2014 Sun, Oct 18, 2026 (12:00 UTC)",
+    "Taiwan Strait risk flares again: 2 PLA aircraft cross the median line; 5 PLAN vessels nearby",
+    "IMF: BOJ may need to tighten faster if inflation runs hotter (JPY + global duration risk)",
+    "Commodities set up for a volatile week: Fed uncertainty + Gulf shipping/energy-security risk",
+    "France advances stablecoin on/off-ramp taxation: committee backs conversion tax starting 2027",
+    "SpaceX: Evercore lifts price target to $275 from $230 (AI + Starship catalysts) \u2014 sentiment catalyst into Monday",
+    "$WDAY: David A. Duffield Trust sells 99,835 shares (~$18.7M) in six tranches (10b5-1 plan)"
   ],
-  "tickers": [
-    "QS",
-    "SCHW"
-  ],
-  "alpha_tickers": [
-    "QS",
-    "SCHW"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

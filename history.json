@@ -1,15 +1,14 @@
 {
-  "last_run": "2026-10-19T14:12:18Z",
+  "last_run": "2026-10-19T19:14:08Z",
   "stories": [
-    "Executive summary (14:11 UTC):",
-    "Rates remain the main boss: US 10-year above 5% keeps pressure on long-duration equity multiples",
-    "Oil pulls back: Brent slips toward ~$108 after Trump waives some Russia sanctions/tariffs\u2014Hormuz risk premium persists",
-    "France becomes Europe\u2019s stress point: OATs underperform; OAT\u2013Bund spread widens toward ~144 bps ahead of Moody\u2019s",
-    "ECB pulse check: Lagarde flags Sept inflation at 3.8% (energy-led) with cautious growth math",
-    "BoE messaging hits expectations: Pill pushes back on ~100 bps of hikes priced over the next 12 months",
-    "Crypto risk gauge: Bitcoin hovers near ~$82.8k as ETF outflows build; $81k is the line traders are watching",
-    "FX pressure point: USD/JPY holds near 158\u2014policy divergence wins, but intervention risk caps complacency",
-    "Macro regime shift watch: hotter inflation + higher oil + rising AI ROI skepticism is pushing flows toward bonds/defensives"
+    "Rates leg higher again: 10Y ~5.136%, 2Y ~4.772%",
+    "Front-end funding check: 3M/6M bill auctions price at ~4.095% / ~4.220%",
+    "Middle East risk premium nudges lower: Israel/Lebanon discuss US-backed transfer proposal",
+    "EM flow risk: index-provider warning raises investability concerns in SE Asia\u2019s largest economy",
+    "Macro positioning: hotter inflation + energy volatility + AI ROI doubts are pushing defensive rotation",
+    "Macy\u2019s (M): outsized put flow hits tape \u2014 ~62,000 puts, ~$17.48M premium (V/OI ~174.65)",
+    "Hertz (HTZ): bearish put block \u2014 1,500x $3 strike puts, Nov 20, 2026 expiry; ~$201K premium",
+    "Wildcard: market balancing \u201ccredit-stress\u201d narrative vs. mega-cap earnings setup (Meta/Tesla in focus)"
   ],
   "tickers": [],
   "alpha_tickers": []

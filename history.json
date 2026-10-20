@@ -1,12 +1,14 @@
 {
-  "last_run": "2026-10-20T00:31:37Z",
+  "last_run": "2026-10-20T12:25:13Z",
   "stories": [
-    "France risk premium spikes: OATs/Paris equities/euro pressured on unrest + debt fears",
-    "EM flow risk: index-provider warning raises \u201cinvestability\u201d concerns in SE Asia\u2019s biggest economy",
-    "CBRS: extreme put volume vs OI (V/OI ~303x) signals event hedging/spec",
-    "NVDA options tape: institutional-scale call prints show up as split fills",
-    "Macy\u2019s (M) options skew goes extreme: long-dated downside block dominates flow",
-    "~21:1 put-over-call"
+    "U.S. premarket: futures mixed; industrial earnings dispersion (RTX up, GE down)",
+    "BlackRock: France sell-off is a warning shot in a global \u201ccompetition for capital\u201d regime",
+    "Europe natural gas: TTF ~\u20ac87.73/MWh\u2014storage/winter risk back in the driver\u2019s seat",
+    "Germany green issuance: auction slightly undershoots target (a soft demand tell)",
+    "UK setup: sterling and the long end lean on oil + U.S. yields ahead of key UK data",
+    "ALPHA \u2014 Macy\u2019s (M): institutional-scale downside hedge/spec via Jan 2027 $25 puts",
+    "ALPHA \u2014 RB Global (RBA): put demand spikes hard (vol vs baseline explodes)",
+    "Wildcard \u2014 Precious metals bid: gold steadies on hedging demand; silver rallies despite tighter-policy risk"
   ],
   "tickers": [],
   "alpha_tickers": []

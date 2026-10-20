@@ -1,14 +1,15 @@
 {
-  "last_run": "2026-10-20T12:25:13Z",
+  "last_run": "2026-10-20T18:00:46Z",
   "stories": [
-    "U.S. premarket: futures mixed; industrial earnings dispersion (RTX up, GE down)",
-    "BlackRock: France sell-off is a warning shot in a global \u201ccompetition for capital\u201d regime",
-    "Europe natural gas: TTF ~\u20ac87.73/MWh\u2014storage/winter risk back in the driver\u2019s seat",
-    "Germany green issuance: auction slightly undershoots target (a soft demand tell)",
-    "UK setup: sterling and the long end lean on oil + U.S. yields ahead of key UK data",
-    "ALPHA \u2014 Macy\u2019s (M): institutional-scale downside hedge/spec via Jan 2027 $25 puts",
-    "ALPHA \u2014 RB Global (RBA): put demand spikes hard (vol vs baseline explodes)",
-    "Wildcard \u2014 Precious metals bid: gold steadies on hedging demand; silver rallies despite tighter-policy risk"
+    "Earnings week pressure point: NFLX, TSLA, META become the volatility fulcrum",
+    "Geopolitics premium cools: oil down on hopes of Iran diplomacy",
+    "Europe turns risk-off at the open: broad benchmark declines",
+    "FX macro: EUR/USD stays pinned near lows on policy divergence + fiscal stress narrative",
+    "Rates/CB watch: December hike odds still dominate; gold holds near records",
+    "Tech factor wobble: data-center/AI complex pressured after Korea IPO drops ~30%",
+    "FLOW (single-name): Whirlpool (WHR) long-dated upside bet hits the tape",
+    "OPTIONS outliers: GGG sees oversized put print; TSCO volume explodes vs OI",
+    "Wildcard (macro tape tell): silver rallies even with tighter-policy risk in the air"
   ],
   "tickers": [],
   "alpha_tickers": []

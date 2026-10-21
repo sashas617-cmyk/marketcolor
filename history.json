@@ -1,13 +1,14 @@
 {
-  "last_run": "2026-10-21T12:35:54Z",
+  "last_run": "2026-10-21T18:01:49Z",
   "stories": [
-    "Eurozone rates: France leads yields higher as protests revive a political/fiscal risk premium",
-    "FX setup: EUR/USD rebound runs into today\u2019s Eurozone + U.S. PMI \u201cgauntlet\u201d",
-    "UK in focus: Oct. 28 Autumn Budget is becoming the next gilt/GBP/FTSE volatility catalyst",
-    "U.S. equities: \u201cAI trade\u201d fragility + mega-cap whipsaws keep air-pocket risk elevated",
-    "Options alpha: UAL sees a notable bullish call block into late\u2011Nov expiry",
-    "Options alpha: GGG downside protection spikes\u20145,000 puts vs 17 OI is a real anomaly",
-    "Wildcard (microstructure warning): premarket scanner flags an unnamed stock down ~34% on ~25x volume"
+    "U.S. duration check passes: 20-year auction clears 5.469% with heavy indirect demand (58.2%)",
+    "India gains leverage in trade talks: exports surge despite steep U.S. tariffs (Reuters)",
+    "Europe energy tail risk stays alive: TTF gas remains elevated, hypersensitive to Norway/LNG flows",
+    "AI-trade sentiment hit: Korea\u2019s Elice drops >30% on debut, reviving valuation/capex skepticism",
+    "Gold macro framing: Fed widely expected to hold next week, but December hike risk remains priced",
+    "Options alpha: Thermo Fisher (TMO) sees a put flood\u20144,534 puts (~20x avg), concentrated Nov 20, 2026",
+    "Options alpha: Apple (AAPL) whale put\u2014264 contracts of Nov 20, 2026 $330 strike, split into 90 fills (~$134.4K premium)",
+    "Crypto wildcard: Bitcoin stalls near ~$83K as spot ETF inflows collapse ~95% day/day; liquidation cluster $84K\u2013$85K in focus"
   ],
   "tickers": [],
   "alpha_tickers": []

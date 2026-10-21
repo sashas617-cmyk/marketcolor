@@ -1,15 +1,13 @@
 {
-  "last_run": "2026-10-20T18:00:46Z",
+  "last_run": "2026-10-21T00:03:48Z",
   "stories": [
-    "Earnings week pressure point: NFLX, TSLA, META become the volatility fulcrum",
-    "Geopolitics premium cools: oil down on hopes of Iran diplomacy",
-    "Europe turns risk-off at the open: broad benchmark declines",
-    "FX macro: EUR/USD stays pinned near lows on policy divergence + fiscal stress narrative",
-    "Rates/CB watch: December hike odds still dominate; gold holds near records",
-    "Tech factor wobble: data-center/AI complex pressured after Korea IPO drops ~30%",
-    "FLOW (single-name): Whirlpool (WHR) long-dated upside bet hits the tape",
-    "OPTIONS outliers: GGG sees oversized put print; TSCO volume explodes vs OI",
-    "Wildcard (macro tape tell): silver rallies even with tighter-policy risk in the air"
+    "U.S. close: Dow +500, S&P up, Nasdaq slightly lower (rotation > beta)",
+    "AI infrastructure trade wobbles again: data-center / neocloud names hit",
+    "Geopolitics: UK to deploy fighter jets to defend Saudi cities from Houthi attacks",
+    "BoE: Greene reiterates hawkish bias to prevent \u201csecond-round\u201d inflation",
+    "$GM: beats earnings, but stock slides ~7% premarket (the market is fading the forward)",
+    "Asia risk signal: Korean AI IPO dumps ~30% (IPO window chill)",
+    "After-hours tape: S&P 500 \u201ctracker\u201d bid on a single earnings catalyst (index sensitivity rising)"
   ],
   "tickers": [],
   "alpha_tickers": []

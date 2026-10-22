@@ -1,23 +1,15 @@
 {
-  "last_run": "2026-10-22T12:39:21Z",
+  "last_run": "2026-10-22T18:00:23Z",
   "stories": [
-    "Oil shock risk returns: crude jumps to a 5\u2011month high on fresh supply-threat headlines",
-    "Rates watch: Treasury yields flagged for a potential \u201cbreakout\u201d into the Fed catalyst",
-    "U.S. equities stay risk-on: S&P 500 extends a 3\u2011day win streak; Nasdaq led by megacap momentum",
-    "France sovereign stress deepens: risk premium back at euro-zone crisis-era levels",
-    "SNB minutes: less immediate need for FX intervention, but \u201cready to act\u201d keeps CHF two-way",
-    "Europe gas tightens: unplanned Troll maintenance cuts Norwegian capacity through Oct 24",
-    "Macro event risk (Europe): Euro Area flash PMIs today are the next EUR catalyst",
-    "Insider/owner flow: $SAFX (XCF Global) shows a ~$142.1M open-market buy (Form 4-linked)",
-    "Options tape: $TMO sees outsized downside positioning into Nov 20, 2026 expiry",
-    "AI credit stress check: CoreWeave flagged as \u201chigh-duration\u201d as yields bite; bonds/yields remain distressed"
+    "Executive summary:",
+    "Escalation risk: traders watching for potential renewed U.S. strikes on Iran",
+    "Inflation repricing channel reopens: energy shock \u2192 sticky CPI risk narrative",
+    "Rates risk creeps back in: higher oil complicates \u201ccuts later\u201d positioning",
+    "ECB day: the press conference is the live EUR catalyst",
+    "Edge: watch EUR front-end rates sensitivity into/after the ECB messaging",
+    "Edge: France stress as the \u201ctransmission mechanism\u201d \u2014 monitor spillover risk to broader Europe",
+    "Wildcard: the day\u2019s macro cocktail is \u201cstagflation-lite\u201d (oil up + sovereign stress)"
   ],
-  "tickers": [
-    "SAFX",
-    "TMO"
-  ],
-  "alpha_tickers": [
-    "SAFX",
-    "TMO"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

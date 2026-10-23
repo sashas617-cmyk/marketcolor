@@ -1,22 +1,18 @@
 {
-  "last_run": "2026-10-23T17:53:20Z",
+  "last_run": "2026-10-23T23:57:10Z",
   "stories": [
-    "U.S. risk-off persists: tech remains the weak link on AI capex fears; vol elevated",
-    "China: CSI 300 on track for an 11th straight weekly decline (growth-risk signal still flashing)",
-    "Europe: luxury complex slides as China-demand concerns ripple from Herm\u00e8s to peers",
-    "Trade policy: India exports reportedly surge despite steep U.S. tariffs, shifting negotiation leverage",
-    "Europe macro divergence: euro breaks lower as France slows; EUR/USD dips below 1.12",
-    "BOJ \u201cread-the-tea-leaves\u201d problem intensifies: yen/JGBs hypersensitive to any policy hint",
-    "Unusual options (payments): $GPN put contract flags outsized bearish positioning",
-    "Options whale (consumer discretionary): $SGHC bullish call buy into Nov",
-    "Crypto risk-off: Bitcoin slips below ~$82K as spot ETF outflows accelerate"
+    "Oil shock back in control: Brent spikes above ~$116, WTI >$103",
+    "Rates whipsaw: 10-year yield hangs near ~5% as duration debate intensifies",
+    "Washington widens the aperture: proposed outbound-investment restrictions for \u201ccountries of concern\u201d",
+    "Tariff chessboard: India exports surge even under steep U.S. tariff pressure",
+    "Options alpha: $UAL sees a one-day call-volume explosion (~123,676 contracts)",
+    "Insider alpha: InsiderTape flags ~$142.1M of open-market insider buying in $SAFX",
+    "Wildcard (next-session setup): after-hours tape shows extreme gaps (MACI +49%; AIOK -22.6%)"
   ],
   "tickers": [
-    "GPN",
-    "SGHC"
+    "UAL"
   ],
   "alpha_tickers": [
-    "GPN",
-    "SGHC"
+    "UAL"
   ]
 }

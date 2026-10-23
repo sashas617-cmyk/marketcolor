@@ -1,19 +1,22 @@
 {
-  "last_run": "2026-10-23T12:19:11Z",
+  "last_run": "2026-10-23T17:53:20Z",
   "stories": [
-    "Oil volatility whipsaws: ceasefire relief vs. renewed Iran/Hormuz tail-risk (inflation impulse back on the radar)",
-    "Policy response layer: U.S. SPR headline adds curve pressure but underscores stress",
-    "China risk premium persists: CSI 300 on track for an 11th straight weekly decline",
-    "ALPHA: $UAL options spike \u2014 123,676 calls traded (\u2248+546% vs. normal)",
-    "ALPHA: $GRPN shows extreme call skew (~20:1) \u043a\u043e\u043d\u0446\u0435\u043d\u0442rated in Jan 2027 $20 calls",
-    "Wildcard: Semis/deal-window tell \u2014 SK Hynix rebounds after Solidigm IPO-review pause chatter"
+    "U.S. risk-off persists: tech remains the weak link on AI capex fears; vol elevated",
+    "China: CSI 300 on track for an 11th straight weekly decline (growth-risk signal still flashing)",
+    "Europe: luxury complex slides as China-demand concerns ripple from Herm\u00e8s to peers",
+    "Trade policy: India exports reportedly surge despite steep U.S. tariffs, shifting negotiation leverage",
+    "Europe macro divergence: euro breaks lower as France slows; EUR/USD dips below 1.12",
+    "BOJ \u201cread-the-tea-leaves\u201d problem intensifies: yen/JGBs hypersensitive to any policy hint",
+    "Unusual options (payments): $GPN put contract flags outsized bearish positioning",
+    "Options whale (consumer discretionary): $SGHC bullish call buy into Nov",
+    "Crypto risk-off: Bitcoin slips below ~$82K as spot ETF outflows accelerate"
   ],
   "tickers": [
-    "GRPN",
-    "UAL"
+    "GPN",
+    "SGHC"
   ],
   "alpha_tickers": [
-    "GRPN",
-    "UAL"
+    "GPN",
+    "SGHC"
   ]
 }

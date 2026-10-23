@@ -1,15 +1,20 @@
 {
-  "last_run": "2026-10-22T18:00:23Z",
+  "last_run": "2026-10-23T00:06:55Z",
   "stories": [
-    "Executive summary:",
-    "Escalation risk: traders watching for potential renewed U.S. strikes on Iran",
-    "Inflation repricing channel reopens: energy shock \u2192 sticky CPI risk narrative",
-    "Rates risk creeps back in: higher oil complicates \u201ccuts later\u201d positioning",
-    "ECB day: the press conference is the live EUR catalyst",
-    "Edge: watch EUR front-end rates sensitivity into/after the ECB messaging",
-    "Edge: France stress as the \u201ctransmission mechanism\u201d \u2014 monitor spillover risk to broader Europe",
-    "Wildcard: the day\u2019s macro cocktail is \u201cstagflation-lite\u201d (oil up + sovereign stress)"
+    "AI capex shock hits U.S. tape: Meta commentary triggers a premarket rollover",
+    "FX/rates: USD/JPY breaks support as Treasury yields slide; yen demand rises on hawkish-tilting BoJ tone",
+    "Crypto capitulation leg: liquidation wave hits ~$393.93M across majors",
+    "EM index-flow risk: Bloomberg flags scenario where Indonesia is removed from MSCI global indexes",
+    "Korea: equities slide as chip buybacks end; focus turns to whether SK hynix/Samsung can backstop",
+    "Australia setup: ASX futures point lower on offshore tech weakness + multi-month-high oil",
+    "Flow/desk color: AI/tech sentiment sours; standout retail-style call skew shows up in $GRPN",
+    "Whale tape: Benzinga flags unusual options activity in $AAPL and $AMD",
+    "Wildcard (credit-cycle tell): Sberbank plans to lower 2026 corporate lending growth forecast"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "AAPL"
+  ],
+  "alpha_tickers": [
+    "AAPL"
+  ]
 }

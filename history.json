@@ -1,18 +1,17 @@
 {
-  "last_run": "2026-10-23T23:57:10Z",
+  "last_run": "2026-10-24T11:54:35Z",
   "stories": [
-    "Oil shock back in control: Brent spikes above ~$116, WTI >$103",
-    "Rates whipsaw: 10-year yield hangs near ~5% as duration debate intensifies",
-    "Washington widens the aperture: proposed outbound-investment restrictions for \u201ccountries of concern\u201d",
-    "Tariff chessboard: India exports surge even under steep U.S. tariff pressure",
-    "Options alpha: $UAL sees a one-day call-volume explosion (~123,676 contracts)",
-    "Insider alpha: InsiderTape flags ~$142.1M of open-market insider buying in $SAFX",
-    "Wildcard (next-session setup): after-hours tape shows extreme gaps (MACI +49%; AIOK -22.6%)"
+    "Middle East risk premium recalibrates: Hormuz crude flows jump post-ceasefire",
+    "Week-ahead \u201cmacro stack\u201d: FOMC/ECB/BoJ + U.S. PCE, with China\u2019s Fifth Plenum Monday",
+    "Leadership rotation broadens: \u201cS&P 500 Ex-AI\u201d now (slightly) leading YTD",
+    "Mega-cap positioning watch: Apple poised to retake the market-cap crown from Nvidia",
+    "India inflation signal: RBI flags geopolitics + supply-chain disruption as price accelerants",
+    "China risk tone: Shanghai Composite slides ~1.45% as cyclicals/healthcare lead declines",
+    "Options alpha (EOSE): put volume detonates on large bearish vertical",
+    "Options alpha: largest volume dislocations vs 90-day average \u2014 ELS, PPLI, EWZS",
+    "8:00 PM ET Oct 23",
+    "Weekend risk gauge: Bitcoin breaks below $82,000 on reported ETF outflows + liquidations"
   ],
-  "tickers": [
-    "UAL"
-  ],
-  "alpha_tickers": [
-    "UAL"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

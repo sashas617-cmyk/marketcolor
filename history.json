@@ -1,17 +1,6 @@
 {
-  "last_run": "2026-10-24T16:44:07Z",
-  "stories": [
-    "Middle East: Hormuz shipping/security incidents keep the tail-risk premium alive",
-    "Crude pricing: supply-chain risk is back in the forward curve conversation",
-    "Freight/insurance: war-risk pricing is a stealth tightening of global energy supply",
-    "Europe energy shock: natural gas (TTF) spikes to the highest level since 2022",
-    "Global LNG knock-on: Europe is forced to bid harder for cargoes",
-    "Ukraine: broad Russian strikes target energy/transport/port infrastructure",
-    "Black Sea logistics risk: ports/transport targeting raises export disruption odds",
-    "US equities: rotation away from the AI complex continues; \u201cex-AI\u201d leadership is the tell",
-    "Crypto: Bitcoin breaks below ~$82k; ~$80k becomes the line that matters",
-    "Wildcard: cross-asset \u201cvol-of-vol\u201d setup\u2014energy shock + equity rotation + crypto stress"
-  ],
+  "last_run": "2026-10-24T23:33:20Z",
+  "stories": [],
   "tickers": [],
   "alpha_tickers": []
 }

@@ -1,17 +1,23 @@
 {
-  "last_run": "2026-10-25T12:19:35Z",
+  "last_run": "2026-10-25T17:03:47Z",
   "stories": [
-    "Energy shock risk: Brent >$117 as Iran-strike fears reprice supply + shipping lanes",
-    "Strait of Hormuz incident flow: explosion reports + Houthi threats keep disruption tail-risk elevated (live situation)",
-    "\u201cShow me the barrels\u201d: real-time Hormuz throughput/insurance dashboards are market-moving right now",
-    "Europe energy-security stress: strikes on critical nodes trigger blackouts in occupied Crimea",
-    "South China Sea signal: PLA Navy deploys four Type 071 LPDs in an unusual formation",
-    "Semis/geotech: Nvidia CEO warns China AI/chip capability is accelerating\u2014policy risk stays front-and-center",
-    "Cross-asset check (latest available): U.S. equities dipped, yields moved toward safety; gold still down MTD",
-    "Options alpha: bearish BLK put sweep (Nov 20, 2026) + NU/XP \u201cwhale\u201d alerts",
-    "Insider/ownership shocker: XCF Global ($SAFX) sees ~$142.1M open-market buy (119,397,858 shares @ $1.19)",
-    "Crypto wildcard: leverage flush\u2014Bitcoin drawdown triggers ~$815M liquidations in 24 hours"
+    "Middle East tail-risk jumps again: Hormuz/shipping premium back in focus as US strike prep on Iran is reported",
+    "Bitcoin air pocket: BTC briefly breaks below $80k; ~$404M longs liquidated in hours",
+    "Ukraine strike tempo stays high: Russia launches 126 drones (61 jet-powered); grid stress persists",
+    "Russia macro warning light: CBR sees end-2026 inflation at ~7.1%\u20137.6% (per ISW)",
+    "China/Taiwan military risk input: PLAN Type 071 LPD live-fire training highlighted",
+    "Cyber volatility catalyst: CSIS flags AI agents accelerating/scaling cyber incidents; Taiwan-linked case shows China-signature indicators",
+    "India \u201cweek-ahead\u201d setup: H1 fiscal data + factory output; Fed/BoJ meetings also loom",
+    "Options alpha (Financials): $BLK bearish put sweep flagged; Nov 20, 2026 expiry (28 days)",
+    "Insider/positioning alpha: $SAFX shows ~$142.1M of open-market insider purchases; company also agrees to buy Paramount plant ($50M base)",
+    "Wildcard (high impact watch): model/monitor flags risk of PRC export/customs restrictions targeting Taiwan-linked firms within 30 days"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "BLK",
+    "SAFX"
+  ],
+  "alpha_tickers": [
+    "BLK",
+    "SAFX"
+  ]
 }

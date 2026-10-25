@@ -1,23 +1,15 @@
 {
-  "last_run": "2026-10-25T17:03:47Z",
+  "last_run": "2026-10-25T23:31:09Z",
   "stories": [
-    "Middle East tail-risk jumps again: Hormuz/shipping premium back in focus as US strike prep on Iran is reported",
-    "Bitcoin air pocket: BTC briefly breaks below $80k; ~$404M longs liquidated in hours",
-    "Ukraine strike tempo stays high: Russia launches 126 drones (61 jet-powered); grid stress persists",
-    "Russia macro warning light: CBR sees end-2026 inflation at ~7.1%\u20137.6% (per ISW)",
-    "China/Taiwan military risk input: PLAN Type 071 LPD live-fire training highlighted",
-    "Cyber volatility catalyst: CSIS flags AI agents accelerating/scaling cyber incidents; Taiwan-linked case shows China-signature indicators",
-    "India \u201cweek-ahead\u201d setup: H1 fiscal data + factory output; Fed/BoJ meetings also loom",
-    "Options alpha (Financials): $BLK bearish put sweep flagged; Nov 20, 2026 expiry (28 days)",
-    "Insider/positioning alpha: $SAFX shows ~$142.1M of open-market insider purchases; company also agrees to buy Paramount plant ($50M base)",
-    "Wildcard (high impact watch): model/monitor flags risk of PRC export/customs restrictions targeting Taiwan-linked firms within 30 days"
+    "\u201cWeekly loss\u201d hangover: fragile dip-buying conditions into the Monday open",
+    "Rates sensitivity: higher energy can quickly re-price the front end",
+    "FX spillover: a risk-wobble Monday usually shows up first in USD/JPY and EUR/USD",
+    "Sector chessboard: energy leadership vs. tech leadership will define tape quality",
+    "Volatility/regime check: does last week\u2019s pullback keep hedging bid alive?",
+    "Alpha / positioning (options): no ticker-level flow provided in the intel pack",
+    "Alpha / insiders: no new insider-buy/sell prints provided in the intel pack",
+    "Wildcard: the \u201cenergy vs. equities\u201d cross-asset divergence is the one to trade around"
   ],
-  "tickers": [
-    "BLK",
-    "SAFX"
-  ],
-  "alpha_tickers": [
-    "BLK",
-    "SAFX"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

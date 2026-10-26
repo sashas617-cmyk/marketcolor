@@ -1,20 +1,14 @@
 {
-  "last_run": "2026-10-26T13:46:01Z",
+  "last_run": "2026-10-26T19:13:04Z",
   "stories": [
-    "Fed event risk: dots still imply a non-zero path to another +25bp later in 2026",
-    "Crude volatility: Brent dips back below ~$116 as shipment recovery offsets worst-case fears",
-    "Europe energy shock: Dutch TTF front-month surges toward four-year highs into winter",
-    "China FX: yuan prints a fresh four-year high; PBOC leans against \u201ctoo fast\u201d appreciation via fixings",
-    "Eurozone macro: weak October PMIs reinforce the \u201cECB pause\u201d base case",
-    "US equities: S&P 500 / Nasdaq close lower as the chip rebound attempt fails",
-    "Earnings-week setup: growth/tech + energy lead premarket positioning into the busiest Q3 stretch",
-    "Single-stock shock: $ITUB flagged as a high-velocity mover with a reported ~-25.65% intraday drop",
-    "Wildcard (macro \u201cdispersion\u201d trade): hawkish Fed tail + Europe growth wobble + China FX strength = wider cross-asset ranges"
+    "Executive summary:",
+    "US equities: tech is fragile; catalyst density (Fed + earnings blitz) raises intraday range risk",
+    "BlackRock: \u201cglobal rate reset\u201d + sovereign competition for capital keeps term premium pressure on (France in focus)",
+    "Defense: Lockheed (LMT) re-rate talk after new Pentagon deal; Morgan Stanley sees ~40% upside",
+    "Rates/flow pulse: $69B US 2-year auction clears at 4.708% (0.3bp tail); buyer mix shifts",
+    "Options tape (semis): Micron (MU) flagged for outsized \u201cwhale\u201d activity vs prior open interest",
+    "Ukraine conflict monitor: ongoing strikes/tagging around civilian + critical infrastructure keep commodity/shipping spillover risk alive"
   ],
-  "tickers": [
-    "ITUB"
-  ],
-  "alpha_tickers": [
-    "ITUB"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

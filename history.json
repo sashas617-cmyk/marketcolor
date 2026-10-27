@@ -1,16 +1,15 @@
 {
-  "last_run": "2026-10-27T12:53:21Z",
+  "last_run": "2026-10-27T18:44:30Z",
   "stories": [
-    "Executive summary (12:52 UTC):",
-    "UK Budget jitters: gilt stress is the real-time barometer",
-    "Eurozone growth pulse cools: Composite PMI 51.9 hits EUR",
-    "France risk premium stays on screen: OAT/Bund spread ~156 bps",
-    "ECB meeting prep: QT path vs PEPP flexibility becomes the live debate",
-    "Oil won\u2019t back off: Brent ~\\$116 as attacks offset diplomacy headlines",
-    "US equity tone: \u201cAnthropic effect\u201d keeps Nasdaq bid, but factor rotation risk rises",
-    "NTNX options: extreme call skew (~20:1) on ~25\u00d7 normal volume",
-    "BROS options: targeted near-dated hedge/spec\u2014Nov 6 \\$40 puts explode",
-    "Europe energy stress (again): EU natural gas ~\u20ac95.68/MWh, +34% in a month"
+    "AI/semis bid: Broadcom jumps as \u201cAnthropic-linked\u201d demand narrative heats up",
+    "Fed watch: Chair Warsh in focus; traders are keying on inflation framing, not dot-plot-style guidance",
+    "U.S. rates supply check: 5-year Treasury auction prints 4.845% with solid demand",
+    "UK rates shock: 5-year gilts sold at 5.036%, highest 5-year yield since 2008",
+    "UK fiscal overhang: Budget headlines are now a real-time GBP/duration catalyst",
+    "Energy (diesel): Russian refiners lift October output after export-quota shift",
+    "Mega-cap capital markets: Meta equity offering becomes the new \u201crisk appetite\u201d tell",
+    "Healthcare M&A heat: Surgery Partners spikes on reported majority-stake talks (~$6B incl. debt)",
+    "Leveraged finance / private capital signal: Blackstone + bank group announce $63B financing tied to Anthropic-related Broadcom tech purchase"
   ],
   "tickers": [],
   "alpha_tickers": []

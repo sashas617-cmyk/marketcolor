@@ -1,13 +1,16 @@
 {
-  "last_run": "2026-10-26T19:13:04Z",
+  "last_run": "2026-10-27T00:42:12Z",
   "stories": [
     "Executive summary:",
-    "US equities: tech is fragile; catalyst density (Fed + earnings blitz) raises intraday range risk",
-    "BlackRock: \u201cglobal rate reset\u201d + sovereign competition for capital keeps term premium pressure on (France in focus)",
-    "Defense: Lockheed (LMT) re-rate talk after new Pentagon deal; Morgan Stanley sees ~40% upside",
-    "Rates/flow pulse: $69B US 2-year auction clears at 4.708% (0.3bp tail); buyer mix shifts",
-    "Options tape (semis): Micron (MU) flagged for outsized \u201cwhale\u201d activity vs prior open interest",
-    "Ukraine conflict monitor: ongoing strikes/tagging around civilian + critical infrastructure keep commodity/shipping spillover risk alive"
+    "BoJ meeting risk: expected \u201chold,\u201d but the market is braced for hawkish messaging as yen strength raises carry-unwind sensitivity",
+    "Strait of Hormuz risk premium persists: disruption signals still \u201cextreme,\u201d escalation risk remains \u201chigh\u201d",
+    "Tape setup into a dense earnings week + looming Fed decision: equities slightly firmer, oil lower\u2014rates/vol sensitivity elevated",
+    "Duration headwind: BlackRock says the French bond sell-off underscores a global \u201ccompetition for capital\u201d regime shift",
+    "China/commodities pulse: iron ore stays rangebound as weak demand battles stimulus hopes",
+    "Defense catalyst watch: Morgan Stanley flags Lockheed (LMT) for a potential ~40% re-rating tied to a new Pentagon deal",
+    "Options edge: Nutanix (NTNX) sees extreme call skew\u2014~20:1 calls/puts on ~25x normal volume",
+    "Options edge (semis): Micron (MU) \u201cwhale\u201d flow\u2014~29,661 contracts traded vs prior OI ~1,591; premium cited at ~$45K",
+    "Cross-asset risk read: crypto soft\u2014Bitcoin struggling to hold ~$80K while metals tick firmer"
   ],
   "tickers": [],
   "alpha_tickers": []

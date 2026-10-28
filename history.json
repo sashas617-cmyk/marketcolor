@@ -1,17 +1,6 @@
 {
-  "last_run": "2026-10-28T13:42:49Z",
-  "stories": [
-    "Fed decision day: \u201chold\u201d is priced; guidance is the real trade",
-    "FX shock out of New Zealand: NZD slumps after RBNZ wrong-foots \u201cnear-certain hike\u201d pricing",
-    "Oil is the macro spoiler again: Brent holds above $115 on Middle East tension",
-    "Global equity tape: Europe soft; Asia mixed\u2014but Korea is the standout impulse",
-    "AI trade back on bid: chip stocks rebound after SK Hynix results",
-    "After-the-close landmine: Alphabet + Microsoft earnings (index-moving for NDX/QQQ)",
-    "China policy support back in focus: renewed urgency to stabilize markets",
-    "Options alpha (EQIX): long-dated downside positioned via Jan 2027 $950 put block",
-    "Options alpha (PLTR): concentrated call flow at $560 strike into Oct 30 expiry",
-    "Wildcard: \u201cprivate AI exposure\u201d goes retail\u2014ETFs using \u2018perps\u2019 tied to names like Anthropic/OpenAI"
-  ],
+  "last_run": "2026-10-28T18:57:20Z",
+  "stories": [],
   "tickers": [],
   "alpha_tickers": []
 }

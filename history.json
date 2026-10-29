@@ -1,16 +1,6 @@
 {
-  "last_run": "2026-10-29T13:54:58Z",
-  "stories": [
-    "Executive summary:",
-    "US Q3 GDP surprise: 3.4% vs 3.2% est.",
-    "Post-Fed tape: dollar steadies as focus rotates to PCE + ECB",
-    "ECB preview: rates expected on hold, but press-conference risk is high",
-    "Europe political risk premium: Lagarde-tenure chatter adds headline sensitivity",
-    "Oil risk premium persists: Brent ~\\$114 on escalation/supply-threat pricing",
-    "European gas shock: TTF above \u20ac100/MWh (first since 2022)",
-    "Options-volume anomaly: UNF 29.4x avg (plus UNM 7.5x, MIR 6.6x)",
-    "Health-care whale tape: SLS Nov 20, 2026 \\$200 calls (multi-print fill)"
-  ],
+  "last_run": "2026-10-29T19:05:59Z",
+  "stories": [],
   "tickers": [],
   "alpha_tickers": []
 }

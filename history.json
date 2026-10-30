@@ -1,15 +1,14 @@
 {
-  "last_run": "2026-10-30T01:14:26Z",
+  "last_run": "2026-10-30T13:44:32Z",
   "stories": [
-    "Alphabet shockwave: GOOGL -11.6% spills into mega-cap tech sentiment",
-    "After-hours earnings volatility: Intel -21% (and knock-on risk for index/sector tape)",
-    "Tokyo core CPI: 2.6% YoY (in line)",
-    "China FX: PBOC midpoint guidance turns into a regional risk lever",
-    "Oil stays bid: WTI ~ $102/bbl with shipping-risk premium (inflation + rates implications)",
-    "Trade policy: India exports jump despite steep Trump tariffs \u2014 leverage shifts in talks",
-    "Options alpha: Eastman Chemical (EMN) \u2014 5,000-lot call block bought at the ask",
-    "Insider alpha: Accenture (ACN) CEO Julie Sweet buys ~$3.0M stock open-market",
-    "Wildcard (market structure + AI): LSEG partners with Nvidia to accelerate historical data processing"
+    "U.S. inflation check: core PCE firms to 3.1% YoY (0.3% MoM), complicating \u201ceasy easing\u201d",
+    "Megacap tech cracks widen: Intel guide-down + Amazon revenue miss drag the whole complex",
+    "Crypto hit by \u201cbiggest-ever hack\u201d narrative: Binance-linked $6.3B shock pressures risk appetite",
+    "Germany CPI cools more than expected: preliminary inflation slows to 2.8%",
+    "Japan rates back in play: ex-BOJ board member floats two more hikes this fiscal year",
+    "Options alpha: EMN sees extreme upside skew\u2014~100:1 calls/puts on a 5,000-lot November call block",
+    "Insider alpha: HF Sinclair (DINO) CEO Franklin Myers buys 10,000 shares (~$1.11M)",
+    "Wildcard (AI-credit pulse): markets refocus on AI infrastructure financing\u2014CoreWeave/\u201cneocloud\u201d leverage in the spotlight"
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-10-31T13:14:16Z",
+  "last_run": "2026-10-31T17:38:17Z",
   "stories": [
-    "U.S. equities: worst day since June as tech/AI gets hit hardest",
-    "Earnings shock #1: Amazon slips post-results/guidance, drags mega-cap sentiment",
-    "Earnings shock #2: Intel guidance fallout weighs on semis and the capex narrative",
-    "AI theme: \u201cAI fears\u201d resurface\u2014multiple compression beats fundamentals in the short run",
-    "Sector rotation: defensives (staples) catch bids as PMs hide in lower beta",
-    "Rates: Treasuries bid as equity risk comes off (classic cross-asset hedge behavior)",
-    "Macro: PCE inflation prints",
-    "Alpha/edge: Positioning signal\u2014Friday looked like a de-grossing day, not stock-picking",
-    "Alpha/edge: Cross-asset churn\u2014oil + rates volatility is back in the driver\u2019s seat",
-    "Wildcard: Fed decision delivered as expected\u2014but the market is trading the path, not the move"
+    "US equities: tech/AI de-grossing slammed the October close (Amazon + Intel in the crosshairs)",
+    "US macro pulse: hotter inflation + >3% Q3 GDP tracking tightens the \u201chigher-for-longer\u201d vice",
+    "Energy shock: crude prints triple-digits as Middle East risk premium stays embedded",
+    "Crypto risk-off: BTC slides toward $77K amid liquidations + ETF outflows",
+    "Europe war risk: refinery strikes resume; Kyiv power disruptions reported",
+    "Japan rates: BoJ hike expectations re-accelerate (carry trade sensitivity rising)",
+    "ECB tone: resilience surprised, but geopolitics complicates the inflation fight",
+    "Options alpha: EQX call volume detonates (structured vertical flow dominates the tape)",
+    "Options alpha: INTC weekly $71 calls show extreme volume vs OI (post-guidance \u201csnapback\u201d bet?)",
+    "Wildcard cross-asset tell: gold breaks below ~$3,900 on liquidation-style selling"
   ],
   "tickers": [],
   "alpha_tickers": []

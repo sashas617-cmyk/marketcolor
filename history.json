@@ -1,17 +1,16 @@
 {
-  "last_run": "2026-10-30T18:34:25Z",
+  "last_run": "2026-10-31T00:58:16Z",
   "stories": [
-    "Daily Market Pulse \u2014 Fri, Oct 30, 2026 (18:33 UTC)",
-    "U.S. equities: Nasdaq de-risking accelerates as Big Tech/AI earnings disappoint",
-    "Japan: BoJ holds but stays hawkish; USD/JPY revisits ~157 as hike odds rise",
-    "Geopolitics/energy: Strait of Hormuz tanker incidents add an immediate oil risk premium",
-    "Crypto risk-off: Binance incident drives BTC toward ~$77k; on-chain trail points to 18,270 BTC split across 19 wallets",
-    "UK rates: DMO shifts issuance away from long gilts as volatility reshapes demand",
-    "Europe: Lagarde explains early ECB exit as France funding stress remains a live market sensitivity",
-    "China macro (next catalyst): official manufacturing PMI expected ~50.0 (stall-speed growth)",
-    "Options alpha (Financials): Capital One ($COF) bearish put sweep targets Mar 19, 2027 $170",
-    "Options alpha (AI semis): AMD upside \u201clotto\u201d call sweep\u2014Oct 30, 2026 $560 calls",
-    "Wildcard: Prediction markets under scrutiny after \u201csuspicious\u201d election-contract trading (Kalshi in focus)"
+    "U.S. equities: October ends with a tech-led air pocket as \u201cAI fears\u201d resurface",
+    "Macro/rates: higher-for-longer is back in the driver\u2019s seat",
+    "Crypto: Binance security scare ($6.3B headline) hits BTC/ETH and broader risk sentiment",
+    "Energy: crude holds a \u201cwar + disruption\u201d premium after a strong October (+~15%)",
+    "Geopolitics / energy transit: Hormuz crude shipments rebound to the highest since the February escalation",
+    "Europe war risk: Russia-Ukraine strikes hit energy infrastructure, raising winter tail-risk",
+    "Central banks / bonds: leadership-change uncertainty collides with fragile bond-market dynamics",
+    "Edge (macro-inflation transmission): the \u201cwar premium\u201d is showing up in freight + insurance, not just spot crude",
+    "Options alpha ($EQX): huge call-spread sale looks like upside cap/short-vol into early-Nov catalysts",
+    "Wildcard (earnings factor shift): Eli Lilly strengthens the \u201cdefensive growth\u201d bid"
   ],
   "tickers": [],
   "alpha_tickers": []

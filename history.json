@@ -1,14 +1,15 @@
 {
-  "last_run": "2026-11-03T03:02:32Z",
+  "last_run": "2026-11-03T14:49:40Z",
   "stories": [
-    "RBA decision day: market leans to another hike toward a 4.85% cash rate",
-    "China FX: PBOC moves to cool the yuan rally (policy tightening + a very \u201clean-against-strength\u201d fix)",
-    "China macro: October PMIs slip back into contraction (factory + services < 50)",
-    "Market microstructure: FinTwit crackdown escalates with DMCA-linked takedown/lockout reports",
-    "Private-market crossover: \u201cTrump Account\u201d holders to receive SpaceX shares in December (retail sentiment + secondary pricing risk)",
-    "Insider/holder signal: Hartree Partners (10% owner) bought 300,000 shares of Hudson Technologies ($HDSN), ~$1.3M total",
-    "Options tape: Norwegian Cruise Line ($NCLH) put trade split into 30 prints\u2014429 contracts, ~$106.1K premium",
-    "Wildcard (US event risk): dip-buying attempt into Apple earnings + US midterm vote catalyst cluster"
+    "Middle East tail-risk: US reportedly strikes Iran\u2019s Qeshm Island; crude whipsaws on \u201ctalks\u201d headlines",
+    "Mega-cap earnings pressure: Apple drops ~4% post-earnings (headline reaction)",
+    "ECB path: policy rate now 2.50% after second hike; more tightening still in the frame",
+    "FX into event risk: GBP drifts ahead the Bank of England decision",
+    "Defensive hedge bid returns: gold rebounds from ~1-year low as oil cools",
+    "Asia crypto market structure: Hong Kong reiterates \u201csimilar risk, similar regulation\u201d for digital assets",
+    "Alpha (insiders): TRTX \u201ccluster buy\u201d flagged \u2014 ~$298.7k total across three insiders",
+    "Alpha (insiders): SEVN President/CIO Thomas Lorenzini buys 5,000 shares (~$32,950)",
+    "Wildcard (market microstructure): FinTwit DMCA/compliance crackdown escalates amid \u201cAI copycat\u201d fears"
   ],
   "tickers": [],
   "alpha_tickers": []

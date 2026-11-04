@@ -1,22 +1,17 @@
 {
-  "last_run": "2026-11-04T01:34:44Z",
+  "last_run": "2026-11-04T15:05:51Z",
   "stories": [
-    "U.S. midterms: House outcome tilts toward Democrats (policy tone shifts, but not settled yet)",
-    "Rates + fiscal-path volatility: election uncertainty is a near-term \u201cterm premium\u201d catalyst",
-    "Fed signal (fresh): Bowman says the Fed can \u201cwait and see\u201d after September hike",
-    "Regulatory overhang stays live: Bowman\u2019s role ties the Fed message to bank-policy sensitivity",
-    "Oil risk premium remains elevated: U.S.-Iran headlines keep crude \u201cgap-risky\u201d",
-    "Shipping/tanker sensitivity: higher-for-longer crude volatility can reprice freight + war-risk assumptions",
-    "Actionable \u201chot list\u201d (energy beta): headline-driven crude favors liquid hedges + integrated oils",
-    "Actionable \u201chot list\u201d (defense): geopolitics keeps a bid under prime contractors",
-    "Wildcard: policy + energy = inflation narrative tug-of-war (and that\u2019s what sets correlation risk)"
+    "U.S. midterms: Democrats sweep House + Senate; markets re-rate the policy path",
+    "Fed path jolts the front end: Bullard leans toward a December hike if inflation stays hot",
+    "Oil up on a tug-of-war: OPEC cuts 2026 demand-growth again (6th time) while supply-risk headlines linger",
+    "Europe risk: report flags Lagarde exiting ECB early + France political stress \u2192 spread-watch back on",
+    "Cyber theme resurfaces: European blood banks hit in latest \u201cfridge\u201d cyberattacks (confirmed by CNBC)",
+    "U.S. single-name tape shock: CVS plunges ~14% on plan to split off its drugstore business",
+    "Macro pulse: Deloitte flags resilient U.S. spending + low unemployment\u2014good for cyclicals, tricky for disinflation",
+    "MSFT options anomaly: 17,000-call print vs 33 OI (V/OI ~515), ~$3.06M premium",
+    "CNP downside hedge/spec: ~5,000 put contracts vs ~35 OI (plus total puts ~10,004; +1,186% vs normal)",
+    "ECB policy tilt: Lagarde pushes climate-resilience investment (grids, insurance, self-generation)"
   ],
-  "tickers": [
-    "NOC",
-    "RTX"
-  ],
-  "alpha_tickers": [
-    "NOC",
-    "RTX"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

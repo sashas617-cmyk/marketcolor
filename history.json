@@ -1,15 +1,22 @@
 {
-  "last_run": "2026-11-03T20:05:45Z",
+  "last_run": "2026-11-04T01:34:44Z",
   "stories": [
-    "Headline geopolitical shock risk: Trump reportedly says U.S. to stop military funding to Israel by year-end",
-    "U.S. labor-demand signal: job openings jump again after September surge",
-    "Rates/FX: Treasury yields re-firm; USD supported into election risk",
-    "U.S. equities: choppy tape into election day; Nasdaq tries to stabilize while Apple/chips steer index beta",
-    "E-commerce/consumer read-through: Shopify repriced lower after Q3 revenue + merchandise volume miss",
-    "Options (IT/crypto-adjacent): IREN sees outsized $25 call activity vs prior open interest",
-    "Options (Consumer Discretionary): Nike flow flagged as \u201cbearish\u201d call sweep into Jan 2027",
-    "Wildcard (semis risk): Marvell pressured by multi\u2011billion acquisition overhang"
+    "U.S. midterms: House outcome tilts toward Democrats (policy tone shifts, but not settled yet)",
+    "Rates + fiscal-path volatility: election uncertainty is a near-term \u201cterm premium\u201d catalyst",
+    "Fed signal (fresh): Bowman says the Fed can \u201cwait and see\u201d after September hike",
+    "Regulatory overhang stays live: Bowman\u2019s role ties the Fed message to bank-policy sensitivity",
+    "Oil risk premium remains elevated: U.S.-Iran headlines keep crude \u201cgap-risky\u201d",
+    "Shipping/tanker sensitivity: higher-for-longer crude volatility can reprice freight + war-risk assumptions",
+    "Actionable \u201chot list\u201d (energy beta): headline-driven crude favors liquid hedges + integrated oils",
+    "Actionable \u201chot list\u201d (defense): geopolitics keeps a bid under prime contractors",
+    "Wildcard: policy + energy = inflation narrative tug-of-war (and that\u2019s what sets correlation risk)"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "NOC",
+    "RTX"
+  ],
+  "alpha_tickers": [
+    "NOC",
+    "RTX"
+  ]
 }

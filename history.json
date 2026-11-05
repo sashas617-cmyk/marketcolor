@@ -1,15 +1,16 @@
 {
-  "last_run": "2026-11-04T20:25:45Z",
+  "last_run": "2026-11-05T01:36:53Z",
   "stories": [
-    "Executive summary (20:23 UTC):",
-    "Post-midterms relief rally: risk-on tone, but AI/chips leadership is mixed",
-    "U.S. Treasury supply signal: refunding held steady; curve traders refocus on duration absorption",
-    "Front-end funding check: 17-week bill clears cleanly at 4.09%",
-    "FX turns to U.S. jobs: dollar pressured as yields slip into the next macro catalyst",
-    "Semis split: memory pricing pressure hits despite AI datacenter demand tailwinds",
-    "UNUSUAL OPTIONS: Block (NYSE:XYZ) sees 42,885 calls bought (~+102% vs avg); shares jump",
-    "Carvana (CVNA): director Ira J. Platt option exercise flagged; concurrent ~$2.15M stock sale reported",
-    "Wildcard (insider signal): MediaAlpha (MAX) CTO sells 50,000 shares (~$734K); filing not marked 10b5-1"
+    "Post\u2011midterms rotation is real: health + solar lead, data\u2011centers/Musk complex lags (U.S. cash just repriced policy risk).",
+    "Asia opens softer: AI/chip\u2011heavy markets slide on perceived U.S. policy risk to data\u2011center buildout.",
+    "Crude volatility explodes: oil crashes ~9% then rebounds on Iran/Middle East headline churn.",
+    "Trade/tariffs: India exports jump despite steep U.S. tariff pressure\u2014negotiating leverage rises.",
+    "Ukraine-Russia overnight: \u201chundreds\u201d of drones exchanged; Russia keeps targeting energy infrastructure.",
+    "Earnings tape: Figma sells off despite a Q3 beat as management leans into long\u2011term growth spend.",
+    "Europe financials policy risk: \u2018Danish compromise\u2019 debate resurfaces on banks owning insurers.",
+    "Options alpha: Block ($XYZ) call volume spikes to ~42,885 contracts (~2x normal) as shares jump.",
+    "Insider signal: JetBlue ($JBLU) director Nik Mittal buys 100,000 shares at ~$3.24 (~$323,844).",
+    "Wildcard cross\u2011asset: crypto rallies in the same post\u2011election window\u2014surprise bid despite policy uncertainty."
   ],
   "tickers": [],
   "alpha_tickers": []

@@ -1,23 +1,15 @@
 {
-  "last_run": "2026-11-06T01:44:57Z",
+  "last_run": "2026-11-06T14:45:23Z",
   "stories": [
-    "US equities: AI/semis shock reverberates; Nasdaq correction + volatility spike now the key macro input",
-    "Crypto beta check: Bitcoin breaks below $76k as \u201cAI bubble\u201d unwind hits cross-asset risk",
-    "Oil: market leans into \u201cU.S.\u2013Iran settlement\u201d pricing even as security risk refuses to clear",
-    "FX: JPY outperforms after hawkish BoJ minutes keep December hike odds alive",
-    "China FX policy: the PBOC fixing is back to being \u201cthe signal,\u201d not a reference rate",
-    "UK rates: BoE hike lands into a fragile global tape\u2014setup for sharper GBP/gilt repricing",
-    "Japan domestic flows: retail savers reportedly rotate from deposits into JGBs",
-    "ALPHA (options): $MNDY sees fresh upside positioning\u2014Nov 20 $130 call block",
-    "ALPHA (options): $TSLA put print shows extreme \u201cnew hedge/spec\u201d signature",
-    "Wildcard (policy/accounting): pressure builds to limit deferral of stock-based comp costs"
+    "US equities: AI unwind stays in control; Nasdaq trades in \u201ccorrection\u201d framing",
+    "FX: EUR/USD softens toward 1.12 as rate differentials swing back to the US",
+    "Energy cools (for now): Brent backs off ~$100, EU gas dips despite tight-ish storage",
+    "Japan: GPIF posts first loss in six quarters as bonds slump\u2014duration stress matters again",
+    "EM credit warning: Moody\u2019s flags Senegal restructuring risk",
+    "Crowded-trade alert: $17B multi-strategy fund shifts positioning after worst month since COVID",
+    "Crypto deleveraging: ~$1.27B liquidations as spot ETF flows stay negative",
+    "Gold gets structural support: central banks bought ~321 tonnes in Q3"
   ],
-  "tickers": [
-    "MNDY",
-    "TSLA"
-  ],
-  "alpha_tickers": [
-    "MNDY",
-    "TSLA"
-  ]
+  "tickers": [],
+  "alpha_tickers": []
 }

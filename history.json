@@ -1,18 +1,23 @@
 {
-  "last_run": "2026-11-05T20:35:10Z",
+  "last_run": "2026-11-06T01:44:57Z",
   "stories": [
-    "Executive summary:",
-    "U.S. equities: rotation away from AI/chips accelerates into \u201cAI landlords\u201d ahead of Fed speakers",
-    "Oil: Strait of Hormuz crude shipments rebound to the highest since the February ceasefire\u2014but security premia stay embedded",
-    "Gold: extends post-midterm bid to a 2+ week high as USD and Treasury yields ease",
-    "UK rates: BoE hike adds another tightening impulse into already-choppy global rates/FX",
-    "U.S. front-end funding: 4-week (1\u2011month) T-bill auction prints \u201cweak\u201d",
-    "Geopolitics: Ukraine\u2013Russia drone escalation hits infrastructure/logistics targets",
-    "Credit pulse-check: Apple taps bond market with strong demand for a $7B deal despite risk-off equities",
-    "Energy supply edge: Guyana\u2019s offshore growth story re-enters the frame as a medium-term \u201crelief valve\u201d",
-    "Semis sentiment: Qualcomm beats, but a weaker outlook gets punished\u2014market won\u2019t tolerate demand wobble",
-    "UK policy risk: minister defends bank tax rise, keeping a UK financials overhang in volatile markets"
+    "US equities: AI/semis shock reverberates; Nasdaq correction + volatility spike now the key macro input",
+    "Crypto beta check: Bitcoin breaks below $76k as \u201cAI bubble\u201d unwind hits cross-asset risk",
+    "Oil: market leans into \u201cU.S.\u2013Iran settlement\u201d pricing even as security risk refuses to clear",
+    "FX: JPY outperforms after hawkish BoJ minutes keep December hike odds alive",
+    "China FX policy: the PBOC fixing is back to being \u201cthe signal,\u201d not a reference rate",
+    "UK rates: BoE hike lands into a fragile global tape\u2014setup for sharper GBP/gilt repricing",
+    "Japan domestic flows: retail savers reportedly rotate from deposits into JGBs",
+    "ALPHA (options): $MNDY sees fresh upside positioning\u2014Nov 20 $130 call block",
+    "ALPHA (options): $TSLA put print shows extreme \u201cnew hedge/spec\u201d signature",
+    "Wildcard (policy/accounting): pressure builds to limit deferral of stock-based comp costs"
   ],
-  "tickers": [],
-  "alpha_tickers": []
+  "tickers": [
+    "MNDY",
+    "TSLA"
+  ],
+  "alpha_tickers": [
+    "MNDY",
+    "TSLA"
+  ]
 }
